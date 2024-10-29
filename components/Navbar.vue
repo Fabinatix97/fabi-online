@@ -1,25 +1,43 @@
 <template>
-    <nav class="navbar">
+    <nav class="navbar bg-main border border-solid border-border">
         <ul class="nav-links">
             <li><NuxtLink to="/">Home</NuxtLink></li>
             <li><NuxtLink to="/about">Über mich</NuxtLink></li>
-            <li><NuxtLink to="/blog/my-post">Blog</NuxtLink></li>
+            <li><NuxtLink to="/blog">Blog</NuxtLink></li>
             <li><NuxtLink to="/impressum">Impressum</NuxtLink></li>
             <li>
-                <a href="https://de.linkedin.com/in/fabian-weiss" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/img/linkedin-icon.png" alt="LinkedIn" class="social-icon" />
+                <a href="https://de.linkedin.com/in/fabian-weiss" class="text-text" target="_blank" rel="noopener noreferrer">
+                <Icon name="mdi:linkedin" size="1.4em" />
                 </a>
             </li>
             <li>
                 <a href="https://github.com/Fabinatix97" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/img/github-icon.png" alt="GitHub" class="social-icon" />
+                <Icon name="mdi:github" size="1.4em" />
                 </a>
+            </li>
+            <li>
+                <button @click="$toggleTheme()" class="theme-toggle-button">
+                    <ClientOnly>
+                        <img :src="themeIconSrc" 
+                            :alt="theme.valueOf === 'light' ? 'Mond-Icon' : 'Sonnen-Icon'" 
+                            class="theme-icon" />
+                    </ClientOnly>
+                </button>
             </li>
         </ul>
     </nav>
 </template>
 
 <script setup>
+import { computed } from 'vue';
+import { useNuxtApp } from '#app';
+
+const { $theme, $toggleTheme } = useNuxtApp();
+const theme = $theme;
+
+const themeIconSrc = computed(() => {
+    return theme.value === 'light' ? '/img/moon-icon.png' : '/img/sun-icon.png';
+});
 </script>
 
 <style scoped>
@@ -27,8 +45,6 @@
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
-    border: 1px solid #E9E9E9;
-    background-color: white;
     margin-bottom: 20px;
     font-weight: 500;
 }
@@ -49,17 +65,19 @@
 .nav-links li:hover::before {
     color: #3498db;
 }
-.social-icon {
+.theme-toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.theme-icon {
     width: 20px;
     height: 20px;
-    opacity: 0.7;
-}
-.social-icon:hover {
-    filter: invert(0.3) sepia(1) saturate(4) hue-rotate(160deg) contrast(1.5) brightness(0.8)
+    opacity: 0.85;
 }
 a {
     text-decoration: none;
-    color: #333;
 }
 a:hover {
     color: #0E74AF;

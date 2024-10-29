@@ -1,5 +1,9 @@
 ---
 title: My Post
+description: My first blog post
+date: 2024-10-28
+cover: hello-world.jpg
+tags: ["tag1", "tag2", "tag3"]
 ---
 
 # This is my post content
@@ -17,5 +21,3 @@ This is some other text.
 ::callout{icon="https://api.iconify.design/mdi:brain.svg"}
 _This_ can be rich text with Markdown!
 ::
-
-This is some other text.
