@@ -12,28 +12,17 @@
             </div>
 
             <div class="animated-text">
-                <p class="hey">Hey,</p>
-                <span class="fabian">ich bin </span>
+                <span class="text-6xl italic -mb-2.5">Hey, <br></span>
+                <span class="text-6xl font-semibold">ich bin </span>
                 <span class="highlight before:bg-button">
                     <span class="text">Fabian</span>
                 </span>
             </div>
 
         </div>
-        <div class="column">
-            <!--<div class="content">
-                <div class="content__container">
-                    <p class="content__container__text">Ich bin</p>
-                    <ul class="content__container__list">
-                        <li class="content__container__list__item">Pilot.</li>
-                        <li class="content__container__list__item">DevOps Engineer.</li>
-                        <li class="content__container__list__item">Aviation Management-Alumni.</li>
-                        <li class="content__container__list__item">Ex-Postbote.</li>
-                    </ul>
-                </div>
-            </div>-->
+        <div class="mx-12">
             <div>
-                <p>Auf dieser Seite erwarten dich Book-Reviews, Tutorials, aber vor allem Essays. Ja, richtig gelesen: Essays – inspiriert durch persönliche Erfahrungen, Bücher oder aktuelle Ereignisse. Dies soll ein Ort sein, an dem ich meine Gedanken zu verschiedensten Themen mit dir teilen möchte.</p>
+                <p class="text-xl">Auf dieser Seite erwarten dich Book-Reviews, Tutorials, aber vor allem Essays. Ja, richtig gelesen: Essays – inspiriert durch persönliche Erfahrungen, Bücher oder aktuelle Ereignisse. Dies soll ein Ort sein, an dem ich meine Gedanken zu verschiedensten Themen mit dir teilen möchte.</p>
             </div>
             <div class="buttons text-button">
                 <router-link to="/about">
@@ -53,18 +42,14 @@
     font-weight: 600;
     font-size: 20px;
     position: relative;
-
     display: block;
     margin: 30px auto;
     padding: 0;
-
     overflow: hidden;
-
     border-width: 0;
     outline: none;
     border-radius: 30px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-
     transition: background-color .3s, transform .3s;;
 }
 
@@ -83,19 +68,14 @@
 
 .btn:before {
     content: "";
-    
     position: absolute;
     top: 50%;
     left: 50%;
-    
     display: block;
     width: 0;
-    padding-top: 0;
-        
+    padding-top: 0; 
     border-radius: 100%;
-    
     background-color: rgba(236, 240, 241, .3);
-    
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -106,7 +86,6 @@
 .btn:active:before {
     width: 120%;
     padding-top: 120%;
-    
     transition: width .2s ease-out, padding-top .2s ease-out;
 }
 
@@ -115,10 +94,6 @@
     justify-content: center;
     margin-top: 20px;
     gap: 40px;
-}
-
-p {
-    font-size: 20px;
 }
 
 .person {
@@ -211,11 +186,6 @@ p {
     }
 }
 
-.column {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
 .highlight {
     color: white;
     margin: 0px;
@@ -253,73 +223,5 @@ p {
         margin-top: 70px;
     }
 }
-
-.hey {
-    margin-bottom: -10px;
-    font-size: 60px;
-    font-style: italic;
-}
-
-.fabian {
-    font-size: 60px;
-    font-weight: 600;
-}
-
-// .content {
-// 	position: relative;
-// 	height: 80px;
-// 	overflow: hidden;
-//     @media (max-width: 808px) {
-//         margin-top: 60px;
-//     }
-//     @media (max-width: 586px) {
-//         margin-top: 100px;
-//     }
-// }
-
-// .content__container {
-//     font-weight: 600;
-// 	font-size: 26px;
-// 	line-height: 60px;
-//     overflow: hidden;
-//     height: 60px;
-//     padding: 0;
-//     @media (max-width: 603px) {
-//         font-size: 20px;
-//     }
-//     @media (max-width: 504px) {
-//         font-size: 14px;
-//     }
-// }
-
-// .content__container__text {
-// 	display: inline;
-// 	float: left;
-// 	margin-top: 5px;
-// }
-
-// .content__container__list {
-// 	color: #2271b1;
-// 	margin-top: 5px;
-// 	padding-left: 85px;
-// 	list-style: none;
-// 	animation: change 12s infinite;
-//     @media (max-width: 603px) {
-//         padding-left: 68px;
-//     }
-// }
-
-// .content__container__list__item {
-// 	line-height: 60px;
-// }
-
-// @keyframes change {
-// 	0%, 12.66%, 100% {transform:translate3d(0,0,0);}
-// 	16.66%, 29.32% {transform:translate3d(0,-25%,0);}
-// 	33.32%,45.98% {transform:translate3d(0,-50%,0);}
-// 	49.98%,62.64% {transform:translate3d(0,-75%,0);}
-// 	66.64%,79.3% {transform:translate3d(0,-50%,0);}
-// 	83.3%,95.96% {transform:translate3d(0,-25%,0);}
-// }
 
 </style>
