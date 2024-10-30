@@ -5,23 +5,29 @@
 @tailwind utilities;
 
 :root[data-theme="light"] {
-    --button: #368af7;
-    --backgreen: #caffc5;
+    --button: #368AF7;
+    --buttonhover: #2D75D3;
+    --backgreen: #CAFFC5;
     --backblue: #97fff6;
     --body: #F8F8F8;
     --main: #FFF;
     --border: #E9E9E9;
     --text: #212121;
+    --card: #F0F0F0;
+    --cardtext: #374151;
 }
 
 :root[data-theme="dark"] {
-    --button: #183b69;
-    --backgreen: #4f6b4c;
-    --backblue: #4b817d;
+    --button: #183B69;
+    --buttonhover: #132F53;
+    --backgreen: #4F6B4C;
+    --backblue: #4B817D;
     --body: #19191C;
     --main: #29292C;
     --border: #444444;
     --text: #E8EAED;
+    --card: #1E1E22;
+    --cardtext: #D4D4D4;
 }
 
 @layer base {
