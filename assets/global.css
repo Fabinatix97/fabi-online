@@ -19,15 +19,15 @@
 }
 
 :root[data-theme="dark"] {
-    --button: #183B69;
-    --buttonhover: #132F53;
+    --button: #075985;
+    --buttonhover: #0c4a6e;
     --backgreen: #4F6B4C;
     --backblue: #4B817D;
-    --body: #19191C;
-    --main: #29292C;
-    --border: #444444;
-    --text: #E8EAED;
-    --card: #13161C;
+    --body: #030712;
+    --main: #111827;
+    --border: #111827;
+    --text: #E5E7EB;
+    --card: #111827;
     --cardtext: #D4D4D4;
     --spotlight: 21, 202, 130;
 }
@@ -57,6 +57,7 @@ body {
     margin: 0;
     padding: 0;
     color: var(--text);
+    transition: all 0.3s;
 }
 
 main {
@@ -67,4 +68,5 @@ main {
     padding: 30px;
     max-width: 1000px;
     width: 100%;
+    transition: all 0.3s;
 }
