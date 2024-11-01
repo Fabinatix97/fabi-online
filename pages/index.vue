@@ -28,7 +28,7 @@
                 <router-link to="/about">
                     <button class="btn bg-white hover:bg-button hover:text-white" type="button"><span>👋🏼 Über mich</span></button>
                 </router-link>
-                <router-link to="/blog/my-post">
+                <router-link to="/blog">
                     <button class="btn bg-white hover:bg-button hover:text-white" type="button"><span>🗒️ Blog</span></button>
                 </router-link>
             </div>
