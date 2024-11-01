@@ -16,7 +16,7 @@
                     </div>
                     <div class="p-6">
                     <h2 class="text-xl font-bold mb-2 hyphens-auto">{{ post.title }}</h2>
-                    <p class="text-cardtext mb-4 hyphens-auto">{{ truncateWords(post.body.children[1].children[0].value, 10) }}</p>
+                    <p class="text-cardtext mb-4 hyphens-auto">{{ getPostPreview(post.body, 40) }}...</p>
                     <div
                         class="bg-button hover:bg-buttonhover text-white py-2 px-4 rounded float-right mb-8 relative"
                     >
@@ -25,12 +25,6 @@
                 </div>
             </div>
         </NuxtLink>
-		<!--<section>
-			<div v-for="post in props.posts" :key="post">
-				<h1>Hallo</h1>
-				<p>{{ truncateWords(post.body.children[1].children[0].value, 10) }}</p>
-			</div>
-      	</section>-->
     </div>
 </template>
 
@@ -41,11 +35,28 @@ const props = defineProps({
   posts: Array
 });
 
-const truncateWords = (text, wordCount) => {
-  const words = text.split(' '); 
-  const truncated = words.slice(0, wordCount).join(' '); 
-  return words.length > wordCount ? `${truncated}...` : truncated; 
-};
+function getPostPreview(body, wordLimit) {
+  let result = "";
+
+  function getWords(text) {
+    return text.trim().split(/\s+/);
+  }
+
+  function collectValues(body) {
+    if (body.value) {
+      result += body.value + " ";
+    }
+    if (body.children) {
+      for (const child of body.children) {
+        collectValues(child);
+      }
+    }
+  }
+
+  collectValues(body);
+  const words = getWords(result);
+  return words.slice(0, wordLimit).join(" ");
+}
 
 onMounted(() => {
 	const cards = document.querySelectorAll(".card");
