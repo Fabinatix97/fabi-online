@@ -18,4 +18,3 @@ const { data: posts } = await useAsyncData('posts', () =>
   queryContent('/blog').find()
 )
 </script>
-  
