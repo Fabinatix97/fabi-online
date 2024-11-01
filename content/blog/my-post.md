@@ -2,7 +2,7 @@
 title: My Post
 description: My first blog post
 date: 2024-10-28
-cover: hello-world.jpg
+coverImage: hello-world.jpg
 tags: ["tag1", "tag2", "tag3"]
 ---
 

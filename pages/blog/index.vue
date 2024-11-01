@@ -7,15 +7,15 @@
         guest blogger on your blog, please reach out to me on Twitter. If you would
         like to subscribe to an RSS feed, you can find it here.
       </p>
-      <section class="mt-8">
-        <Post :posts="posts" />
+      <section>
+        <Cards :posts="posts"/>
       </section>
     </main>
   </template>
   
-  <script setup>
-  const { data: posts } = await useAsyncData('posts', () =>
-    queryContent('/blog').find()
-  )
-  </script>
+<script setup>
+const { data: posts } = await useAsyncData('posts', () =>
+  queryContent('/blog').find()
+)
+</script>
   

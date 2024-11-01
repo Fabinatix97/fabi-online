@@ -2,13 +2,15 @@
 title: Markdown-Test
 description: Demonstration of markdown functionality
 date: 2024-10-29
-cover: coding.jpg
+coverImage: coding.jpg
 tags:
   - markdown
   - test
 ---
 
-Im folgenden weitere Tests zum Prüfen der Markdown-Formatierungen
+# Markdown-Test
+
+Im folgenden weitere Tests zum Prüfen der Markdown-Formatierungen. Im folgenden weitere Tests zum Prüfen der Markdown-Formatierungen. Im folgenden weitere Tests zum Prüfen der Markdown-Formatierungen.
 
 ## 1. Überschriften
 
