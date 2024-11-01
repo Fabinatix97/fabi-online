@@ -1,9 +1,9 @@
 <template>
     <div class="layout-container">
         <nuxt-page />
-        <div class="theme-toggle">
+        <!--<div class="theme-toggle">
             <button @click="pageUp">Page Up</button>
-        </div>
+        </div>-->
     </div>
 </template>
 
