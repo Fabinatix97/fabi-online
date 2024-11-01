@@ -15,6 +15,7 @@
     --text: #212121;
     --card: #F0F0F0;
     --cardtext: #374151;
+    --spotlight: 255, 255, 255;
 }
 
 :root[data-theme="dark"] {
@@ -26,8 +27,9 @@
     --main: #29292C;
     --border: #444444;
     --text: #E8EAED;
-    --card: #1E1E22;
+    --card: #13161C;
     --cardtext: #D4D4D4;
+    --spotlight: 21, 202, 130;
 }
 
 @layer base {

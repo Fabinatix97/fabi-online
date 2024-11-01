@@ -20,6 +20,7 @@ export default {
         dots: "var(--dots)",
         card: "var(--card)",
         cardtext: "var(--cardtext)",
+        spotlight: "var(--spotlight)",
       },
     },
   },
