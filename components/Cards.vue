@@ -6,19 +6,21 @@
             :key="post.slug"
             class="card"
         >
-            <div class="card-content bg-card">
+            <div class="card-content bg-card flex flex-col h-full">
                 <div>
                     <img
                         :src="`/img/blog/${post.coverImage}`"
                         alt="Blog Post Cover Image"
                         class="w-full h-48 object-cover rounded-t-lg hover:opacity-80"
                     />
-                    </div>
-                    <div class="p-6">
+                </div>
+                <div class="p-6 flex-grow">
                     <h2 class="text-xl font-bold mb-2 hyphens-auto">{{ post.title }}</h2>
                     <p class="text-cardtext mb-4 hyphens-auto">{{ getPostPreview(post.body, 40) }}...</p>
+                </div>
+                <div class="p-6 mt-auto flex justify-end">
                     <div
-                        class="bg-button hover:bg-buttonhover text-white py-2 px-4 rounded float-right mb-8 relative"
+                        class="bg-button hover:bg-buttonhover text-white py-2 px-4 relative rounded"
                     >
                         Read More
                     </div>
