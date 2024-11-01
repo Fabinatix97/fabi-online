@@ -1,6 +1,7 @@
 ---
 title: "Notion-Template für Piloten"
 date: "2023-11-12"
+status: "published"
 categories: 
   - "showcase"
 tags: 

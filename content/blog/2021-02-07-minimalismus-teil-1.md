@@ -1,6 +1,7 @@
 ---
 title: "Minimalismus, Teil 1: Zuhause"
 date: "2021-02-07"
+status: "published"
 categories: 
   - "essay"
 tags: 

@@ -1,5 +1,6 @@
 ---
 title: My Post
+status: hidden
 description: My first blog post
 date: 2024-10-28
 coverImage: hello-world.jpg

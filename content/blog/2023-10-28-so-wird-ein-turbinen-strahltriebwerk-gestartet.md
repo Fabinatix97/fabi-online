@@ -1,6 +1,7 @@
 ---
 title: "So wird ein Turbinen-Strahltriebwerk gestartet"
 date: "2023-10-28"
+status: "published"
 categories: 
   - "aviation-knowledge"
 tags: 

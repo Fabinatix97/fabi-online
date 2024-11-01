@@ -1,6 +1,7 @@
 ---
 title: "Warum sitzen im Cockpit immer noch zwei Piloten?"
 date: "2021-06-13"
+status: "published"
 categories: 
   - "essay"
 tags: 

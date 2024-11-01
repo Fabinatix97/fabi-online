@@ -1,6 +1,7 @@
 ---
 title: "Minimalismus, Teil 3: Finanzen"
 date: "2021-03-07"
+status: "published"
 categories: 
   - "essay"
 tags: 
