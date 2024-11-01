@@ -25,7 +25,7 @@ Fitness Tracker erfreuen sich - sofern man die Absatzentwicklung als Kriterium h
 
 <figure>
 
-![](/img/blog/Absatz-Wearables-1024x630.png)
+![](/img/blog/wearable-sales.png)
 
 <figcaption>
 
@@ -47,13 +47,13 @@ Zum einen, weil ich persönlich die Beweggründe von Menschen, die sich einen so
 
 Nach ausgiebiger Recherche bin ich schnell bei den Geräten der Marktführer Fitbit und Garmin hängengeblieben. Da letzterer Hersteller in der Fliegerszene einen ausgezeichneten Ruf hat, habe ich bevorzugt deren Angebot durchstöbert und mich schließlich für die **Garmin vívosmart 4** entschieden. In Testberichten konnte die Uhr vor allem in puncto Tragekomfort & Messgenauigkeit bestechen. Zudem besitzt sie eine Funktion namens "Body Battery", welche einem Aufschluss darüber gibt, "wann für dich die beste Zeit ist, zu trainieren oder wann du dich erholen solltest." (1). Das klang doch alles sehr vielversprechend.
 
-![](/img/blog/IMG-20210123-WA0026-1024x576.jpg)
+![](/img/blog/garmin-vivosmart-standalone.jpg)
 
 ## Meine ersten Eindrücke
 
 Der Fitnesstracker von Garmin machte auf mich einen sehr wertigen ersten Eindruck. Zu meinem Erleichtern stellte ich fest, dass mir das Armband in der Größe S/M perfekt passte, da es keine Möglichkeit zum Auswechseln gegen ein längeres Band gibt. Bevor es mit der Einrichtung losging, musste das Gerät zunächst an die Steckdose angeschlossen werden. In den darauffolgenden Tagen hat sich gezeigt, dass die Uhr im Schnitt fünf bis sechs Tage durchhält, bevor sie erneut geladen werden muss. Die Einrichtung mithilfe der Garmin Connect App verlief problemlos. Bis heute gefällt mir das schlichte und intuitive Design der App sowie die Tatsache, dass alle Funktionen kostenlos sind und nicht durch etwaige Premium-Mitgliedschaften freigeschaltet werden müssen. Nach meinem ersten Probelauf war ich beeindruckt von den farbenfrohen Diagrammen, welche mir die App präsentierte. In Gedanken ging ich den Lauf nochmal durch und war überrascht, wie präzise der Fitness Tracker meine Aktivität aufgezeichnet hat. GPS, Höhenmeter, Schrittfrequenz - auch die Herzfrequenz stimmte mit meiner subjektiven Einschätzung überein, war ich doch nach dem Lauf ganz schön erschöpft. Besser hätte der erste Eindruck nicht sein können und schnell war ich daher mit dem Self-Tracking-Virus infiziert.
 
-![](/img/blog/IMG-20210123-WA0039-1024x576.jpg)
+![](/img/blog/garmin-vivosmart-on-wrist.jpg)
 
 ## Meine Langzeit-Erfahrungen & Empfehlungen
 
@@ -63,7 +63,7 @@ Der Fitnesstracker von Garmin machte auf mich einen sehr wertigen ersten Eindruc
 
 <figure>
 
-![](/img/blog/App-Screenshot-1024x584.png)
+![](/img/blog/garmin-connect-app-screenshot.png)
 
 <figcaption>
 
@@ -81,7 +81,7 @@ _Screenshots aus meiner Garmin Connect_ App. Die Informationsdichte der Garmin A
 
 <figure>
 
-![](/img/blog/Connect-Screenshot.jpg)
+![](/img/blog/garmin-connect-web-screenshot.jpg)
 
 <figcaption>
 

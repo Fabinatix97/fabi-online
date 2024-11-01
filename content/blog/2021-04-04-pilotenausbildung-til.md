@@ -8,7 +8,7 @@ tags:
   - "pilotenausbildung"
   - "review"
   - "things-i-learned"
-coverImage: "tecnam-landing-1.jpg"
+coverImage: "tecnam-landing.jpg"
 ---
 
 # Dinge, die ich durch meine Pilotenausbildung fürs Leben gelernt habe

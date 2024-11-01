@@ -33,7 +33,7 @@ Kondensstreifen entstehen bei der Verbrennung von Treibstoff, wenn die umgebende
 
 <figure>
 
-![](/img/blog/Google-Contrails-1024x577.png)
+![](/img/blog/google-contrails-diagram.png)
 
 <figcaption>
 
@@ -51,7 +51,7 @@ Kondensstreifen haben ähnliche Auswirkungen auf die Strahlungsbilanz der Erde w
 
 <figure>
 
-![](/img/blog/Google-Pie-Chart-1024x577.png)
+![](/img/blog/google-pie-chart.png)
 
 <figcaption>
 
@@ -77,7 +77,7 @@ Noch sauberer sind dagegen Wasserstoff-Triebwerke. Diese Triebwerke produzieren 
 
 <figure>
 
-![](/img/blog/blue-condor-1024x673.jpg)
+![](/img/blog/blue-condor.jpg)
 
 <figcaption>
 
@@ -95,7 +95,7 @@ Bei der **Flugplanung** geht es darum, schon vor dem Flug herauszufinden, wo sic
 
 <figure>
 
-![](/img/blog/satavia-1024x841.png)
+![](/img/blog/satavia.png)
 
 <figcaption>
 

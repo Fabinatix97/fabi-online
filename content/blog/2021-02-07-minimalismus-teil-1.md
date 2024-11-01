@@ -31,7 +31,7 @@ Ziemlich anmaßend wäre es also von mir, mich selbst als einen Minimalisten zu 
 
 <figure>
 
-![https://live.staticflickr.com/4103/5019973296_56200b6e1c_b.jpg](/img/blog/800px-Jean-Léon_Gérôme_-_Diogenes_-_Walters_37131.jpg)
+![](/img/blog/diogenes.jpg)
 
 <figcaption>
 
@@ -55,7 +55,7 @@ Falls du die Sache jedoch langsamer angehen willst, kann ich dich beruhigen: auc
 
 _Weniger "Qual der Wahl", mehr Platz für das Wesentliche_
 
-![https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80](https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80)
+![](/img/blog/clothes-hanger.jpg)
 
 - **Zähle deine T-Shirts, Socken, etc.** Solltest du pro Kleidungsstück mehr als dreißig Varianten besitzen, wäre das eine gute Möglichkeit zum Aussortieren - außer natürlich, wenn dir diese Klamotten einen echten Mehrwert für dein Leben bieten.
 
@@ -69,7 +69,7 @@ _Weniger "Qual der Wahl", mehr Platz für das Wesentliche_
 
 _Weniger Stress, mehr Konzentration_
 
-![https://images.unsplash.com/photo-1529336953128-a85760f58cb5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80](https://images.unsplash.com/photo-1529336953128-a85760f58cb5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+![](/img/blog/imac-clean-desk.jpg)
 
 - **Leere deinen Schreibtisch!** Das meine ich vollkommen ernst. Überlege dir anschließend, welche Dinge für dich auf einem Schreibtisch unentbehrlich sind. Für mich sind das beispielsweise ein Monitor, zwei Lautsprecher, eine Tastatur, eine Maus, ein Notizblock und einen Stiftehalter. Natürlich spricht auch gegen ein wenig Dekoration nichts. Halte sie jedoch am besten schlicht und beschränke dich auf wenige Dinge.
 
@@ -81,7 +81,7 @@ _Weniger Stress, mehr Konzentration_
 
 _Weniger "nur für alle Fälle", mehr bewusstes Verstauen_
 
-![https://images.unsplash.com/photo-1556908221-f685cdb3b0ea?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80](https://images.unsplash.com/photo-1556908221-f685cdb3b0ea?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80)
+![](/img/blog/kitchen-cupboard.jpg)
 
 - **Entferne Just-in-Case Items.** Schaue dir hierzu den Inhalt eines Schranks, einer Schublade, eines Regals oder ähnliches an und lasse die Dinge auf dich wirken. Stelle dir dann bei jedem einzelnen Ding die folgende Frage: Habe ich dieses Ding besorgt, weil ich glaube, dass ich es in einer fernen, nichtexistierenden, hypothetischen Zukunft brauchen könnte? Falls ja, dann bediene dich der 20/20-Regel von Joshua Fields Millburn und Ryan Nicodemus. Die Regel besagt, dass man sich von allem entledigen sollte, was sich mit weniger als 20 $ in weniger als 20 Minuten von dem aktuellen Standort aus besorgen lässt. Probiere es aus und schaue, auf wie viele Dinge das für dich zutrifft.
 

@@ -29,7 +29,7 @@ Doch Moment. Minimalismus und Geld: wie passt das zusammen? Versteht man unter e
 
 ## 1\. Überblick verschaffen
 
-![](https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80)
+![](/img/blog/signing-document.jpg)
 
 Zunächst ist es sinnvoll, sich einen Überblick über alles zu verschaffen, was irgendwie mit Geld zu tun hat. Der Fokus sollte natürlich auf deinen Ausgaben liegen. Die beiden Minimalismus-Gurus Joshua Fields Millburn & Ryan Nicodemus haben dabei folgendes erkannt:
 
@@ -39,13 +39,13 @@ Es empfiehlt sich daher, eine Art Haushaltsbuch mit unterschiedlichen Kategorien
 
 ## 2\. Schulden abbauen
 
-![](https://images.unsplash.com/photo-1560472355-536de3962603?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80)
+![](/img/blog/wallet-minimalistic.jpg)
 
 Schaut man sich die privaten Schulden je Einwohner Europa an, so fällt auf, dass diese im Durchschnitt das jeweilige verfügbare Einkommen wesentlich übersteigen. Für das Jahr 2018 hat die OECD bei den Schulden einen Durchschnittswert von 126 Prozent des verfügbaren Nettoeinkommens ermittelt.
 
 <figure>
 
-![](/img/blog/Verschuldung.png)
+![](/img/blog/indebtedness-diagram.png)
 
 <figcaption>
 
@@ -61,7 +61,7 @@ Wie man diese Zahlen nun interpretiert, ist jedem selbst überlassen. Fakt ist: 
 
 ## 3\. Auf das Wichtige / Sinnstiftende beschränken
 
-![](https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80)
+![](/img/blog/coins-offspring.jpg)
 
 Für einen minimalistischen Umgang mit Geld ist es elementar, sich auf das Wichtige bzw. Sinnstiftende im Leben zu beschränken und Impulsivkäufe wenn möglich zu vermeiden - ganz gleich ob schuldenfrei oder nicht. Hierzu wirfst du am besten einen Blick in dein unter Schritt 1 erstelltes Haushaltsbuch und prüfst deine Ausgaben auf das Kriterium "Sinnhaftigkeit". Allein diese "Bewertung" deiner finanziellen Vergangenheit, kann deinen zukünftigen Umgang mit Geld maßgeblich beeinflussen. Joshua Fields Millburn bringt es wie folgt auf den Punkt:
 
@@ -73,25 +73,25 @@ Damit du dich nicht ständig mit den oben aufgeführten Tipps beschäftigen muss
 
 ### 4.1 Erstelle ein Monatsbudget
 
-![](https://images.unsplash.com/photo-1564939558297-fc396f18e5c7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80)
+![](/img/blog/calculator.jpg)
 
 Während dein Haushaltsbuch bereits wertvolle Erkenntnisse über deine getätigten Käufe liefert, wappnest du dich mit einem monatlichen Budget bestens für die Zukunft. Je länger deine Aufzeichnungen desto klarer wird, wie viel Geld du für die verschiedenen Bereiche deines Lebens tatsächlich benötigst. Stehen deine monatlichen Einnahmen fest, so kannst du nun eine Aussage darüber treffen, wie hoch dein finanzielles Budget ist. Berücksichtige hierbei auch Sparbeträge.
 
 ### 4.2 Eröffne ein Notfall-Konto
 
-![](https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80)
+![](/img/blog/piggy-bank.jpg)
 
 Dieser Punkt dürfte ziemlich selbsterklärend sein. Wichtig ist, dass diese eiserne Reserve - wie der Name schon sagt - nur im Notfall berührt werden darf. Die Höhe des Geldbetrages muss dabei jeder für sich selbst klären. Sinnvoll kann es beispielsweise sein, sich zu fragen, wie viel Geld man bei einer dreimonatigen Arbeitslosigkeit, bei größeren Reparaturen oder bei der Versorgung einer Familie benötigen würde.
 
 ### 4.3 Investiere und sorge vor
 
-![](https://images.unsplash.com/photo-1559589689-577aabd1db4f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80)
+![](/img/blog/stock-prices.jpg)
 
 Deutschland ist hinter Luxemburg und Schweden der europäische Sparweltmeister [\[4\]](#Quellen). Und doch unterscheidet sich die Art und Weise, wie hierzulande gespart wird, erheblich von unseren europäischen Nachbarn. So steckt ein Großteil der Deutschen sein Geld nach wie vor in Sparbücher und Barsparverträge. Dass das angesparte Vermögen durch Zinsen, die weit unter dem aktuellen Inflationsniveau liegen, stetig schrumpft, wird dabei in Kauf genommen. Kaum verwunderlich ist es daher, dass das Vermögen der Deutschen trotz hoher Sparquote unterdurchschnittlich wächst und deutsche Sparer im Jahr 2018 insgesamt fast 40 Mrd. Euro ihres Ersparten verloren haben. [\[5\]](#Quellen)
 
 <figure>
 
-![https://img.welt.de/img/finanzen/mobile200530530/4051622997-ci23x11-w780/DWO-FI-privates-vermoegen-mku-Anteil-am-Wachstum-jpg.jpg](/img/blog/DWO-FI-privates-vermoegen-mku-Anteil-am-Wachstum-jpg.jpg)
+![](/img/blog/contribution-stocks-increase-total-assets.jpg)
 
 <figcaption>
 
@@ -107,7 +107,7 @@ Doch wieso sein Geld als Minimalist vermehren? Ist Minimalismus nicht die bewuss
 
 ### 4.4 Finde deine Passion / Mission im Leben
 
-![](https://images.unsplash.com/photo-1533073526757-2c8ca1df9f1c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+![](/img/blog/signpost-sunset.jpg)
 
 Auch wenn diese philosophische Frage nicht leicht zu beantworten ist und einen womöglich das ganze Leben über begleitet, stellt es einen wichtigen Punkt im Umgang mit Geld dar. "Was ist der Zweck deiner Existenz?", um es in den Worten von John Strelecky auszudrücken. Was macht dich glücklich? Woraus ziehst du Glück? Die Beantwortung oder allein das Auseinandersetzen mit jenen Fragen kann dir dabei helfen, herauszufinden, welche Dinge wirklich wichtig für dich sind und für die es sich lohnt, Geld auszugeben.
 

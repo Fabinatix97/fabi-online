@@ -8,7 +8,7 @@ tags:
   - "gegner"
   - "minimalismus"
   - "schattenseiten"
-coverImage: "minimalism-4-1.jpg"
+coverImage: "minimalism-4.jpg"
 ---
 
 # Minimalismus, Teil 4: Schattenseiten

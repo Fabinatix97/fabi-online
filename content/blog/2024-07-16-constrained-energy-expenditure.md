@@ -54,7 +54,7 @@ Doch wie kommt es zu dieser Begrenzung? Pontzer et al. haben dies durch Studien 
 
 <figure>
 
-![](/img/blog/hadza-vs-western-energy-1024x548.png)
+![](/img/blog/hadza-vs-western-energy.png)
 
 <figcaption>
 

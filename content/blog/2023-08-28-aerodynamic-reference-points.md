@@ -24,7 +24,7 @@ Der Druckpunkt ist jedoch abgesehen von symmetrischen Tragflächenprofilen nicht
 
 <figure>
 
-![](/img/blog/CoP.gif)
+![](/img/blog/center-of-pressure.gif)
 
 <figcaption>
 
@@ -64,7 +64,7 @@ Mithilfe des aerodynamischen Zentrums, welches typischerweise bei 25 % der Profi
 
 <figure>
 
-![](/img/blog/StagnationPoint.gif)
+![](/img/blog/stagnation-point.gif)
 
 <figcaption>
 
@@ -76,7 +76,7 @@ Eine Erhöhung des Anstellwinkels bewirkt, dass der Staupunkt an die Unterseite 
 
 **5\. Umschlagpunkt (engl. Transition Point):** Der Umschlagpunkt ist der Punkt, an dem die Grenzschicht von einer laminaren in eine turbulente Strömung übergeht.
 
-![](/img/blog/stagnation-transition-separation-1-1024x348.jpg)
+![](/img/blog/stagnation-transition-separation.jpg)
 
 **6\. Ablösungspunkt (engl. Separation Point):** Der Ablösungspunkt ist der Punkt, an dem sich die Grenzschicht ablöst.
 

@@ -8,7 +8,7 @@ tags:
   - "luftfahrt"
   - "pros-cons"
   - "single-pilot-cockpit"
-coverImage: "vintage-plane-1.jpg"
+coverImage: "vintage-plane.jpg"
 ---
 
 # Warum sitzen im Cockpit immer noch zwei Piloten?
@@ -17,13 +17,13 @@ Schon seit längerem habe ich mich vor dieser Frage gedrückt. Warum sitzen in Z
 
 <!--more-->
 
-![](/img/blog/DSC_0952-1024x576.jpg)
+![](/img/blog/airbus-fcom.jpg)
 
 Ich möchte dir zunächst einmal einen Überblick darüber gehen, was der Status quo hinsichtlich Autonomie in der Luftfahrt ist. Wie bereits einleitend erwähnt übernimmt der Autopilot die meiste fliegerische Arbeit. Übernehmen ist jedoch der falsche Ausdruck, viel eher trifft es das Wort "entlasten". Denn genau das ist die Kernaufgabe von Autopiloten: die Piloten zu entlasten, damit sich diese auf wichtigere Aufgaben, wie beispielsweise die Flugüberwachung, Kommunikation oder Entscheidungsfindung im Notfall, konzentrieren können. Zudem ist der Reiseflug aus Pilotensicht zugegebenermaßen eine eher monotone und nicht gerade fliegerisch fordernde Phase.
 
 <figure>
 
-![](/img/blog/Autopilot-1024x576.jpg)
+![](/img/blog/airbus-autopilot.jpg)
 
 <figcaption>
 
@@ -51,7 +51,7 @@ Doch zurück zum Status quo. Ein halb-autonomes System, das bereits in einigen w
 
 <figure>
 
-![](/img/blog/autoland-activation-1024x657.jpg)
+![](/img/blog/garmin-autoland-activation.jpg)
 
 <figcaption>
 
@@ -65,7 +65,7 @@ Wesentlich weiter ist die US-amerikanische Frachtfluggesellschaft FedEx. Diese h
 
 <figure>
 
-![](/img/blog/fedex-1024x683.jpg)
+![](/img/blog/fedex-atr.jpg)
 
 <figcaption>
 
@@ -83,7 +83,7 @@ In der Luftfahrt lässt sich Autonomie wesentlich leichter umsetzen als beispiel
 
 Ohne länger darüber nachzudenken, fallen mir sofort drei Gründe hierfür ein. Erstens bietet die Luftfahrt mit ihrer stark regulierten und weltweit gleichartigen Infrastruktur die perfekte Basis für autonome Systeme. Vorfeldmarkierungen, Startbahnen, Lufträume, Prozeduren und vieles mehr sind mit einigen Ausnahmen überall auf der Welt gleich, egal ob man sich in Europa, Amerika oder Asien befindet. Hinzu kommt, dass in der Luftfahrt nichts dem Zufall überlassen wird, sei es die Kommunikation mit der Flugverkehrskontrolle, das Bedienen eines Flugzeugs oder die Navigation durch Lufträume. Dies macht es für Programmierer zukünftiger autonomer Systeme natürlich wesentlich leichter. Zweitens gibt es in der Fliegerei wesentlich größere Toleranzen. Während es im Straßenverkehr von höchster Wichtigkeit ist, ob sich das Fahrzeug 30 cm links oder rechts der Fahrbahnmittellinie befindet, spielt eine solche Präzision im Flugverkehr keine große Rolle. Drittens ist die Verkehrssituation in der Luft eine völlig andere als auf der Straße. Im Vergleich zu Autos begegnen sich Flugzeuge niemals mit einem Abstand von nur wenigen Metern, wie das auf Straßen der Fall ist. Zudem sind Lufträume insgesamt weniger dicht beflogen, als Straßen befahren sind.
 
-![](/img/blog/takeoff-sunset-1024x577.jpeg)
+![](/img/blog/takeoff-sunset.jpeg)
 
 Ein weiterer Grund, weshalb Piloten durch Maschinen abgelöst werden könnten, ist, dass letztere viel weniger Fehler machen. So machen Maschinen im Idealfall weder Ausführungsfehler (Eine Person beabsichtigt, eine Handlung auszuführen, die Handlung ist angemessen, führt sie falsch aus und das gewünschte Ziel wird nicht erreicht) noch Planungsfehler (Eine Person beabsichtigt, eine Handlung auszuführen, tut dies richtig, die Handlung ist unangemessen, und das gewünschte Ziel wird nicht erreicht). Des Weiteren sind Maschinen frei von folgenden typisch menschlichen Eigenschaften:
 
@@ -107,7 +107,7 @@ Dass im weltweit größten Passierflugzeug schon heute Systeme eingebaut sind, d
 
 <figure>
 
-![](/img/blog/speedbrake.jpg)
+![](/img/blog/airbus-speedbrake.jpg)
 
 <figcaption>
 
@@ -123,7 +123,7 @@ Ein letztes Argument oder eher eine Frage, die man sich bei der Debatte, ob Pilo
 
 <figure>
 
-![](/img/blog/nasa-mars-rover-1024x819.jpg)
+![](/img/blog/nasa-mars-rover.jpg)
 
 <figcaption>
 

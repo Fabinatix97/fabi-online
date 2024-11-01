@@ -21,7 +21,7 @@ Auf den ersten Eindruck ist alles wie immer. Per Smartphone wird mein Flugticket
 
 <figure>
 
-![](/img/blog/Seatback-Screen.jpg)
+![](/img/blog/seatback-screen.jpg)
 
 <figcaption>
 
@@ -43,7 +43,7 @@ Und das ist genau der Punkt. Egal wo man hinsieht: in der Luftfahrt findet man T
 
 <figure>
 
-![https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Cockpit_of_737-300_LN-KKU.jpg/1024px-Cockpit_of_737-300_LN-KKU.jpg](/img/blog/1024px-Cockpit_of_737-300_LN-KKU.jpg)
+![](/img/blog/cockpit-737-classic.jpg)
 
 <figcaption>
 
@@ -59,7 +59,7 @@ Wesentlich schwieriger wird es, wenn man sich klarmacht, dass der Faktor Mensch 
 
 <figure>
 
-![https://upload.wikimedia.org/wikipedia/commons/0/0c/CP_MCDU.jpg](/img/blog/CP_MCDU.jpg)
+![](/img/blog/airbus-mcdu.jpg)
 
 <figcaption>
 
@@ -75,7 +75,7 @@ Neben all den technischen Hürden müssen natürlich auch gesellschaftliche Aspe
 
 <figure>
 
-![https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Ethiopian_Airlines_ET-AVJ_takeoff_from_TLV_(46461974574).jpg/1599px-Ethiopian_Airlines_ET-AVJ_takeoff_from_TLV_(46461974574).jpg](/img/blog/1599px-Ethiopian_Airlines_ET-AVJ_takeoff_from_TLV_%2846461974574%29.jpg)
+![](/img/blog/ethiopian-airlines-737.jpg)
 
 <figcaption>
 

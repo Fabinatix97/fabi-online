@@ -38,7 +38,7 @@ Kleinere Turbinen, wie beispielsweise Turboprops sind leicht genug, um ähnlich 
 
 <figure>
 
-![](/img/blog/air-start-system-1024x834.jpg)
+![](/img/blog/air-start-system.jpg)
 
 <figcaption>
 
@@ -58,7 +58,7 @@ Die APU ist ein kleines Turbojet-Triebwerk, welches in der Regel im hinteren Tei
 
 <figure>
 
-![](/img/blog/aircraft-tail-apu-1024x879.jpg)
+![](/img/blog/aircraft-tail-apu.jpg)
 
 <figcaption>
 

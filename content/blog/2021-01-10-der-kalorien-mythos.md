@@ -56,7 +56,7 @@ In Kürze: Die Angaben auf den europäischen Nährwerttabellen [\[3\]](#Quellen)
 
 <figure>
 
-![File:Bomb Calorimeter Diagram.png](/img/blog/Bomb_Calorimeter_Diagram.png)
+![](/img/blog/bomb-calorimeter-diagram.png)
 
 <figcaption>
 

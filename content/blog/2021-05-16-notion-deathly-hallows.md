@@ -11,7 +11,7 @@ tags:
   - "produktivitaet"
   - "tipps-tricks"
   - "tutorial"
-coverImage: "deathly-hallows-1.jpg"
+coverImage: "deathly-hallows.jpg"
 ---
 
 # Die drei Heiligtümer von Notion
@@ -26,7 +26,7 @@ Zur besseren Veranschaulichung versetzen wir uns - wie bereits im [ersten Teil](
 
 Wir öffnen also unser bereits erstelltes [Studium-Notizbuch](https://www.notion.so/Studium-b0a433b6a5b34f58a95535ed0aacd6ab) und öffnen anschließend die Seite "Allgemeines". Nun erstellen wir eine Unterseite mit dem Titel "Lernplan" und dem Datenbanktyp "Table". Die vorgefertigte Tabelle passen wir nun nach unseren Bedürfnissen an.
 
-![](/img/blog/Notion-Advanced-01-1024x665.png)
+![](/img/blog/notion-advanced-01.png)
 
 ## 1\. Relationen
 
@@ -34,17 +34,17 @@ Zunächst benennen wir die erste Spalte in "Nr." um. In der zweiten Spalte solle
 
 Hierfür ändern wir den "Property-Type" der zweiten Spalte von "Multi-Select" auf "Relation". Nun erscheint ein Pop-up mit der Aufforderung, eine Datenbank auszuwählen. Wir geben "Curriculum" in das Suchfeld ein und wählen die richtige Datenbank aus.
 
-![](/img/blog/Notion-Advanced-02.png)
+![](/img/blog/notion-advanced-02.png)
 
 Jetzt können wir mit einem Klick in die oberste Zelle der zweiten Spalte festlegen, welches Modul angezeigt werden soll. Soweit so gut. Beginnen wir nun also damit, die ersten vier Zeilen der Tabelle mit Modulen zu füllen. Das könnte dann zum Beispiel so aussehen:
 
-![](/img/blog/Notion-Advanced-03-1024x401.png)
+![](/img/blog/notion-advanced-03.png)
 
 ## 2\. Roll-ups
 
 Zur besseren Übersicht möchten wir uns nun noch das dazu passende Semester anzeigen lassen. Hier kommt das sogenannte Roll-up ins Spiel. Kurz gesagt: Roll-ups sind in Notion, was S-Verweise in Excel sind. Sie helfen dir dabei, Daten aus deinen Datenbanken auf Basis von Beziehungen zu bündeln. Klingt kompliziert, ist es aber eigentlich gar nicht. Zur besseren Veranschaulichung erstellen wir eine dritte Spalte namens "Semester" und wählen den Property Type "Roll-up" aus. Noch passiert nichts. Ein Klick in die erste Zeile der neu angelegten Spalte öffnet wieder ein Pop-up mit drei verschiedenen Einstellungen. Diese füllen wir folgendermaßen aus:
 
-![](/img/blog/InkedNotion-Advanced-04-1024x506.jpg)
+![](/img/blog/notion-advanced-04.jpg)
 
 Natürlich kannst du dir auch ein anderes Attribut (Property) anzeigen lassen oder weitere Roll-ups hinzufügen. Auch Roll-ups von Roll-ups sind theoretisch möglich. Deiner Kreativität sollten also keine Grenzen gesetzt sein. Mir geht es hier lediglich um das Demonstrieren.
 
@@ -54,13 +54,13 @@ Und wieder einmal sollten wir vor lauter Konstruieren nicht vergessen, wofür wi
 
 Zunächst erstellen wir - der Einfachheit halber - drei Spalten mit dem Property Type "Checkbox" und benennen sie "Phase 1, 2 und 3". Das sollte nun ungefähr so aussehen:
 
-![](/img/blog/Notion-Advanced-05-1024x358.png)
+![](/img/blog/notion-advanced-05.png)
 
 Damit wir auf einen Blick sehen, wie weit unser Lernfortschritt für das jeweilige Modul ist, möchten wir, dass uns Notion - je nachdem wie viele Boxen gecheckt sind - in einer weiteren Spalte einen konkreten Status ausspuckt.
 
 Hierfür eignet sich am besten eine Wenn-Dann-Formel, wie man sie auch von Excel kennt. Unser Ziel ist, dass die Formel ein "Noch nicht begonnen" ausspuckt, wenn keine der drei Boxen angekreuzt sind und ein "Abgeschlossen", wenn alle Boxen ausgefüllt sind. Bilder sprechen mal wieder mehr als Worte - so soll das Endergebnis aussehen:
 
-![](/img/blog/Notion-Advanced-06-1024x353.png)
+![](/img/blog/notion-advanced-06.png)
 
 Die Formel hierfür sieht auf den ersten Blick kompliziert aus. Bei genauerem Hinblick wirst du jedoch erkennen, dass es nur eine sehr verschachtelte Wenn-Dann-Funktion ist und diese eigentlich gar nicht so komplex ist. Hier die Formel:
 

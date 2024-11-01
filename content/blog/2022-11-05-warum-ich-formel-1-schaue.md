@@ -3,7 +3,7 @@ title: "Warum ich Formel 1 schaue"
 date: "2022-11-05"
 categories: 
   - "essay"
-coverImage: "f1-torro-rosso-vs-ferrari-1.jpg"
+coverImage: "f1-torro-rosso-vs-ferrari.jpg"
 ---
 
 # Warum ich Formel 1 schaue
@@ -22,7 +22,7 @@ Auch ich bin von diesem Bias nicht verschont. Daher möchte ich zunächst auf di
 
 <figure>
 
-![](/img/blog/mercedes-f1-car-on-track-1024x683.jpg)
+![](/img/blog/mercedes-f1-car-on-track.jpg)
 
 <figcaption>
 
@@ -40,7 +40,7 @@ Die Tatsache, dass mich die Rennserie mit ihren faszinierenden Rennwägen schon 
 
 <figure>
 
-![](/img/blog/ferrari-f1-car-pitstop-1024x683.jpg)
+![](/img/blog/ferrari-f1-car-pitstop.jpg)
 
 <figcaption>
 
@@ -58,7 +58,7 @@ Von Rennen zu Rennen lernt man jedoch immer wieder neue Dinge, welche den Sport 
 
 <figure>
 
-![](/img/blog/f1-monaco-track-1024x683.jpg)
+![](/img/blog/f1-monaco-track.jpg)
 
 <figcaption>
 
@@ -76,7 +76,7 @@ Aber auch Europa hat so einige exotische Strecken zu bieten, wie beispielsweise 
 
 <figure>
 
-![](/img/blog/mercedes-w-196-1024x635.jpg)
+![](/img/blog/mercedes-w-196.jpg)
 
 <figcaption>
 
@@ -94,7 +94,7 @@ Die technische Entwicklung, welche seither stattgefunden hat, von Antriebsarten 
 
 <figure>
 
-![](/img/blog/dhl-cargo-plane-1024x683.jpg)
+![](/img/blog/dhl-cargo-plane.jpg)
 
 <figcaption>
 

@@ -42,7 +42,7 @@ Grafisch würde das dann folgendermaßen aussehen:
 
 <figure>
 
-![](/img/blog/matrjoschka-1-scaled.jpg)
+![](/img/blog/matrjoschka.png)
 
 <figcaption>
 
@@ -56,7 +56,7 @@ Um ein gutes Situationsbewusstsein zu entwickeln, muss man natürlich wissen, wi
 
 <figure>
 
-![](/img/blog/aircrew-decision-model-1.png)
+![](/img/blog/aircrew-decision-model.png)
 
 <figcaption>
 

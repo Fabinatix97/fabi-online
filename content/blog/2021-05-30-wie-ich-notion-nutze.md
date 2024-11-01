@@ -27,11 +27,11 @@ Zum Notieren - natürlich. Worauf ich mit dieser Frage jedoch abziele, ist, für
 
 Am Ende einer jeden Woche setze ich mich hin und überlege mir, was ich in der kommenden Woche erreichen möchte. Das können neben alltäglichen Dingen auch komplexere Projekte sein, die ich dann in Teilaufgaben untergliedere. In Notion habe ich hierfür zunächst eine ToDo-Datenbank angelegt und folgende Properties festgelegt (hier am Beispiel "Joggen"):
 
-![](/img/blog/Task-Detail.png)
+![](/img/blog/notion-task-detail.png)
 
 Als "View" habe ich mich für die Kalender-Ansicht entschieden, da ich diese am übersichtlichsten finde. So sehe ich auf einen Blick, welche Aufgaben zurzeit anstehen und kann gleichzeitig sehen, was in den vergangenen oder kommenden Wochen geplant war/ist.
 
-![](/img/blog/Calendar-1024x445.png)
+![](/img/blog/notion-calendar.png)
 
 ## 2\. Projektplanung
 
@@ -45,13 +45,13 @@ Ich liebe es, neue Dinge auszuprobieren. Doch vor lauter Enthusiasmus kann man s
 
 7. Auch wenn man es im Folgenden Screenshot nicht gleich sieht: die Project-Datenbank ist mit der ToDo-Datenbank verknüpft. Dies ermöglicht mir, Projekte in Teilaufgaben zu untergliedern und diese dann sofort in meiner Aufgabenplanung zu sehen.
 
-![](/img/blog/Projects-1024x362.png)
+![](/img/blog/notion-projects.png)
 
 ## 3\. Wochen-/Monats-/Jahresrückblick
 
 Ich selbst bin offen gestanden kein leidenschaftlicher Tagebuch-Schreiber. Nichtsdestotrotz gefällt mir die zentrale Idee des Tagebuchschreibens: die persönlichen Erlebnisse festzuhalten. Mithilfe von Notion kann ich meine Erlebnisse, Erfolge oder Herausforderungen sehr einfach festhalten. Ich nutze hierfür drei verschiedene Datenbanken: Weekly Review, Monthly Review, Annual Review. Die drei Datenbanken sind wiederum hierarchisch miteinander verknüpft, sprich, die "Monthly Review"-Datenbank greift auf Inhalte der "Weekly Review"-Datenbank zurück und die "Annual Review"-Datenbank auf Inhalte der "Monthly Review"-Datenbank. Technisch umgesetzt habe ich das mit Relationen und Roll-ups. Mehr dazu findest du in [diesem Beitrag](https://www.fabi-online.de/notion-deathly-hallows/).
 
-![](/img/blog/Monthly-Review-997x1024.png)
+![](/img/blog/notion-monthly-review.png)
 
 Der große Vorteil dieser Art von Tagebuch-Schreiben ist, dass - wie hier beim Monthly Review - bereits die Hälfte der Informationen ausgefüllt ist (überall, wo das kleine Lupen-Symbol steht), sofern man die Weekly Reviews mit den entsprechenden Inhalten ausgefüllt hat.
 
@@ -59,13 +59,13 @@ Der große Vorteil dieser Art von Tagebuch-Schreiben ist, dass - wie hier beim M
 
 Bist du auch so ein Bücherwurm wie ich? Dann könnte ein Bücher-Tracker genau das Richtige für dich sein. In meiner Ressources-Datenbank behalte ich neben Filmen und Serien vor allem meinen Lesefortschritt im Auge. Fehlt mir mal die Motivation zum Lesen, so werfe ich einfach einen Blick auf diesen - wie ich finde - visuell ansprechenden Buch-Tracker und schon bin ich motiviert, der Datenbank ein neues Buch hinzuzufügen.
 
-![](/img/blog/Library-1024x757.png)
+![](/img/blog/notion-library.png)
 
 ## 5\. Wissenssammlung
 
 Notion eignet sich in meinen Augen perfekt für die Wissensspeicherung und noch mehr für die Vernetzung von Wissen. Aus diesem Grund habe ich mein gerade angesprochenes, digitales Bücherregal mit mehreren Wissensdatenbanken verknüpft, darunter auch eine Quotes-Datenbank. Darin halte ich interessante, lustige, geistreiche, eindrucksvolle oder einfach nur anschauliche Zitate für die Ewigkeit fest, mit der Hoffnung, diese irgendwann nochmal gebrauchen zu können. Im Folgenden siehst du einen bespielhaften Eintrag. Der Titel ist stets das Zitat an sich, gespickt mit ein paar Zusatzinformationen (Properties) und natürlich der Verlinkung der Quelle.
 
-![](/img/blog/Quotes-1024x951.png)
+![](/img/blog/notion-quotes.png)
 
 ## Was ich nicht in Notion mache?
 

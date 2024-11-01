@@ -43,7 +43,7 @@ Nüchtern betrachtet ist Obsidian einfach nur ein Markdown-Editor. Notizen werde
 
 <figure>
 
-![](images/obsidian-vault-1500x885.png)
+![](/img/blog/obsidian-vault.png)
 
 <figcaption>
 
@@ -117,7 +117,7 @@ Mir persönlich hilft Markdown auch dabei, im Flow[6](#5d0c61f4-c36e-4910-a3f5-0
 
 <figure>
 
-![](images/keyboard-though-extension-1024x579.jpg)
+![](/img/blog/keyboard-mind-extension.jpg)
 
 <figcaption>
 
@@ -135,7 +135,7 @@ Früher habe ich meine Notizen stets in Ordnern abgelegt. Um genau zu sein, habe
 
 Stell dir vor, du hast über das Jahr hinweg eine Reihe unterschiedlichster Bücher gelesen und dir Notizen dazu angefertigt. Am Jahresende möchtest du die Notizen an einem zentralen Ort sammeln und organisieren. Das für uns natürlichste wäre nun, diese Notizen in verschiedene Ordner zu packen, z. B. basierend auf den Genres, Themen oder Autoren. Vielleicht legst du stattdessen auch einen Ordner für Romane, einen für Sachbücher, einen für Biografien und so weiter an. Innerhalb dieser Ordner könntest du dann noch weitere Unterordner erstellen, um die Notizen nach spezifischen Themen oder Kategorien zu strukturieren.
 
-![](images/massive-wall-filled-with-folders-1024x585.jpg)
+![](/img/blog/massive-wall-filled-with-folders.jpg)
 
 Das mag anfangs noch ganz gut klappen, jedoch wirst du irgendwann an eine Grenze stoßen. Spätestens wenn es dich mehr Zeit kostet, die Notiz dem passenden Ordner bzw. Unterordner zuzuordnen, als sie zu schreiben, wird die Ordnersystematik zur Bremse für deine Kreativität und Produktivität. Wenn du später eine bestimmte Notiz suchen möchtest, wirst du dich durch unzählige Ordner und Unterordner klicken müssen, ohne eine Garantie dafür zu haben, dass du sie auch tatsächlich findest.
 
@@ -165,7 +165,7 @@ Ein wahres PKM-System sollte nicht an den Lebenszyklus einer Notizapp gebunden s
 
 <figure>
 
-![](images/old-ibm-pc-e1729265299505-1024x735.jpg)
+![](/img/blog/old-ibm-pc.jpg)
 
 <figcaption>
 
@@ -181,7 +181,7 @@ Obsidian hat mir gezeigt, wie kraftvoll ein minimalistischer Ansatz für das Not
 
 Neugierig geworden? Auch wenn es in diesem Artikel natürlich um allgemeine PKM-Prinzipien ging, kann ich dir nur wärmstens empfehlen, Obsidian einfach mal auszuprobieren. Ich bin mir sicher, es wird deine Perspektive auf das Notizenmachen und die Organisation von Wissen nachhaltig verändern.
 
- [![](images/obsidian-logo-gradient.png) Hier geht's zu Obsidian](https://obsidian.md/)
+ [![](/img/blog/obsidian-logo-gradient.png) Hier geht's zu Obsidian](https://obsidian.md/)
 
 * * *
 
