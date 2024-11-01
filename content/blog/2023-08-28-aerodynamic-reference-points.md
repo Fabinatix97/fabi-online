@@ -8,8 +8,6 @@ tags:
 coverImage: "flow-over-aerofoils.png"
 ---
 
-# Center of Pressure, Aerodynamic Center & Co: Schlüsselkonzepte der Aerodynamik
-
 In der faszinierenden Welt der Aerodynamik spielen Begriffe wie Druckpunkt, Aerodynamisches Zentrum & Co. eine entscheidende Rolle. Diese Konzepte sind von zentraler Bedeutung, wenn es darum geht, wie sich Flugzeuge und andere Objekte in der Luft bewegen. Da auch ich mich manchmal schwer damit tue, diese Begriffe auseinanderzuhalten, möchte ich diese nun so gut es geht erläutern.
 
 <!--more-->

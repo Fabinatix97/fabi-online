@@ -13,8 +13,6 @@ tags:
 coverImage: "notion-agenda.jpg"
 ---
 
-# Wie ich Notion nutze
-
 Notion ist ein Paradies für User, die sich kreativ ausleben und nicht durch allzu limitierte Programme eingeschränkt werden möchten. Dies wird auch durch die Vielzahl an Templates untermauert, die es auf der offiziellen Notion-Website zum Downloaden gibt. Egal ob für private (Journal, Travel Planner oder Habit Tracker) oder berufliche Zwecke (Road Map, Wiki, Sales CRM): bei den Templates sollte für jeden etwas dabei sein. Auch wenn es natürlich viel mehr Spaß macht, die Notizbücher von Grund auf selbst zu basteln und an seine Bedürfnisse anzupassen, bieten diese Vorlagen reichlich Inspiration. Als zusätzliche Inspirationsquelle möchte ich dir in diesem Beitrag aufzeigen, wie ich selbst Notion nutze bzw. wofür ich Notion ganz bewusst nicht nutze.
 
 <!--more-->

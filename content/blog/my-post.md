@@ -6,8 +6,6 @@ coverImage: hello-world.jpg
 tags: ["tag1", "tag2", "tag3"]
 ---
 
-# This is my post content
-
 This is some sample content 🌱
 
 ```python

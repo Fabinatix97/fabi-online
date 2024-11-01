@@ -14,8 +14,6 @@ tags:
 coverImage: "kalorien-mythos.jpg"
 ---
 
-# Der Kalorien-Mythos
-
 Der Beginn eines Neuen Jahres steht bei vielen Menschen meist im Zeichen einer besseren Lebensweise. Hierbei reichen die Vorsätze von "Mehr Sport treiben" über "Mehr Zeit mit der Familie / Freunden verbringen" bis hin zu "Weniger Zeit in sozialen Medien verbringen". Eine im November letzten Jahres durchgeführte Umfrage zeigt jedoch, dass das beliebteste Vorhaben - wie anzunehmen - "Gesünder ernähren" darstellt [\[1\]](#Quellen). Anlässlich dieser Tatsache möchte ich mich in diesem Beitrag mit einem Thema beschäftigen, dass maßgeblich zum Erfolg jenes Neujahrsvorsatzes (Gesunde Ernährung) beitragen könnte.
 
 <!--more-->

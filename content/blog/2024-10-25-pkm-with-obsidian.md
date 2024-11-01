@@ -13,8 +13,6 @@ tags:
 coverImage: "desk-setup-comparison.jpg"
 ---
 
-# The Power of Simplicity: Ein minimalistischer Ansatz für digitale Notizen
-
 Schreibst du dir regelmäßig Sachen auf? Gedanken, Ideen oder vielleicht etwas Gelerntes, das du nicht vergessen möchtest? Falls ja, kennst du sicher das folgende Problem: Notizen verschwinden in endlosen Verzeichnissen, sind schwer wiederzufinden oder verlieren durch unübersichtliche Strukturen an Wert. Damit bist du nicht alleine: Untersuchungen von Microsoft zeigen, dass der durchschnittliche Angestellte 76 Stunden pro Jahr mit der Suche nach verschollenen Notizen oder Dateien verbringt[1](#eb733a3b-9ed6-4f2f-b68f-c96960a13b95). Im Privatleben ergeht es den meisten von uns ähnlich. Nicht verwunderlich also, dass das Thema _Personal Knowledge Management_ - kurz PKM - immer größere Bekanntheit erlangt. Mittlerweile gibt es unzählige Werkzeuge zum Schreiben und Organisieren von Notizen. Keines davon hat meine Art des Notierens jedoch so nachhaltig geprägt wie Obsidian.
 
 In diesem Artikel möchte ich dir zeigen, wie Obsidian meine Herangehensweise an das Schreiben von Notizen radikal verändert hat und warum ich überzeugt bin, dass diese Art des Notierens auch in Zukunft bestehen wird.

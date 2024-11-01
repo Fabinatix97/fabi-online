@@ -6,8 +6,6 @@ categories:
 coverImage: "f1-torro-rosso-vs-ferrari.jpg"
 ---
 
-# Warum ich Formel 1 schaue
-
 Falls du zufällig schon mal einen Blick auf meine [About-Seite](https://www.fabi-online.de/me/) geworfen hast, ist dir vielleicht aufgefallen, dass eine meiner Interessen Formel 1 ist. All diejenigen, die mehr darüber erfahren möchten, wieso ich gerne Formel 1 schaue bzw. was mich an diesem Rennsport so fasziniert, sind hier genau richtig. Und wer weiß, vielleicht kann ich ja auch dich für die Königsklasse des Motorsports begeistern, falls du noch kein Fan sein solltest.
 
 <!--more-->

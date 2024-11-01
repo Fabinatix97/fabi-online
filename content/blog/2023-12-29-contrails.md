@@ -11,8 +11,6 @@ tags:
 coverImage: "contrails.jpg"
 ---
 
-# Das Problem mit den Kondensstreifen
-
 Sie schweben hoch oben am Himmel. Man sieht sie mal mehr, mal weniger. So mancher stört sich an ihnen, während andere die verwobenen Wolkenmuster als ästhetisches Himmelskunstwerk betrachten. Den meisten Menschen dürften Kondensstreifen jedoch herzlich wurscht sein. Ich möchte das ändern. Wieso? Weil diese harmlos anmutenden Wolkenstreifen eine bedeutende Rolle bei der globalen Erwärmung spielen - noch weitaus bedeutender als die wohlbekannten CO2\-Emissionen.
 
 <!--more-->

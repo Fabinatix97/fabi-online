@@ -11,8 +11,6 @@ tags:
 coverImage: "airline-cockpit.jpg"
 ---
 
-# Warum es im Cockpit immer Piloten geben wird
-
 Wir schreiben das Jahr 2036. Es ist 7 Uhr morgens und ich habe gerade wie jeden Montag um diese Zeit die Sicherheitskontrollen am Flughafen München hinter mir gelassen. Geblendet von den ersten Sonnenstrahlen des Tages rücke ich meine Brille zurecht und gebe ihr den Befehl, mich zu meinem Abflug-Gate zu navigieren. Zwar merke ich schnell, dass ich von meinen Smart Glasses in den üblichen Wartebereich geführt werde, aber ich wollte einfach auf Nummer sicher gehen. Schließlich ist heute ein historischer Tag für die deutsche Luftfahrt. Vor zwei Monaten hat das Luftfahrt-Bundesamt endgültig grünes Licht für autonomes Fliegen in Deutschland gegeben. Airlines in ganz Europa haben sich eifrig vorbereitet, nachdem die europäische Flugsicherheitsbehörde in den letzten fünf Jahren den Weg für Autonomie im Luftverkehr geebnet hat. Heute ist es nun also soweit: der Flug von München nach Hamburg wird erstmalig ohne Pilot im Cockpit durchgeführt werden - und ich bin als Passagier hautnah dabei.
 
 <!--more-->

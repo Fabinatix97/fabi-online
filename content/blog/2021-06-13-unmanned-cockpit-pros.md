@@ -11,8 +11,6 @@ tags:
 coverImage: "vintage-plane.jpg"
 ---
 
-# Warum sitzen im Cockpit immer noch zwei Piloten?
-
 Schon seit längerem habe ich mich vor dieser Frage gedrückt. Warum sitzen in Zeiten zunehmender Automatisierung eigentlich immer noch zwei Menschen vorne im Flugzeug? Schon seit Jahrzehnten übernehmen Autopiloten den Großteil des Fluges. Nur der Start und die Landung, sowie das Rollen am Boden, wird nach wie vor den Piloten anvertraut. Wirft man einen Blick in den Automobilsektor und sieht sich die dortigen Bestrebungen von Tesla & Co. hin zum autonomen Fahren an, kann man sich durchaus die Frage stellen, wieso menschliche Piloten in der Luftfahrt nicht schon längst überflüssig geworden sind. Doch ganz so einfach ist es nicht. Ich, als ausgebildeter Berufspilot, bin natürlich etwas voreingenommen und weiß ganz genau, dass es bei dieser Debatte nicht nur um Objektivität, sondern auch um Ansehen, Stolz und Angst geht.
 
 <!--more-->

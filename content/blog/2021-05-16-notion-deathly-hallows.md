@@ -14,8 +14,6 @@ tags:
 coverImage: "deathly-hallows.jpg"
 ---
 
-# Die drei Heiligtümer von Notion
-
 In diesem Beitrag möchte ich dir zeigen, was Notion so mächtig macht und gleichzeitig von anderen Notizapps unterschiedet. Wenn die vorherige Einführung das kleine 1x1 war, entspricht das Folgende der Polynomdivision. Doch keine Angst, so kompliziert wird es gar nicht. Konkret möchte ich dir folgende Funktionen näherbringen: Formeln, Relationen und sogenannte Roll-ups (ich weiß, die Harry Potter-Anspielung ist etwas übertrieben).
 
 <!--more-->

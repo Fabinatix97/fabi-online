@@ -11,8 +11,6 @@ tags:
 coverImage: "tecnam-landing.jpg"
 ---
 
-# Dinge, die ich durch meine Pilotenausbildung fürs Leben gelernt habe
-
 Es ist nun schon mehr als ein Jahr her, seitdem ich meine Berufspilotenausbildung erfolgreich abgeschlossen habe. Auch wenn ich meinen einstigen Traumberuf zurzeit leider nicht weiterverfolgen kann, habe ich doch während meiner Ausbildungszeit vieles gelernt. Da wäre zum Beispiel die sehr umfangreiche Flugtheorie. Vor allem das Büffeln der ATPL-Theorie – ein wichtiger Schritt auf dem Weg zum Berufspiloten – ist mir und meinen Kommilitonen manchmal so vorgekommen, als würden wir neben der Pilotentätigkeit auch noch den Beruf des Meteorologen, Flugzeugmechanikers oder Fliegerarztes erlernen. Neben fachspezifischen Dingen habe ich jedoch auch einige Dinge fürs Leben gelernt. Je länger ich über die vergangene Zeit nachgedacht habe, desto mehr „Lektionen“ sind mir eingefallen. Am Ende dieses Denk-Prozesses bin ich auf insgesamt fünf Punkte gekommen, die ich gerne im Folgenden mit dir teilen möchte.
 
 <!--more-->

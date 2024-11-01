@@ -8,8 +8,6 @@ tags:
   - test
 ---
 
-# Markdown-Test
-
 Im folgenden weitere Tests zum Prüfen der Markdown-Formatierungen. Im folgenden weitere Tests zum Prüfen der Markdown-Formatierungen. Im folgenden weitere Tests zum Prüfen der Markdown-Formatierungen.
 
 ## 1. Überschriften
