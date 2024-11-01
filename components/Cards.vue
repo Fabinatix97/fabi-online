@@ -2,7 +2,7 @@
     <div class="cards grid grid-cols-1 sm:grid-cols-2 gap-2">
         <NuxtLink
             :to="post._path"
-            v-for="post in props.posts"
+            v-for="post in posts"
             :key="post.slug"
             class="card"
         >
@@ -35,6 +35,19 @@ import { onMounted, defineProps } from "vue";
 
 const props = defineProps({
   posts: Array
+});
+
+function filterPublishedPosts(posts) {
+  return posts.filter(post => post.status === "published");
+}
+
+function sortPostsByDate(posts) {
+  return [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
+}
+
+const posts = computed(() => {
+  const publishedPosts = filterPublishedPosts(props.posts);
+  return sortPostsByDate(publishedPosts);
 });
 
 function getPostPreview(body, wordLimit) {
