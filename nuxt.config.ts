@@ -6,10 +6,11 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxt/icon',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
+    '@nuxt/fonts'
   ],
   css: [
-    '@/assets/global.css'
+    '@/assets/global.scss'
   ],
   plugins: [
     { src: '~/plugins/theme.js', mode: 'client' }
