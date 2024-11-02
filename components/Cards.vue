@@ -15,7 +15,14 @@
                     />
                 </div>
                 <div class="p-6 flex-grow">
-                    <h2 class="text-xl font-bold mb-2 hyphens-auto">{{ post.title }}</h2>
+					<div class="justify-self-start py-1 px-3 border-2 border-button text-button text-sm rounded-full">
+						{{ formatDate(post.date) }}
+					</div>
+					<h2 class="text-xl font-bold mb-2 hyphens-auto">{{ post.title }}</h2>
+					<div class="flex text-sm">
+						<Icon name="material-symbols-light:folder-open" class="mr-1" size="1.4em" />
+						<p>{{ post.category }}</p>
+					</div>
                     <p class="text-cardtext mb-4 hyphens-auto">{{ getPostPreview(post.body, 40) }}...</p>
                 </div>
                 <div class="p-6 mt-auto flex justify-end">
@@ -49,6 +56,15 @@ const posts = computed(() => {
   const publishedPosts = filterPublishedPosts(props.posts);
   return sortPostsByDate(publishedPosts);
 });
+
+function formatDate(dateString) {
+  const date = new Date(dateString);
+  const day = new Intl.DateTimeFormat("de-DE", { day: "numeric" }).format(date);
+  const month = new Intl.DateTimeFormat("de-DE", { month: "short" }).format(date);
+  const year = new Intl.DateTimeFormat("de-DE", { year: "numeric" }).format(date);
+  
+  return `${month} ${day}, ${year}`;
+}
 
 function getPostPreview(body, wordLimit) {
   let result = "";
