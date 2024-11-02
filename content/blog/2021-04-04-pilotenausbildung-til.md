@@ -15,19 +15,19 @@ Es ist nun schon mehr als ein Jahr her, seitdem ich meine Berufspilotenausbildun
 
 <!--more-->
 
-## 1\. Verliere nie dein übergeordnetes Ziel aus den Augen!
+## 1. Verliere nie dein übergeordnetes Ziel aus den Augen!
 
 ![](https://images.unsplash.com/photo-1589959864690-24091a905ea1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1342&q=80)
 
 Während meiner Ausbildung, vor allem in schwierigen oder stressigen Abschnitten, habe ich mir immer vorgestellt, wie großartig es wohl sein wird, wenn ich eines Tages meine Berufspilotenlizenz in den Händen halte. Das Ziel stets im Blick zu behalten steigert aber nicht nur die Motivation, sondern sorgt auch dafür, die nächsten erforderlichen Schritte „gezielter“ zu planen – egal ob man erst am Anfang oder bereits kurz vor dem Abschluss steht. Dass diese Erkenntnis nicht nur für die Ausbildung zum Piloten gilt, sondern sich ebenso auf andere Berufe oder Bereiche des alltäglichen Lebens anwenden lässt, liegt auf der Hand.
 
-## 2\. Habe immer einen Plan und halte dich daran… oder entwickle einen Plan B.
+## 2. Habe immer einen Plan und halte dich daran… oder entwickle einen Plan B.
 
 ![](https://images.unsplash.com/photo-1585776245865-b92df54c6b25?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80)
 
 Im professionellen Airline-Cockpit werden grundsätzlich alle Abschnitte des Fluges „gebrieft“, das heißt kurz und prägnant besprochen, bevor diese eintreten. Meist wird hierbei auch geregelt, wie sich die Crew verhält, falls etwas schief gehen sollte – Stichwort Startabbruch, Triebwerksausfall, Durchstarten. Natürlich ist es in kritischen Phasen des Fluges weitaus wichtiger zu wissen, was als nächstes zu tun ist. Ich habe jedoch auch im privaten Bereich festgestellt, welche Vorteile es einem bietet, stets einen Plan zu haben und zunächst einmal daran festzuhalten. Vor allem Letzteres ist meiner Meinung nach sehr wichtig. Ich erinnere mich noch gut an eine Situation am Anfang meiner Pilotenausbildung, in welcher ich etwas völlig anderes tat, als ich zuvor mit meinem Fluglehrer gebrieft habe.
 
-## 3\. Antizipiere, aber prognostiziere nicht!
+## 3. Antizipiere, aber prognostiziere nicht!
 
 ![](https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1489&q=80)
 
@@ -45,7 +45,7 @@ Im selben Atemzug muss ich jedoch wieder zurückrudern und dir sagen, dass es ni
 
 Die Auflösung gibt’s am Ende des Beitrags. Fest steht, dass eine allumfassende Planung schier unmöglich ist, in Perfektionismus enden kann und im schlimmsten Fall dafür sorgt, sich in falscher Sicherheit zu wiegen.
 
-## 4\. De-Briefings sind genauso wichtig wie Briefings.
+## 4. De-Briefings sind genauso wichtig wie Briefings.
 
 ![](https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=966&q=80)
 
@@ -53,7 +53,7 @@ Nach jeder praktischen Flugstunde sind mein Fluglehrer und ich durch einen Proze
 
 > „Ich schreibe, weil ich nicht weiß, was ich denke, bis ich lese, was ich sage.“
 
-## 5\. Gesundheit ist nicht selbstverständlich
+## 5. Gesundheit ist nicht selbstverständlich
 
 ![](https://images.unsplash.com/photo-1612537785055-e226dae15987?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80)
 

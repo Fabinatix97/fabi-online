@@ -26,7 +26,7 @@ Wir öffnen also unser bereits erstelltes [Studium-Notizbuch](https://www.notion
 
 ![](/img/blog/notion-advanced-01.png)
 
-## 1\. Relationen
+## 1. Relationen
 
 Zunächst benennen wir die erste Spalte in "Nr." um. In der zweiten Spalte sollen nun die verschiedenen Module des Studiengangs angezeigt werden. Diese haben wir ja bereits in der Notizbank "Curriculum" erfasst. Anstatt diese also wieder mühsam abzutippen, wäre es viel einfacher die beiden Notizbanken einfach miteinander zu verknüpfen. In Notion-Sprache heißt das: wir benötigen eine Relation.
 
@@ -38,7 +38,7 @@ Jetzt können wir mit einem Klick in die oberste Zelle der zweiten Spalte festle
 
 ![](/img/blog/notion-advanced-03.png)
 
-## 2\. Roll-ups
+## 2. Roll-ups
 
 Zur besseren Übersicht möchten wir uns nun noch das dazu passende Semester anzeigen lassen. Hier kommt das sogenannte Roll-up ins Spiel. Kurz gesagt: Roll-ups sind in Notion, was S-Verweise in Excel sind. Sie helfen dir dabei, Daten aus deinen Datenbanken auf Basis von Beziehungen zu bündeln. Klingt kompliziert, ist es aber eigentlich gar nicht. Zur besseren Veranschaulichung erstellen wir eine dritte Spalte namens "Semester" und wählen den Property Type "Roll-up" aus. Noch passiert nichts. Ein Klick in die erste Zeile der neu angelegten Spalte öffnet wieder ein Pop-up mit drei verschiedenen Einstellungen. Diese füllen wir folgendermaßen aus:
 
@@ -46,7 +46,7 @@ Zur besseren Übersicht möchten wir uns nun noch das dazu passende Semester anz
 
 Natürlich kannst du dir auch ein anderes Attribut (Property) anzeigen lassen oder weitere Roll-ups hinzufügen. Auch Roll-ups von Roll-ups sind theoretisch möglich. Deiner Kreativität sollten also keine Grenzen gesetzt sein. Mir geht es hier lediglich um das Demonstrieren.
 
-## 3\. Formeln
+## 3. Formeln
 
 Und wieder einmal sollten wir vor lauter Konstruieren nicht vergessen, wofür wir Notion eigentlich nutzen möchten: zum Arbeiten. Für unseren Lernplan benötigen wir nämlich noch eine Möglichkeit, um unseren Lernfortschritt festzuhalten. Hierfür machen wir uns die Formel-Funktion von Notion zu Nutze - was diesen Beitrag nach der Erklärung von Relationen und Roll-ups auch schon abschließen soll.
 

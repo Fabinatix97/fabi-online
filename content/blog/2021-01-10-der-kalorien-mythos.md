@@ -14,7 +14,7 @@ tags:
 coverImage: "kalorien-mythos.jpg"
 ---
 
-Der Beginn eines Neuen Jahres steht bei vielen Menschen meist im Zeichen einer besseren Lebensweise. Hierbei reichen die Vorsätze von "Mehr Sport treiben" über "Mehr Zeit mit der Familie / Freunden verbringen" bis hin zu "Weniger Zeit in sozialen Medien verbringen". Eine im November letzten Jahres durchgeführte Umfrage zeigt jedoch, dass das beliebteste Vorhaben - wie anzunehmen - "Gesünder ernähren" darstellt [\[1\]](#Quellen). Anlässlich dieser Tatsache möchte ich mich in diesem Beitrag mit einem Thema beschäftigen, dass maßgeblich zum Erfolg jenes Neujahrsvorsatzes (Gesunde Ernährung) beitragen könnte.
+Der Beginn eines Neuen Jahres steht bei vielen Menschen meist im Zeichen einer besseren Lebensweise. Hierbei reichen die Vorsätze von "Mehr Sport treiben" über "Mehr Zeit mit der Familie / Freunden verbringen" bis hin zu "Weniger Zeit in sozialen Medien verbringen". Eine im November letzten Jahres durchgeführte Umfrage zeigt jedoch, dass das beliebteste Vorhaben - wie anzunehmen - "Gesünder ernähren" darstellt [^1]. Anlässlich dieser Tatsache möchte ich mich in diesem Beitrag mit einem Thema beschäftigen, dass maßgeblich zum Erfolg jenes Neujahrsvorsatzes (Gesunde Ernährung) beitragen könnte.
 
 <!--more-->
 
@@ -22,7 +22,7 @@ Der Beginn eines Neuen Jahres steht bei vielen Menschen meist im Zeichen einer b
 
 Einsteigen möchte ich mit einer interessanten Aussage von Nassim Nicholas Taleb aus seinem Buch "Der Schwarze Schwan: Die Macht höchst unwahrscheinlicher Ereignisse":
 
-> Wenn Sie Ihre Ernährung und Ihre körperliche Bewegung als schlichte Energiedefizite und -überschüsse ansehen, mit einer simplen Gleichung im Hinblick auf die aufgenommenen und verbrannten Kalorien, werden Sie das System fälschlicherweise in Form einfacher kausaler und mechanischer Zusammenhänge spezifizieren. Ihre Nahrungsaufnahme wird dann das Gegenstück dazu, dass Sie den Tank Ihres neuen BMW füllen. [\[2\]](#Quellen)
+> Wenn Sie Ihre Ernährung und Ihre körperliche Bewegung als schlichte Energiedefizite und -überschüsse ansehen, mit einer simplen Gleichung im Hinblick auf die aufgenommenen und verbrannten Kalorien, werden Sie das System fälschlicherweise in Form einfacher kausaler und mechanischer Zusammenhänge spezifizieren. Ihre Nahrungsaufnahme wird dann das Gegenstück dazu, dass Sie den Tank Ihres neuen BMW füllen. [^2]
 
 Als ich diese Textstelle zum ersten Mal gelesen habe, bin ich nicht nur ins Grübeln gekommen, ich fühlte mich irgendwie ertappt. Auf der einen Seite konnte ich nicht glauben, dass Kalorienzählen - eine Aufgabe, welcher ich schon seit einiger Zeit selbst nachgehe - völlig nutzlos bzw. unangebracht sei. Kalorien sind schließlich ein Maß für die Energie und somit die primäre Stellschraube von Diäten - so meine Auffassung. Auf der anderen Seite wusste ich jedoch auch um die Komplexität unseres Körpers und seiner Prozesse Bescheid. Wie also ist diese Aussage zu verstehen?
 
@@ -34,7 +34,13 @@ Im Netz finden sich unzählige Seiten, auf denen man seinen individuellen Kalori
 
 <figure>
 
-<table><tbody><tr><td><strong>Anbieter</strong></td><td><strong>Grundumsatz (kcal)</strong></td><td><strong>Quelle</strong></td></tr><tr><td>Apotheken-Umschau</td><td>1755</td><td><a href="https://www.apotheken-umschau.de/kalorienrechner" data-type="URL" data-id="https://www.apotheken-umschau.de/kalorienrechner" target="_blank" rel="noreferrer noopener">Link</a></td></tr><tr><td>BMI-Rechner</td><td>1790</td><td><a href="https://www.bmi-rechner.net/grundumsatz.htm" data-type="URL" data-id="https://www.bmi-rechner.net/grundumsatz.htm" target="_blank" rel="noreferrer noopener">Link</a></td></tr><tr><td>Calculator.net</td><td>1730</td><td><a rel="noreferrer noopener" href="https://www.calculator.net/bmr-calculator.html" target="_blank">Link</a></td></tr><tr><td>Men's Health</td><td>1790</td><td><a rel="noreferrer noopener" href="https://www.menshealth.de/abnehmen/kalorienrechner/" target="_blank">Link</a></td></tr><tr><td>MyFitnessPal</td><td>1730</td><td><a href="https://www.myfitnesspal.com/tools/bmr-calculator" data-type="URL" data-id="https://www.myfitnesspal.com/tools/bmr-calculator" target="_blank" rel="noreferrer noopener">Link</a></td></tr></tbody></table>
+| **Anbieter**         | **Grundumsatz (kcal)** | **Quelle**                                                  |
+|----------------------|------------------------|-------------------------------------------------------------|
+| Apotheken-Umschau    | 1755                   | [Link](https://www.apotheken-umschau.de/kalorienrechner)    |
+| BMI-Rechner          | 1790                   | [Link](https://www.bmi-rechner.net/grundumsatz.htm)         |
+| Calculator.net       | 1730                   | [Link](https://www.calculator.net/bmr-calculator.html)      |
+| Men's Health         | 1790                   | [Link](https://www.menshealth.de/abnehmen/kalorienrechner/) |
+| MyFitnessPal         | 1730                   | [Link](https://www.myfitnesspal.com/tools/bmr-calculator)   |
 
 <figcaption>
 
@@ -42,15 +48,13 @@ Verwendete Angaben: 30 Jahre, 180 cm, 75 kg, männlich)
 
 </figcaption>
 
-
-
 </figure>
 
 ## Woher kommt die Nährwertangabe?
 
 Spaß bei Seite. Die Frage nach dem täglichen Kalorienbedarf hat mich zu einer weiteren Frage geführt: Wie entstehen eigentlich die Nährwertangaben, im Speziellen der Brennwert, eines Lebensmittels?
 
-In Kürze: Die Angaben auf den europäischen Nährwerttabellen [\[3\]](#Quellen) von Lebensmitteln basieren auf dem sogenannten Atwater-System [\[4\]](#Quellen). Dieses System basiert wiederum auf den Ergebnissen eines Bombenkalorimeters, bei welchem das zu untersuchende Lebensmittel bzw. dessen Nährstoffe in einer mit Sauerstoff befüllten Kapsel vollständig und explosionsartig verbrannt wird. Der dabei entstehende Temperaturanstieg wird in Form von Wärmeenergie an das, die Kapsel umgebende, Wasser abgegeben. Anhand der Temperaturänderung im Wasser kann dann auf den Brennwert (Kilojoule bzw. Kilokalorien) des Lebensmittels geschlossen werden [\[5\]](#Quellen).
+In Kürze: Die Angaben auf den europäischen Nährwerttabellen [^3] von Lebensmitteln basieren auf dem sogenannten Atwater-System [^4]. Dieses System basiert wiederum auf den Ergebnissen eines Bombenkalorimeters, bei welchem das zu untersuchende Lebensmittel bzw. dessen Nährstoffe in einer mit Sauerstoff befüllten Kapsel vollständig und explosionsartig verbrannt wird. Der dabei entstehende Temperaturanstieg wird in Form von Wärmeenergie an das, die Kapsel umgebende, Wasser abgegeben. Anhand der Temperaturänderung im Wasser kann dann auf den Brennwert (Kilojoule bzw. Kilokalorien) des Lebensmittels geschlossen werden [^5].
 
 <figure>
 
@@ -66,7 +70,7 @@ In Kürze: Die Angaben auf den europäischen Nährwerttabellen [\[3\]](#Quellen)
 
 ## Umwandlung statt Verbrennung
 
-Dass dabei die "Verbrennung" von Lebensmitteln in unserem eigenen Körper mit laborähnlichen Bedingungen wenig zu tun hat, liegt auf der Hand. Zudem sollten wir unser Bild von der Kalorienverbrennung, welche ja suggeriert, dass am Ende nichts mehr übrigbleibt, gegen eines der Energieumwandlung eintauschen. Diese ist wiederum nicht nur individuell, sondern auch zeitlich und nahrungsmittelspezifisch sehr unterschiedlich [\[6\]](#Quellen). Des Weiteren kann der Energieverbrauch, den verschiedene Personen für eine bestimmte Tätigkeit benötigen, stark variieren. Zu ermitteln, wie viele Kalorien der eigene Körper am Tag benötigt und daraus beispielsweise schlussfolgern, wie viel man essen kann, um das Gewicht zu halten, ist schier unmöglich.
+Dass dabei die "Verbrennung" von Lebensmitteln in unserem eigenen Körper mit laborähnlichen Bedingungen wenig zu tun hat, liegt auf der Hand. Zudem sollten wir unser Bild von der Kalorienverbrennung, welche ja suggeriert, dass am Ende nichts mehr übrigbleibt, gegen eines der Energieumwandlung eintauschen. Diese ist wiederum nicht nur individuell, sondern auch zeitlich und nahrungsmittelspezifisch sehr unterschiedlich [^6]. Des Weiteren kann der Energieverbrauch, den verschiedene Personen für eine bestimmte Tätigkeit benötigen, stark variieren. Zu ermitteln, wie viele Kalorien der eigene Körper am Tag benötigt und daraus beispielsweise schlussfolgern, wie viel man essen kann, um das Gewicht zu halten, ist schier unmöglich.
 
 ## Was ich dir auf den Weg geben will
 
@@ -87,19 +91,13 @@ Wie wir gesehen haben ist Ernährung eine hochkomplexe Angelegenheit. Auch wenn 
 ## Weiterführende Links
 
 - Bundesministerium für Gesundheit: [Wie sieht eine gesunde Ernährung aus?](https://gesund.bund.de/gesunde-ernaehrung)
-
 - Huel GmbH: [Ernährungs­leitfaden für Einsteiger](https://de.huel.com/pages/ernaehrungsleitfaden)
 
 ## Quellen
 
-\[1\] Statista Research Department (2020), ["Welche Vorsätze haben Sie für 2021?"](https://de.statista.com/statistik/daten/studie/952182/umfrage/umfrage-in-deutschland-zu-den-beliebtesten-neujahrsvorsaetzen/)
-
-\[2\] Taleb, N. (2015), "Der Schwarze Schwan: Die Macht höchst unwahrscheinlicher Ereignisse", Pantheon Verlag, München
-
-\[3\] Amtsblatt der Europäischen Union (2011), ["Verordnung (EU) Nr. 1169/2011 des Europäischen Parlaments und des Rates"](https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A32011R1169)
-
-\[4\] Merrill A., et al. (1973), "Energy value of foods: basis and derivation", _Agriculture Handbook No. 74_, ARS United States Department of Agriculture, Washington DC
-
-\[5\] Linde, K. (2007), ["Measuring Calories in Food: the Bomb Calorimeter"](https://fscimage.fishersci.com/cmsassets/downloads/segment/Scientific/pdf/foodtrack_spring_07.pdf), _Food Track_, Fisher Scientific Company L.L.C.
-
-\[6\] Rajan, E. (2019), ["Digestion: How long does it take?"](https://www.mayoclinic.org/digestive-system/expert-answers/faq-20058340), Mayo Foundation for Medical Education and Research
+[^1]: Statista Research Department (2020), ["Welche Vorsätze haben Sie für 2021?"](https://de.statista.com/statistik/daten/studie/952182/umfrage/umfrage-in-deutschland-zu-den-beliebtesten-neujahrsvorsaetzen/)
+[^2]: Taleb, N. (2015), "Der Schwarze Schwan: Die Macht höchst unwahrscheinlicher Ereignisse", Pantheon Verlag, München
+[^3]: Amtsblatt der Europäischen Union (2011), ["Verordnung (EU) Nr. 1169/2011 des Europäischen Parlaments und des Rates"](https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A32011R1169)
+[^4]: Merrill A., et al. (1973), "Energy value of foods: basis and derivation", _Agriculture Handbook No. 74_, ARS United States Department of Agriculture, Washington DC
+[^5]: Linde, K. (2007), ["Measuring Calories in Food: the Bomb Calorimeter"](https://fscimage.fishersci.com/cmsassets/downloads/segment/Scientific/pdf/foodtrack_spring_07.pdf), _Food Track_, Fisher Scientific Company L.L.C.
+[^6]: Rajan, E. (2019), ["Digestion: How long does it take?"](https://www.mayoclinic.org/digestive-system/expert-answers/faq-20058340), Mayo Foundation for Medical Education and Research

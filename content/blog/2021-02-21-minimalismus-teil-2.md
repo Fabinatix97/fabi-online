@@ -23,21 +23,27 @@ Nie haben Menschen so viel Zeit vor digitalen Bildschirmen verbracht wie heute. 
 
 <figure>
 
-<table><tbody><tr><td><strong>Gruppe</strong></td><td><strong>2018</strong></td><td><strong>2019</strong></td><td><strong>2020</strong></td></tr><tr><td>Gesamt</td><td>1 Std. 40 Min.</td><td>1 Std. 39 Min.</td><td>2 Std.</td></tr><tr><td>Frauen</td><td>1 Std. 26 Min.</td><td>1 Std. 35 Min.</td><td>1 Std. 51 Min.</td></tr><tr><td>Männer</td><td>1 Std. 54 Min.</td><td>1 Std. 44 Min.</td><td>2 Std. 8 Min.</td></tr><tr><td>14 - 29 Jahre</td><td>3 Std. 30 Min.</td><td>3 Std. 27 Min.</td><td>4 Std. 17 Min.</td></tr><tr><td>30 - 49 Jahre</td><td>1 Std. 59 Min.</td><td>1 Std. 47 Min.</td><td>2 Std. 18 Min.</td></tr><tr><td>50 - 69 Jahre</td><td>52 Min.</td><td>1 Std.</td><td>1 Std. 8 Min.</td></tr><tr><td>ab 70 Jahren</td><td>20 Min.</td><td>29 Min.</td><td>23 Min.</td></tr></tbody></table>
+| **Gruppe**        | **2018**         | **2019**         | **2020**         |
+|-------------------|------------------|------------------|------------------|
+| Gesamt            | 1 Std. 40 Min.   | 1 Std. 39 Min.   | 2 Std.           |
+| Frauen            | 1 Std. 26 Min.   | 1 Std. 35 Min.   | 1 Std. 51 Min.   |
+| Männer            | 1 Std. 54 Min.   | 1 Std. 44 Min.   | 2 Std. 8 Min.    |
+| 14 - 29 Jahre     | 3 Std. 30 Min.   | 3 Std. 27 Min.   | 4 Std. 17 Min.   |
+| 30 - 49 Jahre     | 1 Std. 59 Min.   | 1 Std. 47 Min.   | 2 Std. 18 Min.   |
+| 50 - 69 Jahre     | 52 Min.          | 1 Std.           | 1 Std. 8 Min.    |
+| ab 70 Jahren      | 20 Min.          | 29 Min.          | 23 Min.          |
 
 <figcaption>
 
-Mediales Internet: tägliche Nutzungsdauer [\[1\]](#Quellen)
+Mediales Internet: tägliche Nutzungsdauer [^1]
 
 </figcaption>
-
-
 
 </figure>
 
 ## Das Ungewissheitshormon
 
-Doch wieso halten wir uns eigentlich so gerne im Internet bzw. vor Smartphone und Computer auf? Einen maßgeblichen Faktor hierfür stellt sicherlich das Belohnungssystem des Menschen dar. Bei genauerem Hinblick sind viele Dinge des Internets, sei es Online-Shopping, Social Media oder Computerspiele, darauf ausgerichtet, jenes Belohnungssystem gezielt anzusprechen. Da wäre zum Beispiel die berüchtigte Währung der hochgestreckten Daumen und Herzen, aus der viele junge Menschen ihr Selbstwertgefühl und ihre Anerkennung ziehen. In den Worten von Adam Alter, eines Professors an der New York University [\[2\]](#Quellen):
+Doch wieso halten wir uns eigentlich so gerne im Internet bzw. vor Smartphone und Computer auf? Einen maßgeblichen Faktor hierfür stellt sicherlich das Belohnungssystem des Menschen dar. Bei genauerem Hinblick sind viele Dinge des Internets, sei es Online-Shopping, Social Media oder Computerspiele, darauf ausgerichtet, jenes Belohnungssystem gezielt anzusprechen. Da wäre zum Beispiel die berüchtigte Währung der hochgestreckten Daumen und Herzen, aus der viele junge Menschen ihr Selbstwertgefühl und ihre Anerkennung ziehen. In den Worten von Adam Alter, eines Professors an der New York University [^2]:
 
 > Wenn jemandem ein Instagram-Post oder irgendein Inhalt, den Sie teilen, gefällt, ist das ein bisschen wie die Einnahme einer Droge \[...\]. Der Grund dafür ist, dass es nicht garantiert ist, dass Sie Likes für Ihre Beiträge erhalten. Und es ist die Unvorhersehbarkeit dieses Prozesses, die es so süchtig macht. Wenn Sie wüssten, dass Sie jedes Mal, wenn Sie etwas posten, 100 Likes bekommen würden, würde es sehr schnell langweilig werden.
 
@@ -57,7 +63,7 @@ Dementsprechend geht es - wie schon im ersten Teil - zunächst einmal darum, sic
 
 "Sie haben 10 neue _Ablenkungen_. Wollen Sie diese _Ablenkungen_ jetzt lesen?"
 
-![https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80)
+![](/img/blog/typing-on-laptop.jpg)
 
 - **Räume auf.** Angefangen beim Desktop, über den Download-Ordner und überflüssigen Programmen bis hin zum E-Mail-Posteingang. Dem Aufräumen sind keine Grenzen gesetzt. Organisiere jedoch nur die wirklich wichtigen Dateien und sei verschwenderisch im Umgang mit der Entf-Taste. Ein aufgeräumter Desktop und eine gut organisierte Ordner-Struktur sind in meinen Augen genauso wichtig, wie ein aufgeräumter Schreibtisch an sich. Die visuelle Beanspruchung und das Ablenkungspotential werden dramatisch sinken.
 
@@ -67,19 +73,19 @@ Dementsprechend geht es - wie schon im ersten Teil - zunächst einmal darum, sic
 
 Social Media ist dein Feind
 
-![https://images.unsplash.com/photo-1526045612212-70caf35c14df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80](https://images.unsplash.com/photo-1526045612212-70caf35c14df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
+![](/img/blog/typing-on-smartphone.jpg)
 
 - **Miss deine Bildschirmzeit.** Während die Zeit am PC in der Regel halbwegs produktiv genutzt wird, ist vor allem das Smartphone ein wahrer Zeitfresser. Hast du den Mut, dich mit deiner Bildschirmzeit zu konfrontieren und Gewissheit über dein Nutzungsverhalten zu haben? Dann installiere dir eine der zahlreichen Apps, die sich genau diesem Ziel verschrieben haben. Die Ergebnisse sind meist verblüffend und haben auch mir schon die Augen geöffnet. Möchtest du dein Tracking auf ein neues Level bringen? Dann kann ich dir [RescueTime](https://www.rescuetime.com/) sehr empfehlen. Zwar kostet die Anwendung monatlich etwas Geld, jedoch sind die ersten 14 Tage kostenlos und allein in diesem Zeitraum lässt sich bereits viel über das eigene Nutzungsverhalten lernen. Außerdem misst die Anwendung nicht nur deine Handyzeit, sondern lässt sich zudem mit deinem Computer verbinden, wodurch du den ultimativen Einblick erhältst.
 
 - **Schalte unwichtige Benachrichtigungen aus.** Auch hier ist der Effekt beim Smartphone wesentlich größer als beim PC. Mit einer eigenen Notification-LED sowie Vibration und Ton ist das Smartphone dafür konzipiert, den Benutzer über jede noch so unwichtige Benachrichtigung zu informieren. Entscheide, welche Benachrichtigungen für dich wichtig sind und deaktiviere alle Restlichen.
 
-- **Entzaubere das kunterbunte Social Media.** Den folgenden Tipp habe ich von Matt D'Avella, einem amerikanischen YouTuber, der sich unter anderem mit Minimalismus und Produktivität beschäftigt: Stelle dein Smartphone auf Schwarz-Weiß ein [\[3\]](#Quellen). Das klingt erstmal sehr skurril, macht aber - wortwörtlich - auf den zweiten Blick sehr viel Sinn. Instagram, Snapchat & Co. bestechen nicht nur durch die bereits thematisierten "Gefällt-mir"-Schaltflächen sowie ausgeklügelte Algorithmen, sondern ebenso durch knallige Farben. Natürlich geht es nicht darum, dir die Freude an schönen bunten Bildern zu nehmen, sondern darum, dass Dinge "deutlich weniger Macht über dich haben", wenn sie farblos sind.
+- **Entzaubere das kunterbunte Social Media.** Den folgenden Tipp habe ich von Matt D'Avella, einem amerikanischen YouTuber, der sich unter anderem mit Minimalismus und Produktivität beschäftigt: Stelle dein Smartphone auf Schwarz-Weiß ein [^3]. Das klingt erstmal sehr skurril, macht aber - wortwörtlich - auf den zweiten Blick sehr viel Sinn. Instagram, Snapchat & Co. bestechen nicht nur durch die bereits thematisierten "Gefällt-mir"-Schaltflächen sowie ausgeklügelte Algorithmen, sondern ebenso durch knallige Farben. Natürlich geht es nicht darum, dir die Freude an schönen bunten Bildern zu nehmen, sondern darum, dass Dinge "deutlich weniger Macht über dich haben", wenn sie farblos sind.
 
 - **Lösche Social Media Apps.** Das ist natürlich ein sehr radikaler Tipp. Dennoch: die Tatsache, dass die App einfach nicht mehr vorhanden ist und die Überwindung bzw. Anstrengung, die es einen kostet, diese zu reinstallieren, könnte für manch einen leichter fallen als gedacht. Manchmal hilft es schon, die entsprechende App einfach in der App-Übersicht auszublenden.
 
 ## Allgemeine Tipps
 
-![https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80](https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
+![](/img/blog/multiple-devices-on-desk.jpg)
 
 - **Lege fest, welche Funktion jedes deiner Geräte haben soll.** So könnte dein Smartphone zum Beispiel dazu dienen, Nachrichten zu schreiben oder - in einem gewissen Zeitrahmen - die sozialen Netzwerke zu besuchen, während dein PC ausschließlich der Arbeit und dein iPad allein dem Videokonsum dient. Dadurch schaffst du klare "Zuständigkeitsbereiche", vermeidest Ablenkungen und steigerst die unsichtbare Hürde des Hin- und Herwechselns.
 
@@ -93,8 +99,6 @@ Im [nächsten Teil](https://www.fabi-online.de/minimalismus-teil-3) der Minimali
 
 ## Quellen
 
-\[1\] Beisch, N. und Schäfer, C. (2020), ["Ergebnisse der ARD/ZDF-Onlinestudie 2020. Internetnutzung mit großer Dynamik: Medien, Kommunikation, Social Media"](https://www.ard-zdf-onlinestudie.de/files/2020/0920_Beisch_Schaefer.pdf), _Media Perspektiven 9/2020_
-
-\[2\] Yates, E. (2017), ["What happens to your brain when you get a like on Instagram"](https://www.businessinsider.com/what-happens-to-your-brain-like-instagram-dopamine-2017-3?r=DE&IR=T) \[Übersetzung des Verfassers\], Insider Inc.
-
-\[3\] D'Avella, M. (2019), ["6 Ways to Reduce Screen Time"](https://www.youtube.com/watch?v=XQQUo2gmUs4), YouTube
+[^1]: Beisch, N. und Schäfer, C. (2020), ["Ergebnisse der ARD/ZDF-Onlinestudie 2020. Internetnutzung mit großer Dynamik: Medien, Kommunikation, Social Media"](https://www.ard-zdf-onlinestudie.de/files/2020/0920_Beisch_Schaefer.pdf), _Media Perspektiven 9/2020_
+[^2]: Yates, E. (2017), ["What happens to your brain when you get a like on Instagram"](https://www.businessinsider.com/what-happens-to-your-brain-like-instagram-dopamine-2017-3?r=DE&IR=T) \[Übersetzung des Verfassers\], Insider Inc.
+[^3]: D'Avella, M. (2019), ["6 Ways to Reduce Screen Time"](https://www.youtube.com/watch?v=XQQUo2gmUs4), YouTube

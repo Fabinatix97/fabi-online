@@ -86,17 +86,11 @@ Ohne länger darüber nachzudenken, fallen mir sofort drei Gründe hierfür ein.
 Ein weiterer Grund, weshalb Piloten durch Maschinen abgelöst werden könnten, ist, dass letztere viel weniger Fehler machen. So machen Maschinen im Idealfall weder Ausführungsfehler (Eine Person beabsichtigt, eine Handlung auszuführen, die Handlung ist angemessen, führt sie falsch aus und das gewünschte Ziel wird nicht erreicht) noch Planungsfehler (Eine Person beabsichtigt, eine Handlung auszuführen, tut dies richtig, die Handlung ist unangemessen, und das gewünschte Ziel wird nicht erreicht). Des Weiteren sind Maschinen frei von folgenden typisch menschlichen Eigenschaften:
 
 - Selbstzufriedenheit hinsichtlich Automatisierung (Automation Complacency)
-
 - Bestätigungsfehler (Confirmation Bias)
-
 - Begrenzte Arbeitslast sowie -gedächtnis
-
 - Unterbrechung oder Ablenkung
-
 - Müdigkeit (Fatigue)
-
 - Situationsbewusstsein (Situational Awareness)
-
 - Wachsamkeit (Vigilance)
 
 Es ist demnach nicht überraschend, dass der [Faktor Mensch bei 58 % aller Flugzeugunfälle](https://www.forschungsinformationssystem.de/servlet/is/483653/) weltweit als Fehlerquelle ausgemacht wurde. Eine Vielzahl der Fälle lässt sich hierbei auf die Müdigkeit der Besatzung zurückführen. Allerdings muss in diesem Zusammenhang auch erwähnt werden, dass Piloten durch ihre Erfahrung sowie fliegerisches Können schon viele Unfälle abwenden konnten. Diese Tatsache taucht natürlich in keiner Statistik auf und wird in dieser Diskussion gerne mal vergessen.

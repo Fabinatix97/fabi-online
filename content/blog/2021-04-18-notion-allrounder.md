@@ -28,16 +28,13 @@ Ich selbst habe in der Vergangenheit schon eine Reihe verschiedener Notiz-Progra
 Doch zurück zum eigentlichen Thema. Während ich dir in diesem Beitrag die konkreten Vor- und Nachteile von Notion aufzeige und damit gleich von Beginn reinen Tisch machen will, erwarten dich in den nächsten Beiträgen unter anderem folgende Themen:
 
 - Einführung in Notion
-
 - Anwendungsmöglichkeiten
-
 - Tipps und Tricks
 
 Bevor ich auf die Vor- und Nachtteile von Notion eingehe, möchte ich dir noch meine Kriterien bzw. Erwartungen vorstellen, die ich grundsätzlich gegenüber Notiz-Apps habe und somit nicht als zusätzliches Pro-Argument zählen:
 
 1. Kostenlose Nutzung (mit Ausnahme einer Einmalzahlung bei sehr guten Anwendungen)
-
-3. Nutzung auf unterschiedlichen Endgeräten sowie Betriebssystemen und Synchronisierung untereinander
+2. Nutzung auf unterschiedlichen Endgeräten sowie Betriebssystemen und Synchronisierung untereinander
 
 Nun aber ohne weitere Umschweife zu den Vorteilen.
 

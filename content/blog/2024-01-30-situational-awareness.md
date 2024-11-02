@@ -24,7 +24,7 @@ Da die Aufmerksamkeit am Anfang bekanntlich am höchsten ist, will ich zunächst
 
 > Situational Awareness ist die Wahrnehmung der Elemente in der Umwelt innerhalb eines zeitlichen und räumlichen Umfangs, das Verstehen ihrer Bedeutung und die Einschätzung ihres Zustandes in der nahen Zukunft.
 > 
-> Endsley, M. R. (1988) [1](#0d69f9d9-d343-48ac-9030-6bfa15b62e65)
+> Endsley, M. R. (1988)[^1]
 
 Was hochtrabend und kompliziert klingt, ist eigentlich recht schnell erklärt: Situational Awareness umfasst drei verschiedene Aspekte - man könnte sie auch als Level bezeichnen.
 
@@ -58,13 +58,13 @@ Um ein gutes Situationsbewusstsein zu entwickeln, muss man natürlich wissen, wi
 
 <figcaption>
 
-Situationsbewusstsein als wichtiger Bestandteil für gute Entscheidungen. Die Umwelt als zentrale Eingangsgröße für das Situationsbewusstsein ändert sich laufend und wird mitunter auch durch die Umsetzung der Entscheidung beeinflusst. Mittig befinden sich Faktoren, welche sich neben Situational Awareness auch auf die Entscheidung sowie Durchführung auswirken. In Anlehnung an Endsley, M. R. (1995) [2](#a5654e44-7f34-425e-842c-e5043e2734fe)
+Situationsbewusstsein als wichtiger Bestandteil für gute Entscheidungen. Die Umwelt als zentrale Eingangsgröße für das Situationsbewusstsein ändert sich laufend und wird mitunter auch durch die Umsetzung der Entscheidung beeinflusst. Mittig befinden sich Faktoren, welche sich neben Situational Awareness auch auf die Entscheidung sowie Durchführung auswirken. In Anlehnung an Endsley, M. R. (1995)[^2]
 
 </figcaption>
 
 </figure>
 
-Wie wichtig Situational Awareness für die sichere Flugdurchführung ist, erkennt man spätestens, wenn man sich die Konsequenzen von mangelhaftem oder unzureichendem Situationsbewusstsein vergegenwärtigt: angefangen bei einer mehr oder weniger harmlosen Luftraumverletzung über den temporären Verlust der Kontrolle bis hin zu _Controlled Flight into Terrain_. [3](#1dba339d-1fb2-45c9-9edb-74fcb12abd2f) Eine Auswertung der ASRS-Datenbank ergab, dass bei durchschnittlich 45 % der gemeldeten Vorfälle (Unfälle, Zwischenfälle, gefährliche Situationen) das teilweise oder gänzliche Verlieren des Situationsbewusstseins ein Faktor gewesen ist. [4](#ee8c7d53-7569-4f84-8434-db5964c9479c)
+Wie wichtig Situational Awareness für die sichere Flugdurchführung ist, erkennt man spätestens, wenn man sich die Konsequenzen von mangelhaftem oder unzureichendem Situationsbewusstsein vergegenwärtigt: angefangen bei einer mehr oder weniger harmlosen Luftraumverletzung über den temporären Verlust der Kontrolle bis hin zu _Controlled Flight into Terrain_[^3]. Eine Auswertung der ASRS-Datenbank ergab, dass bei durchschnittlich 45 % der gemeldeten Vorfälle (Unfälle, Zwischenfälle, gefährliche Situationen) das teilweise oder gänzliche Verlieren des Situationsbewusstseins ein Faktor gewesen ist.[^4]
 
 Nun aber genug der Theorie! Wie kann man nun ein gutes Situationsbewusstsein aufbauen?
 
@@ -77,19 +77,14 @@ Einer meiner Fluglehrer hat mir immer wieder eingetrichtert "Sei stets vor dem F
 #### Informationssuche - Nutze deine Sinne
 
 - Halte Ausschau nach draußen (z. B. andere Verkehrsteilnehmer, Wetter, etc.)
-
 - "Scanning" der Instrumente und "Call-outs" (letzteres ist auch in Single Pilot Environments äußerst wirksam)
-
 - Überwache die Kommunikation zwischen Fluglotsen und anderen Luftfahrzeugen
-
 - Navigiere (einschließlich der Verwendung von Karten)
 
 #### Aufmerksamkeit steuern
 
 - Setze Prioritäten
-
 - Vermeide Ablenkungen
-
 - Passe die Überwachung an die Dringlichkeit der Flugphase an → Konzept des "sterilen Cockpits"
 
 * * *
@@ -99,18 +94,12 @@ Einer meiner Fluglehrer hat mir immer wieder eingetrichtert "Sei stets vor dem F
 #### Verstehen
 
 - Setze spezifische Ziele
-
 - Wisse stets, _was_ wichtig ist, _wann_ man es benötigt und _wo_ man es findet
-
 - Urteile nicht voreilig
-
-- Überprüfe die Daten und dein Verständnis darüber → vermeide den Bestätigungsfehler [5](#362e26d8-b81a-4f87-830f-1f1e152ce516)
+- Überprüfe die Daten und dein Verständnis darüber → vermeide den Bestätigungsfehler[^5]
     - Nutze mehrere Informationsquellen, sofern verfügbar
-    
     - Suche aktiv nach Informationen / Argumenten, die dein Urteil oder deine Meinung widerlegen
-    
     - Greife auf Faustregeln zurück, falls keine Informationen verfügbar sind
-
 - Wende Erfahrung und Lehren aus der Vergangenheit an
 
 * * *
@@ -120,20 +109,16 @@ Einer meiner Fluglehrer hat mir immer wieder eingetrichtert "Sei stets vor dem F
 #### Vorausschauend denken
 
 - Informiere andere darüber, was du erwartest → [Shared Mental Models](#smm)
-
 - Vergleiche die von dir erwartete Situation mit deinen Zielen
-
 - Bewerte die Risiken – Frage dich “Was wäre, wenn?”
-
 - Bereite dich auf Abweichungen vor – Rechne mit visuellen Täuschungen, fehlenden Informationen, etc.
-
 - Passe deinen Plan bei Bedarf an
 
 ### Was tun, wenn die Situation dich überrollt?
 
 Doch was passiert, wenn wir die Situational Awareness verlieren? Wenn wir uns nur noch auf einen Aspekt der Situation konzentrieren und den Überblick verlieren?
 
-Hierzu muss man sagen: Es ist oft gar nicht so offensichtlich, ob man das Situationsbewusstsein verloren hat oder nicht. Erinnerst du dich noch an die Auto-Situation aus der Einleitung? Das Situationsbewusstsein nahm dort allmählich immer weiter ab, bis man sich dessen schlagartig klar wurde. Der wichtigste Hinweis auf ein fehlerhaftes oder abhanden gekommenes Situationsbewusstsein ist, wenn man neue Informationen wahrnimmt, die nicht mit den eigenen Erwartungen übereinstimmen. [6](#c2468b0a-1b04-4f54-99c8-ce0b49ec5d41)
+Hierzu muss man sagen: Es ist oft gar nicht so offensichtlich, ob man das Situationsbewusstsein verloren hat oder nicht. Erinnerst du dich noch an die Auto-Situation aus der Einleitung? Das Situationsbewusstsein nahm dort allmählich immer weiter ab, bis man sich dessen schlagartig klar wurde. Der wichtigste Hinweis auf ein fehlerhaftes oder abhanden gekommenes Situationsbewusstsein ist, wenn man neue Informationen wahrnimmt, die nicht mit den eigenen Erwartungen übereinstimmen.[^6]
 
 Im Folgenden möchte ich einige Strategien aufzeigen, wie Piloten in solchen Tunnelblick-Situationen, die meist auch zeitkritisch sind, das Situationsbewusstsein zurückerlangen.
 
@@ -151,11 +136,11 @@ In Teamkonstellationen ist es wichtig, dass nicht nur ein Mitglied den perfekten
 
 > Ein Shared Mental Model (SMM) ist ein gemeinsames Verständnis oder eine gemeinsame Darstellung der Ziele des Teams, der Aufgaben der einzelnen Teammitglieder und der Art und Weise, wie die Teammitglieder sich untereinander abstimmen, um ihre gemeinsamen Ziele zu erreichen.
 > 
-> Salas, E. et al. (2004) [7](#07fe9fb9-cebc-494a-aa3a-72d9793f427f)
+> Salas, E. et al. (2004)[^7]
 
-Effektive Kommunikation ist hierbei natürlich essenziell. Die Betonung liegt auf _effektiv_. In Studien fanden Forscher beispielsweise heraus, dass leistungsstärkere Teams tatsächlich weniger kommunizierten als leistungsschwächere Teams. [8](#2dc21309-3018-4aff-b3ca-88152bd801c9)
+Effektive Kommunikation ist hierbei natürlich essenziell. Die Betonung liegt auf _effektiv_. In Studien fanden Forscher beispielsweise heraus, dass leistungsstärkere Teams tatsächlich weniger kommunizierten als leistungsschwächere Teams.[^8]
 
-Eine bewährte Technik zur Schaffung von SMM unter Piloten sind Briefings. Dabei handelt es sich um kurze Besprechungen während des Flugs zwecks Koordinierung der gemeinsamen Handlungen, zur Wiederholung (recall) und Einprägung. Auch hier gilt das Motto: Mache die Dinge so einfach wie möglich - aber nicht einfacher. [9](#9d5b59c8-a862-4cb0-bf41-e624eebc02f2) Briefings sollten dynamisch und der Situation entsprechend skalierbar sein (je höher die Komplexität und je mehr potenzielle Gefahren, desto umfangreicher). Außerdem sollten Briefings idealerweise die Interaktion zwischen den Crew-Mitgliedern fördern. So könnte beispielsweise zunächst der nichtfliegende Pilot (engl. _Pilot Not Flying_ oder auch _Pilot Monitoring_) das Wort ergreifen und mögliche Gefahren aufzeigen, ehe der fliegende Pilot (engl. _Pilot Flying_) seinen Plan of Action darlegt.
+Eine bewährte Technik zur Schaffung von SMM unter Piloten sind Briefings. Dabei handelt es sich um kurze Besprechungen während des Flugs zwecks Koordinierung der gemeinsamen Handlungen, zur Wiederholung (recall) und Einprägung. Auch hier gilt das Motto: Mache die Dinge so einfach wie möglich - aber nicht einfacher.[^9] Briefings sollten dynamisch und der Situation entsprechend skalierbar sein (je höher die Komplexität und je mehr potenzielle Gefahren, desto umfangreicher). Außerdem sollten Briefings idealerweise die Interaktion zwischen den Crew-Mitgliedern fördern. So könnte beispielsweise zunächst der nichtfliegende Pilot (engl. _Pilot Not Flying_ oder auch _Pilot Monitoring_) das Wort ergreifen und mögliche Gefahren aufzeigen, ehe der fliegende Pilot (engl. _Pilot Flying_) seinen Plan of Action darlegt.
 
 ## Wie du das Gelesene für dich nutzen kannst!
 
@@ -167,7 +152,7 @@ Dass Situational Awareness in der Fliegerei - ein Umfeld, in dem Entscheidungen 
 
 #### Beruf
 
-- **Meeting-Effizienz:** Bleibe während Meetings aufmerksam, erfasse wichtige Informationen und fördere durch klare Kommunikation ein gemeinsames Verständnis der besprochenen Themen. Oder mach's wie Jeff Bezos: bereite für jedes Meeting eine Art Memo vor, welches von allen Teilnehmern als Vorbereitung auf das Meeting studiert werden muss. [10](#4a8aa84b-0973-4c54-bc50-bdf5be16e9a1) Auf Grundlage dieses gemeinsamen Verständnisses kann dann im Meeting produktiv diskutiert werden.
+- **Meeting-Effizienz:** Bleibe während Meetings aufmerksam, erfasse wichtige Informationen und fördere durch klare Kommunikation ein gemeinsames Verständnis der besprochenen Themen. Oder mach's wie Jeff Bezos: bereite für jedes Meeting eine Art Memo vor, welches von allen Teilnehmern als Vorbereitung auf das Meeting studiert werden muss.[^10] Auf Grundlage dieses gemeinsamen Verständnisses kann dann im Meeting produktiv diskutiert werden.
 
 #### Freizeit
 
@@ -180,7 +165,17 @@ Ich hoffe, du fandest diesen Beitrag hilfreich und konntest etwas für dich mitn
 ## Weiterführende Links
 
 - Flight Safety Foundation (2006), [Situational Awareness Quick Reference and Reminder](https://skybrary.aero/bookshelf/books/640.pdf)
-
 - Flight Safety Foundation (2017), [Rethinking the Briefing](https://flightsafety.org/asw-article/rethinking-the-briefing/)
 
 ## Quellen
+
+[^1]: Endsley, M. R. (1988), Design and Evaluation for Situation Awareness Enhancement, p. 97
+[^2]: Endsley, M. R. (1995), Toward a Theory of Situation Awareness in Dynamic Systems, p. 35
+[^3]: Eine Bezeichnung für einen Unfall, bei dem ein lufttüchtiges Luftfahrzeug, das vollständig unter der Kontrolle des Piloten steht, unbeabsichtigt in den Boden, einen Berg, ein Gewässer oder ein Hindernis geflogen wird.
+[^4]: Die ASRS-Datenbank ist die weltweit größte Sammlung freiwilliger, vertraulicher Sicherheitsinformationen, die vom Luftfahrtpersonal der vordersten Reihe, einschließlich Piloten, Fluglotsen, Mechanikern, Flugbegleitern und Disponenten, bereitgestellt werden. Die angesprochene Auswertung habe ich selbst durchgeführt.
+[^5]: Eine zutiefst menschliche Neigung, Informationen so zu ermitteln, auszuwählen und zu interpretieren, dass diese die eigenen Erwartungen erfüllen.
+[^6]: Endsley, M. R. (1995), Toward a Theory of Situation Awareness in Dynamic Systems, p. 57
+[^7]: Salas, E. et al. (2004), Cooperation at Work, Encyclopedia of Applied Psychology, p. 497
+[^8]: So etwa Mosier, K. L., & Chidester, T. R. (1991), Situation assessment and situation awareness in a team setting, p. 798-800.
+[^9]: Bekanntes Zitat von Albert Einstein
+[^10]: Wer mehr darüber erfahren möchte, dem empfehle ich dieses Interview von Lex Fridman. Über die Rolle von Memos wird ab 01:59:55 gesprochen.

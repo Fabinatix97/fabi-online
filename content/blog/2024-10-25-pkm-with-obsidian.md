@@ -13,7 +13,7 @@ tags:
 coverImage: "desk-setup-comparison.jpg"
 ---
 
-Schreibst du dir regelmäßig Sachen auf? Gedanken, Ideen oder vielleicht etwas Gelerntes, das du nicht vergessen möchtest? Falls ja, kennst du sicher das folgende Problem: Notizen verschwinden in endlosen Verzeichnissen, sind schwer wiederzufinden oder verlieren durch unübersichtliche Strukturen an Wert. Damit bist du nicht alleine: Untersuchungen von Microsoft zeigen, dass der durchschnittliche Angestellte 76 Stunden pro Jahr mit der Suche nach verschollenen Notizen oder Dateien verbringt[1](#eb733a3b-9ed6-4f2f-b68f-c96960a13b95). Im Privatleben ergeht es den meisten von uns ähnlich. Nicht verwunderlich also, dass das Thema _Personal Knowledge Management_ - kurz PKM - immer größere Bekanntheit erlangt. Mittlerweile gibt es unzählige Werkzeuge zum Schreiben und Organisieren von Notizen. Keines davon hat meine Art des Notierens jedoch so nachhaltig geprägt wie Obsidian.
+Schreibst du dir regelmäßig Sachen auf? Gedanken, Ideen oder vielleicht etwas Gelerntes, das du nicht vergessen möchtest? Falls ja, kennst du sicher das folgende Problem: Notizen verschwinden in endlosen Verzeichnissen, sind schwer wiederzufinden oder verlieren durch unübersichtliche Strukturen an Wert. Damit bist du nicht alleine: Untersuchungen von Microsoft zeigen, dass der durchschnittliche Angestellte 76 Stunden pro Jahr mit der Suche nach verschollenen Notizen oder Dateien verbringt.[^1] Im Privatleben ergeht es den meisten von uns ähnlich. Nicht verwunderlich also, dass das Thema _Personal Knowledge Management_ - kurz PKM - immer größere Bekanntheit erlangt. Mittlerweile gibt es unzählige Werkzeuge zum Schreiben und Organisieren von Notizen. Keines davon hat meine Art des Notierens jedoch so nachhaltig geprägt wie Obsidian.
 
 In diesem Artikel möchte ich dir zeigen, wie Obsidian meine Herangehensweise an das Schreiben von Notizen radikal verändert hat und warum ich überzeugt bin, dass diese Art des Notierens auch in Zukunft bestehen wird.
 
@@ -23,7 +23,7 @@ In diesem Artikel möchte ich dir zeigen, wie Obsidian meine Herangehensweise an
 
 Vielleicht fragst du dich, was es mit PKM (Personal Knowledge Management) auf sich hat. Beim PKM geht es um den bewussten Umgang mit Informationen, die uns im Alltag begegnen: Bücher, Artikel, Gespräche oder Gedanken. Ziel ist es, dieses Wissen so zu strukturieren, dass es nicht nur leicht zugänglich, sondern auch nützlich ist. Digitale Tools wie Notiz-Apps oder Wissensdatenbanken spielen hierbei eine große Rolle, aber noch entscheidender ist der Kerngedanke hinter PKM: Es geht darum, aktiv und systematisch Informationen zu erfassen, zu verarbeiten und zu verknüpfen, um ein persönliches Wissensnetzwerk zu schaffen.
 
-Manche bezeichnen PKM auch als zweites Gehirn[2](#730bd8d0-22c1-4734-b85d-878e9e6ca207), da unser biologisches Gehirn zwar hervorragend im kreativen Denken, jedoch weniger effektiv im Speichern bzw. Abrufen von Informationen ist. Ein PKM-System kann daher als Erweiterung unserer kognitiven Fähigkeiten dienen, indem es uns hilft, Wissen zu organisieren und zugänglich zu machen, sodass wir es effektiv nutzen können.
+Manche bezeichnen PKM auch als zweites Gehirn[^2], da unser biologisches Gehirn zwar hervorragend im kreativen Denken, jedoch weniger effektiv im Speichern bzw. Abrufen von Informationen ist. Ein PKM-System kann daher als Erweiterung unserer kognitiven Fähigkeiten dienen, indem es uns hilft, Wissen zu organisieren und zugänglich zu machen, sodass wir es effektiv nutzen können.
 
 .plant-div { /\*background-image: linear-gradient(#D4E2E5, #E4F2D7);\*/ border-radius: 5px; display: flex; align-items: center; justify-content: center; } <div></div> .plant-p { font-size: clamp(40px, 10vw, 100px); color: #BA7B72; margin: 5px; white-space: nowrap; /\* Zeilenumbruch verhindern \*/ } <div></div> .neel-dark-theme .plant-div { background-image: none; /\*background-image: linear-gradient(#2E4043, #425130);\*/ }
 
@@ -35,7 +35,7 @@ Aber wie lässt sich dieses Konzept konkret umsetzen? Genau hier setzt Obsidian 
 
 ## Obsidian
 
-Obsidian ist ein noch recht junger Player auf dem Markt für Notizapps. Inspiriert durch das gleichnamige vulkanische Gesteinsglas, das in der Steinzeit als Material für Werkzeuge und Waffen geschätzt wurde, erhebt Obsidian den Anspruch, ein langlebiges und effektives Werkzeug für das Management von Wissen und Ideen zu sein. Die App hat sich seit ihrer Erscheinung im Jahr 2020 schnell einen Namen gemacht und wird von vielen[3](#f47f10a6-951a-43c4-a8f5-83670e0d53ff) als heiliger Gral des PKM angesehen. Doch inwiefern hebt sich Obsidian von Evernote & Co. ab?
+Obsidian ist ein noch recht junger Player auf dem Markt für Notizapps. Inspiriert durch das gleichnamige vulkanische Gesteinsglas, das in der Steinzeit als Material für Werkzeuge und Waffen geschätzt wurde, erhebt Obsidian den Anspruch, ein langlebiges und effektives Werkzeug für das Management von Wissen und Ideen zu sein. Die App hat sich seit ihrer Erscheinung im Jahr 2020 schnell einen Namen gemacht und wird von vielen[^3] als heiliger Gral des PKM angesehen. Doch inwiefern hebt sich Obsidian von Evernote & Co. ab?
 
 Nüchtern betrachtet ist Obsidian einfach nur ein Markdown-Editor. Notizen werden in Obsidian nämlich im Markdown-Format geschrieben (mehr dazu [gleich](#markdown-magic)). Zudem bietet das Programm die Möglichkeit, Notizen miteinander zu verlinken und deren Beziehungen zueinander in einer interaktiven Graph-Ansicht zu visualisieren. Daneben gibt es jede Menge Plugins (sowohl von Obsidian selbst als auch von der Community), mit denen sich die Anwendung ganz an die eigenen Vorlieben anpassen lässt. Abgesehen davon ist die Software für den persönlichen Gebrauch völlig kostenlos und schnell installiert. Kein Account, keine Cloud, keine umständliche Einrichtung.
 
@@ -51,7 +51,7 @@ Obsidians Benutzeroberfläche besticht durch minimalistisches Design und Fokus a
 
 </figure>
 
-Obsidian hat sich dem Grundsatz verschrieben, dass sich Tools an die Denkweise jedes Einzelnen anpassen sollten, nicht umgekehrt[4](#4105baeb-88e0-4438-8715-1c66f12fdcb6). Doch vor kurzem bin ich zu dem Schluss gekommen, dass dieses noble Manifest nicht ganz der Wahrheit entspricht. Obsidian hat _meine_ Denkweise angepasst. Und ich will dir zeigen wieso!
+Obsidian hat sich dem Grundsatz verschrieben, dass sich Tools an die Denkweise jedes Einzelnen anpassen sollten, nicht umgekehrt.[^4] Doch vor kurzem bin ich zu dem Schluss gekommen, dass dieses noble Manifest nicht ganz der Wahrheit entspricht. Obsidian hat _meine_ Denkweise angepasst. Und ich will dir zeigen wieso!
 
 ## Markdown Magic
 
@@ -59,7 +59,7 @@ Markdown wurde 2004 von John Gruber entwickelt, um eine leicht lesbare und einfa
 
 Das folgende...
 
-```
+```md
 # Mein Artikel
 
 Dies ist ein einfacher Absatz, der erklärt, was Markdown ist.
@@ -75,7 +75,7 @@ Dies ist ein einfacher Absatz, der erklärt, was Markdown ist.
 
 ... entspricht demselben wie das hier ...
 
-```
+```html
 <h1>Mein Artikel</h1>
 
 <p>Dies ist ein einfacher Absatz, der erklärt, was Markdown ist.</p>
@@ -93,7 +93,7 @@ Dies ist ein einfacher Absatz, der erklärt, was Markdown ist.
 
 ... und wird schließlich wie folgt gerendert ...
 
-.custom-div { background-color: #F5F5F5; color: #333333; margin-bottom: 40px; padding: 9.5px; border: 1px solid #ccc; border-radius: 4px; } <div></div> .neel-dark-theme .custom-div { background-color: #19191C; color: #E8EAED;&lt;br>}
+---
 
 # Mein Artikel
 
@@ -107,11 +107,13 @@ Dies ist ein einfacher Absatz, der erklärt, was Markdown ist.
 
 [Mehr erfahren](https://www.example.com)
 
-Die minimalistische und einfach zu verstehende Syntax[5](#75135e05-79e5-4362-ab09-6a7e4eb4cb3b) von Markdown ist jedoch nicht nur für Blogger und HTML-Phobiker attraktiv, sondern eignet sich auch hervorragend als Grundlage für Notizen. Gerade weil Markdown so minimalistisch ist, sorgt es dafür, dass man sich voll und ganz auf den Inhalt konzentrieren kann.
+---
+
+Die minimalistische und einfach zu verstehende Syntax[^5] von Markdown ist jedoch nicht nur für Blogger und HTML-Phobiker attraktiv, sondern eignet sich auch hervorragend als Grundlage für Notizen. Gerade weil Markdown so minimalistisch ist, sorgt es dafür, dass man sich voll und ganz auf den Inhalt konzentrieren kann.
 
 Nun könnte man annehmen, dass die Limitationen hinsichtlich Layout und Formatierung die Kreativität einschränke. Ich behaupte: es ist genau andersherum! Einschränkungen führen oft zu originelleren Lösungen, da sie das Gehirn dazu zwingen, innerhalb klarer Grenzen kreative Wege zu finden. Wenn ein Künstler mit nur einem einzigen Bleistift anstelle eines ganzen Farbsortiments arbeitet, ist er gezwungen, durch Schattierungen und Linienführung besondere Effekte zu erzielen, was zu beeindruckenderen Ergebnissen führen kann, als wenn er unbegrenzt viele Materialien zur Verfügung hätte.
 
-Mir persönlich hilft Markdown auch dabei, im Flow[6](#5d0c61f4-c36e-4910-a3f5-0bd0a0d862be) zu bleiben oder gar erst in diesen zu kommen. Anstatt ständig durch Kontextmenüs zu navigieren, Farben auszuwählen oder sich mit verschiedenen Formatierungen auseinanderzusetzen, ermöglicht Markdown, sich komplett auf das Schreiben und Denken zu konzentrieren. Man weiß zu jeder Zeit, ob man sich mit seinem Cursor noch innerhalb eines fettgedruckten Abschnitts befindet oder diesen schon verlassen hat - etwas, was man von den heutigen WYSIWYG-Editoren nicht immer behaupten kann[7](#9cb13bec-e7be-40a7-8685-4512ecf1fa0c). Es lässt sich schwer beschreiben, aber dadurch, dass es so wenig Formatierungsmöglichkeiten gibt und diese intuitiv und simpel sind (z. B. eine Überschrift durch `#` oder Listenpunkte durch `-`), wird der Denkfluss kaum gestört.
+Mir persönlich hilft Markdown auch dabei, im Flow[^6] zu bleiben oder gar erst in diesen zu kommen. Anstatt ständig durch Kontextmenüs zu navigieren, Farben auszuwählen oder sich mit verschiedenen Formatierungen auseinanderzusetzen, ermöglicht Markdown, sich komplett auf das Schreiben und Denken zu konzentrieren. Man weiß zu jeder Zeit, ob man sich mit seinem Cursor noch innerhalb eines fettgedruckten Abschnitts befindet oder diesen schon verlassen hat - etwas, was man von den heutigen WYSIWYG-Editoren nicht immer behaupten kann.[^7] Es lässt sich schwer beschreiben, aber dadurch, dass es so wenig Formatierungsmöglichkeiten gibt und diese intuitiv und simpel sind (z. B. eine Überschrift durch `#` oder Listenpunkte durch `-`), wird der Denkfluss kaum gestört.
 
 <figure>
 
@@ -139,7 +141,7 @@ Das mag anfangs noch ganz gut klappen, jedoch wirst du irgendwann an eine Grenze
 
 Außerdem wirst du mit der Zeit feststellen, dass manche Notizen mehrere Themen betreffen und je nach Blickwinkel nicht so leicht in einen einzigen Ordner passen. Die starre Struktur des Ordnersystems zwingt dich dazu, deine Gedanken in vorgegebene Kategorien zu pressen, anstatt sie frei fließen zu lassen. Dadurch verlierst du wertvolle Verbindungen zwischen den einzelnen Notizen und schränkst deine Fähigkeit ein, neue Erkenntnisse zu gewinnen.
 
-Wäre es nicht besser, die Themen und Kategorien _natürlich_ entstehen zu lassen? Beim bottom-up-Ansatz startest du zunächst vollkommen ohne Struktur. Wenn eine kritische Masse an Notizen entstanden ist oder du das Bedürfnis verspürst, ein wenig Struktur in deine Notizen zu bringen, beginnst du damit, deine Notizen miteinander zu vergleichen und in Verbindung zu bringen[8](#79c7217e-b90a-4de1-8484-3b81a036a3ac). In Tools wie Obsidian ist es möglich, diese Verbindungen direkt im Markdown-Text zu erstellen und in einem Graphen zu betrachten. Anhand des Graphen wirst du feststellen, dass plötzlich Cluster entstehen, also Gruppen von eng miteinander verbundenen Notizen (vgl. Animation unten). Diese Cluster stehen sozusagen für Ordner, jedoch mit dem entscheidenden Vorteil, dass sie überlappen können und nicht so trennscharf sind. Diese losen Assoziationen werden der Art, wie unser eigenes Gehirn Informationen speichert und miteinander verknüpft, deutlich gerechter.
+Wäre es nicht besser, die Themen und Kategorien _natürlich_ entstehen zu lassen? Beim bottom-up-Ansatz startest du zunächst vollkommen ohne Struktur. Wenn eine kritische Masse an Notizen entstanden ist oder du das Bedürfnis verspürst, ein wenig Struktur in deine Notizen zu bringen, beginnst du damit, deine Notizen miteinander zu vergleichen und in Verbindung zu bringen.[^8] In Tools wie Obsidian ist es möglich, diese Verbindungen direkt im Markdown-Text zu erstellen und in einem Graphen zu betrachten. Anhand des Graphen wirst du feststellen, dass plötzlich Cluster entstehen, also Gruppen von eng miteinander verbundenen Notizen (vgl. Animation unten). Diese Cluster stehen sozusagen für Ordner, jedoch mit dem entscheidenden Vorteil, dass sie überlappen können und nicht so trennscharf sind. Diese losen Assoziationen werden der Art, wie unser eigenes Gehirn Informationen speichert und miteinander verknüpft, deutlich gerechter.
 
 <figure>
 
@@ -159,7 +161,7 @@ Ein weiterer Vorteil des bottom-up-Ansatzes ist die verbesserte Auffindbarkeit v
 
 Neben dem Verzicht auf starre Verzeichnisstrukturen hat mir Obsidian auch klar gemacht, wie wichtig es ist, die eigenen Notizen physisch zu besitzen – soweit das Wort _physisch_ im Kontext _digitaler_ Notizen Sinn macht. Da die Notizen als Markdown-Dateien auf meinem Computer liegen, habe ich die volle Kontrolle. Ich entscheide, wie und wo meine Notizen gespeichert werden, und ich kann jederzeit auf sie zugreifen, auch ohne Internetverbindung. Natürlich trage ich auch die Verantwortung, regelmäßige Back-ups zu machen, um den Verlust meiner Daten zu verhindern.
 
-Ein wahres PKM-System sollte nicht an den Lebenszyklus einer Notizapp gebunden sein. Es soll dir die Freiheit geben, deine Notizen langfristig und unabhängig zu verwalten. Besonders in Zeiten, in denen viele Tools proprietäre Datenformate[9](#91045dcb-38a8-4d27-9628-853b50344c8d) verwenden oder auf Cloud-Dienste angewiesen sind, ist es beruhigend zu wissen, dass ich meine Notizen in einem offenen, zukunftssicheren Dateiformat besitze. Das vermeidet nicht nur Vendor-Lock-in, sondern sorgt auch dafür, dass ich meine Notizen auch in Jahren noch mit minimalen Mitteln lesen und bearbeiten kann.
+Ein wahres PKM-System sollte nicht an den Lebenszyklus einer Notizapp gebunden sein. Es soll dir die Freiheit geben, deine Notizen langfristig und unabhängig zu verwalten. Besonders in Zeiten, in denen viele Tools proprietäre Datenformate[^9] verwenden oder auf Cloud-Dienste angewiesen sind, ist es beruhigend zu wissen, dass ich meine Notizen in einem offenen, zukunftssicheren Dateiformat besitze. Das vermeidet nicht nur Vendor-Lock-in, sondern sorgt auch dafür, dass ich meine Notizen auch in Jahren noch mit minimalen Mitteln lesen und bearbeiten kann.
 
 <figure>
 
@@ -167,7 +169,7 @@ Ein wahres PKM-System sollte nicht an den Lebenszyklus einer Notizapp gebunden s
 
 <figcaption>
 
-Wenn du sicherstellen möchtest, dass deine Notizen auch noch im Jahr 2060 oder 2160 lesbar sind, ist es ratsam, sie so zu speichern, dass sie auch auf einem Computer aus den 1960er Jahren gelesen werden können.[10](#34b82e0d-130f-47c2-ac33-a7597123c620)
+Wenn du sicherstellen möchtest, dass deine Notizen auch noch im Jahr 2060 oder 2160 lesbar sind, ist es ratsam, sie so zu speichern, dass sie auch auf einem Computer aus den 1960er Jahren gelesen werden können.[^10]
 
 </figcaption>
 
@@ -184,3 +186,14 @@ Neugierig geworden? Auch wenn es in diesem Artikel natürlich um allgemeine PKM-
 * * *
 
 ## Fußnoten
+
+[^1]: Microsoft (2017). The Innovator’s Guide to Modern Note Taking: How businesses can harness the digital revolution
+[^2]: Der Begriff des zweiten Gehirns wurde vor allem durch Tiago Forte in seinem Buch Building a Second Brain geprägt.
+[^3]: Unter anderem von OpenAI-Mitgründer Andrej Karpathy.
+[^4]: Obsidian (2024). Manifesto
+[^5]: Die ursprüngliche Markdown-Spezifikation befindet sich hier. Mittlerweile gibt es eine Reihe von Erweiterungen zum ursprünglichen Markdown, im Englischen auch Flavors genannt. Obsidian unterstützt CommonMark sowie GitHub Flavored Markdown.
+[^6]: Der Flow, ein Konzept des Psychologen Mihály Csíkszentmihályi, beschreibt einen Zustand völliger Vertiefung in eine Aufgabe, bei dem man sich so fokussiert und motiviert fühlt, dass man das Zeitgefühl verliert und die Arbeit mühelos voranschreitet.
+[^7]: WYSIWYG = What You See Is What You Get. Bezieht sich auf Software, die es ermöglicht, Inhalte in einer Form zu bearbeiten, die dem Erscheinungsbild eines gedruckten oder angezeigten Endprodukts ähnelt.
+[^8]: Zwar bieten auch andere Tools die Möglichkeit, Notizen miteinander zu verknüpfen, aber keiner mir bekannten App gelingt dies so gut wie Obsidian. Dort werden Verlinkungen nämlich direkt im Markdown-Text erstellt, indem man zwei [[eckige Klammern]] setzt. Außerdem können Links zu Notizen erstellt werden, die noch gar nicht existieren (bottom-up-Gedanke). In der Graph-Ansicht, dem wahrscheinlich auffälligsten Alleinstellungsmerkmal von Obsidian, kann man dann Zusammenhänge erkennen, die in klassischen Tools wie OneNote & Co. nur schwer nachvollziehbar wären.
+[^9]: Tools wie Evernote, Notion oder Roam Research unterstützen zwar mittlerweile die Markdown-Syntax, in den seltensten Fällen ist es jedoch möglich, die Notizen in native Markdown-Dateien zu exportieren.
+[^10]: Dieser Spruch stammt nicht von mir selbst, sondern von Steph Ango, dem CEO von Obsidian.

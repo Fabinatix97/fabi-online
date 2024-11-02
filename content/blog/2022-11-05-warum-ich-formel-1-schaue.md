@@ -12,11 +12,11 @@ Falls du zufällig schon mal einen Blick auf meine [About-Seite](https://www.fab
 
 ## Was mich an der Formel 1 reizt
 
-Es ist nicht immer ganz einfach, zu begründen, wieso man eine Sache mag. Oft spielen mehrere Faktoren eine Rolle. Und oft sind es gerade die emotionalen Dinge, welche unsere Entscheidungen (wie beispielsweise eine Sache zu mögen oder eben nicht) maßgeblich und unterbewusst beeinflussen. Erst wenn dieser emotionale Impuls feststeht, suchen wir Menschen nach rationalen Gründen und Erklärungen, welche diesen Impuls untermauern sollen [\[1\]](#Quellen).
+Es ist nicht immer ganz einfach, zu begründen, wieso man eine Sache mag. Oft spielen mehrere Faktoren eine Rolle. Und oft sind es gerade die emotionalen Dinge, welche unsere Entscheidungen (wie beispielsweise eine Sache zu mögen oder eben nicht) maßgeblich und unterbewusst beeinflussen. Erst wenn dieser emotionale Impuls feststeht, suchen wir Menschen nach rationalen Gründen und Erklärungen, welche diesen Impuls untermauern sollen [^1].
 
 Auch ich bin von diesem Bias nicht verschont. Daher möchte ich zunächst auf die emotionalen Dinge eingehen, welche die Formel 1 so spannend für mich machen.
 
-### 1\. Das Emotionale
+### 1. Das Emotionale
 
 <figure>
 
@@ -34,7 +34,7 @@ Fragt man Formel 1-Fans, warum sie sich für diesen Sport interessieren, so kann
 
 Die Tatsache, dass mich die Rennserie mit ihren faszinierenden Rennwägen schon als Kind in ihren Bann gezogen hat, hat gewiss einen weiteren Einfluss. Durchdrehende Reifen, Funkenflug, Boxenstopp in drei Sekunden, Beschleunigung von 0 auf 200 in 5 Sekunden, Abbremsen von 200 auf 0 in 2,7 Sekunden, furiose Rennstarts, usw. Wie kann man da nicht begeistert sein?
 
-### 2\. Das Taktische
+### 2. Das Taktische
 
 <figure>
 
@@ -52,7 +52,7 @@ Das Tolle an der Formel 1 ist, dass man es ohne großartige Vorkenntnisse genie�
 
 Von Rennen zu Rennen lernt man jedoch immer wieder neue Dinge, welche den Sport umso interessanter machen. Von der Boxenstopp-Strategie über die Reifenwahl bis hin zum technischen Reglement kann man sich - je nach Interesse - immer tiefer in die Materie einarbeiten. Und doch bleibt es an der Oberfläche ein ganz normales Autorennen.
 
-### 3\. Das Exotische
+### 3. Das Exotische
 
 <figure>
 
@@ -70,7 +70,7 @@ Als Fan verfolge ich natürlich jedes Rennen am Fernseher und bereise damit virt
 
 Aber auch Europa hat so einige exotische Strecken zu bieten, wie beispielsweise Aserbaidschan - einem Stadtrennen ohne Puffer für Fahrfehler - oder aber Monaco - ebenfalls ein Stadtrennen, welches zusätzlich im Hafen stattfindet.
 
-### 4\. Das Historische
+### 4. Das Historische
 
 <figure>
 
@@ -88,7 +88,7 @@ Nicht minder faszinierend ist für mich die Tatsache, dass Formel-1-Weltmeisters
 
 Die technische Entwicklung, welche seither stattgefunden hat, von Antriebsarten über Aerodynamik bis hin zu Sicherheitsmaßnahmen, ist beeindruckend. An ihr lässt sich auch das Erfolgsgeheimnis der Rennserie ablesen: die Fähigkeit, sich ständig anzupassen bzw. neu zu erfinden, sowie den Spagat zwischen Action und Sicherheit zu meistern.
 
-### 5\. Das Verborgene
+### 5. Das Verborgene
 
 <figure>
 
@@ -113,9 +113,8 @@ Zu guter Letzt wäre da noch die Netflix-Dokumentarserie “Formula 1: Drive to 
 ## Weiterführende Links
 
 - FORMULA 1: [Building the greatest racing spectacle on the planet | DHL & F1](https://www.youtube.com/watch?v=MH6Loko0BOA)
-
 - Tommy DeWitt: [How Formula 1 is Filmed (It's a Technical Masterpiece)](https://www.youtube.com/watch?v=78wxrEbuHFA)
 
 ## Quellen
 
-\[1\] Beck, H. (2018), “Irren ist nützlich: Warum die Schwächen des Gehirns unsere Stärken sind”, Wilhelm Goldmann Verlag, München
+[^1]: Beck, H. (2018), “Irren ist nützlich: Warum die Schwächen des Gehirns unsere Stärken sind”, Wilhelm Goldmann Verlag, München

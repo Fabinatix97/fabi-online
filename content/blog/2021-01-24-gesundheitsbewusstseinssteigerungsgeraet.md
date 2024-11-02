@@ -96,9 +96,7 @@ _Screenshot aus meinem Garmin Connect. Es zeigt die Summe aller aufgezeichneten 
 Fitnesstracker sind längst etablierte Hilfsmittel, die es ermöglichen Körperfunktionen zu überwachen und Aktivitäten aufzeichnen. Dabei bedienen sie sich einer Methode namens Gamification, also der Übertragung von spielerischen Elementen auf den Fitnessbereich - in meinen Augen ein wesentlicher Erfolgsfaktor. Rückblickend habe ich mir folgende Fragen gestellt:
 
 - Habe ich etwas Neues über mich selbst gelernt? Definitiv.
-
 - Bin sportlich aktiver als sonst gewesen? Auf jeden Fall.
-
 - Habe ich diesen Umstand nur meinem Fitnesstracker zu verdanken? Vielleicht.
 
 Da ich selbst eher analytisch veranlagt bin und eine große Begeisterung für das Messen allerlei Dinge hege, hat mir der Fitness Tracker einen unheimlichen Mehrwert geboten und tut das nach wie vor. Ich kann mich ehrlich gesagt nicht mehr an die Zeit erinnern, als ich Work-outs oder Laufeinheiten "einfach so" absolviert habe, ohne sie im Anschluss für die Ewigkeit festzuhalten. Auch wenn es genauso gut ohne Fitness-Tracker geht, so habe ich dennoch das Gefühl, mehr Kontrolle über meinen Sport zu haben, da jede körperliche Betätigung nur wenige Klicks entfernt zu sein scheint. Zudem erspart mir ein solcher Tracker sehr viel Zeit und Arbeit, wenn ich daran denke alle Parameter (Datum, Tageszeit, Dauer, Distanz, Höhenmeter, Geschwindigkeit, etc.) händisch ermitteln zu müssen. Um auf mein eingangs erwähntes Kaufmotiv zurückzukommen und somit den Bogen zu schließen, konnte ich feststellen, dass mein Herz im Alltag wesentlich ruhiger schlägt als in Anwesenheit eines Arztes oder um es in präzisem Fitness-Tracker-Jargon auszudrücken: Zwischen dem 10.01.2020 und dem 10.01.2021 betrug mein durchschnittlicher Ruhepuls 61 bpm.

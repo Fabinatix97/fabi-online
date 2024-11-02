@@ -21,7 +21,7 @@ Notion ist ein Paradies für User, die sich kreativ ausleben und nicht durch all
 
 Zum Notieren - natürlich. Worauf ich mit dieser Frage jedoch abziele, ist, für welche Anwendungsfälle ich Notion benutze. Um es kurz zu machen: ich nutze Notion hauptsächlich für umfangreichere Notizen, die vor allem auf lange Frist hilfreich sind. Das reicht von Projektplanung über Tagebücher bis hin zu Wissenssammlungen. Wie das Ganze bei mir aussieht, möchte ich dir im Folgenden zeigen.
 
-## 1\. Aufgabenplanung
+## 1. Aufgabenplanung
 
 Am Ende einer jeden Woche setze ich mich hin und überlege mir, was ich in der kommenden Woche erreichen möchte. Das können neben alltäglichen Dingen auch komplexere Projekte sein, die ich dann in Teilaufgaben untergliedere. In Notion habe ich hierfür zunächst eine ToDo-Datenbank angelegt und folgende Properties festgelegt (hier am Beispiel "Joggen"):
 
@@ -31,7 +31,7 @@ Als "View" habe ich mich für die Kalender-Ansicht entschieden, da ich diese am 
 
 ![](/img/blog/notion-calendar.png)
 
-## 2\. Projektplanung
+## 2. Projektplanung
 
 Ich liebe es, neue Dinge auszuprobieren. Doch vor lauter Enthusiasmus kann man schnell mal den Überblick verlieren. Deswegen habe ich eine Projects-Datenbank erstellt, welche mir auf gleich vier Arten hilft:
 
@@ -45,7 +45,7 @@ Ich liebe es, neue Dinge auszuprobieren. Doch vor lauter Enthusiasmus kann man s
 
 ![](/img/blog/notion-projects.png)
 
-## 3\. Wochen-/Monats-/Jahresrückblick
+## 3. Wochen-/Monats-/Jahresrückblick
 
 Ich selbst bin offen gestanden kein leidenschaftlicher Tagebuch-Schreiber. Nichtsdestotrotz gefällt mir die zentrale Idee des Tagebuchschreibens: die persönlichen Erlebnisse festzuhalten. Mithilfe von Notion kann ich meine Erlebnisse, Erfolge oder Herausforderungen sehr einfach festhalten. Ich nutze hierfür drei verschiedene Datenbanken: Weekly Review, Monthly Review, Annual Review. Die drei Datenbanken sind wiederum hierarchisch miteinander verknüpft, sprich, die "Monthly Review"-Datenbank greift auf Inhalte der "Weekly Review"-Datenbank zurück und die "Annual Review"-Datenbank auf Inhalte der "Monthly Review"-Datenbank. Technisch umgesetzt habe ich das mit Relationen und Roll-ups. Mehr dazu findest du in [diesem Beitrag](https://www.fabi-online.de/notion-deathly-hallows/).
 
@@ -53,13 +53,13 @@ Ich selbst bin offen gestanden kein leidenschaftlicher Tagebuch-Schreiber. Nicht
 
 Der große Vorteil dieser Art von Tagebuch-Schreiben ist, dass - wie hier beim Monthly Review - bereits die Hälfte der Informationen ausgefüllt ist (überall, wo das kleine Lupen-Symbol steht), sofern man die Weekly Reviews mit den entsprechenden Inhalten ausgefüllt hat.
 
-## 4\. Tracker diverser Lebensbereiche (hier Bücher)
+## 4. Tracker diverser Lebensbereiche (hier Bücher)
 
 Bist du auch so ein Bücherwurm wie ich? Dann könnte ein Bücher-Tracker genau das Richtige für dich sein. In meiner Ressources-Datenbank behalte ich neben Filmen und Serien vor allem meinen Lesefortschritt im Auge. Fehlt mir mal die Motivation zum Lesen, so werfe ich einfach einen Blick auf diesen - wie ich finde - visuell ansprechenden Buch-Tracker und schon bin ich motiviert, der Datenbank ein neues Buch hinzuzufügen.
 
 ![](/img/blog/notion-library.png)
 
-## 5\. Wissenssammlung
+## 5. Wissenssammlung
 
 Notion eignet sich in meinen Augen perfekt für die Wissensspeicherung und noch mehr für die Vernetzung von Wissen. Aus diesem Grund habe ich mein gerade angesprochenes, digitales Bücherregal mit mehreren Wissensdatenbanken verknüpft, darunter auch eine Quotes-Datenbank. Darin halte ich interessante, lustige, geistreiche, eindrucksvolle oder einfach nur anschauliche Zitate für die Ewigkeit fest, mit der Hoffnung, diese irgendwann nochmal gebrauchen zu können. Im Folgenden siehst du einen bespielhaften Eintrag. Der Titel ist stets das Zitat an sich, gespickt mit ein paar Zusatzinformationen (Properties) und natürlich der Verlinkung der Quelle.
 
@@ -70,11 +70,8 @@ Notion eignet sich in meinen Augen perfekt für die Wissensspeicherung und noch 
 Anders gesagt: Worin ist Notion schlecht? Auch wenn die letzten Artikel zugegebenermaßen wahre Lobpreisungen von Notion waren, gibt es einige Bereiche, wofür sich jenes Tool nur bedingt eignet. Hierzu würde ich Folgendes zählen:
 
 - Lose Gedanken einfangen und festhalten
-
 - Artikel oder URL-Links für später merken
-
 - Brainstorming und sonstige Kreativitätstechniken
-
 - Komplexere Aufgaben, für welche ich umfangreichere Textverarbeitungs- oder Tabellenkalkulationsprogramme benötige
 
 Abgesehen vom letzten Punkt greife ich hier meist ganz altmodisch auf Papier und Stift zurück.

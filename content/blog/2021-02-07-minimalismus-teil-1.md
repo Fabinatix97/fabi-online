@@ -98,7 +98,5 @@ Im [nächsten Teil](https://www.fabi-online.de/minimalismus-teil-2/) der Minimal
 ## Weiterführende Links
 
 - The Minimalists, [What Is Minimalism?](https://www.theminimalists.com/minimalism/)
-
 - Courtney Carver, [Project 333 Challenge](https://bemorewithless.com/project-333-challenge/)
-
 - Netflix, [Minimalism: A Documentary About the Important Things](https://www.netflix.com/de/title/80114460)
