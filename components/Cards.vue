@@ -8,10 +8,13 @@
         >
             <div class="card-content bg-card flex flex-col h-full">
                 <div>
-                    <img
+                    <NuxtImg
                         :src="`/img/blog/${post.coverImage}`"
                         alt="Blog Post Cover Image"
-                        class="w-full h-48 object-cover rounded-t-lg hover:opacity-80"
+                        class="object-cover rounded-t-lg hover:opacity-80"
+						width="464px"
+						height="192px"
+						format="webp"
                     />
                 </div>
                 <div class="p-6 flex-grow">
