@@ -19,11 +19,11 @@
 						{{ formatDate(post.date) }}
 					</div>
 					<h2 class="text-xl font-bold mb-2 hyphens-auto">{{ post.title }}</h2>
-					<div class="flex text-sm">
+					<div class="flex text-sm text-info">
 						<Icon name="material-symbols-light:folder-open" class="mr-1" size="1.4em" />
-						<p>{{ post.category }}</p>
+						<p class="text-sm my-0">{{ post.category }}</p>
 					</div>
-                    <p class="text-cardtext mb-4 hyphens-auto">{{ getPostPreview(post.body, 40) }}...</p>
+                    <p class="text-base text-cardtext mb-4 hyphens-auto">{{ getPostPreview(post.body, 40) }}...</p>
                 </div>
                 <div class="p-6 mt-auto flex justify-end">
                     <div
@@ -38,7 +38,7 @@
 </template>
 
 <script setup lang="js">
-import { onMounted, defineProps } from "vue";
+import { onMounted } from "vue";
 
 const props = defineProps({
   posts: Array

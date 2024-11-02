@@ -168,7 +168,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: radial-gradient(circle, #575757 5%, transparent 20%);
+    background-image: radial-gradient(circle, var(--dots) 5%, transparent 20%);
     background-size: 20px 20px;
     pointer-events: none;
     opacity: 0.1;
