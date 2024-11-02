@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,6 +11,10 @@
     --main: #FFF;
     --border: #E9E9E9;
     --text: #212121;
+    --info: #6B7280;
+    --codebg: #111827;
+    --codetext: #FFF;
+    --dots: #575757;
     --card: #F0F0F0;
     --cardtext: #374151;
     --spotlight: 255, 255, 255;
@@ -27,6 +29,10 @@
     --main: #111827;
     --border: #111827;
     --text: #E5E7EB;
+    --info: #9CA3AF;
+    --codebg: #030712;
+    --codetext: #FFF;
+    --dots: black;
     --card: #111827;
     --cardtext: #D4D4D4;
     --spotlight: 21, 202, 130;
@@ -46,7 +52,7 @@
     }
 
     p {
-        @apply mt-0 mb-4;
+        @apply my-4 text-lg;
     }
 
 }
@@ -69,4 +75,31 @@ main {
     max-width: 1000px;
     width: 100%;
     transition: all 0.3s;
+}
+
+ol {
+    margin-left: 3rem;
+    list-style-type: decimal;
+}
+
+ul {
+    margin-left: 3rem;
+    list-style-type: disc;
+}
+
+figcaption p {
+    font-weight: 00;
+    font-size: 0.9em;
+    color: var(--info);
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+pre {
+    background-color: var(--codebg);
+    color: var(--codetext);
+    border-radius: 15px;
+    padding: 20px;
+    font-size: medium;
+    font-family: 'Roboto Mono';
 }
