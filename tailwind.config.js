@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    './components/**/*.{vue,js,ts}',
+    './components/**/*.{vue,js,ts,jsx,tsx}',
     './layouts/**/*.vue',
     './pages/**/*.vue',
     './plugins/**/*.js',
@@ -17,6 +17,10 @@ export default {
         body: "var(--body)",
         main: "var(--main)",
         border: "var(--border)",
+        text: "var(--text)",
+        info: "var(--info)",
+        codebg: "var(--codebg)",
+        codetext: "var(--codetext)",
         dots: "var(--dots)",
         card: "var(--card)",
         cardtext: "var(--cardtext)",
