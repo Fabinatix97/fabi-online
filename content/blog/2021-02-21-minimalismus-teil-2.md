@@ -2,8 +2,7 @@
 title: "Minimalismus, Teil 2: Smartphone & Computer"
 date: "2021-02-21"
 status: "published"
-categories: 
-  - "essay"
+category: "Essay"
 tags: 
   - "ablenkung"
   - "aussortieren"

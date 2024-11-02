@@ -2,8 +2,7 @@
 title: "Center of Pressure, Aerodynamic Center & Co: Schlüsselkonzepte der Aerodynamik"
 date: "2023-08-28"
 status: "published"
-categories: 
-  - "aviation-knowledge"
+category: "Aviation Knowledge"
 tags: 
   - "aerodynamik"
 coverImage: "flow-over-aerofoils.png"

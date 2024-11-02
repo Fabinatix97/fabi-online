@@ -2,8 +2,7 @@
 title: "Dinge, die ich durch meine Pilotenausbildung fürs Leben gelernt habe"
 date: "2021-04-04"
 status: "published"
-categories: 
-  - "essay"
+category: "Essay"
 tags: 
   - "luftfahrt"
   - "pilotenausbildung"

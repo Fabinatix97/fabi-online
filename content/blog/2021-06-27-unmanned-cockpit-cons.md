@@ -2,8 +2,7 @@
 title: "Warum es im Cockpit immer Piloten geben wird"
 date: "2021-06-27"
 status: "published"
-categories: 
-  - "essay"
+category: "Essay"
 tags: 
   - "autonomie"
   - "luftfahrt"

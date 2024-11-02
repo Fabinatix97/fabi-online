@@ -2,8 +2,7 @@
 title: "Synergie im Cockpit: von Situational Awareness und Shared Mental Models"
 date: "2024-01-30"
 status: "published"
-categories: 
-  - "aviation-knowledge"
+category: "Aviation Knowledge"
 tags: 
   - "crm"
   - "luftfahrt"

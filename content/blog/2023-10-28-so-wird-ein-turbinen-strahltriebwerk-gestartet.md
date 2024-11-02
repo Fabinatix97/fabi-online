@@ -2,8 +2,7 @@
 title: "So wird ein Turbinen-Strahltriebwerk gestartet"
 date: "2023-10-28"
 status: "published"
-categories: 
-  - "aviation-knowledge"
+category: "Aviation Knowledge"
 tags: 
   - "flugzeugkunde"
 coverImage: "thrust-levers.jpg"

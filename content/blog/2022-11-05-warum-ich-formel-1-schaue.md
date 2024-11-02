@@ -2,8 +2,7 @@
 title: "Warum ich Formel 1 schaue"
 date: "2022-11-05"
 status: "published"
-categories: 
-  - "essay"
+category: "Essay"
 coverImage: "f1-torro-rosso-vs-ferrari.jpg"
 ---
 

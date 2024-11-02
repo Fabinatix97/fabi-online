@@ -2,8 +2,7 @@
 title: "Minimalismus, Teil 3: Finanzen"
 date: "2021-03-07"
 status: "published"
-categories: 
-  - "essay"
+category: "Essay"
 tags: 
   - "aktien"
   - "bewusster-leben"

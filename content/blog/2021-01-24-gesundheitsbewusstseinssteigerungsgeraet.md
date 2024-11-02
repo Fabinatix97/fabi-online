@@ -2,8 +2,7 @@
 title: "Gesundheitsbewusstseinssteigerungsgerät"
 date: "2021-01-24"
 status: "published"
-categories: 
-  - "essay"
+category: "Essay"
 tags: 
   - "erfahrungsbericht"
   - "erster-eindruck"

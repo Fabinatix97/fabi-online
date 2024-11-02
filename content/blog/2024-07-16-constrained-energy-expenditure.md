@@ -2,8 +2,7 @@
 title: "Das Aktivitäts-Paradoxon: warum dich dein Fitnesstracker belügt"
 date: "2024-07-16"
 status: "published"
-categories: 
-  - "essay"
+category: "Essay"
 tags: 
   - "ernaehrung"
   - "fitness"

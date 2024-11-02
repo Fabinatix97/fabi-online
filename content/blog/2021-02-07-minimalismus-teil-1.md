@@ -2,8 +2,7 @@
 title: "Minimalismus, Teil 1: Zuhause"
 date: "2021-02-07"
 status: "published"
-categories: 
-  - "essay"
+category: "Essay"
 tags: 
   - "20-20"
   - "aussortieren"

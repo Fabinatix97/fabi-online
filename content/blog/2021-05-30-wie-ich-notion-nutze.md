@@ -2,8 +2,7 @@
 title: "Wie ich Notion nutze"
 date: "2021-05-30"
 status: "published"
-categories: 
-  - "tutorial"
+category: "Tutorial"
 tags: 
   - "notion"
   - "notiz-app"

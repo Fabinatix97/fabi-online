@@ -2,8 +2,7 @@
 title: "Minimalismus, Teil 4: Schattenseiten"
 date: "2021-03-21"
 status: "published"
-categories: 
-  - "essay"
+category: "Essay"
 tags: 
   - "bewusster-leben"
   - "gegner"

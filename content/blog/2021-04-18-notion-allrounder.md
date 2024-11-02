@@ -2,8 +2,7 @@
 title: "Notion - Der Alleskönner unter den Notiz-Apps?"
 date: "2021-04-18"
 status: "published"
-categories: 
-  - "tutorial"
+category: "Tutorial"
 tags: 
   - "evernote"
   - "notebook"

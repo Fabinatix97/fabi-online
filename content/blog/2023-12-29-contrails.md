@@ -2,8 +2,7 @@
 title: "Das Problem mit den Kondensstreifen"
 date: "2023-12-29"
 status: "published"
-categories: 
-  - "aviation-knowledge"
+category: "Aviation Knowledge"
 tags: 
   - "forschung"
   - "luftfahrt"

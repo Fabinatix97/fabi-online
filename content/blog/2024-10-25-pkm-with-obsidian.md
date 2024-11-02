@@ -2,8 +2,7 @@
 title: "The Power of Simplicity: Ein minimalistischer Ansatz für digitale Notizen"
 date: "2024-10-25"
 status: "published"
-categories: 
-  - "essay"
+category: "Essay"
 tags: 
   - "bottom-up"
   - "markdown"
