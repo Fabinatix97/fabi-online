@@ -8,9 +8,9 @@
         <img
             :src="`${data.coverImage}`"
             alt="Blog Post Cover Image"
-            class="cover-image my-8"
+            class="my-8 w-[calc(100%_+_60px)] relative left-[-30px] max-w-none"
         />
-        <ContentRenderer :value="data" class="my-10 mx-auto max-w-7xl text-lg" />
+        <ContentRenderer :value="data" class=" blog-content my-10 mx-auto max-w-7xl text-lg" />
         <div class="">
             <a v-for="tag in data.tags" :key="tag"
                 class="text-sm font-semibold inline-block py-2 px-4 rounded-lg text-white bg-button uppercase last:mr-0 my-2 mr-4">
@@ -31,6 +31,8 @@
 </template>
 
 <script setup>
+import '~/assets/blog-content.scss';
+
 const { path } = useRoute()
 
 const { data } = await useAsyncData(`content-${path}`, () => {
@@ -40,51 +42,42 @@ const { data } = await useAsyncData(`content-${path}`, () => {
 })
 
 function formatDate(dateString) {
-  const date = new Date(dateString);
-  const day = new Intl.DateTimeFormat("de-DE", { day: "numeric" }).format(date);
-  const month = new Intl.DateTimeFormat("de-DE", { month: "short" }).format(date);
-  const year = new Intl.DateTimeFormat("de-DE", { year: "numeric" }).format(date);
-  
-  return `${month} ${day}, ${year}`;
+    const date = new Date(dateString);
+    const day = new Intl.DateTimeFormat("de-DE", { day: "numeric" }).format(date);
+    const month = new Intl.DateTimeFormat("de-DE", { month: "short" }).format(date);
+    const year = new Intl.DateTimeFormat("de-DE", { year: "numeric" }).format(date);
+    
+    return `${month} ${day}, ${year}`;
 }
 
 function getPostContent(body) {
-  let result = "";
+    let result = "";
 
-  function getWords(text) {
-    return text.trim().split(/\s+/);
-  }
-
-  function collectValues(body) {
-    if (body.value) {
-      result += body.value + " ";
+    function getWords(text) {
+        return text.trim().split(/\s+/);
     }
-    if (body.children) {
-      for (const child of body.children) {
-        collectValues(child);
-      }
-    }
-  }
 
-  collectValues(body);
-  const words = getWords(result);
-  return words.join(" ");
+    function collectValues(body) {
+        if (body.value) {
+            result += body.value + " ";
+        }
+        if (body.children) {
+            for (const child of body.children) {
+                collectValues(child);
+            }
+        }
+    }
+
+    collectValues(body);
+    const words = getWords(result);
+    return words.join(" ");
 }
 
 function calculateReadingTime(content) {
-  const text = content
-  const wordCount = text.split(/\s+/).length;
-  const readingTime = Math.ceil(wordCount / 200);
+    const text = content
+    const wordCount = text.split(/\s+/).length;
+    const readingTime = Math.ceil(wordCount / 200);
 
-  return readingTime === 1 ? `${readingTime} Minute` : `${readingTime} Minuten`;
+    return readingTime === 1 ? `${readingTime} Minute` : `${readingTime} Minuten`;
 }
 </script>
-
-<style>
-.cover-image {
-    width: calc(100% + 60px);
-    position: relative;
-    left: -30px;
-    max-width: none;
-}
-</style>
