@@ -31,15 +31,14 @@
 </template>
 
 <script setup>
-import '~/assets/blog-content.scss';
 
-const { path } = useRoute()
+const { path } = useRoute();
 
 const { data } = await useAsyncData(`content-${path}`, () => {
     return queryContent()
         .where({ _path: path })
         .findOne()
-})
+});
 
 function formatDate(dateString) {
     const date = new Date(dateString);
