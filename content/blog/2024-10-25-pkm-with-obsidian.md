@@ -25,9 +25,29 @@ Vielleicht fragst du dich, was es mit PKM (Personal Knowledge Management) auf si
 
 Manche bezeichnen PKM auch als zweites Gehirn[^2], da unser biologisches Gehirn zwar hervorragend im kreativen Denken, jedoch weniger effektiv im Speichern bzw. Abrufen von Informationen ist. Ein PKM-System kann daher als Erweiterung unserer kognitiven Fähigkeiten dienen, indem es uns hilft, Wissen zu organisieren und zugänglich zu machen, sodass wir es effektiv nutzen können.
 
-.plant-div { /\*background-image: linear-gradient(#D4E2E5, #E4F2D7);\*/ border-radius: 5px; display: flex; align-items: center; justify-content: center; } <div></div> .plant-p { font-size: clamp(40px, 10vw, 100px); color: #BA7B72; margin: 5px; white-space: nowrap; /\* Zeilenumbruch verhindern \*/ } <div></div> .neel-dark-theme .plant-div { background-image: none; /\*background-image: linear-gradient(#2E4043, #425130);\*/ }
+<style>
+.plant-div {
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  padding: 50px;
+}
 
-🌱→🪴→🌳
+.plant-p {
+    font-size: clamp(40px, 10vw, 100px);
+    color: #BA7B72;
+    margin: 5px;
+    white-space: nowrap;
+}
+
+.neel-dark-theme .plant-div {
+	background-image: none;
+}
+</style>
+<div class="plant-div">
+<p class="plant-p">🌱→🪴→🌳</p>
+</div>
 
 Doch Wissen ist keine statische Ressource, sondern wächst und verändert sich im Laufe der Zeit. In der PKM-Bubble spricht man daher auch vom Konzept des digitalen Gartens. Notizen (und das darin enthaltene Wissen) sind wie Pflanzen. Sie werden durch einen Gedanken gesät und benötigen Zeit und Pflege, um zu wachsen und sich zu entwickeln. Wie im Gartenbau ist nicht jede Idee von Anfang an perfekt oder vollständig. Viele Notizen sind halbfertige Gedanken, die im Laufe der Zeit reifen und sich weiterentwickeln. Dieser Prozess des kontinuierlichen Lernens und Anpassens macht den digitalen Garten zu einem lebendigen Organismus, der Kreativität und Exploration fördert. Er wächst mit dir.
 
