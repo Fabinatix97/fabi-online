@@ -7,7 +7,7 @@ tags:
   - "crm"
   - "luftfahrt"
   - "situational-awareness"
-coverImage: "cockpit-windshield.jpg"
+coverImage: "/fabian-weiss/img/blog/cockpit-windshield.jpg"
 ---
 
 Stell dir vor, du sitzt hinter dem Lenkrad deines Autos, die vertraute Strecke zieht an dir vorbei und die Gedanken schweifen allmählich ab. In diesem Moment, wenn die Landschaft verschwimmt und der Motor das einzige Geräusch ist, das deine Aufmerksamkeit zu beanspruchen scheint, tritt etwas Eigenartiges ein. Plötzlich wird dir bewusst, dass die letzten paar Kilometer wie im Nebel verschwunden sind. Du fragst dich, wie du an diesen Punkt gelangt bist, ohne es wirklich mitbekommen zu haben - es scheint, als hätte irgendjemand oder irgendetwas das Auto an deiner Stelle gefahren. Dein Situationsbewusstsein, das Gefühl für die Umgebung, hat sich vorübergehend verflüchtigt...

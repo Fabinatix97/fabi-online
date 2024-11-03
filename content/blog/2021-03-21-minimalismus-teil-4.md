@@ -8,7 +8,7 @@ tags:
   - "gegner"
   - "minimalismus"
   - "schattenseiten"
-coverImage: "minimalism-4.jpg"
+coverImage: "/fabian-weiss/img/blog/minimalism-4.jpg"
 ---
 
 In den vorangegangenen Teilen meiner kleinen Betragsreihe zum Thema Minimalismus habe ich dir gezeigt, wie du deinen Alltag bewusster bzw. minimalistisch**_er_** leben kannst. Mein Fokus lag hierbei eher darauf, dir konkrete Tipps an die Hand zu geben, als sich mit den Vorzügen des Minimalismus zu beschäftigen. Für mich waren diese nämlich stets offensichtlich: weniger Stress, mehr Zeit für das Wesentliche, womöglich mehr Geld und insgesamt ein gesünderes Leben. Allerdings bin ich während meiner Recherchen zu diesem Thema immer mal wieder über Websites und Essays gestolpert, die einer minimalistischen Lebensweise absolut nichts abgewinnen können oder diese sogar kritisieren.

@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/fabian-weiss/'
+  },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   modules: [
@@ -7,8 +10,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/icon',
     '@vueuse/nuxt',
-    '@nuxt/fonts',
-    '@nuxt/image'
+    '@nuxt/fonts'
   ],
   css: [
     '@/assets/global.scss'

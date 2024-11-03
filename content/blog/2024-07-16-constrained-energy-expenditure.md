@@ -7,7 +7,7 @@ tags:
   - "ernaehrung"
   - "fitness"
   - "kalorien"
-coverImage: "fitness-tracker-burned-calories.jpg"
+coverImage: "/fabian-weiss/img/blog/fitness-tracker-burned-calories.jpg"
 ---
 
 Hast du schon einmal stundenlang im Fitnessstudio geschwitzt, nur um dann enttäuscht festzustellen, dass sich auf der Waage kaum etwas verändert hat? Oder dich gefragt, warum manche Menschen scheinbar mühelos ihr Gewicht halten, während andere trotz intensiver sportlicher Aktivitäten kaum Fortschritte machen? Ein wegweisendes Modell von Herman Pontzer und seinem Team könnte die Erklärung liefern: das "Constrained Total Energy Expenditure" Modell. Bereits 2016 vorgestellt, bietet es eine bahnbrechende Perspektive auf den Zusammenhang zwischen körperlicher Aktivität und Energieverbrauch. Dennoch hat dieses Modell bisher nicht die Aufmerksamkeit erhalten, die es verdient - das möchte ich in diesem Artikel ändern.

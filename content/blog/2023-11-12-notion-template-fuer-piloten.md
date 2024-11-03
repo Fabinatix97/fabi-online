@@ -8,7 +8,7 @@ tags:
   - "notion"
   - "produktivitaet"
   - "showcase"
-coverImage: "notion-logbook-template.jpg"
+coverImage: "/fabian-weiss/img/blog/notion-logbook-template.jpg"
 ---
 
 Ich habe vor kurzem ein Notion-Template speziell für Piloten entwickelt. Die Vorlage ermöglicht es dir, all deine Flüge aufzuzeichnen und automatisiert auszuwerten. In diesem Artikel möchte ich näher auf die Funktionen eingehen.
