@@ -20,7 +20,7 @@ export default {
         tablehead: "var(--tablehead)",
         tableborder: "var(--tableborder)",
         tablerow: "var(--column)",
-        border: "var(--border)",
+        mainborder: "var(--mainborder)",
         text: "var(--text)",
         info: "var(--info)",
         codebg: "var(--codebg)",

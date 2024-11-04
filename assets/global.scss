@@ -13,7 +13,7 @@
     --tablehead: #E5E7EB;
     --tableborder: #E5E7EB;
     --tablerow: #F3F4F6;
-    --border: #E9E9E9;
+    --mainborder: #E9E9E9;
     --text: #212121;
     --info: #6B7280;
     --codebg: #111827;
@@ -35,7 +35,7 @@
     --tablehead: #030712;
     --tableborder: #030712;
     --tablerow: #1F2937;
-    --border: #111827;
+    --mainborder: #000;
     --text: #E5E7EB;
     --info: #9CA3AF;
     --codebg: #030712;
@@ -76,11 +76,11 @@ body {
 
 main {
     border-radius: 10px;
-    border: 1px solid var(--border);
+    border: 1px solid var(--mainborder);
     background-color: var(--main);
     margin: 20px auto;
     padding: 30px;
-    max-width: 1000px;
+    max-width: 800px;
     width: 100%;
     transition: all 0.3s;
 }

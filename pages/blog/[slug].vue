@@ -12,7 +12,7 @@
         />
         <ContentRenderer :value="data" class="blog-content my-10 mx-auto max-w-7xl text-lg" />
         <div class="">
-            <a v-for="tag in data.tags" :key="tag"
+            <a v-for="tag in data.tags" :key="tag" :href="`/blog/tags/${tag}`"
                 class="text-sm font-semibold inline-block py-2 px-4 rounded-lg text-white bg-button uppercase last:mr-0 my-2 mr-4">
                 <div class="flex">
                     <Icon name="mdi:tag" size="1.2rem" class="text-gray-100 mr-2" />
@@ -93,8 +93,6 @@ function calculateReadingTime(content) {
         list-style-type: disc;
     }
 
-    
-
     pre {
         background-color: var(--codebg);
         color: var(--codetext);
@@ -131,6 +129,7 @@ function calculateReadingTime(content) {
     table {
         width: 100%;
         border-collapse: collapse;
+        font-size: 80%;
     }
 
     th, td {
@@ -154,6 +153,18 @@ function calculateReadingTime(content) {
         color: var(--info);
         margin-top: 10px;
         margin-bottom: 40px;
+    }
+
+    blockquote {
+        background-color: var(--codebg);
+        border-left: 5px solid var(--button);
+        padding: 10px 15px;
+        margin: 20px 0;
+        color: var(--text);
+    }
+
+    hr {
+        margin-top: 20px;
     }
 }
 </style>

@@ -24,7 +24,7 @@ Da die Aufmerksamkeit am Anfang bekanntlich am höchsten ist, will ich zunächst
 
 > Situational Awareness ist die Wahrnehmung der Elemente in der Umwelt innerhalb eines zeitlichen und räumlichen Umfangs, das Verstehen ihrer Bedeutung und die Einschätzung ihres Zustandes in der nahen Zukunft.
 > 
-> Endsley, M. R. (1988)[^1]
+> _~ Endsley, M. R. (1988)[^1]_
 
 Was hochtrabend und kompliziert klingt, ist eigentlich recht schnell erklärt: Situational Awareness umfasst drei verschiedene Aspekte - man könnte sie auch als Level bezeichnen.
 
@@ -136,7 +136,7 @@ In Teamkonstellationen ist es wichtig, dass nicht nur ein Mitglied den perfekten
 
 > Ein Shared Mental Model (SMM) ist ein gemeinsames Verständnis oder eine gemeinsame Darstellung der Ziele des Teams, der Aufgaben der einzelnen Teammitglieder und der Art und Weise, wie die Teammitglieder sich untereinander abstimmen, um ihre gemeinsamen Ziele zu erreichen.
 > 
-> Salas, E. et al. (2004)[^7]
+> _~ Salas, E. et al. (2004)[^7]_
 
 Effektive Kommunikation ist hierbei natürlich essenziell. Die Betonung liegt auf _effektiv_. In Studien fanden Forscher beispielsweise heraus, dass leistungsstärkere Teams tatsächlich weniger kommunizierten als leistungsschwächere Teams.[^8]
 
