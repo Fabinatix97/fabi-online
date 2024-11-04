@@ -10,7 +10,7 @@
             alt="Blog Post Cover Image"
             class="my-8 w-[calc(100%_+_60px)] relative left-[-30px] max-w-none"
         />
-        <ContentRenderer :value="data" class=" blog-content my-10 mx-auto max-w-7xl text-lg" />
+        <ContentRenderer :value="data" class="blog-content my-10 mx-auto max-w-7xl text-lg" />
         <div class="">
             <a v-for="tag in data.tags" :key="tag"
                 class="text-sm font-semibold inline-block py-2 px-4 rounded-lg text-white bg-button uppercase last:mr-0 my-2 mr-4">
@@ -31,6 +31,8 @@
 </template>
 
 <script setup>
+
+//import '~/assets/blog-content.scss';
 
 const { path } = useRoute();
 
@@ -80,3 +82,71 @@ function calculateReadingTime(content) {
     return readingTime === 1 ? `${readingTime} Minute` : `${readingTime} Minuten`;
 }
 </script>
+
+<style lang="scss">
+.blog-content {
+    ol {
+        margin-left: 3rem;
+        list-style-type: decimal;
+    }
+
+    ul {
+        margin-left: 3rem;
+        list-style-type: disc;
+    }
+
+    
+
+    pre {
+        background-color: var(--codebg);
+        color: var(--codetext);
+        border-radius: 15px;
+        padding: 20px;
+        font-size: medium;
+        font-family: 'Roboto Mono';
+    }
+
+    a {
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration-thickness: 2px;
+            color: var(--buttonhover);
+        }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        a {
+            text-decoration: none;
+        }
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 8px 12px;
+        border: 1px solid var(--tableborder);
+        text-align: left;
+    }
+
+    thead th {
+        background-color: var(--tablehead);
+        font-weight: bold;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: var(--tablerow);
+    }
+
+    figcaption p {
+        font-weight: 00;
+        font-size: 0.8em;
+        color: var(--info);
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+}
+</style>

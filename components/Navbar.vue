@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar bg-body border border-solid border-border">
+    <nav class="navbar bg-navbar border border-solid border-border">
         <ul class="nav-links">
             <li :class="{ 'active-link': isActiveRoute('/') }"><NuxtLink to="/">Home</NuxtLink></li>
             <li :class="{ 'active-link': isActiveRoute('/about') }"><NuxtLink to="/about">About</NuxtLink></li>

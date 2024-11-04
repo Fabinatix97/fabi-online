@@ -6,33 +6,41 @@
     --button: #368AF7;
     --buttonhover: #2D75D3;
     --backgreen: #CAFFC5;
-    --backblue: #97fff6;
-    --body: #F8F8F8;
+    --backblue: #97FFF6;
+    --body: #F3F4F6;
     --main: #FFF;
+    --navbar: #FFF;
+    --tablehead: #E5E7EB;
+    --tableborder: #E5E7EB;
+    --tablerow: #F3F4F6;
     --border: #E9E9E9;
     --text: #212121;
     --info: #6B7280;
     --codebg: #111827;
     --codetext: #FFF;
     --dots: #575757;
-    --card: #F0F0F0;
+    --card: #FFF;
     --cardtext: #374151;
     --spotlight: 255, 255, 255;
 }
 
 :root[data-theme="dark"] {
     --button: #075985;
-    --buttonhover: #0c4a6e;
+    --buttonhover: #0C4A6E;
     --backgreen: #4F6B4C;
     --backblue: #4B817D;
     --body: #030712;
     --main: #111827;
+    --navbar: #111827;
+    --tablehead: #030712;
+    --tableborder: #030712;
+    --tablerow: #1F2937;
     --border: #111827;
     --text: #E5E7EB;
     --info: #9CA3AF;
     --codebg: #030712;
     --codetext: #FFF;
-    --dots: black;
+    --dots: #000;
     --card: #111827;
     --cardtext: #D4D4D4;
     --spotlight: 21, 202, 130;
