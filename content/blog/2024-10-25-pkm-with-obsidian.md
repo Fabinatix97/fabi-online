@@ -162,13 +162,15 @@ Wäre es nicht besser, die Themen und Kategorien _natürlich_ entstehen zu lasse
 
 <figure>
 
+<video autoplay muted loop>
+  <source src="/img/blog/obsidian-timelapse.mp4" type="video/mp4">
+</video>
+
 <figcaption>
 
 Entwicklung meines eigenen Notizbestands in Obsidian über die Zeit. Die Punkte (Knoten) stellen Notizen dar, die Striche (Kanten) stellen Verbindungen zwischen Notizen dar. Je größer ein Knoten, desto mehr Verlinkungen weist die Notiz auf. Zu Beginn gab es viele alleinstehende Notizen (Waisen), die jedoch nach und nach miteinander zu einem großen Wissensnetz verbunden wurden.
 
 </figcaption>
-
-
 
 </figure>
 
@@ -198,7 +200,14 @@ Obsidian hat mir gezeigt, wie kraftvoll ein minimalistischer Ansatz für das Not
 
 Neugierig geworden? Auch wenn es in diesem Artikel natürlich um allgemeine PKM-Prinzipien ging, kann ich dir nur wärmstens empfehlen, Obsidian einfach mal auszuprobieren. Ich bin mir sicher, es wird deine Perspektive auf das Notizenmachen und die Organisation von Wissen nachhaltig verändern.
 
- [![](/img/blog/obsidian-logo-gradient.png) Hier geht's zu Obsidian](https://obsidian.md/)
+<div class="flex justify-center my-4">
+<button class="p-4 flex rounded-full items-center bg-button hover:bg-buttonhover hover:text-white" type="button">
+  <img src="/img/blog/obsidian-logo-gradient.png"/>
+  <div class="ml-4">
+    <a href="https://obsidian.md/" class="button">Hier geht's zu Obsidian</a>
+  </div>
+</button>
+</div>
 
 * * *
 
