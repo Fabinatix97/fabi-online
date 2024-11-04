@@ -32,8 +32,6 @@
 
 <script setup>
 
-//import '~/assets/blog-content.scss';
-
 const { path } = useRoute();
 
 const { data } = await useAsyncData(`content-${path}`, () => {
@@ -115,6 +113,15 @@ function calculateReadingTime(content) {
         }
     }
 
+    .button {
+        text-decoration: none;
+        color: var(--text);
+
+        &:hover {
+            color: var(--text);
+        }
+    }
+
     h1, h2, h3, h4, h5, h6 {
         a {
             text-decoration: none;
@@ -145,7 +152,7 @@ function calculateReadingTime(content) {
         font-weight: 00;
         font-size: 0.8em;
         color: var(--info);
-        margin-top: 0px;
+        margin-top: 10px;
         margin-bottom: 40px;
     }
 }
