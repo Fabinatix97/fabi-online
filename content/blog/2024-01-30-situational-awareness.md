@@ -169,13 +169,13 @@ Ich hoffe, du fandest diesen Beitrag hilfreich und konntest etwas für dich mitn
 
 ## Quellen
 
-[^1]: Endsley, M. R. (1988), Design and Evaluation for Situation Awareness Enhancement, p. 97
-[^2]: Endsley, M. R. (1995), Toward a Theory of Situation Awareness in Dynamic Systems, p. 35
+[^1]: Endsley, M. R. (1988), [Design and Evaluation for Situation Awareness Enhancement](https://journals.sagepub.com/doi/abs/10.1177/154193128803200221), p. 97
+[^2]: Endsley, M. R. (1995), [Toward a Theory of Situation Awareness in Dynamic Systems](https://journals.sagepub.com/doi/abs/10.1518/001872095779049543), p. 35
 [^3]: Eine Bezeichnung für einen Unfall, bei dem ein lufttüchtiges Luftfahrzeug, das vollständig unter der Kontrolle des Piloten steht, unbeabsichtigt in den Boden, einen Berg, ein Gewässer oder ein Hindernis geflogen wird.
-[^4]: Die ASRS-Datenbank ist die weltweit größte Sammlung freiwilliger, vertraulicher Sicherheitsinformationen, die vom Luftfahrtpersonal der vordersten Reihe, einschließlich Piloten, Fluglotsen, Mechanikern, Flugbegleitern und Disponenten, bereitgestellt werden. Die angesprochene Auswertung habe ich selbst durchgeführt.
+[^4]: Die [ASRS-Datenbank](https://asrs.arc.nasa.gov/search/database.html) ist die weltweit größte Sammlung freiwilliger, vertraulicher Sicherheitsinformationen, die vom Luftfahrtpersonal der vordersten Reihe, einschließlich Piloten, Fluglotsen, Mechanikern, Flugbegleitern und Disponenten, bereitgestellt werden. Die angesprochene Auswertung habe ich selbst durchgeführt.
 [^5]: Eine zutiefst menschliche Neigung, Informationen so zu ermitteln, auszuwählen und zu interpretieren, dass diese die eigenen Erwartungen erfüllen.
-[^6]: Endsley, M. R. (1995), Toward a Theory of Situation Awareness in Dynamic Systems, p. 57
-[^7]: Salas, E. et al. (2004), Cooperation at Work, Encyclopedia of Applied Psychology, p. 497
+[^6]: Endsley, M. R. (1995), [Toward a Theory of Situation Awareness in Dynamic Systems](https://journals.sagepub.com/doi/abs/10.1518/001872095779049543), p. 57
+[^7]: Salas, E. et al. (2004), [Cooperation at Work](https://doi.org/10.1016/B0-12-657410-3/00533-X), Encyclopedia of Applied Psychology, p. 497
 [^8]: So etwa Mosier, K. L., & Chidester, T. R. (1991), Situation assessment and situation awareness in a team setting, p. 798-800.
 [^9]: Bekanntes Zitat von Albert Einstein
-[^10]: Wer mehr darüber erfahren möchte, dem empfehle ich dieses Interview von Lex Fridman. Über die Rolle von Memos wird ab 01:59:55 gesprochen.
+[^10]: Wer mehr darüber erfahren möchte, dem empfehle ich [dieses Interview](https://youtu.be/DcWqzZ3I2cY?si=_jSwqHA-utlFseGA) von Lex Fridman. Über die Rolle von Memos wird ab [01:59:55](https://youtu.be/DcWqzZ3I2cY?si=_jSwqHA-utlFseGA&t=7195) gesprochen.

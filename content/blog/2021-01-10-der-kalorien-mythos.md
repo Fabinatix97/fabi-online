@@ -44,7 +44,7 @@ Im Netz finden sich unzählige Seiten, auf denen man seinen individuellen Kalori
 
 <figcaption>
 
-Verwendete Angaben: 30 Jahre, 180 cm, 75 kg, männlich)
+Verwendete Angaben: 30 Jahre, 180 cm, 75 kg, männlich
 
 </figcaption>
 

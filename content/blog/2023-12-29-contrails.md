@@ -122,14 +122,14 @@ Besonders spannend wird zu sehen sein, welche Erkenntnisse das Projekt Blue Cond
 
 ## Quellen
 
-[^1]: DLR, „Kondensstreifen“
-[^2]: World Meteorological Organization, „Homogenitus“, International Cloud Atlas
-[^3]: World Meteorological Organization, „Homomutatus“, International Cloud Atlas
-[^4]: DLR (2021), „Verhinderung von Kondensstreifen mit der richtigen Flughöhe“
-[^5]: Lee, D.S. et al (2021), „The contribution of global aviation to anthropogenic climate forcing for 2000 to 2018“
-[^6]: IATA (2023), „Net zero 2050: sustainable aviation fuels“, Fact Sheet
-[^7]: Isabel Henrich (2022), Kurz erklärt: So funktioniert das WET-Konzept“, MTU Aero Engines
-[^8]: irbus (2023), „Contrail-chasing Blue Condor makes Airbus’ first full hydrogen-powered flight“
+[^1]: DLR, [„Kondensstreifen“](https://www.dlr.de/pa/desktopdefault.aspx/tabid-2554/3836_read-5746/)
+[^2]: World Meteorological Organization, [„Homogenitus“](https://cloudatlas.wmo.int/en/homogenitus.html), International Cloud Atlas
+[^3]: World Meteorological Organization, [„Homomutatus“](https://cloudatlas.wmo.int/en/homomutatus.html), International Cloud Atlas
+[^4]: DLR (2021), [„Verhinderung von Kondensstreifen mit der richtigen Flughöhe“](https://www.dlr.de/de/aktuelles/nachrichten/2021/04/20211103_verhinderung-von-kondensstreifen-mit-der-richtigen-flughoehe)
+[^5]: Lee, D.S. et al (2021), [„The contribution of global aviation to anthropogenic climate forcing for 2000 to 2018“](https://www.sciencedirect.com/science/article/pii/S1352231020305689)
+[^6]: IATA (2023), [„](https://www.iata.org/en/programs/environment/sustainable-aviation-fuels/)[Net zero 2050: sustainable aviation fuels“](https://www.iata.org/en/iata-repository/pressroom/fact-sheets/fact-sheet---alternative-fuels/), Fact Sheet
+[^7]: Isabel Henrich (2022), [Kurz erklärt: So funktioniert das WET-Konzept“](https://aeroreport.de/de/good-to-know/kurz-erklaert-so-funktioniert-das-wet-konzept), MTU Aero Engines
+[^8]: Airbus (2023), [„Contrail-chasing Blue Condor makes Airbus’ first full hydrogen-powered flight“](https://www.airbus.com/en/newsroom/stories/2023-11-contrail-chasing-blue-condor-makes-airbus-first-full-hydrogen-powered)
 [^9]: Lassak, Frank (2023), FLY GREEN – Nachhaltige Luftfahrt (1. Aufl.), Motorbuch Verlag, Stuttgart
-[^10]: Airbus (2023), „Contrail-chasing Blue Condor makes Airbus’ first full hydrogen-powered flight“
-[^11]: Sausen, Robert et al (2023), „Can we successfully avoid persistent contrails by small altitude adjustments of flights in the real world?“
+[^10]: Airbus (2023), [„Contrail-chasing Blue Condor makes Airbus’ first full hydrogen-powered flight“](https://www.airbus.com/en/newsroom/stories/2023-11-contrail-chasing-blue-condor-makes-airbus-first-full-hydrogen-powered)
+[^11]: Sausen, Robert et al (2023), [„Can we successfully avoid persistent contrails by small altitude adjustments of flights in the real world?“](https://elib.dlr.de/200025/1/Sausen%202023%20metz__Can_we_successfully_avoid_persistent_contrails_by_small_altitude_adjustments_of_flights_in_the_real_world_102979.pdf)
