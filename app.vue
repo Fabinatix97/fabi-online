@@ -3,6 +3,7 @@
     <NuxtLayout class="mt-20">
         <NuxtPage />
     </NuxtLayout>
+    <ScrollToTop />
 </template>
 
 <script>
