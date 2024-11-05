@@ -85,7 +85,6 @@ a:hover {
     color: #075985;
     transition: all 0.3s;
 }
-
 .active-link {
     color: #075985;
     border-bottom: 2px solid #075985;

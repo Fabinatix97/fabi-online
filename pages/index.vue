@@ -37,7 +37,6 @@
 </template>
 
 <style lang="scss" scoped>
-
 .btn {
     font-weight: 600;
     font-size: 20px;
@@ -52,20 +51,16 @@
     box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
     transition: background-color .3s, transform .3s;;
 }
-
 .btn:hover, .btn:focus {
     transform: scale(1.1);
 }
-
 .btn > * {
     position: relative;
 }
-
 .btn span {
     display: block;
     padding: 12px 24px;
 }
-
 .btn:before {
     content: "";
     position: absolute;
@@ -82,20 +77,17 @@
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-
 .btn:active:before {
     width: 120%;
     padding-top: 120%;
     transition: width .2s ease-out, padding-top .2s ease-out;
 }
-
 .buttons {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     gap: 40px;
 }
-
 .person {
     align-items: center;
     display: flex;
@@ -120,7 +112,6 @@
         transform: scale(0.54);
     }
 }
-
 .person-container-inner {
     clip-path: path(
         "M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z"
@@ -129,7 +120,6 @@
     transform-origin: 50%;
     top: -200px;
 }
-
 .circle {
     background-color: #fee7d3;
     border-radius: 50%;
@@ -141,7 +131,6 @@
     top: 210px;
     width: 380px;
 }
-
 .img {
     pointer-events: none;
     position: relative;
@@ -149,18 +138,15 @@
     transform-origin: 50% bottom;
     transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .img1 {
     left: 22px;
     top: 190px;
     width: 340px;
 }
-
 #title {
     position: relative;
     overflow: hidden;
 }
-
 #title::before {
     content: '';
     position: absolute;
@@ -173,7 +159,6 @@
     pointer-events: none;
     opacity: 0.1;
 }
-
 .container{
     display: flex;
     flex-direction: row;
@@ -185,7 +170,6 @@
         transform: translateY(0) scale(1.2);
     }
 }
-
 .highlight {
     color: white;
     margin: 0px;
@@ -209,13 +193,11 @@
         transform: perspective(300px) skewX(-5deg) rotateX(-10deg) rotateY(-5deg) scale(1.2);
     }
 }
-
 .text {
     // fix safari bug
     display: inline-block;
     transform: translateZ(100px);
 }
-
 .animated-text {
     width: 50%;
     z-index: 1;
@@ -223,5 +205,4 @@
         margin-top: 70px;
     }
 }
-
 </style>

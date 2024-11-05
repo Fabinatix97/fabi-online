@@ -19,13 +19,6 @@
                     {{ tag }}
                 </div>
             </a>
-            <!--<a v-for="tag in data.tags" :key="tag" :href="`/blog/tags/${tag}`"
-                class="text-sm font-semibold inline-block py-2 px-4 rounded-lg text-white bg-button uppercase last:mr-0 my-2 mr-4">
-                <div class="flex">
-                    <Icon name="mdi:tag" size="1.2rem" class="text-gray-100 mr-2" />
-                    {{ tag }}
-                </div>
-            </a>-->
         </div>
     </main>
 </template>
@@ -87,12 +80,10 @@ function calculateReadingTime(content) {
         margin-left: 3rem;
         list-style-type: decimal;
     }
-
     ul {
         margin-left: 3rem;
         list-style-type: disc;
     }
-
     pre {
         background-color: var(--codebg);
         color: var(--codetext);
@@ -101,7 +92,6 @@ function calculateReadingTime(content) {
         font-size: medium;
         font-family: 'Roboto Mono';
     }
-
     a {
         text-decoration: underline;
 
@@ -110,7 +100,6 @@ function calculateReadingTime(content) {
             color: var(--buttonhover);
         }
     }
-
     .button {
         text-decoration: none;
         color: var(--text);
@@ -119,34 +108,28 @@ function calculateReadingTime(content) {
             color: var(--text);
         }
     }
-
     h1, h2, h3, h4, h5, h6 {
         a {
             text-decoration: none;
         }
     }
-
     table {
         width: 100%;
         border-collapse: collapse;
         font-size: 80%;
     }
-
     th, td {
         padding: 8px 12px;
         border: 1px solid var(--tableborder);
         text-align: left;
     }
-
     thead th {
         background-color: var(--tablehead);
         font-weight: bold;
     }
-
     tbody tr:nth-child(even) {
         background-color: var(--tablerow);
     }
-
     figcaption p {
         font-weight: 00;
         font-size: 0.8em;
@@ -154,7 +137,6 @@ function calculateReadingTime(content) {
         margin-top: 10px;
         margin-bottom: 40px;
     }
-
     blockquote {
         background-color: var(--codebg);
         border-left: 5px solid var(--button);
@@ -162,7 +144,6 @@ function calculateReadingTime(content) {
         margin: 20px 0;
         color: var(--text);
     }
-
     hr {
         margin-top: 20px;
     }

@@ -66,21 +66,17 @@ onUnmounted(() => {
     transition: opacity 0.5s ease, transform 0.5s ease;
     z-index: 1000;
 }
-
 .scroll-to-top.show {
     opacity: 0.7;
     transform: translateY(0) scale(1);
 }
-
 .scroll-to-top.fade-out {
     opacity: 0;
     transform: translateY(0) scale(0);
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
-
 .scroll-to-top:hover {
     background-color: var(--buttonhover);
     opacity: 1;
 }
 </style>
-

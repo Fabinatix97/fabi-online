@@ -2,7 +2,7 @@
     <div class="cards grid grid-cols-1 sm:grid-cols-2 gap-2">
         <NuxtLink
             :to="post._path"
-            v-for="post in posts"
+            v-for="post in sortedPosts"
             :key="post.slug"
             class="card"
         >
@@ -11,7 +11,7 @@
                     <img
                         :src="`${post.coverImage}`"
                         alt="Blog Post Cover Image"
-                        class="w-full h-48 object-cover rounded-t-lg hover:opacity-80"
+                        class="w-full h-48 object-cover rounded-t-lg hover:opacity-80 relative"
                     />
                 </div>
                 <div class="p-6 flex-grow">
@@ -44,17 +44,10 @@ const props = defineProps({
   posts: Array
 });
 
-function filterPublishedPosts(posts) {
-  return posts.filter(post => post.status === "published");
-}
-
-function sortPostsByDate(posts) {
-  return [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
-}
-
-const posts = computed(() => {
-  const publishedPosts = filterPublishedPosts(props.posts);
-  return sortPostsByDate(publishedPosts);
+const sortedPosts = computed(() => {
+  return props.posts
+    .filter(post => post.status === "published")
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
 });
 
 function formatDate(dateString) {
@@ -62,45 +55,34 @@ function formatDate(dateString) {
   const day = new Intl.DateTimeFormat("de-DE", { day: "numeric" }).format(date);
   const month = new Intl.DateTimeFormat("de-DE", { month: "short" }).format(date);
   const year = new Intl.DateTimeFormat("de-DE", { year: "numeric" }).format(date);
-  
   return `${month} ${day}, ${year}`;
 }
 
 function getPostPreview(body, wordLimit) {
-  let result = "";
-
-  function getWords(text) {
-    return text.trim().split(/\s+/);
-  }
-
-  function collectValues(body) {
-    if (body.value) {
-      result += body.value + " ";
+  const collectValues = (node) => {
+    const values = [];
+    if (node.value) {
+      values.push(node.value);
     }
-    if (body.children) {
-      for (const child of body.children) {
-        collectValues(child);
+    if (node.children) {
+      for (const child of node.children) {
+        values.push(...collectValues(child));
       }
     }
-  }
-
-  collectValues(body);
-  const words = getWords(result);
+    return values;
+  };
+  const words = collectValues(body).join(" ").trim().split(/\s+/);
   return words.slice(0, wordLimit).join(" ");
 }
 
 onMounted(() => {
 	const cards = document.querySelectorAll(".card");
 	const wrapper = document.querySelector(".cards");
-
-	wrapper.addEventListener("mousemove", function ($event) {
+	wrapper.addEventListener("mousemove", (event) => {
 		cards.forEach((card) => {
-			const rect = card.getBoundingClientRect();
-			const x = $event.clientX - rect.left;
-			const y = $event.clientY - rect.top;
-
-			card.style.setProperty("--xPos", `${x}px`);
-			card.style.setProperty("--yPos", `${y}px`);
+		const rect = card.getBoundingClientRect();
+		card.style.setProperty("--xPos", `${event.clientX - rect.left}px`);
+		card.style.setProperty("--yPos", `${event.clientY - rect.top}px`);
 		});
 	});
 });
