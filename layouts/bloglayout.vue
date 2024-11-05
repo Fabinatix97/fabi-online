@@ -6,7 +6,7 @@
 
 <style lang="scss" scoped>
 .posts {
-    margin: 20px auto;
+    margin: 70px auto;
     padding: 30px;
     max-width: 1000px;
     width: 100%;

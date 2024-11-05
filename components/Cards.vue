@@ -158,8 +158,8 @@ onMounted(() => {
 		.card-content {
 			border-radius: inherit;
 			transition: all 0.25s;
-			height: calc(100% - 0.1rem);
-			width: calc(100% - 0.1rem);
+			height: calc(100% - 0.2rem);
+			width: calc(100% - 0.2rem);
 		}
 	}
 }

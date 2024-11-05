@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar bg-navbar border border-solid border-mainborder">
+    <nav class="navbar border-b-2 border-mainborder">
         <ul class="nav-links">
             <li :class="{ 'active-link': isActiveRoute('/') }"><NuxtLink to="/">Home</NuxtLink></li>
             <li :class="{ 'active-link': isActiveRoute('/about') }"><NuxtLink to="/about">About</NuxtLink></li>
@@ -48,11 +48,18 @@ const themeIconName = computed(() => {
 
 <style scoped>
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
     margin-bottom: 20px;
     font-weight: 500;
+    z-index: 1000;
+    background-color: var(--navbar);
+    backdrop-filter: blur(10px);
 }
 .nav-links {
     list-style: none;
