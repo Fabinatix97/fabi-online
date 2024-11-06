@@ -1,7 +1,7 @@
 <template>
     <div>
         <button v-if="isVisible" class="scroll-to-top" @click="scrollToTop" aria-label="Scroll to top">
-            <Icon name="line-md:arrow-up" />
+            <Icon name="line-md:chevron-up" />
         </button>
     </div>
 </template>
