@@ -102,7 +102,6 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 400px;
     &:after {
-        background-color: #f2f2f2;
         height: 10px;
         position: absolute;
         top: 390px;
@@ -121,7 +120,6 @@
     top: -200px;
 }
 .circle {
-    background-color: #fee7d3;
     border-radius: 50%;
     cursor: pointer;
     height: 380px;

@@ -142,17 +142,17 @@ const themeIconName = computed(() => {
     margin-right: 0;
 }
 .nav-links li:hover::before {
-    color: #075985;
+    color: var(--buttonhover);
 }
 a {
     text-decoration: none;
 }
 a:hover {
-    color: #075985;
+    color: var(--buttonhover);
     transition: all 0.3s;
 }
 .active-link {
-    color: #075985;
-    border-bottom: 2px solid #075985;
+    color: var(--button);
+    border-bottom: 2px solid var(--button);
 }
 </style>

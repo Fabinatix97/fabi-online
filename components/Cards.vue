@@ -1,5 +1,5 @@
 <template>
-    <div class="cards grid grid-cols-1 sm:grid-cols-2 gap-2">
+    <div class="cards grid grid-cols-1 sm:grid-cols-2 gap-4">
         <NuxtLink
             :to="post._path"
             v-for="post in sortedPosts"
