@@ -12,6 +12,7 @@ export default {
       colors: {
         button: "var(--button)",
         buttonhover: "var(--buttonhover)",
+        buttontext: "var(--buttontext)",
         backgreen: "var(--backgreen)",
         backblue: "var(--backblue)",
         body: "var(--body)",
