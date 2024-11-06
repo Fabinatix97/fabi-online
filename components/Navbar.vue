@@ -12,24 +12,24 @@
         <div :class="[open ? 'flex w-full justify-between' : '', 'flex w-full justify-end']">
             <DisclosurePanel class="content-center sm:hidden">
                 <div class="space-y-1 pb-3">
-                    <DisclosureButton 
+                    <NuxtLink 
                         v-for="item in navigation" 
                         :key="item.name" 
                         as="a" 
-                        :href="item.href"
-                        :class="[item.current ? 'bg-body text-text' : ' text-text hover:bg-gray-700 hover:text-white', 'block rounded-md px-3 py-2 text-base font-medium']"
+                        :to="item.href"
+                        :class="[isActiveRoute(item.href) ? 'bg-buttonhover text-buttontext hover:text-white' : 'text-text hover:bg-body hover:text-button', 'block rounded-md px-3 py-2 text-base font-medium']"
                         :aria-current="item.current ? 'page' : undefined">
                         {{ item.name }}
-                    </DisclosureButton>
+                    </NuxtLink>
                 </div>
                 <div class="flex px-2">
                     <div class="mr-4">
-                        <a href="https://de.linkedin.com/in/fabian-weiss" class="text-text" target="_blank" rel="noopener noreferrer">
+                        <a href="https://de.linkedin.com/in/fabian-weiss" class="transition-all duration-300 hover:text-buttonhover" target="_blank" rel="noopener noreferrer">
                             <Icon name="mdi:linkedin" size="2em" />
                         </a>
                     </div>
                     <div>
-                        <a href="https://github.com/Fabinatix97" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Fabinatix97" class="transition-all duration-300 hover:text-buttonhover" target="_blank" rel="noopener noreferrer">
                             <Icon name="mdi:github" size="2em" />
                         </a>
                     </div>
@@ -146,10 +146,10 @@ const themeIconName = computed(() => {
 a {
     text-decoration: none;
 }
-a:hover {
+/* a:hover {
     color: var(--buttonhover);
     transition: all 0.3s;
-}
+} */
 .active-link {
     color: var(--button);
     border-bottom: 2px solid var(--button);
