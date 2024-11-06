@@ -1,5 +1,5 @@
 <template>
-    <Disclosure as="nav" class="navbar border-b-2 border-mainborder hyphens-none" v-slot="{ open }">
+    <Disclosure as="nav" class="navbar border-b-2 border-mainborder hyphens-none" v-slot="{ open, close }">
         <!-- Mobile menu button-->
         <div class="flex items-start">
             <DisclosureButton
@@ -18,7 +18,8 @@
                         as="a" 
                         :to="item.href"
                         :class="[isActiveRoute(item.href) ? 'bg-buttonhover text-buttontext hover:text-white' : 'text-text hover:bg-body hover:text-button', 'block rounded-md px-3 py-2 text-base font-medium']"
-                        :aria-current="item.current ? 'page' : undefined">
+                        :aria-current="item.current ? 'page' : undefined"
+                        @click="close">
                         {{ item.name }}
                     </NuxtLink>
                 </div>
@@ -103,16 +104,11 @@ const themeIconName = computed(() => {
 });
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .disclosure-panel {
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-}
-@media screen and (min-width: 640px) {
-    .navbar {
-        justify-content: flex-end;
-    }
 }
 .navbar {
     position: fixed;
@@ -125,31 +121,34 @@ const themeIconName = computed(() => {
     z-index: 1000;
     background-color: var(--navbar);
     backdrop-filter: blur(10px);
+
+    @media screen and (min-width: 640px) {
+        justify-content: flex-end;
+    }
 }
 .nav-links {
     list-style: none;
     display: flex;
     gap: 1rem;
+    li {
+        &:last-child {
+            margin-right: 0;
+        }
+        &::before {
+            transition: color 0.3s;
+            margin-right: 10px;
+            transform: scaleX(0);
+            transform-origin: bottom right;
+        }
+        &:hover::before {
+            color: var(--buttonhover);
+        }
+    }
+    a:hover {
+        color: var(--buttonhover);
+        transition: all 0.3s;
+    }
 }
-.nav-links li::before {
-    transition: color 0.3s;
-    margin-right: 10px;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-}
-.nav-links li:last-child {
-    margin-right: 0;
-}
-.nav-links li:hover::before {
-    color: var(--buttonhover);
-}
-a {
-    text-decoration: none;
-}
-/* a:hover {
-    color: var(--buttonhover);
-    transition: all 0.3s;
-} */
 .active-link {
     color: var(--button);
     border-bottom: 2px solid var(--button);
