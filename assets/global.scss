@@ -5,6 +5,7 @@
 :root[data-theme="light"] {
     --button: theme('colors.sky.500');
     --buttonhover: theme('colors.sky.600');
+    --buttontext: white;
     --backgreen: theme('colors.green.200');
     --backblue: theme('colors.cyan.200');
     --body: theme('colors.gray.100');
@@ -27,6 +28,7 @@
 :root[data-theme="dark"] {
     --button: theme('colors.sky.600');
     --buttonhover: theme('colors.sky.700');
+    --buttontext: white;
     --backgreen: theme('colors.green.900');
     --backblue: theme('colors.cyan.900');
     --body: theme('colors.gray.950');
