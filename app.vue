@@ -1,6 +1,6 @@
 <template>
     <Navbar />
-    <NuxtLayout class="mt-20">
+    <NuxtLayout>
         <NuxtPage />
     </NuxtLayout>
     <ScrollToTop />
