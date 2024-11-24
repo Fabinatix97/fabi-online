@@ -97,7 +97,7 @@ function calculateReadingTime(content) {
 
         &:hover {
             text-decoration-thickness: 2px;
-            color: var(--buttonhover);
+            color: var(--primaryhover);
         }
     }
     .button {

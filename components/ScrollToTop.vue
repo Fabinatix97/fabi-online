@@ -76,7 +76,7 @@ onUnmounted(() => {
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 .scroll-to-top:hover {
-    background-color: var(--buttonhover);
+    background-color: var(--primaryhover);
     opacity: 1;
 }
 </style>

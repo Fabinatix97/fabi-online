@@ -10,8 +10,15 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary: "var(--primary)",
+        primaryhover: "var(--primaryhover)",
+        heading: "var(--heading)",
+        text: "var(--text)",
+        info: "var(--info)",
+        border: "var(--border)",
+        background: "var(--background)",
+        //----
         button: "var(--button)",
-        buttonhover: "var(--buttonhover)",
         buttontext: "var(--buttontext)",
         backgreen: "var(--backgreen)",
         backblue: "var(--backblue)",
@@ -21,8 +28,6 @@ export default {
         tableborder: "var(--tableborder)",
         tablerow: "var(--column)",
         mainborder: "var(--mainborder)",
-        text: "var(--text)",
-        info: "var(--info)",
         codebg: "var(--codebg)",
         codetext: "var(--codetext)",
         dots: "var(--dots)",

@@ -3,19 +3,23 @@
 @tailwind utilities;
 
 :root[data-theme="light"] {
+    --primary: theme('colors.sky.600');
+    --primaryhover: theme('colors.sky.700');
+    --heading: theme('colors.slate.900');
+    --text: theme('colors.slate.700');
+    --info: theme('colors.slate.500');
+    --border: theme('colors.slate.300');
+    --main: white;
+    --body: theme('colors.gray.100');
+    //--------------------------
     --button: theme('colors.sky.500');
-    --buttonhover: theme('colors.sky.600');
     --buttontext: white;
     --backgreen: theme('colors.green.200');
     --backblue: theme('colors.cyan.200');
-    --body: theme('colors.gray.100');
-    --main: white;
     --tablehead: theme('colors.gray.200');
     --tableborder: theme('colors.gray.200');
     --tablerow: theme('colors.gray.100');
     --mainborder: theme('colors.gray.200');
-    --text: theme('colors.gray.900');
-    --info: theme('colors.gray.500');
     --codebg: theme('colors.gray.900');
     --codetext: white;
     --dots: theme('colors.gray.600');
@@ -26,19 +30,23 @@
 }
 
 :root[data-theme="dark"] {
+    --primary: theme('colors.sky.500');
+    --primaryhover: theme('colors.sky.600');
+    --heading: white;
+    --text: theme('colors.slate.300');
+    --info: theme('colors.slate.500');
+    --border: theme('colors.gray.950');
+    --main: theme('colors.slate.900');
+    --body: theme('colors.gray.950');
+    //--------------------------
     --button: theme('colors.sky.600');
-    --buttonhover: theme('colors.sky.700');
     --buttontext: white;
     --backgreen: theme('colors.green.900');
     --backblue: theme('colors.cyan.900');
-    --body: theme('colors.gray.950');
-    --main: theme('colors.gray.900');
     --tablehead: theme('colors.gray.950');
     --tableborder: theme('colors.gray.950');
     --tablerow: theme('colors.gray.800');
     --mainborder: theme('colors.gray.800');
-    --text: theme('colors.gray.200');
-    --info: theme('colors.gray.500');
     --codebg: theme('colors.gray.950');
     --codetext: white;
     --dots: black;
@@ -51,6 +59,7 @@
 @layer base {
     h1, h2, h3, h4, h5, h6 {
         @apply font-bold mt-8 mb-4;
+        color: var(--heading);
     }
     
     h1 {
