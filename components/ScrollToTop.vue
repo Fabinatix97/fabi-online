@@ -54,7 +54,7 @@ onUnmounted(() => {
     align-items: center;
     bottom: 20px;
     right: 20px;
-    background-color: var(--button);
+    background-color: var(--primary);
     color: white;
     border: none;
     border-radius: 50%;

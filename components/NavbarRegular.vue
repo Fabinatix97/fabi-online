@@ -56,7 +56,7 @@ const themeIconName = computed(() => {
 });
 
 const themeClass = computed(() => {
-    return theme.value === 'light' ? 'border-solid border-[1px] border-mainborder' : 'border-none';
+    return theme.value === 'light' ? 'border-solid border-[1px] border-border' : 'border-none';
 });
 
 </script>

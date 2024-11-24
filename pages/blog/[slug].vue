@@ -139,7 +139,7 @@ function calculateReadingTime(content) {
     }
     blockquote {
         background-color: var(--codebg);
-        border-left: 5px solid var(--button);
+        border-left: 5px solid var(--primary);
         padding: 10px 15px;
         margin: 20px 0;
         color: var(--text);

@@ -3,57 +3,43 @@
 @tailwind utilities;
 
 :root[data-theme="light"] {
-    --primary: theme('colors.sky.600');
-    --primaryhover: theme('colors.sky.700');
-    --heading: theme('colors.slate.900');
-    --text: theme('colors.slate.700');
-    --info: theme('colors.slate.500');
-    --border: theme('colors.slate.300');
-    --main: white;
     --body: theme('colors.gray.100');
-    //--------------------------
-    --button: theme('colors.sky.500');
-    --buttontext: white;
-    --backgreen: theme('colors.green.200');
-    --backblue: theme('colors.cyan.200');
-    --tablehead: theme('colors.gray.200');
-    --tableborder: theme('colors.gray.200');
-    --tablerow: theme('colors.gray.100');
-    --mainborder: theme('colors.gray.200');
-    --codebg: theme('colors.gray.900');
-    --codetext: white;
-    --dots: theme('colors.gray.600');
+    --border: theme('colors.slate.300');
     --card: white;
     --cardtext: theme('colors.gray.700');
+    --codebg: theme('colors.gray.900');
+    --codetext: white;
+    --info: theme('colors.slate.500');
+    --heading: theme('colors.slate.900');
+    --main: white;
     --navbar: rgba(255, 255, 255, 0.7);
+    --primary: theme('colors.sky.600');
+    --primaryhover: theme('colors.sky.700');
     --spotlight: 255, 255, 255;
+    --tableborder: theme('colors.gray.200');
+    --tablehead: theme('colors.gray.200');
+    --tablerow: theme('colors.gray.100');
+    --text: theme('colors.slate.700');
 }
 
 :root[data-theme="dark"] {
-    --primary: theme('colors.sky.500');
-    --primaryhover: theme('colors.sky.600');
-    --heading: white;
-    --text: theme('colors.slate.300');
-    --info: theme('colors.slate.500');
-    --border: theme('colors.gray.950');
-    --main: theme('colors.slate.900');
     --body: theme('colors.gray.950');
-    //--------------------------
-    --button: theme('colors.sky.600');
-    --buttontext: white;
-    --backgreen: theme('colors.green.900');
-    --backblue: theme('colors.cyan.900');
-    --tablehead: theme('colors.gray.950');
-    --tableborder: theme('colors.gray.950');
-    --tablerow: theme('colors.gray.800');
-    --mainborder: theme('colors.gray.800');
-    --codebg: theme('colors.gray.950');
-    --codetext: white;
-    --dots: black;
+    --border: theme('colors.gray.950');
     --card: theme('colors.gray.900');
     --cardtext: theme('colors.gray.400');
+    --codebg: theme('colors.gray.950');
+    --codetext: white;
+    --info: theme('colors.slate.500');
+    --heading: white;
+    --main: theme('colors.slate.900');
     --navbar: rgba(17, 24, 39, 0.8);
+    --primary: theme('colors.sky.500');
+    --primaryhover: theme('colors.sky.600');
     --spotlight: 21, 200, 232;
+    --tableborder: theme('colors.gray.950');
+    --tablehead: theme('colors.gray.950');
+    --tablerow: theme('colors.gray.800');
+    --text: theme('colors.slate.300');
 }
 
 @layer base {
@@ -88,7 +74,7 @@ body {
 
 main {
     border-radius: 10px;
-    border: 1px solid var(--mainborder);
+    border: 1px solid var(--border);
     background-color: var(--main);
     margin: 20px auto;
     padding: 30px;
