@@ -1,7 +1,7 @@
 <template>
     <div class="fixed">
         <div as="nav" class="navbar hyphens-none" :class="themeClass">
-            <div class="flex justify-between border-solid">
+            <div class="flex justify-between">
                 <div>
                     <ul class="nav-links">
                         <li :class="{ 'active-link': isActiveRoute('/') }"><NuxtLink to="/">Home</NuxtLink></li>
@@ -13,7 +13,7 @@
                 <div>
                     <ul class="nav-links">
                         <li>
-                            <a href="https://de.linkedin.com/in/fabian-weiss" class="text-text" target="_blank" rel="noopener noreferrer">
+                            <a href="https://de.linkedin.com/in/fabian-weiss" target="_blank" rel="noopener noreferrer">
                                 <Icon name="mdi:linkedin" size="1.4em" />
                             </a>
                         </li>
@@ -23,7 +23,7 @@
                             </a>
                         </li>
                         <li>
-                            <button @click="$toggleTheme()" class="text-text hover:text-button">
+                            <button @click="$toggleTheme()" class="hover:text-button">
                                 <ClientOnly>
                                     <Icon 
                                         :name="themeIconName" 
@@ -56,7 +56,7 @@ const themeIconName = computed(() => {
 });
 
 const themeClass = computed(() => {
-  return theme.value === 'light' ? 'border-solid border-[1px] border-mainborder' : 'border-none';
+    return theme.value === 'light' ? 'border-solid border-[1px] border-mainborder' : 'border-none';
 });
 
 </script>
@@ -74,6 +74,8 @@ const themeClass = computed(() => {
 }
 
 .navbar {
+    font-size: 20px;
+    color: var(--heading);
     width: 800px;
     padding: 1rem;
     font-weight: 500;
@@ -85,7 +87,7 @@ const themeClass = computed(() => {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     li {
         &:last-child {
             margin-right: 0;
@@ -97,17 +99,17 @@ const themeClass = computed(() => {
             transform-origin: bottom right;
         }
         &:hover::before {
-            color: var(--buttonhover);
+            color: var(--primaryhover);
         }
     }
     a:hover {
-        color: var(--buttonhover);
+        color: var(--primaryhover);
         transition: all 0.3s;
     }
 }
 
 .active-link {
-    color: var(--button);
+    color: var(--primary);
     position: relative;
 }
 
@@ -120,6 +122,6 @@ const themeClass = computed(() => {
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    background-color: var(--button);
+    background-color: var(--primary);
 }
 </style>

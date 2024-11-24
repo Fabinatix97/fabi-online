@@ -1,8 +1,8 @@
 <template>
-    <Disclosure as="nav" class="navbar border-b-[1px] border-mainborder hyphens-none" v-slot="{ open, close }">
+    <Disclosure as="nav" class="navbar border-b-[1px] border-border hyphens-none" v-slot="{ open, close }">
         <div class="flex items-start">
             <DisclosureButton
-                class="sm:hidden rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                class="sm:hidden rounded-md p-2 text-heading hover:bg-body hover:text-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                 <span class="sr-only">Open main menu</span>
                 <Icon name="line-md:close-to-menu-alt-transition" v-if="!open" class="block h-6 w-6" aria-hidden="true" />
                 <Icon name="line-md:menu-to-close-alt-transition" v-else class="block h-6 w-6" aria-hidden="true" />
@@ -16,7 +16,7 @@
                         :key="item.name" 
                         as="a" 
                         :to="item.href"
-                        :class="[isActiveRoute(item.href) ? 'bg-buttonhover text-buttontext hover:text-white' : 'text-text hover:bg-body hover:text-button', 'block rounded-md px-3 py-2 text-base font-medium']"
+                        :class="[isActiveRoute(item.href) ? 'bg-primary text-body hover:text-heading' : 'hover:bg-main hover:text-primary', 'block rounded-md px-3 py-2 text-base font-medium']"
                         :aria-current="item.current ? 'page' : undefined"
                         @click="close">
                         {{ item.name }}
@@ -24,19 +24,19 @@
                 </div>
                 <div class="flex px-2">
                     <div class="mr-4">
-                        <a href="https://de.linkedin.com/in/fabian-weiss" class="transition-all duration-300 hover:text-buttonhover" target="_blank" rel="noopener noreferrer">
+                        <a href="https://de.linkedin.com/in/fabian-weiss" class="transition-all duration-300 hover:text-primaryhover" target="_blank" rel="noopener noreferrer">
                             <Icon name="mdi:linkedin" size="2em" />
                         </a>
                     </div>
                     <div>
-                        <a href="https://github.com/Fabinatix97" class="transition-all duration-300 hover:text-buttonhover" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Fabinatix97" class="transition-all duration-300 hover:text-primaryhover" target="_blank" rel="noopener noreferrer">
                             <Icon name="mdi:github" size="2em" />
                         </a>
                     </div>
                 </div>
             </DisclosurePanel>
             <div v-if="!open" class="flex sm:hidden">
-                <button @click="$toggleTheme()" class="text-text hover:text-button">
+                <button @click="$toggleTheme()" class="hover:text-button">
                     <ClientOnly>
                         <Icon 
                             :name="themeIconName" 
@@ -76,6 +76,7 @@ const themeIconName = computed(() => {
 
 <style lang="scss" scoped>
 .navbar {
+    color: var(--heading);
     position: fixed;
     top: 0;
     left: 0;
