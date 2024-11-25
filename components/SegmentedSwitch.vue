@@ -16,7 +16,7 @@
 </template>
 
 <script setup>
-import { ref, defineProps } from 'vue';
+import { ref, defineProps, defineEmits } from 'vue';
 
 const props = defineProps({
     segments: {
@@ -25,11 +25,12 @@ const props = defineProps({
     }
 });
 
+const emit = defineEmits(['update:modelValue']);
 const segment = ref(0);
 
 const setSegment = (nr) => {
     segment.value = nr;
-    console.log(segment.value);
+    emit('update:modelValue', nr);
 }
 </script>
 
