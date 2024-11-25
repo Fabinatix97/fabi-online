@@ -12,10 +12,24 @@
     <p>Neben der Fliegerei habe ich mich schon immer für alles interessiert, was mit IT im Zusammenhang steht – sei es digitale Bildbearbeitung, Website-Gestaltung oder Tabellenkalkulation (Danke, Papa). Ein Einstieg in diese zukunftsweisende IT-Branche klang sehr vielversprechend.</p>
     <p>Bis heute bereue ich weder die Entscheidung Pilot zu werden noch die Entscheidung, mich beruflich weiterzubilden. Vielmehr begreife ich es als Chance und bin dankbar, so viele Erfahrungen in den beiden spannendsten Umfeldern zu sammeln, die ich kenne: Luftfahrt & IT.</p>
     <p>Derzeit arbeite ich als DevOps Engineer im IT-Referat der Stadt München. Meine fliegerischen Lizenzen erhalte ich mir nebenbei aufrecht.</p>
+    <ToggleSwitch @toggle="handleToggle" class="my-24 justify-self-center"/>
+    <div v-if="isDevOpsActive">
+        <h2>DevOps ist aktiv!</h2>
+    </div>
+    <div v-else>
+        <h2>Pilot ist aktiv!</h2>
+    </div>
 </template>
 
 <script setup>
+import { ref } from 'vue';
 import { useNuxtApp } from '#app';
+
+const isDevOpsActive = ref(true)
+
+const handleToggle = (value) => {
+  isDevOpsActive.value = value
+}
 
 const { $theme } = useNuxtApp();
 const theme = $theme;
