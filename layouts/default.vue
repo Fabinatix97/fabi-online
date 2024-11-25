@@ -1,14 +1,7 @@
 <template>
-    <div class="layout-container">
-        <nuxt-page />
+    <div class="flex justify-center mt-24 mx-5 mb-10">
+        <div class="w-[800px]">
+            <nuxt-page />
+        </div>
     </div>
 </template>
-
-<style>
-.layout-container {
-    margin: 80px 20px 40px 20px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-</style>  
