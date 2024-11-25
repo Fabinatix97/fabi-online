@@ -54,10 +54,10 @@ onUnmounted(() => {
     align-items: center;
     bottom: 20px;
     right: 20px;
-    background-color: var(--primary);
+    background-color: var(--info);
     color: white;
     border: none;
-    border-radius: 50%;
+    border-radius: 10px;
     padding: 10px;
     font-size: 30px;
     cursor: pointer;
