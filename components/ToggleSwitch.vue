@@ -12,15 +12,15 @@
 </template>
 
 <script setup>
-import { ref, defineEmits } from 'vue'
+import { ref, defineEmits } from 'vue';
 
-const isDevOps = ref(true)
-const emit = defineEmits(['toggle'])
+const isDevOps = ref(true);
+const emit = defineEmits(['toggle']);
 
 const toggle = () => {
-    isDevOps.value = !isDevOps.value
-    emit('toggle', isDevOps.value)
-}
+    isDevOps.value = !isDevOps.value;
+    emit('toggle', isDevOps.value);
+};
 </script>
 
 <style lang="scss" scoped>
