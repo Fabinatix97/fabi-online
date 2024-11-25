@@ -7,8 +7,8 @@
                         <circle cx="2" cy="2" r="5" fill="var(--primary)" />
                     </svg>
                 </client-only>
-                <h1 class="text-5xl">Hey! 👋🏻</h1>
-                <h1 class="text-5xl">Ich bin <span class="typing text-primary">{{ currentText }}</span></h1>
+                <h1>Hey! 👋🏻</h1>
+                <h1>Ich bin <span class="typing text-primary">{{ currentText }}</span></h1>
             </div>
             <div class="flex">
                 <p class="text-xl">Auf dieser Seite erwarten dich Book-Reviews, Tutorials, aber vor allem Essays. Ja, richtig gelesen: Essays – inspiriert durch persönliche Erfahrungen, Bücher oder aktuelle Ereignisse. Dies soll ein Ort sein, an dem ich meine Gedanken zu verschiedensten Themen mit dir teilen möchte.</p>
