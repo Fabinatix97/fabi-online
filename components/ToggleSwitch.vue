@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import { ref, defineEmits } from 'vue';
+import { ref } from 'vue';
 
 const isDevOps = ref(true);
 const emit = defineEmits(['toggle']);
