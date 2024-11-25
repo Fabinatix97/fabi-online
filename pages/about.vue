@@ -4,7 +4,9 @@
             <circle cx="2" cy="2" r="5" fill="var(--primary)" />
         </svg>
     </client-only>
+
     <h1>Meine Geschichte</h1>
+
     <div class="grid gap-4 grid-cols-1 sm:grid-cols-3">
         <img src="/public/img/profile.png" class="justify-self-center mt-4 w-4/6 sm:w-5/6" />
         <p class="sm:col-span-2">Gerade als ich meine Pilotenausbildung im Frühjahr 2020 erfolgreich abgeschlossen habe, verwehrte mir die COVID-19-Pandemie den Weg ins Airliner-Cockpit. Und was jetzt? Als Pilot habe ich gelernt, mit schwierigen Situationen umzugehen und fundierte Entscheidungen zu treffen. Däumchen drehen und hoffen, dass sich die Luftfahrt-Branche schnell wieder erholt? Das erschien mir nicht richtig – Piloten warten schließlich auch nicht und hoffen, dass schon alles gut geht. Ich wollte das Ruder selbst in die Hand nehmen und aktiv werden.</p>
@@ -18,7 +20,9 @@
     ------------>
     <div v-if="isDevOpsActive">
         <div class="mb-24">
+
             <h2>Erfahrung</h2>
+
             <div class="flex gap-10">
                 <div class="flex flex-col mt-8 w-1/4 gap-2 ">
                     <div @click="setDate(0)" :class="['date-button', { active: date === 0 }]">09/2024 - heute</div>
@@ -32,13 +36,43 @@
                 </div>
             </div>
         </div>
+
+        <h2>Tech Stack</h2>
+        
+        <h3 class="mt-0 text-info">Programmiersprachen</h3>
+        <SegmentedSwitch :segments="['Frontend', 'Middleware', 'Backend']" />
+        <div class="mt-8 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-7 gap-4">
+            <div v-for="skill in skills"
+                :style="{ 
+                    border: '1px solid rgba(' + skill.color + ', 1)',
+                    backgroundColor: 'rgba(' + skill.color + ', 0.2)'
+                }"
+                class="flex flex-col rounded-[10px] justify-center items-center h-24">
+                <div><Icon :name="skill.icon" size="3em"/></div>
+            </div>
+        </div>
+
+        <h3 class="text-info">Werkzeuge</h3>
+        <SegmentedSwitch :segments="['Dev', 'Ops', 'Misc']" />
+        <div class="mt-8 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-7 gap-4">
+            <div v-for="tool in tools"
+                :style="{ 
+                    border: '1px solid rgba(' + tool.color + ', 1)',
+                    backgroundColor: 'rgba(' + tool.color + ', 0.2)'
+                }"
+                class="flex flex-col rounded-[10px] justify-center items-center h-24">
+                <div><Icon :name="tool.icon" size="3em"/></div>
+            </div>
+        </div>
     </div>
     <!-----------
         PILOT
     ------------>
     <div v-if="!isDevOpsActive">
         <div class="mb-24">
+
             <h2>Erfahrung</h2>
+
             <div class="flex gap-10">
                 <div class="flex flex-col mt-8 w-1/4 gap-2 ">
                     <div @click="setDate(3)" :class="['date-button', { active: date === 3 }]">01/2020 - heute</div>
@@ -118,14 +152,35 @@ const experiences = [
     },
 ];
 
+const skills = [
+    { name: 'Vue.js', color: '65, 184, 131', icon: 'logos:vue' },
+    { name: 'Nuxt', color: '0, 220, 130', icon: 'logos:nuxt-icon' },
+    { name: 'HTML', color: '228, 79, 38', icon: 'logos:html-5' },
+    { name: 'CSS', color: '21, 114, 182', icon: 'logos:css-3' },
+    { name: 'Tailwindcss', color: '68, 168, 179', icon: 'logos:tailwindcss-icon' },
+    { name: 'Sass', color: '203, 102, 153', icon: 'logos:sass' },
+    { name: 'React.js', color: '97, 218, 251', icon: 'logos:react' }
+];
+
+const tools = [
+    { name: 'GitHub', color: '0, 0, 0', icon: 'logos:github-icon' },
+    { name: 'GitLab', color: '226, 67, 41', icon: 'logos:gitlab' },
+    { name: 'OpenShift', color: '218, 36, 48', icon: 'logos:openshift' },
+    { name: 'Checkmk', color: '21, 209, 160', icon: 'simple-icons:checkmk' },
+    { name: 'Ansible', color: '0, 0, 0', icon: 'logos:ansible' },
+    { name: 'Kibana', color: '240, 78, 152', icon: 'logos:kibana' },
+    { name: 'Helm', color: '15, 22, 137', icon: 'logos:helm' }
+];
 
 </script>
 
 <style lang="scss" scoped>
 .date-button {
+    color: var(--heading);
     padding: 4px 12px;
     border: 1px solid var(--body);
     border-radius: 17px;
+    cursor: pointer;
 }
 .date-button:hover {
     border-color: var(--info);
