@@ -47,6 +47,10 @@ const setSegment = (nr) => {
     cursor: pointer;
 }
 
+.segment:hover {
+    color: var(--primaryhover);
+}
+
 .active {
     background-color: var(--primary);
     color: var(--main);
