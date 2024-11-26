@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-2 gap-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div v-for="project in projects" class="flex flex-col justify-between bg-main border-[1px] border-border rounded-[10px]">
             <div>
                 <NuxtLink :to="project.link">
