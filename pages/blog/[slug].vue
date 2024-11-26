@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="justify-self-center py-1 px-3 border-2 border-button text-button text-sm rounded-full">
+        <div class="justify-self-center py-1 px-3 border-2 border-primary text-primary text-sm rounded-full">
             {{ formatDate(data.date) }}
         </div>
         <h1 class="text-center">{{ data.title }}</h1>
@@ -13,7 +13,7 @@
         <ContentRenderer :value="data" class="blog-content my-10 mx-auto max-w-7xl text-lg" />
         <div class="">
             <a v-for="tag in data.tags" :key="tag" :href="`/blog/tags/${tag}`"
-                class="text-sm font-semibold inline-block py-2 px-4 rounded-lg text-white bg-button uppercase last:mr-0 my-2 mr-4">
+                class="text-sm font-semibold inline-block py-2 px-4 rounded-lg text-white bg-primary uppercase last:mr-0 my-2 mr-4">
                 <div class="flex">
                     <Icon name="mdi:tag" size="1.2rem" class="text-gray-100 mr-2" />
                     {{ tag }}

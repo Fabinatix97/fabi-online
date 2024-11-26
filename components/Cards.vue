@@ -6,7 +6,7 @@
             :key="post.slug"
             class="card"
         >
-            <div class="card-content bg-card flex flex-col h-full">
+            <div class="card-content bg-main flex flex-col h-full">
                 <div>
                     <img
                         :src="`${post.coverImage}`"
@@ -15,11 +15,11 @@
                     />
                 </div>
                 <div class="p-6 flex-grow">
-					<div class="justify-self-start py-1 px-3 border-2 border-button text-button text-sm rounded-lg">
+					<div class="justify-self-start py-1 px-3 border-2 border-primary text-primary text-sm rounded-lg">
 						{{ formatDate(post.date) }}
 					</div>
 					<h2 class="text-xl font-bold mb-2">{{ post.title }}</h2>
-                    <p class="text-base text-cardtext mb-4">{{ getPostPreview(post.body, 40) }}...</p>
+                    <p class="text-base mb-4">{{ getPostPreview(post.body, 40) }}...</p>
                 </div>
             </div>
         </NuxtLink>

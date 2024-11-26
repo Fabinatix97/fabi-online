@@ -12,8 +12,6 @@ export default {
       colors: {
         body: "var(--body)",
         border: "var(--border)",
-        card: "var(--card)",
-        cardtext: "var(--cardtext)",
         codebg: "var(--codebg)",
         codetext: "var(--codetext)",
         info: "var(--info)",

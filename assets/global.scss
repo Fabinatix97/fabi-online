@@ -5,8 +5,6 @@
 :root[data-theme="light"] {
     --body: theme('colors.gray.100');
     --border: theme('colors.slate.300');
-    --card: white;
-    --cardtext: theme('colors.gray.700');
     --codebg: theme('colors.gray.900');
     --codetext: white;
     --info: theme('colors.slate.500');
@@ -25,8 +23,6 @@
 :root[data-theme="dark"] {
     --body: theme('colors.gray.950');
     --border: theme('colors.gray.950');
-    --card: theme('colors.gray.900');
-    --cardtext: theme('colors.gray.400');
     --codebg: theme('colors.gray.950');
     --codetext: white;
     --info: theme('colors.slate.500');
