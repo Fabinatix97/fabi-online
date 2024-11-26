@@ -101,11 +101,18 @@ function calculateReadingTime(content) {
         }
     }
     .button {
+        background-color: var(--primary);
         text-decoration: none;
-        color: var(--text);
+        color: white;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
 
         &:hover {
-            color: var(--text);
+            background-color: var(--primaryhover);
+            color: white;
         }
     }
     h1, h2, h3, h4, h5, h6 {

@@ -201,10 +201,10 @@ Obsidian hat mir gezeigt, wie kraftvoll ein minimalistischer Ansatz für das Not
 Neugierig geworden? Auch wenn es in diesem Artikel natürlich um allgemeine PKM-Prinzipien ging, kann ich dir nur wärmstens empfehlen, Obsidian einfach mal auszuprobieren. Ich bin mir sicher, es wird deine Perspektive auf das Notizenmachen und die Organisation von Wissen nachhaltig verändern.
 
 <div class="flex justify-center my-4">
-<button class="p-4 flex rounded-full items-center bg-button hover:bg-primaryhover hover:text-white" type="button">
+<button class="button p-4 flex rounded-full items-center">
   <img src="/img/blog/obsidian-logo-gradient.png"/>
   <div class="ml-4">
-    <a href="https://obsidian.md/" class="button">Hier geht's zu Obsidian</a>
+    <a href="https://obsidian.md/">Hier geht's zu Obsidian</a>
   </div>
 </button>
 </div>
