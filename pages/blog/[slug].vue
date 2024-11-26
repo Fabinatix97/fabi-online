@@ -78,6 +78,9 @@ function calculateReadingTime(content) {
 
 <style lang="scss">
 .blog-content {
+    img, video {
+        border-radius: 10px;
+    }
     ol {
         margin-left: 3rem;
         list-style-type: decimal;
