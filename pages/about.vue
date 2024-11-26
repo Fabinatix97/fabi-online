@@ -43,12 +43,31 @@
         <SegmentedSwitch v-model="activeSkillSegment" :segments="segmentOptions.skills" />
         <div class="mt-8 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-7 gap-4">
             <div v-for="skill in skills"
+                @mouseover="skill.hover = true"
+                @mouseleave="skill.hover = false"
                 :style="{ 
                     border: '1px solid rgba(' + skill.color + ', 1)',
                     backgroundColor: 'rgba(' + skill.color + ', 0.2)'
                 }"
-                class="flex flex-col rounded-[10px] justify-center items-center h-24">
-                <div><Icon :name="skill.icon" size="3em"/></div>
+                class="flex flex-col rounded-[10px] justify-center items-center h-24 overflow-hidden">
+                <div class="flex h-16 items-center">
+                    <Icon
+                        :name="skill.icon" 
+                        size="3em" 
+                        class="transition-transform duration-300 ease-in-out transform"
+                        :class="{'scale-75': skill.hover}"
+                    />
+                </div>
+                <div
+                    v-if="skill.hover"
+                    :style="{
+                        backgroundColor: 'rgb(' + skill.color + ')',
+                        color: skill.text
+                    }"
+                    class="flex justify-center items-center text-center  w-full h-9"
+                >
+                    {{ skill.name }}
+                </div>
             </div>
         </div>
 
@@ -56,12 +75,31 @@
         <SegmentedSwitch v-model="activeToolSegment" :segments="segmentOptions.tools" />
         <div class="mt-8 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-7 gap-4">
             <div v-for="tool in tools"
+                @mouseover="tool.hover = true"
+                @mouseleave="tool.hover = false"
                 :style="{ 
-                    border: '1px solid rgba(' + tool.color + ', 1)',
-                    backgroundColor: 'rgba(' + tool.color + ', 0.2)'
+                    border: theme === 'dark' && tool.color === '0, 0, 0' ? '1px solid rgb(255, 255, 255)' : '1px solid rgba(' + tool.color + ')',
+                    backgroundColor: theme === 'dark' && tool.color === '0, 0, 0' ? 'rgba(255, 255, 255, 0.4)' : `rgba(${tool.color}, 0.2)`
                 }"
-                class="flex flex-col rounded-[10px] justify-center items-center h-24">
-                <div><Icon :name="tool.icon" size="3em"/></div>
+                class="flex flex-col rounded-[10px] justify-center items-center h-24 overflow-hidden">
+                <div class="flex h-16 items-center">
+                    <Icon
+                        :name="tool.icon" 
+                        size="3em" 
+                        class="transition-transform duration-300 ease-in-out transform"
+                        :class="{'scale-75': tool.hover}"
+                    />
+                </div>
+                <div
+                    v-if="tool.hover"
+                    :style="{
+                        backgroundColor: 'rgb(' + tool.color + ')',
+                        color: tool.text
+                    }"
+                    class="flex justify-center items-center text-center w-full h-9"
+                >
+                    {{ tool.name }}
+                </div>
             </div>
         </div>
     </div>
@@ -91,7 +129,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue';
+import { ref, computed, reactive } from 'vue';
 import { useNuxtApp } from '#app';
 
 const isDevOpsActive = ref(true);
@@ -160,58 +198,58 @@ const segmentOptions = {
     tools: ['Dev', 'Ops', 'Misc']
 };
 
-const allSkills = {
+const allSkills = reactive({
     0: [
-        { name: 'Vue.js', color: '65, 184, 131', icon: 'logos:vue' },
-        { name: 'Nuxt', color: '0, 220, 130', icon: 'logos:nuxt-icon' },
-        { name: 'HTML', color: '228, 79, 38', icon: 'logos:html-5' },
-        { name: 'CSS', color: '21, 114, 182', icon: 'logos:css-3' },
-        { name: 'Tailwindcss', color: '68, 168, 179', icon: 'logos:tailwindcss-icon' },
-        { name: 'Sass', color: '203, 102, 153', icon: 'logos:sass' },
-        { name: 'React.js', color: '97, 218, 251', icon: 'logos:react' }
+        { name: 'Vue.js', color: '65, 184, 131', text: 'white', icon: 'logos:vue', hover: false },
+        { name: 'Nuxt', color: '0, 220, 130', text: 'black', icon: 'logos:nuxt-icon', hover: false },
+        { name: 'HTML', color: '228, 79, 38', text: 'white', icon: 'devicon:html5', hover: false },
+        { name: 'CSS', color: '21, 114, 182', text: 'white', icon: 'devicon:css3', hover: false },
+        { name: 'Tailwindcss', color: '68, 168, 179', text: 'white', icon: 'logos:tailwindcss-icon', hover: false },
+        { name: 'Sass', color: '203, 102, 153', text: 'white', icon: 'logos:sass', hover: false },
+        { name: 'React.js', color: '97, 218, 251', text: 'black', icon: 'logos:react', hover: false }
     ],
     1: [
-        { name: 'Apache Camel', color: '233, 120, 38', icon: 'logos:apache-camel' },
-        { name: 'Node.js', color: '83, 158, 67', icon: 'logos:nodejs-icon' }
+        { name: 'Camel', color: '233, 120, 38', text: 'white', icon: 'logos:apache-camel', hover: false },
+        { name: 'Node.js', color: '83, 158, 67', text: 'white', icon: 'logos:nodejs-icon', hover: false }
     ],
     2: [
-        { name: 'Java', color: '83, 130, 161', icon: 'logos:java' },
-        { name: 'Spring', color: '109, 179, 63', icon: 'logos:spring-icon' },
-        { name: 'Springboot', color: '109, 179, 63', icon: 'simple-icons:springboot' },
-        { name: 'PHP', color: '97, 129, 182', icon: 'logos:php' },
-        { name: 'Javascript', color: '240, 219, 79', icon: 'devicon:javascript' },
-        { name: 'Typescript', color: '0, 122, 204', icon: 'devicon:typescript' },
-        { name: 'Python', color: '56, 126, 184', icon: 'logos:python' }
+        { name: 'Java', color: '83, 130, 161', text: 'white', icon: 'logos:java', hover: false },
+        { name: 'Spring', color: '109, 179, 63', text: 'white', icon: 'logos:spring-icon', hover: false },
+        { name: 'Springboot', color: '109, 179, 63', text: 'white', icon: 'simple-icons:springboot', hover: false },
+        { name: 'PHP', color: '97, 129, 182', text: 'white', icon: 'logos:php', hover: false },
+        { name: 'Javascript', color: '240, 219, 79', text: 'black', icon: 'devicon:javascript', hover: false },
+        { name: 'Typescript', color: '0, 122, 204', text: 'white', icon: 'devicon:typescript', hover: false },
+        { name: 'Python', color: '56, 126, 184', text: 'white', icon: 'logos:python', hover: false }
     ]
-};
+});
 
-const allTools = {
+const allTools = reactive({
     0: [
-        { name: 'VS Code', color: '0, 122, 204', icon: 'logos:visual-studio-code' },
-        { name: 'Git', color: '222, 76, 54', icon: 'logos:git-icon' },
-        { name: 'Docker', color: '35, 150, 237', icon: 'logos:docker-icon' },
-        { name: 'Maven', color: '102, 46, 141', icon: 'devicon:maven' },
-        { name: 'NPM', color: '193, 33, 39', icon: 'logos:npm-icon' },
-        { name: 'Postman', color: '255, 108, 55', icon: 'logos:postman-icon' },
-        { name: 'Swagger', color: '133, 234, 45', icon: 'logos:swagger' },
-        { name: 'JFrog', color: '65, 191, 71', icon: 'logos:jfrog' }
+        { name: 'VS Code', color: '0, 122, 204', text: 'white', icon: 'logos:visual-studio-code', hover: false },
+        { name: 'Git', color: '222, 76, 54', text: 'white', icon: 'logos:git-icon', hover: false },
+        { name: 'Docker', color: '35, 150, 237', text: 'white', icon: 'logos:docker-icon', hover: false },
+        { name: 'Maven', color: '102, 46, 141', text: 'white', icon: 'devicon:maven', hover: false },
+        { name: 'NPM', color: '193, 33, 39', text: 'white', icon: 'logos:npm-icon', hover: false },
+        { name: 'Postman', color: '255, 108, 55', text: 'white', icon: 'logos:postman-icon', hover: false },
+        { name: 'Swagger', color: '133, 234, 45', text: 'black', icon: 'logos:swagger', hover: false },
+        { name: 'JFrog', color: '65, 191, 71', text: 'white', icon: 'logos:jfrog', hover: false }
     ],
     1: [
-        { name: 'GitHub', color: '0, 0, 0', icon: 'logos:github-icon' },
-        { name: 'GitLab', color: '226, 67, 41', icon: 'logos:gitlab' },
-        { name: 'OpenShift', color: '218, 36, 48', icon: 'logos:openshift' },
-        { name: 'Checkmk', color: '21, 209, 160', icon: 'simple-icons:checkmk' },
-        { name: 'Ansible', color: '0, 0, 0', icon: 'logos:ansible' },
-        { name: 'Kibana', color: '240, 78, 152', icon: 'logos:kibana' },
-        { name: 'Helm', color: '15, 22, 137', icon: 'logos:helm' }
+        { name: 'GitHub', color: '0, 0, 0', text: 'white', icon: 'logos:github-icon', hover: false },
+        { name: 'GitLab', color: '226, 67, 41', text: 'white', icon: 'logos:gitlab', hover: false },
+        { name: 'OpenShift', color: '218, 36, 48', text: 'white', icon: 'logos:openshift', hover: false },
+        { name: 'Checkmk', color: '21, 209, 160', text: 'black', icon: 'simple-icons:checkmk', hover: false },
+        { name: 'Ansible', color: '0, 0, 0', text: 'white', icon: 'logos:ansible', hover: false },
+        { name: 'Kibana', color: '240, 78, 152', text: 'white', icon: 'logos:kibana', hover: false },
+        { name: 'Helm', color: '39, 122, 159', text: 'white', icon: 'vscode-icons:file-type-helm', hover: false }
     ],
     2: [
-        { name: 'Jira', color: '38, 132, 255', icon: 'logos:jira' },
-        { name: 'Confluence', color: '38, 132, 255', icon: 'logos:confluence' },
-        { name: 'Figma', color: '162, 89, 255', icon: 'logos:figma' },
-        { name: 'Draw.io', color: '223, 108, 12', icon: 'vscode-icons:file-type-drawio' }
+        { name: 'Jira', color: '38, 132, 255', text: 'white', icon: 'logos:jira', hover: false },
+        { name: 'Confluence', color: '38, 132, 255', text: 'white', icon: 'logos:confluence', hover: false },
+        { name: 'Figma', color: '162, 89, 255', text: 'white', icon: 'logos:figma', hover: false },
+        { name: 'Draw.io', color: '223, 108, 12', text: 'white', icon: 'vscode-icons:file-type-drawio', hover: false }
     ]
-};
+});
 
 const skills = computed(() => allSkills[activeSkillSegment.value]);
 const tools = computed(() => allTools[activeToolSegment.value]);
