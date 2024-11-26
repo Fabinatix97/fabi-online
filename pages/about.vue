@@ -14,30 +14,29 @@
     <p>Neben der Fliegerei habe ich mich schon immer für alles interessiert, was mit IT im Zusammenhang steht – sei es digitale Bildbearbeitung, Website-Gestaltung oder Tabellenkalkulation (Danke, Papa). Ein Einstieg in diese zukunftsweisende IT-Branche klang sehr vielversprechend.</p>
     <p>Bis heute bereue ich weder die Entscheidung Pilot zu werden noch die Entscheidung, mich beruflich weiterzubilden. Vielmehr begreife ich es als Chance und bin dankbar, so viele Erfahrungen in den beiden spannendsten Umfeldern zu sammeln, die ich kenne: Luftfahrt & IT.</p>
     <p>Derzeit arbeite ich als DevOps Engineer im IT-Referat der Stadt München. Meine fliegerischen Lizenzen erhalte ich mir nebenbei aufrecht.</p>
+    
     <ToggleSwitch @toggle="handleToggle" class="my-24 justify-self-center"/>
+
     <!-----------
         DEVOPS
     ------------>
     <div v-if="isDevOpsActive">
-        <div class="mb-24">
+        <h2>Erfahrung</h2>
 
-            <h2>Erfahrung</h2>
-
-            <div class="flex gap-10">
-                <div class="flex flex-col mt-8 w-1/4 gap-2 ">
-                    <div @click="setDate(0)" :class="['date-button', { active: date === 0 }]">09/2024 - heute</div>
-                    <div @click="setDate(1)" :class="['date-button', { active: date === 1 }]">09/2021 - 08/2024</div>
-                    <div @click="setDate(2)" :class="['date-button', { active: date === 2 }]">09/2013 - 02/2014</div>
-                </div>
-                <div class="w-3/4">
-                    <h3>{{ experiences[date].title }}</h3>
-                    <p class="text-info">{{ experiences[date].company }}</p>
-                    <p>{{ experiences[date].description }}</p>
-                </div>
+        <div class="flex gap-10">
+            <div class="flex flex-col mt-8 w-1/4 gap-2 ">
+                <div @click="setDate(0)" :class="['date-button', { active: date === 0 }]">09/2024 - heute</div>
+                <div @click="setDate(1)" :class="['date-button', { active: date === 1 }]">09/2021 - 08/2024</div>
+                <div @click="setDate(2)" :class="['date-button', { active: date === 2 }]">09/2013 - 02/2014</div>
+            </div>
+            <div class="w-3/4">
+                <h3>{{ experiences[date].title }}</h3>
+                <p class="text-info">{{ experiences[date].company }}</p>
+                <p>{{ experiences[date].description }}</p>
             </div>
         </div>
 
-        <h2>Tech Stack</h2>
+        <h2 class="mt-24">Tech Stack</h2>
         
         <h3 class="mt-0 text-info">Programmiersprachen</h3>
         <SegmentedSwitch v-model="activeSkillSegment" :segments="segmentOptions.skills" />
@@ -102,6 +101,11 @@
                 </div>
             </div>
         </div>
+
+        <h2 class="mt-24 mb-8">Projekte</h2>
+
+        <Projects class="mb-40" />
+
     </div>
     <!-----------
         PILOT
