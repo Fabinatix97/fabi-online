@@ -54,6 +54,25 @@ const toggle = () => {
         top: 4px;
         left: 4px;
         transition: transform 0.3s;
+        animation: bounce 1s ease-in-out 1;
+    }
+
+    @keyframes bounce {
+        0% {
+            transform: translateX(50px);
+        }
+        25% {
+            transform: translateX(25px);
+        }
+        50% {
+            transform: translateX(50px);
+        }
+        75% {
+            transform: translateX(25px);
+        }
+        100% {
+            transform: translateX(50px);
+        }
     }
 }
 
