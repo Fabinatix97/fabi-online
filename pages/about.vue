@@ -40,7 +40,7 @@
         <h2>Tech Stack</h2>
         
         <h3 class="mt-0 text-info">Programmiersprachen</h3>
-        <SegmentedSwitch :segments="['Frontend', 'Middleware', 'Backend']" />
+        <SegmentedSwitch v-model="activeSkillSegment" :segments="segmentOptions.skills" />
         <div class="mt-8 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-7 gap-4">
             <div v-for="skill in skills"
                 :style="{ 
@@ -53,7 +53,7 @@
         </div>
 
         <h3 class="text-info">Werkzeuge</h3>
-        <SegmentedSwitch :segments="['Dev', 'Ops', 'Misc']" />
+        <SegmentedSwitch v-model="activeToolSegment" :segments="segmentOptions.tools" />
         <div class="mt-8 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-7 gap-4">
             <div v-for="tool in tools"
                 :style="{ 
@@ -91,7 +91,7 @@
 </template>
 
 <script setup>
-import { ref, watchEffect } from 'vue';
+import { ref, computed } from 'vue';
 import { useNuxtApp } from '#app';
 
 const isDevOpsActive = ref(true);
@@ -105,8 +105,8 @@ const theme = $theme;
 
 const date = ref(isDevOpsActive.value ? 0 : 3);
 
-watchEffect(() => {
-    date.value = isDevOpsActive.value ? 0 : 3;
+watch(isDevOpsActive, (newValue) => {
+    date.value = newValue ? 0 : 3;
 });
 
 const setDate = (nr) => {
@@ -152,25 +152,69 @@ const experiences = [
     },
 ];
 
-const skills = [
-    { name: 'Vue.js', color: '65, 184, 131', icon: 'logos:vue' },
-    { name: 'Nuxt', color: '0, 220, 130', icon: 'logos:nuxt-icon' },
-    { name: 'HTML', color: '228, 79, 38', icon: 'logos:html-5' },
-    { name: 'CSS', color: '21, 114, 182', icon: 'logos:css-3' },
-    { name: 'Tailwindcss', color: '68, 168, 179', icon: 'logos:tailwindcss-icon' },
-    { name: 'Sass', color: '203, 102, 153', icon: 'logos:sass' },
-    { name: 'React.js', color: '97, 218, 251', icon: 'logos:react' }
-];
+const activeSkillSegment = ref(0);
+const activeToolSegment = ref(0);
 
-const tools = [
-    { name: 'GitHub', color: '0, 0, 0', icon: 'logos:github-icon' },
-    { name: 'GitLab', color: '226, 67, 41', icon: 'logos:gitlab' },
-    { name: 'OpenShift', color: '218, 36, 48', icon: 'logos:openshift' },
-    { name: 'Checkmk', color: '21, 209, 160', icon: 'simple-icons:checkmk' },
-    { name: 'Ansible', color: '0, 0, 0', icon: 'logos:ansible' },
-    { name: 'Kibana', color: '240, 78, 152', icon: 'logos:kibana' },
-    { name: 'Helm', color: '15, 22, 137', icon: 'logos:helm' }
-];
+const segmentOptions = {
+    skills: ['Frontend', 'Middleware', 'Backend'],
+    tools: ['Dev', 'Ops', 'Misc']
+};
+
+const allSkills = {
+    0: [
+        { name: 'Vue.js', color: '65, 184, 131', icon: 'logos:vue' },
+        { name: 'Nuxt', color: '0, 220, 130', icon: 'logos:nuxt-icon' },
+        { name: 'HTML', color: '228, 79, 38', icon: 'logos:html-5' },
+        { name: 'CSS', color: '21, 114, 182', icon: 'logos:css-3' },
+        { name: 'Tailwindcss', color: '68, 168, 179', icon: 'logos:tailwindcss-icon' },
+        { name: 'Sass', color: '203, 102, 153', icon: 'logos:sass' },
+        { name: 'React.js', color: '97, 218, 251', icon: 'logos:react' }
+    ],
+    1: [
+        { name: 'Apache Camel', color: '233, 120, 38', icon: 'logos:apache-camel' },
+        { name: 'Node.js', color: '83, 158, 67', icon: 'logos:nodejs-icon' }
+    ],
+    2: [
+        { name: 'Java', color: '83, 130, 161', icon: 'logos:java' },
+        { name: 'Spring', color: '109, 179, 63', icon: 'logos:spring-icon' },
+        { name: 'Springboot', color: '109, 179, 63', icon: 'simple-icons:springboot' },
+        { name: 'PHP', color: '97, 129, 182', icon: 'logos:php' },
+        { name: 'Javascript', color: '240, 219, 79', icon: 'devicon:javascript' },
+        { name: 'Typescript', color: '0, 122, 204', icon: 'devicon:typescript' },
+        { name: 'Python', color: '56, 126, 184', icon: 'logos:python' }
+    ]
+};
+
+const allTools = {
+    0: [
+        { name: 'VS Code', color: '0, 122, 204', icon: 'logos:visual-studio-code' },
+        { name: 'Git', color: '222, 76, 54', icon: 'logos:git-icon' },
+        { name: 'Docker', color: '35, 150, 237', icon: 'logos:docker-icon' },
+        { name: 'Maven', color: '102, 46, 141', icon: 'devicon:maven' },
+        { name: 'NPM', color: '193, 33, 39', icon: 'logos:npm-icon' },
+        { name: 'Postman', color: '255, 108, 55', icon: 'logos:postman-icon' },
+        { name: 'Swagger', color: '133, 234, 45', icon: 'logos:swagger' },
+        { name: 'JFrog', color: '65, 191, 71', icon: 'logos:jfrog' }
+    ],
+    1: [
+        { name: 'GitHub', color: '0, 0, 0', icon: 'logos:github-icon' },
+        { name: 'GitLab', color: '226, 67, 41', icon: 'logos:gitlab' },
+        { name: 'OpenShift', color: '218, 36, 48', icon: 'logos:openshift' },
+        { name: 'Checkmk', color: '21, 209, 160', icon: 'simple-icons:checkmk' },
+        { name: 'Ansible', color: '0, 0, 0', icon: 'logos:ansible' },
+        { name: 'Kibana', color: '240, 78, 152', icon: 'logos:kibana' },
+        { name: 'Helm', color: '15, 22, 137', icon: 'logos:helm' }
+    ],
+    2: [
+        { name: 'Jira', color: '38, 132, 255', icon: 'logos:jira' },
+        { name: 'Confluence', color: '38, 132, 255', icon: 'logos:confluence' },
+        { name: 'Figma', color: '162, 89, 255', icon: 'logos:figma' },
+        { name: 'Draw.io', color: '223, 108, 12', icon: 'vscode-icons:file-type-drawio' }
+    ]
+};
+
+const skills = computed(() => allSkills[activeSkillSegment.value]);
+const tools = computed(() => allTools[activeToolSegment.value]);
 
 </script>
 
