@@ -17,6 +17,7 @@ export default {
         info: "var(--info)",
         heading: "var(--heading)",
         main: "var(--main)",
+        mainrgb: "var(--mainrgb)",
         navbar: "var(--navbar)",
         primary: "var(--primary)",
         primaryhover: "var(--primaryhover)",
