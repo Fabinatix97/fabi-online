@@ -2,14 +2,14 @@
     <Disclosure as="nav" class="navbar border-b-[1px] border-border hyphens-none" v-slot="{ open, close }">
         <div class="flex items-start">
             <DisclosureButton
-                class="sm:hidden rounded-md p-2 text-heading hover:bg-body hover:text-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                class="rounded-md p-2 text-heading hover:bg-body hover:text-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                 <span class="sr-only">Open main menu</span>
                 <Icon name="line-md:close-to-menu-alt-transition" v-if="!open" class="block h-6 w-6" aria-hidden="true" />
                 <Icon name="line-md:menu-to-close-alt-transition" v-else class="block h-6 w-6" aria-hidden="true" />
             </DisclosureButton>
         </div>
         <div :class="[open ? 'flex w-full justify-between' : '', 'flex w-full justify-end']">
-            <DisclosurePanel class="content-center sm:hidden">
+            <DisclosurePanel class="content-center">
                 <div class="space-y-1 pb-3">
                     <NuxtLink 
                         v-for="item in navigation" 
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </DisclosurePanel>
-            <div v-if="!open" class="flex sm:hidden">
+            <div v-if="!open" class="flex">
                 <button @click="$toggleTheme()" class="hover:text-button">
                     <ClientOnly>
                         <Icon 
