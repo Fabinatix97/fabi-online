@@ -10,18 +10,29 @@
             <p class="mb-0">Hier teile ich meine Gedanken und Erfahrungen zu allem, was mich gerade beschäftigt.</p>
         </div>
     </div>
-    <Gallery :posts="posts"/>
+    <Gallery v-if="!isMobileDevice" :posts="posts" />
+    <Cards v-else :posts="posts" />
 </template>
-  
+
 <script setup>
+import { ref, onMounted } from 'vue';
 import { useNuxtApp } from '#app';
 
 const { $theme } = useNuxtApp();
 const theme = $theme;
 
+const isMobileDevice = ref(false);
+
+onMounted(() => {
+    const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    const isSmallScreen = window.innerWidth < 1500;
+    isMobileDevice.value = hasTouch && isSmallScreen;
+});
+
 const { data: posts } = await useAsyncData('posts', () =>
     queryContent('/blog').find()
 );
+
 definePageMeta({
     layout: 'widelayout'
 });
