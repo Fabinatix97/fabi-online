@@ -5,7 +5,7 @@
 :root[data-theme="light"] {
     --body: theme('colors.gray.100');
     --border: theme('colors.slate.300');
-    --codebg: white;
+    --codebg: theme('colors.slate.900');
     --codetext: white;
     --info: theme('colors.slate.500');
     --heading: theme('colors.slate.900');
