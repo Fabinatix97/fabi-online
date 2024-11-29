@@ -1,6 +1,14 @@
 <template>
+    <div class="flex justify-center mx-5 mb-10">
+        <div class="w-[800px]">
+            <SearchBar placeholder="Artikel suchen" @search="updateSearchQuery" />
+        </div>
+    </div>
+    <div class="item error" v-if="input && !filteredPosts.length">
+        <p>Keine Artikel gefunden</p>
+    </div>
     <div class="gallery">
-        <figure v-for="post in sortedPosts" :key="post.slug">
+        <figure v-for="post in filteredPosts" :key="post.slug">
             <NuxtLink :to="post._path">
                 <img
                     :src="`${post.coverImage}`"
@@ -12,7 +20,7 @@
                         {{ formatDate(post.date) }}
                     </div>
                     <h4>{{ post.title }}</h4>
-                    <p>{{ getPostPreview(post.body, 30) }}...</p>
+                    <p>{{ extractContent(post.body, 30) }}...</p>
                     
                 </figcaption>
             </NuxtLink>
@@ -21,39 +29,54 @@
 </template>
 
 <script setup lang="js">
+import { ref, computed } from "vue";
+
+const input = ref("");
 const props = defineProps({
     posts: Array
 });
 
-const sortedPosts = computed(() => {
+const filteredPosts = computed(() => {
+  const searchTerm = input.value.toLowerCase();
   return props.posts
     .filter(post => post.status === "published")
+    .filter(post => {
+        const bodyText = extractContent(post.body).toLowerCase();
+        return (
+            post.title.toLowerCase().includes(searchTerm) ||
+            bodyText.includes(searchTerm)
+        );
+    })
     .sort((a, b) => new Date(b.date) - new Date(a.date));
 });
 
-function formatDate(dateString) {
-  const date = new Date(dateString);
-  const day = new Intl.DateTimeFormat("de-DE", { day: "numeric" }).format(date);
-  const month = new Intl.DateTimeFormat("de-DE", { month: "short" }).format(date);
-  const year = new Intl.DateTimeFormat("de-DE", { year: "numeric" }).format(date);
-  return `${month} ${day}, ${year}`;
+function updateSearchQuery(query) {
+  input.value = query;
 }
 
-function getPostPreview(body, wordLimit) {
-  const collectValues = (node) => {
-    const values = [];
-    if (node.value) {
-        values.push(node.value);
-    }
-    if (node.children) {
-        for (const child of node.children) {
-            values.push(...collectValues(child));
+function formatDate(dateString) {
+    const date = new Date(dateString);
+    const day = new Intl.DateTimeFormat("de-DE", { day: "numeric" }).format(date);
+    const month = new Intl.DateTimeFormat("de-DE", { month: "short" }).format(date);
+    const year = new Intl.DateTimeFormat("de-DE", { year: "numeric" }).format(date);
+    return `${month} ${day}, ${year}`;
+}
+
+function extractContent(body, wordLimit) {
+    const collectValues = (node) => {
+        const values = [];
+        if (node.value) {
+            values.push(node.value);
         }
-    }
-    return values;
-  };
-  const words = collectValues(body).join(" ").trim().split(/\s+/);
-  return words.slice(0, wordLimit).join(" ");
+        if (node.children) {
+            for (const child of node.children) {
+                values.push(...collectValues(child));
+            }
+        }
+        return values;
+    };
+    const words = collectValues(body).join(" ").trim().split(/\s+/);
+    return words.slice(0, wordLimit).join(" ");
 }
 </script>
 
@@ -92,11 +115,11 @@ function getPostPreview(body, wordLimit) {
 }
 
 .gallery figcaption {
-    position: absolute;  // Positioniere figcaption absolut im Verhältnis zu figure
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 3em 1em 1em;  // Passen, falls notwendig
+    padding: 3em 1em 1em;
     background: linear-gradient(transparent 25%, var(--mainrgb));
     opacity: 0;
     visibility: hidden;
