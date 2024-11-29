@@ -76,16 +76,16 @@ const themeIconName = computed(() => {
 
 <style lang="scss" scoped>
 .navbar {
-    color: var(--heading);
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    display: flex;
+    width: 100vw;
     padding: 1rem;
     font-weight: 500;
-    z-index: 1000;
+    color: var(--heading);
     background-color: var(--navbar);
     backdrop-filter: blur(10px);
+    z-index: 1000;
 }
 </style>
