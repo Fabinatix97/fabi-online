@@ -3,7 +3,7 @@
     <h1>Meine Geschichte</h1>
 
     <div class="grid gap-4 grid-cols-1 sm:grid-cols-3">
-        <img src="/public/img/profile.png" class="justify-self-center mt-4 w-4/6 sm:w-5/6" />
+        <img src="/public/img/about/profile.png" class="justify-self-center mt-4 w-4/6 sm:w-5/6" />
         <p class="sm:col-span-2">Gerade als ich meine Pilotenausbildung im Frühjahr 2020 erfolgreich abgeschlossen habe, verwehrte mir die COVID-19-Pandemie den Weg ins Airliner-Cockpit. Und was jetzt? Als Pilot habe ich gelernt, mit schwierigen Situationen umzugehen und fundierte Entscheidungen zu treffen. Däumchen drehen und hoffen, dass sich die Luftfahrt-Branche schnell wieder erholt? Das erschien mir nicht richtig – Piloten warten schließlich auch nicht und hoffen, dass schon alles gut geht. Ich wollte das Ruder selbst in die Hand nehmen und aktiv werden.</p>
     </div>
     <p>Neben der Fliegerei habe ich mich schon immer für alles interessiert, was mit IT im Zusammenhang steht – sei es digitale Bildbearbeitung, Website-Gestaltung oder Tabellenkalkulation (Danke, Papa). Ein Einstieg in diese zukunftsweisende IT-Branche klang sehr vielversprechend.</p>
