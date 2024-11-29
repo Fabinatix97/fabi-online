@@ -1,28 +1,30 @@
 <template>
-    <div class="text-primary text-xl font-bold">
-        {{ formatDate(data.date) }}
-    </div>
-    <h1 class="mt-4">{{ data.title }}</h1>
-    <div class="flex items-center gap-2 text-info">
-        <div class="flex">
-            <Icon name="mdi:clock-outline" size="1.2em"/>
-        </div>
-        <p class="m-0 p-0 flex">Lesezeit: {{ calculateReadingTime(getPostContent(data.body)) }}</p>
-    </div>
-    <img
-        :src="`${data.coverImage}`"
-        alt="Blog Post Cover Image"
-        class="my-8 w-[calc(100%_+_60px)] relative left-[-30px] max-w-none rounded-lg"
-    />
-    <ContentRenderer :value="data" class="blog-content my-10 mx-auto max-w-7xl text-lg" />
-    <div class="">
-        <a v-for="tag in data.tags" :key="tag" :href="`/blog/tags/${tag}`"
-            class="text-sm font-semibold inline-block py-2 px-4 rounded-lg text-white bg-primary uppercase last:mr-0 my-2 mr-4">
-            <div class="flex">
-                <Icon name="mdi:tag" size="1.2rem" class="text-gray-100 mr-2" />
-                {{ tag }}
+    <div class="flex justify-center">
+        <div class="min-w-0 max-w-[800px] px-4 pt-40">
+            <div class="text-primary text-xl font-bold">
+                {{ formatDate(data.date) }}
             </div>
-        </a>
+            <h1 class="mt-4">{{ data.title }}</h1>
+            <div class="flex items-center gap-2 text-info">
+                <div class="flex">
+                    <Icon name="mdi:clock-outline" size="1.2em"/>
+                </div>
+                <p class="m-0 p-0 flex">Lesezeit: {{ calculateReadingTime(getPostContent(data.body)) }}</p>
+            </div>
+            <img
+                :src="`${data.coverImage}`"
+                alt="Blog Post Cover Image"
+                class="my-8 w-[calc(100%_+_60px)] relative left-[-30px] max-w-none rounded-lg"
+            />
+            <ContentRenderer :value="data" class="blog-content" />
+            <NuxtLink v-for="tag in data.tags" :key="tag" :href="`/blog/tags/${tag}`"
+                class="text-sm font-semibold inline-block py-2 px-4 rounded-lg text-white bg-primary uppercase last:mr-0 my-2 mr-4">
+                <div class="flex">
+                    <Icon name="mdi:tag" size="1.2rem" class="text-gray-100 mr-2" />
+                    {{ tag }}
+                </div>
+            </NuxtLink>
+        </div>
     </div>
 </template>
 
@@ -74,6 +76,10 @@ function calculateReadingTime(content) {
 
     return readingTime === 1 ? `${readingTime} Minute` : `${readingTime} Minuten`;
 }
+
+definePageMeta({
+    layout: false,
+})
 </script>
 
 <style lang="scss">
