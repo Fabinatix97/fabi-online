@@ -1,8 +1,16 @@
 <template>
+	<div class="flex justify-center mx-5 mb-10">
+        <div class="w-[800px]">
+            <SearchBar placeholder="Artikel suchen" @search="updateSearchQuery" />
+        </div>
+    </div>
+    <div class="item error" v-if="input && !filteredPosts.length">
+        <p>Keine Artikel gefunden</p>
+    </div>
     <div class="cards grid grid-cols-1 sm:grid-cols-2 gap-4">
         <NuxtLink
             :to="post._path"
-            v-for="post in sortedPosts"
+            v-for="post in filteredPosts"
             :key="post.slug"
             class="card"
         >
@@ -19,7 +27,7 @@
 						{{ formatDate(post.date) }}
 					</div>
 					<h2 class="text-xl font-bold mb-2">{{ post.title }}</h2>
-                    <p class="text-base mb-4">{{ getPostPreview(post.body, 40) }}...</p>
+                    <p class="text-base mb-4">{{ extractContent(post.body, 40) }}...</p>
                 </div>
             </div>
         </NuxtLink>
@@ -27,17 +35,30 @@
 </template>
 
 <script setup lang="js">
-import { onMounted } from "vue";
+import { ref, computed, onMounted } from "vue";
 
+const input = ref("");
 const props = defineProps({
-  posts: Array
+    posts: Array
 });
 
-const sortedPosts = computed(() => {
+const filteredPosts = computed(() => {
+  const searchTerm = input.value.toLowerCase();
   return props.posts
     .filter(post => post.status === "published")
+    .filter(post => {
+        const bodyText = extractContent(post.body).toLowerCase();
+        return (
+            post.title.toLowerCase().includes(searchTerm) ||
+            bodyText.includes(searchTerm)
+        );
+    })
     .sort((a, b) => new Date(b.date) - new Date(a.date));
 });
+
+function updateSearchQuery(query) {
+  input.value = query;
+}
 
 function formatDate(dateString) {
   const date = new Date(dateString);
@@ -47,21 +68,21 @@ function formatDate(dateString) {
   return `${month} ${day}, ${year}`;
 }
 
-function getPostPreview(body, wordLimit) {
-  const collectValues = (node) => {
-    const values = [];
-    if (node.value) {
-      values.push(node.value);
-    }
-    if (node.children) {
-      for (const child of node.children) {
-        values.push(...collectValues(child));
-      }
-    }
-    return values;
-  };
-  const words = collectValues(body).join(" ").trim().split(/\s+/);
-  return words.slice(0, wordLimit).join(" ");
+function extractContent(body, wordLimit) {
+    const collectValues = (node) => {
+        const values = [];
+        if (node.value) {
+            values.push(node.value);
+        }
+        if (node.children) {
+            for (const child of node.children) {
+                values.push(...collectValues(child));
+            }
+        }
+        return values;
+    };
+    const words = collectValues(body).join(" ").trim().split(/\s+/);
+    return words.slice(0, wordLimit).join(" ");
 }
 
 onMounted(() => {
