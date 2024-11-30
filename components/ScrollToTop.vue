@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="fixed bottom-0 left-0 w-screen z-[1000] p-4 sm:pr-8">
         <button v-if="isVisible" class="scroll-to-top" @click="scrollToTop" aria-label="Scroll to top">
             <Icon name="line-md:chevron-up" />
         </button>
@@ -48,23 +48,17 @@ onUnmounted(() => {
 
 <style scoped>
 .scroll-to-top {
-    position: fixed;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 20px;
-    right: 20px;
+    justify-self: end;
+    padding: 10px;
     background-color: var(--info);
     color: white;
-    border: none;
     border-radius: 10px;
-    padding: 10px;
     font-size: 30px;
-    cursor: pointer;
     opacity: 0;
+    cursor: pointer;
     transform: translateY(20px) scale(1);
     transition: opacity 0.5s ease, transform 0.5s ease;
-    z-index: 1000;
 }
 .scroll-to-top.show {
     opacity: 0.7;
