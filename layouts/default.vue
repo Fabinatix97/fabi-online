@@ -7,6 +7,7 @@
                 </svg>
             </client-only>
             <nuxt-page />
+            <Footer />
         </div>
     </div>
 </template>

@@ -1,6 +1,7 @@
 <template>
     <div class="wide">
         <nuxt-page />
+        <Footer />
     </div>
 </template>
 

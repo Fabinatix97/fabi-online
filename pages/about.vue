@@ -99,7 +99,7 @@
 
         <h2 class="mt-24 mb-8">Projekte</h2>
 
-        <Projects class="mb-40" />
+        <Projects />
 
     </div>
     <!-----------

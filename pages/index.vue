@@ -71,6 +71,10 @@ const typingProcess = () => {
 onMounted(() => {
     typingProcess();
 });
+
+definePageMeta({
+    layout: 'nofooter'
+});
 </script>
 
 <style lang="scss" scoped>
