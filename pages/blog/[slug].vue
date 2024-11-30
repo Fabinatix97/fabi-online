@@ -1,6 +1,16 @@
 <template>
     <div class="flex justify-center">
         <div class="min-w-0 max-w-[800px] px-4 pt-40">
+            <div class="flex text-info pb-8">
+                <NuxtLink to="/blog">
+                    <div class="backbutton flex bg-main px-4 pt-1 gap-2 rounded-full hover:text-primary">
+                        <div class="icon-container">
+                            <Icon name="mdi:arrow-back" size="1.4em" />
+                        </div>
+                        <span>Zurück zur Übersicht</span>
+                    </div>
+                </NuxtLink>
+            </div>
             <div class="text-primary text-xl font-bold">
                 {{ formatDate(data.date) }}
             </div>
@@ -83,6 +93,25 @@ definePageMeta({
 </script>
 
 <style lang="scss">
+
+.icon-container {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.backbutton:hover .icon-container {
+    animation: bounceLeft 0.5s ease;
+}
+
+@keyframes bounceLeft {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-5px);
+    }
+}
+
 .blog-content {
     img, video {
         border-radius: 10px;
