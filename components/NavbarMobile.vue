@@ -3,9 +3,35 @@
         <div class="flex items-start">
             <DisclosureButton
                 class="rounded-md p-2 text-heading hover:bg-body hover:text-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                <span class="sr-only">Open main menu</span>
-                <Icon name="line-md:close-to-menu-alt-transition" v-if="!open" class="block h-6 w-6" aria-hidden="true" />
-                <Icon name="line-md:menu-to-close-alt-transition" v-else class="block h-6 w-6" aria-hidden="true" />
+                <template v-if="!open">
+                    <!-- Open Main Menu -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M5 5L19 19M5 19L19 5">
+                            <animate fill="freeze" attributeName="d" dur="0.4s" values="M5 5L19 19M5 19L19 5;M5 5L19 5M5 19L19 19" />
+                        </path>
+                        <path d="M12 12H12" opacity="0">
+                            <animate fill="freeze" attributeName="d" begin="0.2s" dur="0.4s" values="M12 12H12;M5 12H19" />
+                            <set fill="freeze" attributeName="opacity" begin="0.2s" to="1" />
+                        </path>
+                        </g>
+                    </svg>
+                </template>
+                <template v-else>
+                    <!-- Close Main Menu -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M5 12H19">
+                            <animate fill="freeze" attributeName="d" dur="0.4s" values="M5 12H19;M12 12H12" />
+                            <set fill="freeze" attributeName="opacity" begin="0.4s" to="0" />
+                        </path>
+                        <path d="M5 5L19 5M5 19L19 19" opacity="0">
+                            <animate fill="freeze" attributeName="d" begin="0.2s" dur="0.4s" values="M5 5L19 5M5 19L19 19;M5 5L19 19M5 19L19 5" />
+                            <set fill="freeze" attributeName="opacity" begin="0.2s" to="1" />
+                        </path>
+                        </g>
+                    </svg>
+                </template>
             </DisclosureButton>
         </div>
         <div :class="[open ? 'flex w-full justify-between' : '', 'flex w-full justify-end']">
