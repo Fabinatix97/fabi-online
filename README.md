@@ -1,75 +1,25 @@
-# Nuxt Minimal Starter
+# fabi-online
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Willkommen 👋 In diesem Repo findest du den Source-Code für meine [persönliche Website](www.fabi-online.de).
 
-## Setup
+Die Website wurde mit [Nuxt](https://github.com/nuxt) entwickelt, einem Framework, welches auf [Vue.js](https://github.com/vuejs) aufsetzt.
 
-Make sure to install dependencies:
+## Set-up
 
 ```bash
-# npm
+# Install dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Start development server on http://localhost:3000
 npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+# Build the application for production
 npm run build
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+# Build the application for static hosting services (static site generation)
+npx nuxi generate
 ```
 
-Locally preview production build:
+## Allgemeines
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction)
