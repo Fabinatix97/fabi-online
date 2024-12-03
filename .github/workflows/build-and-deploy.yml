@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: Buid 🏗️
+    name: Build 🏗️
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -40,3 +40,7 @@ jobs:
           server: fabi-online.de
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          port: 21
+          protocol: ftps
+          server-dir: /htdocs/test/
+          security: loose
