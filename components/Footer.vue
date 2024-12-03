@@ -1,21 +1,30 @@
 <template>
-    <div class="h-40 content-end">
-        <div class="flex flex-col justify-self-center text-center text-sm">
-            <client-only>
-                <svg v-if="theme === 'dark'" width="150" height="100" class="absolute -z-10 blur-[50px]">
-                    <rect  width="150" height="50" x="0" y="0" fill="var(--primary)" />
-                </svg>
-            </client-only>
-            <span>© 2024 Fabian Weiß</span>
-            <span>Mit <Icon name="logos:nuxt-icon" size="0.8em" /> <span class="text-[#00DC82]">Nuxt</span> gebaut</span>
+    <footer class="h-40 relative z-20 flex justify-center items-end">
+        <div class="flex flex-col items-center text-sm">
+            <span class="flex items-center gap-1">
+            Powered by
+            <a 
+                href="https://nuxt.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-[#00DC82] hover:text-[#00C16A] flex items-center"
+            >
+                <Icon name="lineicons:nuxt" size="1.4em" />
+                Nuxt
+            </a>
+            </span>
+            <span class="flex items-center gap-1">
+            Check out code on
+            <a 
+                href="https://github.com/Fabinatix97/fabi-online"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-primary hover:text-primaryhover flex items-center"
+            >
+                <Icon name="line-md:github-loop" size="1.4em" />
+                GitHub
+            </a>
+            </span>
         </div>
-        <div v-if="theme === 'light'" class="h-[60px]"></div>
-    </div>
+    </footer>
 </template>
-
-<script setup>
-import { useNuxtApp } from '#app';
-
-const { $theme } = useNuxtApp();
-const theme = $theme;
-</script>
