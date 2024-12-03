@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed bottom-0 left-0 w-screen z-[1000] p-4 sm:pr-8">
+    <div class="fixed bottom-0 left-0 w-screen z-10 p-4 sm:pr-8">
         <button v-if="isVisible" class="scroll-to-top" @click="scrollToTop" aria-label="Scroll to top">
             <Icon name="line-md:chevron-up" />
         </button>
