@@ -120,9 +120,45 @@
                 <div class="w-3/4">
                     <h3>{{ experiences[date].title }}</h3>
                     <p class="text-info">{{ experiences[date].company }}</p>
+                    <img :src="experiences[date].image" class="rounded-lg" />
                     <p>{{ experiences[date].description }}</p>
                 </div>
             </div>
+
+            <h2>Pilot Skills</h2>
+
+            <SegmentedSwitch v-model="activePilotSkillSegment" :segments="segmentOptions.pilotSkills" />
+            <div v-for="pilotSkill in pilotSkills">
+                <h4>{{ pilotSkill.name }}</h4>
+                <p>{{ pilotSkill.text }}</p>
+            </div>
+
+            <h2>Sonstige Qualifikationen</h2>
+
+            <div class="flex gap-10">
+                <div class="flex mt-8 w-1/4">
+                    <div 
+                        :style="{ 
+                            border: theme === 'dark' ? '1px solid #CBD5E1' : '1px solid rgba(3, 61, 98, 0.5)',
+                            backgroundColor: theme === 'dark' ? '#CBD5E1' : 'rgba(3, 61, 98, 0.1)'
+                        }"
+                        class="flex flex-col rounded-[10px] justify-center items-center h-24 overflow-hidden">
+                        <div class="w-32 justify-items-center">
+                            <img src="/public/img/about/hs-worms-light.png" class="w-16" />
+                        </div>
+                    </div>
+                </div>
+                <div class="w-3/4">
+                    <h3>Aviation Management (B.Sc.)</h3>
+                    <p class="text-info">Hochschule Worms</p>
+                    <ul class="list-disc">
+                        <li>Fachbereich: Touristik / Verkehrswesen</li>
+                        <li>Parallel: Verkehrspilotenausbildung (ATPL)</li>
+                        <li>Bachelorarbeit: „Long-haul Narrow-body Operations by European LCCs - Current State, Challenges, and Outlook” (Bewertet mit 1,7)</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </div>
 </template>
@@ -148,7 +184,6 @@ watch(isDevOpsActive, (newValue) => {
 
 const setDate = (nr) => {
     date.value = nr;
-    console.log(date.value);
 }
 
 const experiences = [
@@ -170,31 +205,42 @@ const experiences = [
     {
         title: 'Airline Assessments & Proficiency Checks',
         company: 'Ready Entry',
+        image: '/fabian-weiss/img/about/mcc.jpg',
         description: 'Das Cockpit ist zum Greifen nahe. Ab Januar 2020 habe ich mich aktiv bei deutschen Fluggesellschaften beworben und wurde in den darauffolgenden Monaten auch zu zwei Assessments eingeladen. Diese durchlief ich erfolgreich, ehe das damals neuartige Coronavirus Deutschland erreichte und einhergehend mit der Pandemieerklärung die Einstellungsabsichten der Airlines schlagartig zum Ruhen brachte. Seither sehen die Aussichten für angehende Verkehrspiloten wie mich eher düster aus. Aktuell halte ich noch an meinem Traum fest und sorge dafür, dass meine fliegerischen Berechtigungen gültig bleiben.',
     },
     {
         title: 'ATPL-Theorie, CPL, MEP, MCC',
         company: 'APS | Worms',
+        image: '/fabian-weiss/img/about/tecnam-landing.jpg',
         description: 'Zurück in Deutschland ging es in großen Schritten dem Ziel „Frozen ATPL“ entgegen. Neben dem Curriculum der Hochschule und der weiteren praktischen Flugausbildung lag der Hauptfokus nun auf der Vorbereitung für die ATPL-Theorie. Diese bestand aus 14 verschiedenen Fächern, für welche hunderte Seiten Theoriewissen und mehr als 15.000 dazu passende Fragen verinnerlicht werden mussten. Mitte 2019 war auch diese Hürde geschafft. Fliegerisch folgten nun noch die Umschreibung der Instrumentenflugberechtigung in deutsches Recht (IR-Conversion), die Berechtigung zum Steuern mehrmotoriger Kolbenflugzeuge (MEP), die Berechtigung, um gegen Bezahlung Flüge als verantwortlicher Pilot durchführen zu dürfen (CPL) sowie die Berechtigung zum Fliegen sogenannter Multi-Crew Flugzeuge (MCC). All diese Berechtigungen in nur vier Monaten zu erlangen verbuche ich trotz aller Bescheidenheit als persönlichen Erfolg.',
     },
     {
         title: 'Zweiter USA-Aufenthalt, Hour Building',
         company: 'FFTC | Venice, FL',
+        image: '/fabian-weiss/img/about/hour-building.jpg',
         description: 'In den Semesterferien ging es zurück auf gewohntes Terrain. Mit amerikanischer Pilotenlizenz in der Tasche durften wir nun das Land auf eigene Faust erkunden. Für die Umschreibung der Instrumentenflugberechtigung in europäisches Recht, galt es, dem Luftfahrtbundesamt mindestens 50 Stunden PIC (pilot in command – ohne Fluglehrer) vorzuweisen. Nichts leichter als das! Jeweils in Zweier-Crews schwangen wir uns in die Cessnas und erforschten den Sunshine-State von oben. Zu meinen absoluten Highlights zählen unter anderem Daytona Beach, Vero Beach, Fort Lauderdale, Orlando und Key West. Mit der unabhängigen Planung unserer Flüge stieg natürlich auch das Maß an Selbstverantwortung. Dass sich sowohl meine Teamfähigkeit als auch Englischkenntnisse hierdurch fast von alleine weiter verbesserten, war ein netter Nebeneffekt.',
     },
     {
         title: 'Erster USA-Aufenthalt, IR-Training',
         company: 'FFTC | Venice, FL',
+        image: '/fabian-weiss/img/about/steep-turn.jpg',
         description: 'Florida, ein 800 km langer Appendix Nordamerikas, welcher sich durch seine endlosen Strände, das subtropische Klima und die sonnenhungrigen Ruheständler auszeichnet. Und ganz nebenbei wird der Bundesstaat regelmäßig von Hurrikans heimgesucht. Der perfekte Ort also, um eine Instrumentenflugberechtigung zu erlangen. Die Ironie ist hoffentlich erkennbar. Doch mit der allgegenwärtigen „easy-going“-Mentalität der Floridianer – Fluglehrer eingeschlossen – alles kein Problem. Innerhalb von zehn Wochen und einer einwöchigen Unterbrechung aufgrund der Verheerungen von Hurrikan Irma habe ich neben den neu erlangten fliegerischen Fähigkeiten auch meine Englischkenntnisse deutlich vertiefen können – und nebenbei Erlebnisse und Geschichtsstoff für ein ganzes Buch gesammelt.',
     },
 ];
 
 const activeSkillSegment = ref(0);
 const activeToolSegment = ref(0);
+const activePilotSkillSegment = ref(0);
 
 const segmentOptions = {
     skills: ['Frontend', 'Middleware', 'Backend'],
-    tools: ['Dev', 'Ops', 'Misc']
+    tools: ['Dev', 'Ops', 'Misc'],
+    pilotSkills: [
+        { icon: 'fluent:people-team-16-filled' },
+        { icon: 'game-icons:awareness' },
+        { icon: 'mynaui:lightning-solid' },
+        { icon: 'tabler:bulb-filled' }
+    ]
 };
 
 const allSkills = reactive({
@@ -250,8 +296,36 @@ const allTools = reactive({
     ]
 });
 
+const allPilotSkills = reactive({
+    0: [
+        { 
+            name: 'Crew Resource Management', 
+            text: 'Effektive Zusammenarbeit im Cockpit ist essenziell für einen sicheren Flug. Ich lege großen Wert darauf, klare Kommunikation und Entscheidungsprozesse im Team zu fördern, sodass alle Beteiligten zur optimalen Durchführung des Flugbetriebs beitragen können.' 
+        }
+    ],
+    1: [
+        { 
+            name: 'Situational Awareness', 
+            text: 'Eine umfassende Wahrnehmung der aktuellen Fluglage ist unerlässlich. Ich achte darauf, jederzeit ein klares Bild von Flugposition, Wetterbedingungen, Verkehr und technischen Systemen zu haben, um schnelle und fundierte Entscheidungen zu treffen.' 
+        }
+    ],
+    2: [
+        { 
+            name: 'Staying calm under pressure', 
+            text: 'Im Cockpit gibt es keine zweite Chance. Unter Druck bewahre ich Ruhe und handle entschlossen, um selbst in kritischen Situationen einen kühlen Kopf zu bewahren und sichere Lösungen zu finden.' 
+        }
+    ],
+    3: [
+        { 
+            name: 'Technical Know-how', 
+            text: 'Als Pilot verfüge ich über tiefgreifendes technisches Wissen zu den Flugzeugsystemen. Dieses Know-how hilft mir, komplexe Systeme effizient zu bedienen und technische Herausforderungen schnell zu meistern.' 
+        }
+    ]
+});
+
 const skills = computed(() => allSkills[activeSkillSegment.value]);
 const tools = computed(() => allTools[activeToolSegment.value]);
+const pilotSkills = computed(() => allPilotSkills[activePilotSkillSegment.value]);
 
 </script>
 

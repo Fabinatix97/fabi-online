@@ -3,12 +3,22 @@
         <div class="flex items-center h-10 bg-main border-[1px] border-border rounded-full">
             <div class="flex items-center">
                 <div 
-                    v-for="(name, index) in segments" 
+                    v-for="(segment, index) in segments" 
                     :key="index" 
                     @click="setSegment(index)" 
-                    :class="['segment', { active: segment === index }]"
+                    :class="['segment', { active: index === currentSegment }]"
                 >
-                    {{ name }}
+                    <template v-if="typeof segment === 'string'">
+                        {{ segment }}
+                    </template>
+                    <template v-else>
+                        <template v-if="segment.icon">
+                            <Icon :name="segment.icon" class="text-lg" />
+                        </template>
+                        <template v-if="segment.name">
+                            {{ segment.name }}
+                        </template>
+                    </template>
                 </div>
             </div>  
         </div>
@@ -21,15 +31,20 @@ import { ref } from 'vue';
 const props = defineProps({
     segments: {
         type: Array,
-        required: true
+        required: true,
+        validator: (value) => 
+            value.every(segment => 
+                typeof segment === 'string' || 
+                (typeof segment === 'object' && (segment.name || segment.icon))
+            )
     }
 });
 
 const emit = defineEmits(['update:modelValue']);
-const segment = ref(0);
+const currentSegment = ref(0);
 
 const setSegment = (nr) => {
-    segment.value = nr;
+    currentSegment.value = nr;
     emit('update:modelValue', nr);
 }
 </script>
