@@ -36,6 +36,7 @@
             </NuxtLink>
         </div>
     </div>
+    <Footer class="mb-10"/>
 </template>
 
 <script setup>
