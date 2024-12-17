@@ -47,5 +47,5 @@ jobs:
           port: 21
           protocol: ftps
           local-dir: dist/
-          server-dir: /htdocs/test
+          server-dir: /htdocs/test/
           security: loose
