@@ -26,7 +26,7 @@
                 alt="Blog Post Cover Image"
                 class="my-8 w-[calc(100%_+_60px)] relative left-[-30px] max-w-none rounded-lg"
             />
-            <ContentRenderer :value="data" class="blog-content" />
+            <ContentRenderer :value="data" class="blog-content mb-8" />
             <NuxtLink v-for="tag in data.tags" :key="tag" :href="`/blog/tags/${tag}`"
                 class="text-sm font-semibold inline-block py-2 px-4 rounded-lg text-white bg-primary uppercase last:mr-0 my-2 mr-4">
                 <div class="flex">
