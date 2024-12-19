@@ -61,13 +61,19 @@ const setSegment = (nr) => {
     font-weight: 500;
     cursor: pointer;
 }
-
 .segment:hover {
     color: var(--primaryhover);
 }
-
 .active {
     background-color: var(--primary);
     color: var(--main);
+}
+.active:hover {
+    color: var(--heading);
+}
+@media (hover: none) {
+    .segment:hover {
+        color: var(--main);
+    }
 }
 </style>

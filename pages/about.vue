@@ -344,7 +344,7 @@ const pilotSkills = computed(() => allPilotSkills[activePilotSkillSegment.value]
     background-color: var(--main);
     border-color: var(--border);
 }
-@media only screen and (max-width: 600px) {
+@media (hover: none) {
     .date-button {
         color: var(--heading);
         padding: 4px 12px;
