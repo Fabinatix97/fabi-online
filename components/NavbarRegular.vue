@@ -13,12 +13,12 @@
                 <div>
                     <ul class="nav-links">
                         <li>
-                            <a href="https://de.linkedin.com/in/fabian-weiss" target="_blank" rel="noopener noreferrer">
+                            <a href="https://de.linkedin.com/in/fabian-weiss" title="Folge mir auf LinkedIn" target="_blank" rel="noopener noreferrer">
                                 <Icon name="mdi:linkedin" size="1.4em" />
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/Fabinatix97" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/Fabinatix97" title="Folge mir auf GitHub" target="_blank" rel="noopener noreferrer">
                                 <Icon name="mdi:github" size="1.4em" />
                             </a>
                         </li>

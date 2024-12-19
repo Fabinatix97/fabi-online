@@ -50,12 +50,12 @@
                 </div>
                 <div class="flex px-2">
                     <div class="mr-4">
-                        <a href="https://de.linkedin.com/in/fabian-weiss" class="transition-all duration-300 hover:text-primaryhover" target="_blank" rel="noopener noreferrer">
+                        <a href="https://de.linkedin.com/in/fabian-weiss" class="transition-all duration-300 hover:text-primaryhover" title="Folge mir auf LinkedIn" target="_blank" rel="noopener noreferrer">
                             <Icon name="mdi:linkedin" size="2em" />
                         </a>
                     </div>
                     <div>
-                        <a href="https://github.com/Fabinatix97" class="transition-all duration-300 hover:text-primaryhover" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Fabinatix97" class="transition-all duration-300 hover:text-primaryhover" title="Folge mir auf GitHub" target="_blank" rel="noopener noreferrer">
                             <Icon name="mdi:github" size="2em" />
                         </a>
                     </div>
