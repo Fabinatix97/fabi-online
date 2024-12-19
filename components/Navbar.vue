@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <nav role="navigation">
       <NavbarRegular v-if="isDesktop" />
       <NavbarMobile v-else />
-    </div>
+    </nav>
   </template>
   
   <script>

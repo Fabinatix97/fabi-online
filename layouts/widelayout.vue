@@ -1,5 +1,5 @@
 <template>
-    <div class="wide">
+    <div class="wide" role="main">
         <nuxt-page />
         <Footer />
     </div>
