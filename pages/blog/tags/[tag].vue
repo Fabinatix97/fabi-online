@@ -19,7 +19,8 @@
             <h1>#{{ tag }}</h1>
         </div>
     </div>
-    <Gallery :posts="posts"/>
+    <Gallery v-if="!isMobileDevice" :posts="posts" />
+    <Cards v-else :posts="posts" />
 </template>
 
 <script setup>
@@ -29,14 +30,20 @@ import { useRoute } from 'vue-router';
 const { $theme } = useNuxtApp();
 const theme = $theme;
 
+const isMobileDevice = ref(false);
+
+onMounted(() => {
+    const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    const isSmallScreen = window.innerWidth < 1500;
+    isMobileDevice.value = hasTouch && isSmallScreen;
+});
+
 const route = useRoute();
 const tag = route.params.tag;
 
 const { data: posts } = await useAsyncData('posts', () =>
     queryContent('/blog').where({ tags: { $contains: tag } }).find()
 );
-
-const filteredPosts = computed(() => posts.value);
 
 definePageMeta({
     layout: 'widelayout'
