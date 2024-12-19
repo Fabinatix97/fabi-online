@@ -62,7 +62,7 @@
                 </div>
             </DisclosurePanel>
             <div v-if="!open" class="flex">
-                <button @click="$toggleTheme()" class="hover:text-button">
+                <button @click="$toggleTheme()" class="hover:text-primaryhover transition-colors duration-300">
                     <ClientOnly>
                         <Icon 
                             :name="themeIconName" 
