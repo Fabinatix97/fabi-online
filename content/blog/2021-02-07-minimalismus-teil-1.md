@@ -91,7 +91,7 @@ _Weniger "nur für alle Fälle", mehr bewusstes Verstauen_
 
 Ich hoffe ich konnte dir mit diesen Tipps & Tricks dabei helfen oder dich vielleicht auch nur dazu inspirieren, dein Zuhause ein wenig minimalistisch**_er_** zu gestalten. Natürlich kann diese Liste noch weitaus mehr Punkte umfassen. Falls du selbst Ideen oder Erfahrungen hast, wie man das Eigenheim weiter verschlanken kann, dann zögere nicht und schreibe ein Kommentar unter diesen Beitrag. Gerne würde mich natürlich auch deine generelle Meinung zum Thema Minimalismus interessieren.
 
-Im [nächsten Teil](https://www.fabi-online.de/minimalismus-teil-2/) der Minimalismus-Reihe wollen wir uns mit zwei Bereichen beschäftigen, die für manche Menschen eine ähnlich wichtige Rolle spielen, wie die eigene Wohnung: Smartphone & Computer.
+Im [nächsten Teil](/blog/2021-02-21-minimalismus-teil-2) der Minimalismus-Reihe wollen wir uns mit zwei Bereichen beschäftigen, die für manche Menschen eine ähnlich wichtige Rolle spielen, wie die eigene Wohnung: Smartphone & Computer.
 
 * * *
 

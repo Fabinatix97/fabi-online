@@ -20,7 +20,7 @@ In diesem Beitrag möchte ich dir zeigen, was Notion so mächtig macht und gleic
 
 ## Back to school
 
-Zur besseren Veranschaulichung versetzen wir uns - wie bereits im [ersten Teil](https://www.fabi-online.de/notion-1x1/) - in die Lage eines Studenten. Dieser steckt mittlerweile mitten im Hochschulstress und benötigt für die anstehenden Klausurenphase dringend ein Werkzeug, um seinen Lernfortschritt zu überwachen.
+Zur besseren Veranschaulichung versetzen wir uns - wie bereits im [ersten Teil](/blog/2021-05-02-notion-1x1) - in die Lage eines Studenten. Dieser steckt mittlerweile mitten im Hochschulstress und benötigt für die anstehenden Klausurenphase dringend ein Werkzeug, um seinen Lernfortschritt zu überwachen.
 
 Wir öffnen also unser bereits erstelltes [Studium-Notizbuch](https://www.notion.so/Studium-b0a433b6a5b34f58a95535ed0aacd6ab) und öffnen anschließend die Seite "Allgemeines". Nun erstellen wir eine Unterseite mit dem Titel "Lernplan" und dem Datenbanktyp "Table". Die vorgefertigte Tabelle passen wir nun nach unseren Bedürfnissen an.
 

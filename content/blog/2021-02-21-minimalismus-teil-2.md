@@ -15,7 +15,7 @@ tags:
 coverImage: "/fabian-weiss/img/blog/minimalism-2.jpg"
 ---
 
-Im [ersten Teil](https://www.fabi-online.de/minimalismus-teil-1/) dieser Beitragsreihe haben wir uns damit beschäftigt, wie man einen minimalistisch_**er**_en Lebensstil in den eigenen vier Wänden verwirklichen kann. Hierbei habe ich dir vor allem Tipps für das Verschlanken deines Kleiderschranks, deines Schreibtischs oder sonstiger Möbel auf den Weg gegeben. In diesem Beitrag soll es nun um das Entrümpeln der wahrscheinlich wichtigsten persönlichen Besitztümer des 21. Jahrhunderts gehen: Smartphone und Computer.
+Im [ersten Teil](/blog/2021-02-07-minimalismus-teil-1) dieser Beitragsreihe haben wir uns damit beschäftigt, wie man einen minimalistisch_**er**_en Lebensstil in den eigenen vier Wänden verwirklichen kann. Hierbei habe ich dir vor allem Tipps für das Verschlanken deines Kleiderschranks, deines Schreibtischs oder sonstiger Möbel auf den Weg gegeben. In diesem Beitrag soll es nun um das Entrümpeln der wahrscheinlich wichtigsten persönlichen Besitztümer des 21. Jahrhunderts gehen: Smartphone und Computer.
 
 <!--more-->
 
@@ -93,7 +93,7 @@ Social Media ist dein Feind
 
 Ich hoffe ich konnte dir mit diesen Tipps & Tricks dabei helfen oder dich vielleicht auch nur dazu inspirieren, deinen PC oder dein Smartphone ein wenig minimalistisch**_er_** zu gestalten. Natürlich kann diese Liste noch weitaus mehr Punkte umfassen. Falls du selbst Ideen oder Erfahrungen hast, wie man die digitale Welt weiter verschlanken kann, dann zögere nicht und schreibe ein Kommentar unter diesen Beitrag. Gerne würde mich natürlich auch deine generelle Meinung zum Thema Minimalismus interessieren.
 
-Im [nächsten Teil](https://www.fabi-online.de/minimalismus-teil-3) der Minimalismus-Reihe möchte ich mit dir über ein Thema diskutieren, dass uns alle etwas angeht: Geld.
+Im [nächsten Teil](/blog/2021-03-07-minimalismus-teil-3) der Minimalismus-Reihe möchte ich mit dir über ein Thema diskutieren, dass uns alle etwas angeht: Geld.
 
 * * *
 

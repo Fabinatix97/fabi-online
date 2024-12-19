@@ -17,7 +17,7 @@ tags:
 coverImage: "/fabian-weiss/img/blog/minimalism-3.jpg"
 ---
 
-Im [zweiten Teil](https://www.fabi-online.de/minimalismus-teil-2/) dieser Beitragsreihe haben wir uns damit beschäftigt, wie sich ein minimalistisch**_er_**er bzw. bewussterer Umgang mit Computer oder Smartphone erzielen lässt. Hierbei ging es vor allem darum, Ablenkungen zu minimieren und wieder mehr Kontrolle über die mediale Nutzung zu erlangen. Kontrolle bzw. dessen Zurückerlangung ist auch in diesem Beitrag ein wichtiges Stichwort. Es soll nämlich darum gehen, wie du deine Finanzen auf eine minimalistische Weise besser in den Griff bekommen kannst.
+Im [zweiten Teil](/blog/2021-02-21-minimalismus-teil-2) dieser Beitragsreihe haben wir uns damit beschäftigt, wie sich ein minimalistisch**_er_**er bzw. bewussterer Umgang mit Computer oder Smartphone erzielen lässt. Hierbei ging es vor allem darum, Ablenkungen zu minimieren und wieder mehr Kontrolle über die mediale Nutzung zu erlangen. Kontrolle bzw. dessen Zurückerlangung ist auch in diesem Beitrag ein wichtiges Stichwort. Es soll nämlich darum gehen, wie du deine Finanzen auf eine minimalistische Weise besser in den Griff bekommen kannst.
 
 <!--more-->
 
@@ -117,7 +117,7 @@ Abschließen möchte ich diesen Beitrag mit einer Erkenntnis, welche im Umgang m
 
 > Der kürzeste Weg zur Freiheit ist: zu schätzen, was man schon hat. [^1]
 
-Im nächsten und letzten Teil der Minimalismus-Reihe möchte ich mit dir über die Schattenseiten des Minimalismus diskutieren.
+Im [nächsten und letzten Teil](/blog/2021-03-21-minimalismus-teil-4) der Minimalismus-Reihe möchte ich mit dir über die Schattenseiten des Minimalismus diskutieren.
 
 * * *
 

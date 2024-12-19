@@ -47,7 +47,7 @@ Ich liebe es, neue Dinge auszuprobieren. Doch vor lauter Enthusiasmus kann man s
 
 ## 3. Wochen-/Monats-/Jahresrückblick
 
-Ich selbst bin offen gestanden kein leidenschaftlicher Tagebuch-Schreiber. Nichtsdestotrotz gefällt mir die zentrale Idee des Tagebuchschreibens: die persönlichen Erlebnisse festzuhalten. Mithilfe von Notion kann ich meine Erlebnisse, Erfolge oder Herausforderungen sehr einfach festhalten. Ich nutze hierfür drei verschiedene Datenbanken: Weekly Review, Monthly Review, Annual Review. Die drei Datenbanken sind wiederum hierarchisch miteinander verknüpft, sprich, die "Monthly Review"-Datenbank greift auf Inhalte der "Weekly Review"-Datenbank zurück und die "Annual Review"-Datenbank auf Inhalte der "Monthly Review"-Datenbank. Technisch umgesetzt habe ich das mit Relationen und Roll-ups. Mehr dazu findest du in [diesem Beitrag](https://www.fabi-online.de/notion-deathly-hallows/).
+Ich selbst bin offen gestanden kein leidenschaftlicher Tagebuch-Schreiber. Nichtsdestotrotz gefällt mir die zentrale Idee des Tagebuchschreibens: die persönlichen Erlebnisse festzuhalten. Mithilfe von Notion kann ich meine Erlebnisse, Erfolge oder Herausforderungen sehr einfach festhalten. Ich nutze hierfür drei verschiedene Datenbanken: Weekly Review, Monthly Review, Annual Review. Die drei Datenbanken sind wiederum hierarchisch miteinander verknüpft, sprich, die "Monthly Review"-Datenbank greift auf Inhalte der "Weekly Review"-Datenbank zurück und die "Annual Review"-Datenbank auf Inhalte der "Monthly Review"-Datenbank. Technisch umgesetzt habe ich das mit Relationen und Roll-ups. Mehr dazu findest du in [diesem Beitrag](/blog/2021-05-16-notion-deathly-hallows).
 
 ![](/img/blog/notion-monthly-review.png)
 

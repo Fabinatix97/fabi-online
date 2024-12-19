@@ -112,11 +112,11 @@ Dies ist ein einfacher Absatz, der erklärt, was Markdown ist.
 
 ---
 
-# Mein Artikel
+<p style="font-size: 3rem; font-weight: 700; line-height: 1; margin-top: 2rem; margin-bottom: 1rem;">Mein Artikel<p>
 
 Dies ist ein einfacher Absatz, der erklärt, was Markdown ist.
 
-## Vorteile von Markdown
+<p style="font-size: 2.25rem; font-weight: 700; line-height: 2.5rem; margin-top: 2rem; margin-bottom: 1rem;">Vorteile von Markdown<p>
 
 - einfach zu lesen
 - leicht zu schreiben

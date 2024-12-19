@@ -31,7 +31,7 @@ Nicht zuletzt ist das System vollkommen offen und kann von dir an deine individu
 
 ## Warum Notion?
 
-Die Wahl für Notion ist recht schnell erklärt. Ich selbst kenne mich recht gut in Notion aus ([hier ein paar Artikel, falls du Notion noch nicht kennen solltest](https://www.fabi-online.de/tag/notion/)) und bin der Meinung, dass sich der Datenbank-Ansatz von Notion perfekt für ein Logbuch eignet.
+Die Wahl für Notion ist recht schnell erklärt. Ich selbst kenne mich recht gut in Notion aus ([hier ein paar Artikel, falls du Notion noch nicht kennen solltest](/blog/tags/notion)) und bin der Meinung, dass sich der Datenbank-Ansatz von Notion perfekt für ein Logbuch eignet.
 
 Des Weiteren kann auf Notion von überall zugegriffen werden, so z. B. auch von deinem Mobilgerät. Dass Notion responsiv ist und sich an die Bildschirmgrößen der verschiedenen Endgeräte anpasst, ohne dass dadurch die Übersichtlichkeit leidet, war ein weiterer Grund.
 
