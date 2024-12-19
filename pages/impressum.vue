@@ -2,6 +2,14 @@
     <ContentDoc class="impressum"/>
 </template>
 
+<script setup>
+useSeoMeta({
+    title: 'Impressum',
+    description: 'Impressum und Datenschutzerklärung von Fabian Weiß',
+    ogImage: '/img/about/fabionline.png',
+});
+</script>
+
 <style lang="scss">
 .impressum {
     ul {

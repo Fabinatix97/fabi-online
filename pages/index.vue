@@ -75,6 +75,12 @@ onMounted(() => {
 definePageMeta({
     layout: 'nofooter'
 });
+
+useSeoMeta({
+    title: 'Home',
+    description: 'Auf dieser Seite erwarten dich Book-Reviews, Tutorials, aber vor allem Essays. Ja, richtig gelesen: Essays – inspiriert durch persönliche Erfahrungen, Bücher oder aktuelle Ereignisse. Dies soll ein Ort sein, an dem ich meine Gedanken zu verschiedensten Themen mit dir teilen möchte.',
+    ogImage: '/img/about/fabionline.png',
+});
 </script>
 
 <style lang="scss" scoped>

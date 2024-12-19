@@ -48,4 +48,10 @@ const { data: posts } = await useAsyncData('posts', () =>
 definePageMeta({
     layout: 'widelayout'
 });
+
+useSeoMeta({
+    title: 'Tags',
+    description: 'Hier findest du alle Beiträge zu einem bestimmten Tag.',
+    ogImage: '/img/about/fabionline.png',
+});
 </script>

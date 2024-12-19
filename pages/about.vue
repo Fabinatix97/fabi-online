@@ -327,6 +327,11 @@ const skills = computed(() => allSkills[activeSkillSegment.value]);
 const tools = computed(() => allTools[activeToolSegment.value]);
 const pilotSkills = computed(() => allPilotSkills[activePilotSkillSegment.value]);
 
+useSeoMeta({
+    title: 'About',
+    description: 'Erfahre mehr über mich, meine Erfahrungen und Fähgikeiten.',
+    ogImage: '/img/about/fabionline.png',
+});
 </script>
 
 <style lang="scss" scoped>

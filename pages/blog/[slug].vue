@@ -107,6 +107,16 @@ function calculateReadingTime(content) {
 definePageMeta({
     layout: false,
 })
+
+onMounted(() => {
+    if (data.value) {
+        useSeoMeta({
+            title: data.value.title,
+            description: `${getPostContent(data.value.body).slice(0, 250)}...`,
+            ogImage: data.value.coverImage,
+        });
+    }
+});
 </script>
 
 <style lang="scss">

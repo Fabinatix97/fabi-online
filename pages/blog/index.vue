@@ -36,4 +36,10 @@ const { data: posts } = await useAsyncData('posts', () =>
 definePageMeta({
     layout: 'widelayout'
 });
+
+useSeoMeta({
+    title: 'Blog',
+    description: 'Hier teile ich meine Gedanken und Erfahrungen zu allem, was mich gerade beschäftigt.',
+    ogImage: '/img/about/fabionline.png',
+});
 </script>
