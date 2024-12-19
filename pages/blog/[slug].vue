@@ -1,6 +1,8 @@
 <template>
-    <div class="flex justify-center">
-        <div class="min-w-0 max-w-[800px] px-4 pt-40">
+    <div class="flex justify-center w-full">
+        <div class="flex-none w-[calc(50%-400px)] hidden xl:block">
+        </div>
+        <div class="min-w-0 max-w-[800px] px-4 pt-40 flex-shrink-0">
             <client-only>
                 <svg v-if="theme === 'dark'" width="400" height="300" viewBox="0 0 10 11" class="absolute -z-10 blur-[120px]">
                     <circle cx="2" cy="2" r="5" fill="var(--primary)" />
@@ -39,6 +41,10 @@
                     {{ tag }}
                 </div>
             </NuxtLink>
+        </div>
+        <div class="flex-none w-[calc(50%-400px)] hidden xl:block">
+            <div class="h-screen"></div>
+            <TableOfContents />
         </div>
     </div>
     <Footer class="mb-10"/>
