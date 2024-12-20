@@ -29,7 +29,7 @@ export default defineEventHandler(async (event) => {
     const feed = new Feed({
         title: 'Fabian Weiß',
         description: 'Ein Ort sein, an dem ich meine Gedanken zu verschiedensten Themen mit dir teile.',
-        id: 'https://www.fabi-online.de/',
+        id: 'https://www.fabi-online.de/rss',
         link: 'https://www.fabi-online.de/rss',
         language: 'de',
         image: 'https://www.fabi-online.de/favicon/favicon-32x32.png',
