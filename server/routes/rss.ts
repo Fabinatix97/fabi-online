@@ -42,9 +42,9 @@ export default defineEventHandler(async (event) => {
             link: 'https://www.fabi-online.de/',
         },
         feedLinks: {
-            atom: 'https://www.fabi-online.de/atom.xml',
-            rss: 'https://www.fabi-online.de/rss.xml',
-            json: 'https://www.fabi-online.de/feed.json',
+            atom: 'https://www.fabi-online.de/rss',
+            rss: 'https://www.fabi-online.de/rss',
+            json: 'https://www.fabi-online.de/rss',
         },
     });
 
