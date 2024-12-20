@@ -44,8 +44,8 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
-      prerender: {
-          routes: ['/rss']
-      }
-  },
+    prerender: {
+      routes: ['/rss']
+    }
+},
 });
