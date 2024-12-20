@@ -1,14 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    baseURL: '/fabian-weiss/',
+    //baseURL: '/fabian-weiss/',
     head: {
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/fabian-weiss/favicon/favicon.ico' },
-        { rel: 'icon', type: 'image/svg+xml', href: '/fabian-weiss/favicon/favicon.svg' },
-        { rel: 'apple-touch-icon', sizes: '180x180', href: '/fabian-weiss/favicon/apple-touch-icon.png' },
-        { rel: 'icon', type: 'image/png', sizes: '96x96', href: '/fabian-weiss/favicon/favicon-96x96.png' },
-        { rel: 'manifest', href: '/fabian-weiss/favicon/site.webmanifest' }
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon/favicon.svg' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicon/apple-touch-icon.png' },
+        { rel: 'icon', type: 'image/png', sizes: '96x96', href: '/favicon/favicon-96x96.png' },
+        { rel: 'manifest', href: '/favicon/site.webmanifest' }
       ],
       meta: [
         { name: 'apple-mobile-web-app-title', content: 'Fabian Weiß' }
