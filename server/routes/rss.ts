@@ -1,9 +1,8 @@
-import { defineEventHandler } from 'h3';
+import { defineEventHandler, getQuery, send } from 'h3';
 import { promises as fs } from 'fs';
-import path from 'path';
 import { Feed } from 'feed';
+import path from 'path';
 import matter from 'gray-matter';
-import { send } from 'h3';
 
 export default defineEventHandler(async (event) => {
     const contentDir = path.resolve('content/blog');
@@ -59,8 +58,10 @@ export default defineEventHandler(async (event) => {
             image: `https://www.fabi-online.de/${post.img}`
         });
     }
+    
+    const query = getQuery(event);
+    const format = query.format || 'rss';
 
-    const format = event.context.query.format || 'rss';
     let content: string;
     let contentType: string;
 
