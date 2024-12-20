@@ -42,6 +42,11 @@ export default defineEventHandler(async (event) => {
             email: 'fabian@fabi-online.de',
             link: 'https://www.fabi-online.de/',
         },
+        feedLinks: {
+            atom: 'https://www.fabi-online.de/atom.xml',
+            rss: 'https://www.fabi-online.de/rss.xml',
+            json: 'https://www.fabi-online.de/feed.json',
+        },
     });
 
     for (const post of posts) {
@@ -56,6 +61,20 @@ export default defineEventHandler(async (event) => {
         });
     }
 
-    const rssContent = feed.rss2();
-    await send(event, rssContent, 'application/rss+xml');
+    const format = event.context.query.format || 'rss';
+    let content: string;
+    let contentType: string;
+
+    if (format === 'atom') {
+        content = feed.atom1();
+        contentType = 'application/atom+xml';
+    } else if (format === 'json') {
+        content = feed.json1();
+        contentType = 'application/json';
+    } else {
+        content = feed.rss2();
+        contentType = 'application/rss+xml';
+    }
+
+    await send(event, content, contentType);
 });
