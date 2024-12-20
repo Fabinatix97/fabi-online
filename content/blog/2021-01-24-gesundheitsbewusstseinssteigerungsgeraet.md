@@ -14,7 +14,7 @@ tags:
   - "review"
   - "vivosmart-4"
   - "wearables"
-coverImage: "/fabian-weiss/img/blog/fitness-tracker.jpg"
+coverImage: "/img/blog/fitness-tracker.jpg"
 ---
 
 Fitness Tracker erfreuen sich - sofern man die Absatzentwicklung als Kriterium hierfür ansieht - immer größerer Beliebtheit. Allein 2019 wurden weltweit knapp 337 Millionen Wearables verkauft. Auch wenn es derzeit schwierig ist, an aktuelle Zahlen heranzukommen, so dürfte der Absatz im letzten Jahr durchaus noch einmal zugelegt haben. Auch ich habe mir vor ziemlich genau einem Jahr einen solchen Fitness Tracker gekauft. Meine Erfahrungen hiermit möchte ich in diesem Beitrag mit dir teilen.

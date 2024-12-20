@@ -12,7 +12,7 @@ tags:
   - "lifestyle"
   - "minimalismus"
   - "social-media"
-coverImage: "/fabian-weiss/img/blog/minimalism-2.jpg"
+coverImage: "/img/blog/minimalism-2.jpg"
 ---
 
 Im [ersten Teil](/blog/2021-02-07-minimalismus-teil-1) dieser Beitragsreihe haben wir uns damit beschäftigt, wie man einen minimalistisch_**er**_en Lebensstil in den eigenen vier Wänden verwirklichen kann. Hierbei habe ich dir vor allem Tipps für das Verschlanken deines Kleiderschranks, deines Schreibtischs oder sonstiger Möbel auf den Weg gegeben. In diesem Beitrag soll es nun um das Entrümpeln der wahrscheinlich wichtigsten persönlichen Besitztümer des 21. Jahrhunderts gehen: Smartphone und Computer.

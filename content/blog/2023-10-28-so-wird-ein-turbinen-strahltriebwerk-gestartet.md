@@ -5,7 +5,7 @@ status: "published"
 category: "Aviation Knowledge"
 tags: 
   - "flugzeugkunde"
-coverImage: "/fabian-weiss/img/blog/thrust-levers.jpg"
+coverImage: "/img/blog/thrust-levers.jpg"
 ---
 
 Vielleicht ist dir beim Nachvollziehen der [Funktionsweise eines Turbinen-Strahltriebwerks](/blog/2023-09-10-jet-engines-101) folgende Frage gekommen: wenn die Turbine über die Gase aus der Brennkammer angetrieben wird und die Brennkammer vom Verdichter abhängig ist, wie kann dann die Turbine überhaupt den Verdichter antreiben? Oder anders gesagt, wer liefert zuerst die notwendige Energie: Verdichter oder Turbine?

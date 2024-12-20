@@ -16,7 +16,7 @@ tags:
   - "regal"
   - "schreibtisch"
   - "zuhause"
-coverImage: "/fabian-weiss/img/blog/minimalism-1.jpg"
+coverImage: "/img/blog/minimalism-1.jpg"
 ---
 
 Hast du dich schonmal gefragt, wie viele Dinge du eigentlich so besitzt? Nachdem ich Anfang des Jahres die Filmkomödie "100 Dinge" und die Dokumentation "Minimalism: A Documentary About the Important Things" gesehen habe, ist genau diese Frage in mir aufgekommen. Ich wusste zwar, dass ich selbst eine eher sparsame Person bin und nicht viel Krempel besitze. Nichtsdestotrotz konnte ich eine genaue Anzahl meiner Besitztümer nur sehr schwer schätzen. Die Vorstellung, eine Inventur in den eigenen vier Wänden zu machen, hat mein Herz warm werden lassen, bin ich doch selbst ein leidenschaftlicher Analytiker. Nach gefühlt einer Stunde der Bestandsaufnahme hatte ich dann Gewissheit. In dem gefühlt 25 qm großen Raum, den ich in meinem Elternhaus mein Eigen nennen darf, befinden sich 954 Dinge. Das hat mich wirklich überrascht. Ich hätte auf eine weitaus geringere Zahl getippt.

@@ -3,7 +3,7 @@ title: "Warum ich Formel 1 schaue"
 date: "2022-11-05"
 status: "published"
 category: "Essay"
-coverImage: "/fabian-weiss/img/blog/f1-torro-rosso-vs-ferrari.jpg"
+coverImage: "/img/blog/f1-torro-rosso-vs-ferrari.jpg"
 ---
 
 Falls du zufällig schon mal einen Blick auf meine [About-Seite](/about) geworfen hast, ist dir vielleicht aufgefallen, dass eine meiner Interessen Formel 1 ist. All diejenigen, die mehr darüber erfahren möchten, wieso ich gerne Formel 1 schaue bzw. was mich an diesem Rennsport so fasziniert, sind hier genau richtig. Und wer weiß, vielleicht kann ich ja auch dich für die Königsklasse des Motorsports begeistern, falls du noch kein Fan sein solltest.

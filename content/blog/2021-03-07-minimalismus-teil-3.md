@@ -14,7 +14,7 @@ tags:
   - "minimalismus"
   - "schulden"
   - "sparen"
-coverImage: "/fabian-weiss/img/blog/minimalism-3.jpg"
+coverImage: "/img/blog/minimalism-3.jpg"
 ---
 
 Im [zweiten Teil](/blog/2021-02-21-minimalismus-teil-2) dieser Beitragsreihe haben wir uns damit beschäftigt, wie sich ein minimalistisch**_er_**er bzw. bewussterer Umgang mit Computer oder Smartphone erzielen lässt. Hierbei ging es vor allem darum, Ablenkungen zu minimieren und wieder mehr Kontrolle über die mediale Nutzung zu erlangen. Kontrolle bzw. dessen Zurückerlangung ist auch in diesem Beitrag ein wichtiges Stichwort. Es soll nämlich darum gehen, wie du deine Finanzen auf eine minimalistische Weise besser in den Griff bekommen kannst.
