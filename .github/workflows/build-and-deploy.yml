@@ -47,5 +47,5 @@ jobs:
           port: 21
           protocol: ftps
           local-dir: dist/
-          server-dir: /htdocs/fabian-weiss/
+          server-dir: /htdocs/fabi-online/
           security: loose
