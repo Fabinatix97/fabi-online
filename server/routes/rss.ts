@@ -56,7 +56,6 @@ export default defineEventHandler(async (event) => {
             id: `https://www.fabi-online.de/blog/${post.slug}`,
             link: `https://www.fabi-online.de/blog/${post.slug}`,
             description: `${post.body.slice(0, 250)}...`,
-            content: post.body,
             image: `https://www.fabi-online.de/${post.img}`
         });
     }
