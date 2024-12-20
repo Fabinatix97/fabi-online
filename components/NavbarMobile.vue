@@ -50,6 +50,11 @@
                 </div>
                 <div class="flex px-2">
                     <div class="mr-4">
+                        <a href="https://www.fabi-online.de/rss" class="transition-all duration-300 hover:text-primaryhover" title="RSS-Feed abonnieren" target="_blank" rel="noopener noreferrer">
+                            <Icon name="mdi:rss" size="2em" />
+                        </a>
+                    </div>
+                    <div class="mr-4">
                         <a href="https://de.linkedin.com/in/fabian-weiss" class="transition-all duration-300 hover:text-primaryhover" title="Folge mir auf LinkedIn" target="_blank" rel="noopener noreferrer">
                             <Icon name="mdi:linkedin" size="2em" />
                         </a>

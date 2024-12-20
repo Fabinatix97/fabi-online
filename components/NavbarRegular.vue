@@ -13,6 +13,11 @@
                 <div>
                     <ul class="nav-links">
                         <li>
+                            <a href="https://www.fabi-online.de/rss" title="RSS-Feed abonnieren" target="_blank" rel="noopener noreferrer">
+                                <Icon name="mdi:rss" size="1.4em" />
+                            </a>
+                        </li>
+                        <li>
                             <a href="https://de.linkedin.com/in/fabian-weiss" title="Folge mir auf LinkedIn" target="_blank" rel="noopener noreferrer">
                                 <Icon name="mdi:linkedin" size="1.4em" />
                             </a>
