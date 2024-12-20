@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    //baseURL: '/fabian-weiss/',
     head: {
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico' },
