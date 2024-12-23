@@ -2,7 +2,14 @@
     <div class="flex flex-col justify-center">
         <div>
             <client-only>
-                <svg v-if="theme === 'dark'" width="400" height="300" viewBox="0 0 10 11" class="absolute -z-10 blur-[120px]">
+                <svg
+                    v-if="theme === 'dark'"
+                    width="400"
+                    height="300"
+                    viewBox="0 0 10 11"
+                    class="absolute -z-10 blur-[120px]"
+                    aria-hidden="true"
+                >
                     <circle cx="2" cy="2" r="5" fill="var(--primary)" />
                 </svg>
             </client-only>
@@ -13,11 +20,17 @@
             <p class="text-xl">Auf dieser Seite erwarten dich Book-Reviews, Tutorials, aber vor allem Essays. Ja, richtig gelesen: Essays – inspiriert durch persönliche Erfahrungen, Bücher oder aktuelle Ereignisse. Dies soll ein Ort sein, an dem ich meine Gedanken zu verschiedensten Themen mit dir teilen möchte.</p>
         </div>
         <div class="flex flex-wrap gap-2">
-            <router-link to="/about">
-                <button class="btn text-body bg-primary border-[1px] border-primary hover:bg-primaryhover hover:border-primaryhover" type="button">Über mich</button>
+            <router-link
+                to="/about"
+                class="btn text-main bg-primary border-[1px] border-primary hover:bg-primaryhover hover:border-primaryhover"
+            >
+                Über mich
             </router-link>
-            <router-link to="/blog">
-                <button class="btn text-heading bg-main border-[1px] border-border hover:text-primary" type="button">Mein Blog</button>
+            <router-link
+                to="/blog"
+                class="btn text-heading bg-main border-[1px] border-border hover:text-primary"
+            >
+                Mein Blog
             </router-link>
         </div>
     </div>
