@@ -1,42 +1,41 @@
 <template>
-    <nav role="navigation">
-      <NavbarRegular v-if="isDesktop" />
-      <NavbarMobile v-else />
+    <nav>
+        <NavbarRegular v-if="isDesktop" />
+        <NavbarMobile v-else />
     </nav>
-  </template>
-  
-  <script>
-  import NavbarRegular from './NavbarRegular.vue';
-  import NavbarMobile from './NavbarMobile.vue';
-  
-  export default {
+</template>
+
+<script>
+import NavbarRegular from './NavbarRegular.vue';
+import NavbarMobile from './NavbarMobile.vue';
+
+export default {
     components: {
-      NavbarRegular,
-      NavbarMobile
+        NavbarRegular,
+        NavbarMobile
     },
     data() {
-      return {
-        isDesktop: false
-      };
+        return {
+            isDesktop: false
+        };
     },
     mounted() {
-      if (typeof window !== 'undefined') {
-        this.isDesktop = window.innerWidth >= 640;
-        window.addEventListener('resize', this.handleResize);
-      }
+        if (typeof window !== 'undefined') {
+            this.isDesktop = window.innerWidth >= 640;
+            window.addEventListener('resize', this.handleResize);
+        }
     },
     beforeDestroy() {
-      if (typeof window !== 'undefined') {
-        window.removeEventListener('resize', this.handleResize);
-      }
+        if (typeof window !== 'undefined') {
+            window.removeEventListener('resize', this.handleResize);
+        }
     },
     methods: {
-      handleResize() {
-        if (typeof window !== 'undefined') {
-          this.isDesktop = window.innerWidth >= 640;
+        handleResize() {
+            if (typeof window !== 'undefined') {
+                this.isDesktop = window.innerWidth >= 640;
+            }
         }
-      }
     }
-  };
-  </script>
-  
+};
+</script>
