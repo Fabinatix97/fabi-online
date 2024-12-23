@@ -5,7 +5,7 @@
                 <NuxtLink :to="project.link">
                     <img
                         :src="`${project.image}`"
-                        alt="Project Image"
+                        :alt="`Link zum Projekt ${project.name}`"
                         class="w-full h-48 object-cover rounded-t-2xl hover:opacity-80 relative"
                     />
                 </NuxtLink>
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="flex justify-end pr-6 pb-4">
-                <NuxtLink :to="project.link" class="flex">
+                <NuxtLink :to="project.link" class="flex" aria-label="Projekt auf GitHub ansehen">
                         <Icon name="mdi:github" size="1.5em" class="hover:text-primaryhover" />
                 </NuxtLink>
             </div>
