@@ -21,7 +21,6 @@ useSeoMeta({
         color: var(--codetext);
         border-radius: 15px;
         padding: 20px;
-        font-size: medium;
         font-family: 'Roboto Mono';
     }
 }

@@ -156,7 +156,6 @@ onMounted(() => {
         color: var(--codetext);
         border-radius: 15px;
         padding: 20px;
-        font-size: medium;
         font-family: 'Roboto Mono';
     }
     a {
@@ -190,7 +189,7 @@ onMounted(() => {
     table {
         width: 100%;
         border-collapse: collapse;
-        font-size: 80%;
+        font-size: 0.8rem;
     }
     th, td {
         padding: 8px 12px;
@@ -206,7 +205,7 @@ onMounted(() => {
     }
     figcaption p {
         font-weight: 00;
-        font-size: 0.8em;
+        font-size: 0.8rem;
         color: var(--info);
         margin-top: 10px;
         margin-bottom: 40px;

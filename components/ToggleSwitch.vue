@@ -77,7 +77,7 @@ const toggle = () => {
 }
 
 span {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     transition: color 0.3s;
 

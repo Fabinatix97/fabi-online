@@ -79,7 +79,7 @@ const themeClass = computed(() => {
 }
 
 .navbar {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--heading);
     width: 800px;
     padding: 1rem;

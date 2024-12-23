@@ -27,17 +27,16 @@ Manche bezeichnen PKM auch als zweites Gehirn[^2], da unser biologisches Gehirn 
 
 <style>
 .plant-div {
-	border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-  padding: 50px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .plant-p {
-    font-size: clamp(40px, 10vw, 100px);
+    font-size: 3rem;
     color: #BA7B72;
-    margin: 5px;
     white-space: nowrap;
 }
 

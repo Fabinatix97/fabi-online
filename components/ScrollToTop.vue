@@ -54,7 +54,7 @@ onUnmounted(() => {
     background-color: var(--info);
     color: white;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 2rem;
     opacity: 0;
     cursor: pointer;
     transform: translateY(20px) scale(1);
