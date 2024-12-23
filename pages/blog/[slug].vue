@@ -2,7 +2,7 @@
     <div class="flex justify-center w-full">
         <div class="flex-none w-[calc(50%-400px)] hidden xl:block">
         </div>
-        <div class="min-w-0 max-w-[800px] px-4 pt-40">
+        <main class="min-w-0 max-w-[800px] px-4 pt-40">
             <client-only>
                 <svg
                     v-if="theme === 'dark'"
@@ -48,7 +48,7 @@
                     {{ tag }}
                 </div>
             </NuxtLink>
-        </div>
+        </main>
         <div class="flex-none w-[calc(50%-400px)] hidden xl:block">
             <div class="h-screen"></div>
             <TableOfContents />
