@@ -12,19 +12,18 @@
         <p>Keine Artikel gefunden</p>
     </div>
     <div class="gallery">
-        <figure v-for="post in filteredPosts" :key="post.slug">
+        <figure v-for="post in filteredPosts" :key="post.slug" :aria-labelledby="'post-' + post.slug">
             <NuxtLink :to="post._path">
                 <img
                     :src="`${post.coverImage}`"
-                    alt="Blog Post Cover Image"
+                    alt="Blog Post Titelbild"
                 />
                 <figcaption>
                     <div class="justify-self-start py-1 px-3 border-2 border-primary text-primary text-sm rounded-2xl">
                         {{ formatDate(post.date) }}
                     </div>
-                    <h4>{{ post.title }}</h4>
+                    <h4 id="'post-' + post.slug">{{ post.title }}</h4>
                     <p>{{ extractContent(post.body, 30) }}...</p>
-                    
                 </figcaption>
             </NuxtLink>
         </figure>
