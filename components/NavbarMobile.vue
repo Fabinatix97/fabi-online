@@ -2,7 +2,9 @@
     <Disclosure as="nav" class="navbar border-b-[1px] border-border hyphens-none" v-slot="{ open, close }">
         <div class="flex items-start">
             <DisclosureButton
-                class="rounded-2xl p-2 text-heading hover:bg-body hover:text-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                :aria-label="open ? 'Hauptmenü schließen' : 'Hauptmenü öffnen'"
+                class="rounded-2xl p-2 text-heading hover:bg-body hover:text-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            >
                 <template v-if="!open">
                     <!-- Open Main Menu -->
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -67,7 +69,11 @@
                 </div>
             </DisclosurePanel>
             <div v-if="!open" class="flex">
-                <button @click="$toggleTheme()" class="hover:text-primaryhover transition-colors duration-300">
+                <button
+                    @click="$toggleTheme()"
+                    :aria-label="theme === 'dark' ? 'Tagmodus aktivieren' : 'Nachtmodus aktivieren'"
+                    class="hover:text-primaryhover transition-colors duration-300"
+                >
                     <ClientOnly>
                         <Icon 
                             :name="themeIconName" 

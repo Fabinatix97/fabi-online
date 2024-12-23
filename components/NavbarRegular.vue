@@ -13,22 +13,44 @@
                 <div>
                     <ul class="nav-links">
                         <li>
-                            <a href="https://www.fabi-online.de/rss" title="RSS-Feed abonnieren" target="_blank" rel="noopener noreferrer">
+                            <a
+                                href="https://www.fabi-online.de/rss"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                title="RSS-Feed abonnieren"
+                                aria-label="RSS-Feed abonnieren (öffnet in neuem Tab)"
+                            >
                                 <Icon name="mdi:rss" size="1.4em" />
                             </a>
                         </li>
                         <li>
-                            <a href="https://de.linkedin.com/in/fabian-weiss" title="Folge mir auf LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <a
+                                href="https://de.linkedin.com/in/fabian-weiss"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                title="Folge mir auf LinkedIn"
+                                aria-label="Folge mir auf LinkedIn (öffnet in neuem Tab)"
+                            >
                                 <Icon name="mdi:linkedin" size="1.4em" />
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/Fabinatix97" title="Folge mir auf GitHub" target="_blank" rel="noopener noreferrer">
+                            <a
+                                href="https://github.com/Fabinatix97"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                title="Folge mir auf GitHub"
+                                aria-label="Folge mir auf GitHub (öffnet in neuem Tab)"
+                            >
                                 <Icon name="mdi:github" size="1.4em" />
                             </a>
                         </li>
                         <li>
-                            <button @click="$toggleTheme()" class="hover:text-primaryhover transition-colors duration-300">
+                            <button
+                                @click="$toggleTheme()"
+                                :aria-label="theme === 'dark' ? 'In den Light Mode wechseln' : 'In den Dark Mode wechseln'"
+                                class="hover:text-primaryhover transition-colors duration-300"
+                            >
                                 <ClientOnly>
                                     <Icon 
                                         :name="themeIconName" 
