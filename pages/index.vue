@@ -97,7 +97,7 @@ useSeoMeta({
     }
 }
 .btn {
-    border-radius: 10px;
+    border-radius: 1rem;
     padding: 10px 20px;
     font-weight: 600;
 }

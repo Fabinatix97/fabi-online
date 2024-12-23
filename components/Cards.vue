@@ -19,11 +19,11 @@
                     <img
                         :src="`${post.coverImage}`"
                         alt="Blog Post Cover Image"
-                        class="w-full h-48 object-cover rounded-t-lg hover:opacity-80 relative"
+                        class="w-full h-48 object-cover rounded-t-2xl hover:opacity-80 relative"
                     />
                 </div>
                 <div class="p-6 flex-grow">
-					<div class="justify-self-start py-1 px-3 border-2 border-primary text-primary text-sm rounded-lg">
+					<div class="justify-self-start py-1 px-3 border-2 border-primary text-primary text-sm rounded-2xl">
 						{{ formatDate(post.date) }}
 					</div>
 					<h2 class="text-xl font-bold mb-2">{{ post.title }}</h2>
@@ -119,7 +119,7 @@ onMounted(() => {
 			rgba(var(--spotlight), 0),
 			transparent 0%
 		);
-		border-radius: 0.5rem;
+		border-radius: 1rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;

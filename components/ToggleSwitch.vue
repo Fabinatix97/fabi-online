@@ -34,7 +34,7 @@ const toggle = () => {
     width: 90px;
     height: 40px;
     background-color: var(--primary);
-    border-radius: 20px;
+    border-radius: 2rem;
     position: relative;
     margin: 0 10px;
 
@@ -49,7 +49,7 @@ const toggle = () => {
         width: 32px;
         height: 32px;
         background-color: var(--main);
-        border-radius: 50%;
+        border-radius: 2rem;
         position: absolute;
         top: 4px;
         left: 4px;

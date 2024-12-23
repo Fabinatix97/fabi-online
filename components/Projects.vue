@@ -1,12 +1,12 @@
 <template>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div v-for="project in projects" class="flex flex-col justify-between bg-main border-[1px] border-border rounded-[10px]">
+        <div v-for="project in projects" class="flex flex-col justify-between bg-main border-[1px] border-border rounded-2xl">
             <div>
                 <NuxtLink :to="project.link">
                     <img
                         :src="`${project.image}`"
                         alt="Project Image"
-                        class="w-full h-48 object-cover rounded-t-lg hover:opacity-80 relative"
+                        class="w-full h-48 object-cover rounded-t-2xl hover:opacity-80 relative"
                     />
                 </NuxtLink>
                 <div class="flex flex-col px-6">
@@ -14,7 +14,7 @@
                         <h4 class="flex hover:text-primaryhover">{{ project.name }}</h4>
                     </NuxtLink>
                     <div class="flex flex-wrap justify-start gap-1">
-                        <div v-for="tech in project.technologies" class="py-1 px-3 bg-body text-sm rounded-lg border-[1px] border-border">
+                        <div v-for="tech in project.technologies" class="py-1 px-3 bg-body text-sm rounded-2xl border-[1px] border-border">
                                 {{ tech }}
                         </div>
                     </div>

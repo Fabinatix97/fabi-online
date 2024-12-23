@@ -31,11 +31,11 @@
             <img
                 :src="`${data.coverImage}`"
                 alt="Blog Post Cover Image"
-                class="my-8 w-[calc(100%_+_60px)] relative left-[-30px] max-w-none rounded-lg"
+                class="my-8 w-[calc(100%_+_60px)] relative left-[-30px] max-w-none rounded-2xl"
             />
             <ContentRenderer :value="data" class="blog-content mb-8" />
             <NuxtLink v-for="tag in data.tags" :key="tag" :href="`/blog/tags/${tag}`"
-                class="text-sm font-semibold inline-block py-2 px-4 rounded-lg text-white bg-primary uppercase last:mr-0 my-2 mr-4">
+                class="text-sm font-semibold inline-block py-2 px-4 rounded-2xl text-white bg-primary uppercase last:mr-0 my-2 mr-4">
                 <div class="flex">
                     <Icon name="mdi:tag" size="1.2rem" class="text-gray-100 mr-2" />
                     {{ tag }}
@@ -141,7 +141,7 @@ onMounted(() => {
 
 .blog-content {
     img, video {
-        border-radius: 10px;
+        border-radius: 1rem;
     }
     ol {
         margin-left: 3rem;
@@ -154,7 +154,7 @@ onMounted(() => {
     pre {
         background-color: var(--codebg);
         color: var(--codetext);
-        border-radius: 15px;
+        border-radius: 1rem;
         padding: 20px;
         font-family: 'Roboto Mono';
     }

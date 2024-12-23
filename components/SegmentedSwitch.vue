@@ -56,7 +56,7 @@ const setSegment = (nr) => {
     padding-right: 16px;
     height: 38px;
     align-items: center;
-    border-radius: 19px;
+    border-radius: 2rem;
     color: var(--heading);
     font-weight: 500;
     cursor: pointer;

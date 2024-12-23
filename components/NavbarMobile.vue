@@ -2,7 +2,7 @@
     <Disclosure as="nav" class="navbar border-b-[1px] border-border hyphens-none" v-slot="{ open, close }">
         <div class="flex items-start">
             <DisclosureButton
-                class="rounded-md p-2 text-heading hover:bg-body hover:text-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                class="rounded-2xl p-2 text-heading hover:bg-body hover:text-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                 <template v-if="!open">
                     <!-- Open Main Menu -->
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -42,7 +42,7 @@
                         :key="item.name" 
                         as="a" 
                         :to="item.href"
-                        :class="[isActiveRoute(item.href) ? 'bg-primary text-body hover:text-heading' : 'hover:bg-main hover:text-primary', 'block rounded-md px-3 py-2 text-base font-medium']"
+                        :class="[isActiveRoute(item.href) ? 'bg-primary text-body hover:text-heading' : 'hover:bg-main hover:text-primary', 'block rounded-2xl px-3 py-2 text-base font-medium']"
                         :aria-current="item.current ? 'page' : undefined"
                         @click="close">
                         {{ item.name }}

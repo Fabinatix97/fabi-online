@@ -53,7 +53,7 @@ onUnmounted(() => {
     padding: 10px;
     background-color: var(--info);
     color: white;
-    border-radius: 10px;
+    border-radius: 1rem;
     font-size: 2rem;
     opacity: 0;
     cursor: pointer;

@@ -43,7 +43,7 @@
                     border: '1px solid rgba(' + skill.color + ', 1)',
                     backgroundColor: 'rgba(' + skill.color + ', 0.2)'
                 }"
-                class="flex flex-col rounded-[10px] justify-center items-center h-24 overflow-hidden">
+                class="flex flex-col rounded-2xl justify-center items-center h-24 overflow-hidden">
                 <div class="flex h-16 items-center">
                     <Icon
                         :name="skill.icon" 
@@ -75,7 +75,7 @@
                     border: theme === 'dark' && tool.color === '0, 0, 0' ? '1px solid rgb(255, 255, 255)' : '1px solid rgba(' + tool.color + ')',
                     backgroundColor: theme === 'dark' && tool.color === '0, 0, 0' ? 'rgba(255, 255, 255, 0.4)' : `rgba(${tool.color}, 0.2)`
                 }"
-                class="flex flex-col rounded-[10px] justify-center items-center h-24 overflow-hidden">
+                class="flex flex-col rounded-2xl justify-center items-center h-24 overflow-hidden">
                 <div class="flex h-16 items-center">
                     <Icon
                         :name="tool.icon" 
@@ -120,7 +120,7 @@
                 <div class="w-3/4">
                     <h3>{{ experiences[date].title }}</h3>
                     <p class="text-info">{{ experiences[date].company }}</p>
-                    <img :src="experiences[date].image" class="rounded-lg" />
+                    <img :src="experiences[date].image" class="rounded-2xl" />
                     <p>{{ experiences[date].description }}</p>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                             border: theme === 'dark' ? '1px solid #CBD5E1' : '1px solid rgba(3, 61, 98, 0.5)',
                             backgroundColor: theme === 'dark' ? '#CBD5E1' : 'rgba(3, 61, 98, 0.1)'
                         }"
-                        class="flex flex-col rounded-[10px] justify-center items-center h-24 overflow-hidden">
+                        class="flex flex-col rounded-2xl justify-center items-center h-24 overflow-hidden">
                         <div class="w-32 justify-items-center">
                             <img src="/public/img/about/hs-worms-light.png" class="w-16" />
                         </div>
@@ -339,7 +339,7 @@ useSeoMeta({
     color: var(--heading);
     padding: 4px 12px;
     border: 1px solid var(--body);
-    border-radius: 17px;
+    border-radius: 2rem;
     cursor: pointer;
 }
 .date-button:hover {
@@ -354,7 +354,7 @@ useSeoMeta({
         color: var(--heading);
         padding: 4px 12px;
         border: 1px solid var(--border);
-        border-radius: 17px;
+        border-radius: 2rem;
         background-color: var(--main);
     }
     .date-button:hover {

@@ -13,10 +13,9 @@
                 <img
                     :src="`${post.coverImage}`"
                     alt="Blog Post Cover Image"
-                    class="rounded-lg"
                 />
                 <figcaption>
-                    <div class="justify-self-start py-1 px-3 border-2 border-primary text-primary text-sm rounded-lg">
+                    <div class="justify-self-start py-1 px-3 border-2 border-primary text-primary text-sm rounded-2xl">
                         {{ formatDate(post.date) }}
                     </div>
                     <h4>{{ post.title }}</h4>
@@ -90,7 +89,7 @@ function extractContent(body, wordLimit) {
 }
 
 .gallery figure {
-    border-radius: 10px;
+    border-radius: 1rem;
     container: figure / inline-size;
     overflow: hidden;
     display: grid;

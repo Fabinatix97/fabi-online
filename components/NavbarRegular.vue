@@ -86,7 +86,7 @@ const themeClass = computed(() => {
     font-weight: 500;
     background-color: var(--navbar);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .nav-links {
@@ -126,7 +126,7 @@ const themeClass = computed(() => {
     transform: translateX(-50%);
     width: 4px;
     height: 4px;
-    border-radius: 50%;
+    border-radius: 1rem;
     background-color: var(--primary);
 }
 </style>

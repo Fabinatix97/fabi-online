@@ -19,7 +19,7 @@ useSeoMeta({
     pre {
         background-color: var(--codebg);
         color: var(--codetext);
-        border-radius: 15px;
+        border-radius: 1rem;
         padding: 20px;
         font-family: 'Roboto Mono';
     }
