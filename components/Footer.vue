@@ -1,5 +1,5 @@
 <template>
-    <footer class="h-40 relative z-20 flex justify-center items-end" role="contentinfo">
+    <footer class="h-40 relative z-20 flex justify-center items-end">
         <div class="flex flex-col items-center text-sm">
             <span class="flex items-center gap-1">
             Powered by
