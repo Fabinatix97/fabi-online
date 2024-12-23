@@ -1,7 +1,11 @@
 <template>
     <div class="flex justify-center mx-5 mb-10">
         <div class="w-[800px]">
-            <SearchBar placeholder="Artikel suchen" @search="updateSearchQuery" />
+            <SearchBar
+                @search="updateSearchQuery"
+                placeholder="Artikel suchen"
+                aria-label="Artikel suchen"
+            />
         </div>
     </div>
     <div class="item error" v-if="input && !filteredPosts.length">
