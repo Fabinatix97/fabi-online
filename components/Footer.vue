@@ -8,6 +8,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="text-[#00DC82] hover:text-[#00C16A] flex items-center"
+                aria-label="Besuche Nuxt (öffnet in neuem Tab)"
             >
                 <Icon name="lineicons:nuxt" size="1.4em" />
                 Nuxt
@@ -20,6 +21,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="text-primary hover:text-primaryhover flex items-center"
+                aria-label="Code auf GitHub ansehen (öffnet in neuem Tab)"
             >
                 <Icon name="line-md:github-loop" size="1.4em" />
                 GitHub
