@@ -74,7 +74,7 @@ function scrollToSection(id: string, offset = 120) {
 
 <template>
     <div class="toc">
-        <h4>Table of Contents</h4>
+        <h4>Inhalt</h4>
         <ul>
             <li
                 v-for="(item, index) in toc"
