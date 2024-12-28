@@ -14,6 +14,8 @@
     --navbar: rgba(255, 255, 255, 0.7);
     --primary: theme('colors.sky.800');
     --primaryhover: theme('colors.sky.900');
+    --secondary: theme('colors.sky.900');
+    --secondarybg: theme('colors.sky.100');
     --spotlight: 255, 255, 255;
     --tableborder: theme('colors.gray.200');
     --tablehead: theme('colors.gray.200');
@@ -31,8 +33,10 @@
     --main: theme('colors.slate.900');
     --mainrgb: rgb(15, 23, 42);
     --navbar: rgba(17, 24, 39, 0.8);
-    --primary: theme('colors.sky.500');
-    --primaryhover: theme('colors.sky.600');
+    --primary: theme('colors.sky.400');
+    --primaryhover: theme('colors.sky.500');
+    --secondary: theme('colors.sky.300');
+    --secondarybg: theme('colors.sky.950');
     --spotlight: 21, 200, 232;
     --tableborder: theme('colors.gray.950');
     --tablehead: theme('colors.gray.950');

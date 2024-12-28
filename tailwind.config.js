@@ -22,6 +22,8 @@ export default {
         primary: "var(--primary)",
         primaryhover: "var(--primaryhover)",
         spotlight: "var(--spotlight)",
+        secondary: "var(--secondary)",
+        secondarybg: "var(--secondarybg)",
         tableborder: "var(--tableborder)",
         tablehead: "var(--tablehead)",
         tablerow: "var(--column)",

@@ -42,9 +42,9 @@
             />
             <ContentRenderer :value="data" class="blog-content mb-8" />
             <NuxtLink v-for="tag in data.tags" :key="tag" :href="`/blog/tags/${tag}`"
-                class="text-sm font-semibold inline-block py-2 px-4 rounded-2xl text-white bg-primary uppercase last:mr-0 my-2 mr-4">
+                class="text-sm font-semibold inline-block py-2 px-4 rounded-2xl text-main bg-primary uppercase last:mr-0 my-2 mr-4">
                 <div class="flex">
-                    <Icon name="mdi:tag" size="1.2rem" class="text-gray-100 mr-2" />
+                    <Icon name="mdi:tag" size="1.2rem" class="text-main mr-2" />
                     {{ tag }}
                 </div>
             </NuxtLink>
