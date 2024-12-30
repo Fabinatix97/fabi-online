@@ -1,6 +1,6 @@
 ---
 title: "Warum PKM oft scheitert - und wie du es besser machen kannst"
-date: "2024-12-28"
+date: "2024-12-30"
 status: "published"
 category: "Essay"
 tags: 
