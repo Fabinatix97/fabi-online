@@ -78,7 +78,7 @@ Während meines Studiums habe ich sehr viel mit dem Microsoft Surface gearbeitet
 
 ## Nachteil #3: Keine umfassende Offline-Nutzung
 
-![h](/img/blog/smartphone-airplane-mode.jpeg)
+![](/img/blog/smartphone-airplane-mode.jpeg)
 
 Der mit Abstand größte Nachteil ist jedoch, dass Notion alle deine Notizbücher ausschließlich in der Cloud speichert (verschlüsselt versteht sich) und es dem Nutzer nicht ermöglicht, diese auch in der Offline-Welt zugänglich zu machen. Die Meldung "Please go online to load this page, then you'll be able to access it while offline" hat bei mir schon des Öfteren für Frust gesorgt. Immerhin ist es möglich eine neue Notiz anzulegen und diese dann später zu synchronisieren. Dieser Kompromiss ist in meinen Augen aber leider nur ein kleiner Trost.
 
