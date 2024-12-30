@@ -10,7 +10,7 @@ tags:
 coverImage: "/img/blog/fitness-tracker-burned-calories.jpg"
 ---
 
-Hast du schon einmal stundenlang im Fitnessstudio geschwitzt, nur um dann enttäuscht festzustellen, dass sich auf der Waage kaum etwas verändert hat? Oder dich gefragt, warum manche Menschen scheinbar mühelos ihr Gewicht halten, während andere trotz intensiver sportlicher Aktivitäten kaum Fortschritte machen? Ein wegweisendes Modell von Herman Pontzer und seinem Team könnte die Erklärung liefern: das "Constrained Total Energy Expenditure" Modell. Bereits 2016 vorgestellt, bietet es eine bahnbrechende Perspektive auf den Zusammenhang zwischen körperlicher Aktivität und Energieverbrauch. Dennoch hat dieses Modell bisher nicht die Aufmerksamkeit erhalten, die es verdient - das möchte ich in diesem Artikel ändern.
+Hast du schon einmal stundenlang im Fitnessstudio geschwitzt, nur um dann enttäuscht festzustellen, dass sich auf der Waage kaum etwas verändert hat? Oder dich gefragt, warum manche Menschen scheinbar mühelos ihr Gewicht halten, während andere trotz intensiver sportlicher Aktivitäten kaum Fortschritte machen? Ein wegweisendes Modell von Herman Pontzer und seinem Team könnte die Erklärung liefern: das „Constrained Total Energy Expenditure“ Modell. Bereits 2016 vorgestellt, bietet es eine bahnbrechende Perspektive auf den Zusammenhang zwischen körperlicher Aktivität und Energieverbrauch. Dennoch hat dieses Modell bisher nicht die Aufmerksamkeit erhalten, die es verdient - das möchte ich in diesem Artikel ändern.
 
 <!--more-->
 
@@ -34,7 +34,7 @@ Auch handelsübliche Fitnesstracker und Kalorienrechner ermitteln den Energiever
 
 ## Das adaptive Stoffwechselmodell
 
-Das "Constrained Total Energy Expenditure" Modell basiert auf der Idee, dass unser Körper einen begrenzten Rahmen für den täglichen Energieverbrauch hat[^1]. Das bedeutet, dass es eine Obergrenze gibt, wie viele Kalorien unser Körper an einem Tag verbrennen kann, unabhängig davon, wie viel wir uns bewegen (vgl. Abbildung 2).
+Das „Constrained Total Energy Expenditure“ Modell basiert auf der Idee, dass unser Körper einen begrenzten Rahmen für den täglichen Energieverbrauch hat[^1]. Das bedeutet, dass es eine Obergrenze gibt, wie viele Kalorien unser Körper an einem Tag verbrennen kann, unabhängig davon, wie viel wir uns bewegen (vgl. Abbildung 2).
 
 <figure>
 
@@ -66,7 +66,7 @@ Abbildung 3: Im Durchschnitt unterscheiden sich die Energieverbräuche zwischen 
 
 Um den tatsächlichen Energieverbrauch genau zu bestimmen, griffen Pontzer und sein Team auf die sogenannte Doubly Labeled Water (DLW) Methode zurück[^4]. Diese Methode gilt als eine der präzisesten Techniken zur Messung des Energieumsatzes über einen längeren Zeitraum.
 
-Zunächst muss man verstehen, dass für die Berechnung des Energieverbrauchs die Menge an Kohlendioxid (CO2) benötigt wird, die vom Körper produziert wird. Warum? Die Produktion von CO2 ist direkt mit dem Energieverbrauch verknüpft, weil bei der Energieerzeugung im Körper CO2 entsteht. Die "doubly labeled water" (DLW) Methode ist eine Technik, die genau diese CO2-Produktion misst, um den Energieverbrauch einer Person zu bestimmen.
+Zunächst muss man verstehen, dass für die Berechnung des Energieverbrauchs die Menge an Kohlendioxid (CO2) benötigt wird, die vom Körper produziert wird. Warum? Die Produktion von CO2 ist direkt mit dem Energieverbrauch verknüpft, weil bei der Energieerzeugung im Körper CO2 entsteht. Die „doubly labeled water“ (DLW) Methode ist eine Technik, die genau diese CO2-Produktion misst, um den Energieverbrauch einer Person zu bestimmen.
 
 Die Methode beginnt damit, dass die testende Person ein speziell markiertes Wasser trinkt. Dieses Wasser enthält zwei Isotope: ein schweres Wasserstoffisotop (Deuterium, ²H) und ein schweres Sauerstoffisotop (¹⁸O). Anschließend verteilt sich dieses markierte Wasser im Körper.
 

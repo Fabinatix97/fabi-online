@@ -23,11 +23,11 @@ Zum Notieren - natürlich. Worauf ich mit dieser Frage jedoch abziele, ist, für
 
 ## 1. Aufgabenplanung
 
-Am Ende einer jeden Woche setze ich mich hin und überlege mir, was ich in der kommenden Woche erreichen möchte. Das können neben alltäglichen Dingen auch komplexere Projekte sein, die ich dann in Teilaufgaben untergliedere. In Notion habe ich hierfür zunächst eine ToDo-Datenbank angelegt und folgende Properties festgelegt (hier am Beispiel "Joggen"):
+Am Ende einer jeden Woche setze ich mich hin und überlege mir, was ich in der kommenden Woche erreichen möchte. Das können neben alltäglichen Dingen auch komplexere Projekte sein, die ich dann in Teilaufgaben untergliedere. In Notion habe ich hierfür zunächst eine ToDo-Datenbank angelegt und folgende Properties festgelegt (hier am Beispiel „Joggen"):
 
 ![](/img/blog/notion-task-detail.png)
 
-Als "View" habe ich mich für die Kalender-Ansicht entschieden, da ich diese am übersichtlichsten finde. So sehe ich auf einen Blick, welche Aufgaben zurzeit anstehen und kann gleichzeitig sehen, was in den vergangenen oder kommenden Wochen geplant war/ist.
+Als „View“ habe ich mich für die Kalender-Ansicht entschieden, da ich diese am übersichtlichsten finde. So sehe ich auf einen Blick, welche Aufgaben zurzeit anstehen und kann gleichzeitig sehen, was in den vergangenen oder kommenden Wochen geplant war/ist.
 
 ![](/img/blog/notion-calendar.png)
 
@@ -35,9 +35,9 @@ Als "View" habe ich mich für die Kalender-Ansicht entschieden, da ich diese am 
 
 Ich liebe es, neue Dinge auszuprobieren. Doch vor lauter Enthusiasmus kann man schnell mal den Überblick verlieren. Deswegen habe ich eine Projects-Datenbank erstellt, welche mir auf gleich vier Arten hilft:
 
-1. Hoher Fokus dadurch, dass ich auf einen Blick sehe, welche Projekte gerade "in progress" sind.
+1. Hoher Fokus dadurch, dass ich auf einen Blick sehe, welche Projekte gerade „in progress“ sind.
 
-3. Zukünftige Projekt-Ideen gehen nicht verloren, da ich sie mit dem Status "not started" versehen kann.
+3. Zukünftige Projekt-Ideen gehen nicht verloren, da ich sie mit dem Status „not started“ versehen kann.
 
 5. Am Ende des Jahres sehe ich schwarz auf weiß, welche Projekte ich abschließen konnte und welche nicht.
 
@@ -47,7 +47,7 @@ Ich liebe es, neue Dinge auszuprobieren. Doch vor lauter Enthusiasmus kann man s
 
 ## 3. Wochen-/Monats-/Jahresrückblick
 
-Ich selbst bin offen gestanden kein leidenschaftlicher Tagebuch-Schreiber. Nichtsdestotrotz gefällt mir die zentrale Idee des Tagebuchschreibens: die persönlichen Erlebnisse festzuhalten. Mithilfe von Notion kann ich meine Erlebnisse, Erfolge oder Herausforderungen sehr einfach festhalten. Ich nutze hierfür drei verschiedene Datenbanken: Weekly Review, Monthly Review, Annual Review. Die drei Datenbanken sind wiederum hierarchisch miteinander verknüpft, sprich, die "Monthly Review"-Datenbank greift auf Inhalte der "Weekly Review"-Datenbank zurück und die "Annual Review"-Datenbank auf Inhalte der "Monthly Review"-Datenbank. Technisch umgesetzt habe ich das mit Relationen und Roll-ups. Mehr dazu findest du in [diesem Beitrag](/blog/2021-05-16-notion-deathly-hallows).
+Ich selbst bin offen gestanden kein leidenschaftlicher Tagebuch-Schreiber. Nichtsdestotrotz gefällt mir die zentrale Idee des Tagebuchschreibens: die persönlichen Erlebnisse festzuhalten. Mithilfe von Notion kann ich meine Erlebnisse, Erfolge oder Herausforderungen sehr einfach festhalten. Ich nutze hierfür drei verschiedene Datenbanken: Weekly Review, Monthly Review, Annual Review. Die drei Datenbanken sind wiederum hierarchisch miteinander verknüpft, sprich, die „Monthly Review"-Datenbank greift auf Inhalte der „Weekly Review"-Datenbank zurück und die „Annual Review"-Datenbank auf Inhalte der „Monthly Review"-Datenbank. Technisch umgesetzt habe ich das mit Relationen und Roll-ups. Mehr dazu findest du in [diesem Beitrag](/blog/2021-05-16-notion-deathly-hallows).
 
 ![](/img/blog/notion-monthly-review.png)
 

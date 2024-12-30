@@ -70,14 +70,14 @@ Nun aber genug der Theorie! Wie kann man nun ein gutes Situationsbewusstsein auf
 
 ### Tipps für ein besseres Situationsbewusstsein
 
-Einer meiner Fluglehrer hat mir immer wieder eingetrichtert "Sei stets vor dem Flieger". Was er damit meinte, war zum einen, Level 3 des Situational Awareness Modells anzustreben ("..._vor_ dem Flieger"), und zum anderen, dieses Level aufrechtzuerhalten ("Sei _stets_..."). Wie wir bereits gelernt haben, kann man nicht direkt bei Level 3 einsteigen, ehe Level 1 (Wahrnehmen) und 2 (Verstehen) nicht sichergestellt sind. Im Folgenden also ein paar Erkenntnisse aus meiner Pilotenausbildung, angereichert mit Best Practices für jedes entsprechende Level:
+Einer meiner Fluglehrer hat mir immer wieder eingetrichtert „Sei stets vor dem Flieger“. Was er damit meinte, war zum einen, Level 3 des Situational Awareness Modells anzustreben („..._vor_ dem Flieger“), und zum anderen, dieses Level aufrechtzuerhalten („Sei _stets_...“). Wie wir bereits gelernt haben, kann man nicht direkt bei Level 3 einsteigen, ehe Level 1 (Wahrnehmen) und 2 (Verstehen) nicht sichergestellt sind. Im Folgenden also ein paar Erkenntnisse aus meiner Pilotenausbildung, angereichert mit Best Practices für jedes entsprechende Level:
 
 #### Level 1
 
 #### Informationssuche - Nutze deine Sinne
 
 - Halte Ausschau nach draußen (z. B. andere Verkehrsteilnehmer, Wetter, etc.)
-- "Scanning" der Instrumente und "Call-outs" (letzteres ist auch in Single Pilot Environments äußerst wirksam)
+- „Scanning“ der Instrumente und „Call-outs“ (letzteres ist auch in Single Pilot Environments äußerst wirksam)
 - Überwache die Kommunikation zwischen Fluglotsen und anderen Luftfahrzeugen
 - Navigiere (einschließlich der Verwendung von Karten)
 
@@ -85,7 +85,7 @@ Einer meiner Fluglehrer hat mir immer wieder eingetrichtert "Sei stets vor dem F
 
 - Setze Prioritäten
 - Vermeide Ablenkungen
-- Passe die Überwachung an die Dringlichkeit der Flugphase an → Konzept des "sterilen Cockpits"
+- Passe die Überwachung an die Dringlichkeit der Flugphase an → Konzept des „sterilen Cockpits“
 
 * * *
 
@@ -148,7 +148,7 @@ Dass Situational Awareness in der Fliegerei - ein Umfeld, in dem Entscheidungen 
 
 #### Alltag
 
-- **Verkehrssicherheit:** Achte beim Autofahren auf die Umgebung sowie auf potenzielle Gefahren. Versuche, die Perspektive der anderen Verkehrsteilnehmer einzunehmen, und antizipiere ihr mögliches Verhalten. Achte auf ihre Signale, ihre Blickrichtung und so weiter. Stelle dir regelmäßig "Was wäre wenn"-Fragen (z. B. was wäre, wenn ich plötzlich einen Reifenplatzer hätte?).
+- **Verkehrssicherheit:** Achte beim Autofahren auf die Umgebung sowie auf potenzielle Gefahren. Versuche, die Perspektive der anderen Verkehrsteilnehmer einzunehmen, und antizipiere ihr mögliches Verhalten. Achte auf ihre Signale, ihre Blickrichtung und so weiter. Stelle dir regelmäßig „Was wäre wenn“-Fragen (z. B. was wäre, wenn ich plötzlich einen Reifenplatzer hätte?).
 
 #### Beruf
 

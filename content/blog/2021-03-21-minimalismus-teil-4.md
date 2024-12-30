@@ -27,7 +27,7 @@ Was also sind die Begründungen, dass Minimalismus eine nicht erstrebenswerte Le
 
 ![](/img/blog/overturned-coin-jar.jpg)
 
-Nach Einschätzungen einiger Menschen ist Minimalismus zum neuen Trend der Superreichen verkommen. Und es stimmt teilweise: die Anzahl an Promis und anderer Personen des öffentlichen Lebens, die einen minimalistischen Lebensstil pflegen, steigt. Zahlreiche Beweise hierfür finden sich beispielsweise auf Instagram, wo sich nebst minimalistischer Kunst - im Übrigen der Ursprung des Minimalismus - auch immer mehr Bilder von übersichtlich eingerichteten Lofts einreihen. Bei genauerem Hinblick lassen sich jedoch teilweise teure Designermöbel identifizieren - ganz nach dem Motto "Qualität vor Quantität". Und genau diese Tatsache kritisieren Minimalismus-Gegner. Ihrer Ansicht nach, darf sich ein Mensch nur "Minimalist" nennen, wenn dieser nicht nur wenig, sondern zudem nur "normale" oder gar billige Gegenstände besitzt. Natürlich ist Minimalismus gelebte Sparsamkeit. Allerdings bedeutet das in meinen Augen nicht, dass man als Minimalist auf hochwertige Güter verzichten muss. Ganz im Gegenteil: dadurch, dass man sich auf einige wenige Besitztümer beschränkt, dürfen und sollten diese sogar hochwertig und langlebig sein. Dass sich viele Influencer in sozialen Medien häufig mit Minimalismus schmücken und dabei ein völlig falsches Bild vermitteln, ist natürlich trotzdem war.
+Nach Einschätzungen einiger Menschen ist Minimalismus zum neuen Trend der Superreichen verkommen. Und es stimmt teilweise: die Anzahl an Promis und anderer Personen des öffentlichen Lebens, die einen minimalistischen Lebensstil pflegen, steigt. Zahlreiche Beweise hierfür finden sich beispielsweise auf Instagram, wo sich nebst minimalistischer Kunst - im Übrigen der Ursprung des Minimalismus - auch immer mehr Bilder von übersichtlich eingerichteten Lofts einreihen. Bei genauerem Hinblick lassen sich jedoch teilweise teure Designermöbel identifizieren - ganz nach dem Motto „Qualität vor Quantität“. Und genau diese Tatsache kritisieren Minimalismus-Gegner. Ihrer Ansicht nach, darf sich ein Mensch nur „Minimalist“ nennen, wenn dieser nicht nur wenig, sondern zudem nur „normale“ oder gar billige Gegenstände besitzt. Natürlich ist Minimalismus gelebte Sparsamkeit. Allerdings bedeutet das in meinen Augen nicht, dass man als Minimalist auf hochwertige Güter verzichten muss. Ganz im Gegenteil: dadurch, dass man sich auf einige wenige Besitztümer beschränkt, dürfen und sollten diese sogar hochwertig und langlebig sein. Dass sich viele Influencer in sozialen Medien häufig mit Minimalismus schmücken und dabei ein völlig falsches Bild vermitteln, ist natürlich trotzdem war.
 
 Eine weitere These in diesem Zusammenhang lautet, dass Minimalismus einen gehobenen Lebensstandard voraussetzt. So haben Unter- und Mittelschicht nicht die Mittel, um über Minimalismus nachzudenken und Dinge einfach wegzuschmeißen. Diesem Argument möchte ich entschieden entgegentreten, da ich es für ein zentrales Missverständnis halte. Jeder kann minimalistisch leben, ohne dabei auf etwas verzichten zu müssen. Offensichtlich werden hier die Begriffe Minimalismus und Verzicht gleichgesetzt. Minimalismus hat vielmehr etwas mit einer bewussteren Lebensweise zu tun, die selbstverständlich mit einer Reduzierung der Besitztümer einhergeht, jedoch nie einschränken soll.
 
@@ -55,7 +55,7 @@ Diese leicht hyperbolisch angehauchte Aussage verfehlt ihr Ziel gleich in zweier
 
 Da die Autorin hier auf eine minimalistische Ernährungsweise - gesund, überschaubar und bloß kein Zucker - anspielt, möchte ich mich auch diesbezüglich kurz äußern. Ernährung ist ein hochkomplexes und ebenso emotionales Thema. In diesem Zusammenhang spielt Minimalismus eine eher geringere Rolle. Eine Minimalistische Ernährung - falls es diese überhaupt gibt - ist meiner Ansicht nach eine der letzten Stufen, die es auf dem Weg zum ultimativen Minimalisten-Guru zu erklimmen gilt.
 
-Worauf die Autorin vermutlich abzielen möchte, ist die schlechte Alltagstauglichkeit von Minimalismus. Natürlich gibt es Leute, die gerne über Minimalismus reden, ohne tatsächlich selbst etwas zu "minimalisieren". Aber das ist sicherlich die Ausnahme. Die Frage, was an einer minimalistischen Lebensweise nicht alltagstauglich sein soll, kann ich dir auch nach langem Grübeln nicht beantworten.
+Worauf die Autorin vermutlich abzielen möchte, ist die schlechte Alltagstauglichkeit von Minimalismus. Natürlich gibt es Leute, die gerne über Minimalismus reden, ohne tatsächlich selbst etwas zu „minimalisieren“. Aber das ist sicherlich die Ausnahme. Die Frage, was an einer minimalistischen Lebensweise nicht alltagstauglich sein soll, kann ich dir auch nach langem Grübeln nicht beantworten.
 
 ## 4. Minimalismus ist egoistisch
 
@@ -65,13 +65,13 @@ An diesem Argument ist tatsächlich etwas Wahres dran. In meinen Beiträgen zum 
 
 > Vereinfachung soll dein Leben nicht leer machen, sondern Raum für das schaffen, was du wirklich tun möchtest. Finde zuerst heraus, was du vereinfachen willst, bevor du damit beginnst. [^3]
 
-Dass darin gleich dreimal das Wörtchen "du" und einmal "dein" enthalten ist, zeugt davon, dass Minimalismus manchmal auch in einer Form von Individualismus ausarten kann. Im schlimmsten Fall setzt man sich selbst an erster Stelle, indem man überlegt, ob eine Person, ein Ort oder eine Sache wirklich zum eigenen Weltbild passen oder diese eher gemieden werden sollten. Umso wichtiger ist es sich dessen bewusst zu werden, um am Ende kein Egoist zu werden.
+Dass darin gleich dreimal das Wörtchen „du“ und einmal „dein“ enthalten ist, zeugt davon, dass Minimalismus manchmal auch in einer Form von Individualismus ausarten kann. Im schlimmsten Fall setzt man sich selbst an erster Stelle, indem man überlegt, ob eine Person, ein Ort oder eine Sache wirklich zum eigenen Weltbild passen oder diese eher gemieden werden sollten. Umso wichtiger ist es sich dessen bewusst zu werden, um am Ende kein Egoist zu werden.
 
 ## 5. Minimalismus schränkt Menschen ein
 
 ![](/img/blog/barbed-wire-fence.jpg)
 
-Einige Kritiker sind davon überzeugt, dass Minimalismus einer Art Dogma folge, an welchem deren Anhänger uneingeschränkt festhalten müssten, egal was sie davon hielten. So gilt bekanntlich Sauberkeit zur Grundeigenschaft eines "echten" Minimalisten. Dass hat jedoch nicht automatisch zur Folge, dass die Wohnungen von Minimalisten vollkommen homogen sind und jegliche Spuren der eigenen Persönlichkeit oder Schrulligkeit fehlen. Minimalismus macht kreativ und so entwickelt jeder seine eigenen Lösungen, um einer bewussteren Lebensweise gerecht zu werden.
+Einige Kritiker sind davon überzeugt, dass Minimalismus einer Art Dogma folge, an welchem deren Anhänger uneingeschränkt festhalten müssten, egal was sie davon hielten. So gilt bekanntlich Sauberkeit zur Grundeigenschaft eines „echten“ Minimalisten. Dass hat jedoch nicht automatisch zur Folge, dass die Wohnungen von Minimalisten vollkommen homogen sind und jegliche Spuren der eigenen Persönlichkeit oder Schrulligkeit fehlen. Minimalismus macht kreativ und so entwickelt jeder seine eigenen Lösungen, um einer bewussteren Lebensweise gerecht zu werden.
 
 ## Fazit
 
@@ -81,12 +81,12 @@ Haben Minimalismus-Gegner also Recht mit ihren Behauptungen? Ganz klar: nein. So
 
 Ich bin davon überzeugt, dass sich jeder Mensch ein eigenes Bild vom Minimalismus machen sollte, bevor er voreilige Schlüsse zieht. Am eindringlichsten gelingt dies natürlich, wenn man Minimalismus selbst ausprobiert - in meinen Augen die beste Methode, um Vorurteile abzubauen.
 
-So, mit diesen Satz und insgesamt knapp sechzig Wiederholung des Wortes "Minimalismus" - oder einer Abwandlung davon - möchte ich diese Beitragsreihe vorerst beenden. Ich hoffe, ich konnte dich ein wenig für diese Art des bewussten Lebens begeistern. In jedem Fall würde mich deine Meinung oder gar Erfahrung zu diesem Thema würde sehr interessieren. Zögere also nicht und schreibe ein Kommentar unter diesen Beitrag.
+So, mit diesen Satz und insgesamt knapp sechzig Wiederholung des Wortes „Minimalismus“ - oder einer Abwandlung davon - möchte ich diese Beitragsreihe vorerst beenden. Ich hoffe, ich konnte dich ein wenig für diese Art des bewussten Lebens begeistern. In jedem Fall würde mich deine Meinung oder gar Erfahrung zu diesem Thema würde sehr interessieren. Zögere also nicht und schreibe ein Kommentar unter diesen Beitrag.
 
 * * *
 
 ## Quellen
 
-[^1]: Chayka, K. (2020), ["The empty promises of Marie Kondo and the craze for minimalism"](https://www.theguardian.com/lifeandstyle/2020/jan/03/empty-promises-marie-kondo-craze-for-minimalism), The Guardian
-[^2]: Rosales, C. (2020), ["Verzicht muss man sich leisten können"](https://www.zeit.de/zeit-magazin/leben/2020-01/minimalismus-marie-kondo-aesthetik-selbstinszenierung-snobismus/komplettansicht), ZEITmagazin
-[^3]: Babauta, L. (2009), "Weniger bringt mehr: Die Kunst, sich auf das Wesentliche zu beschränken", Riemann Verlag
+[^1]: Chayka, K. (2020), [„The empty promises of Marie Kondo and the craze for minimalism“](https://www.theguardian.com/lifeandstyle/2020/jan/03/empty-promises-marie-kondo-craze-for-minimalism), The Guardian
+[^2]: Rosales, C. (2020), [„Verzicht muss man sich leisten können“](https://www.zeit.de/zeit-magazin/leben/2020-01/minimalismus-marie-kondo-aesthetik-selbstinszenierung-snobismus/komplettansicht), ZEITmagazin
+[^3]: Babauta, L. (2009), „Weniger bringt mehr: Die Kunst, sich auf das Wesentliche zu beschränken“, Riemann Verlag

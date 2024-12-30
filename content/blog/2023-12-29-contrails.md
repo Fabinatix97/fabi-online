@@ -61,7 +61,7 @@ Die Auswirkungen des Luftverkehrs auf das Klima. _In Anlehnung an [Google](https
 
 ## Die Lösung
 
-Um eines gleich vorwegzunehmen: die _eine_ Lösung gibt es leider nicht. Wie so oft gibt es verschiedene Möglichkeiten, diesem Problem entgegenzuwirken. Einige davon erfolgsversprechender als andere. Insgesamt gibt es jedoch noch viel Forschungsbedarf. An Projekten wie "Blue Condor" von Airbus (mehr dazu später) erkennt man jedoch, wie ernst dieses Thema in der Branche genommen wird und wie wichtig es ist, dieses Problem schnellstmöglich anzugehen.
+Um eines gleich vorwegzunehmen: die _eine_ Lösung gibt es leider nicht. Wie so oft gibt es verschiedene Möglichkeiten, diesem Problem entgegenzuwirken. Einige davon erfolgsversprechender als andere. Insgesamt gibt es jedoch noch viel Forschungsbedarf. An Projekten wie „Blue Condor“ von Airbus (mehr dazu später) erkennt man jedoch, wie ernst dieses Thema in der Branche genommen wird und wie wichtig es ist, dieses Problem schnellstmöglich anzugehen.
 
 ### Lösung 1: Alternative Treibstoffe
 

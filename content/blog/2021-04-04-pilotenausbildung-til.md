@@ -33,7 +33,7 @@ Im professionellen Airline-Cockpit werden grundsätzlich alle Abschnitte des Flu
 
 Im selben Atemzug muss ich jedoch wieder zurückrudern und dir sagen, dass es nicht wichtig ist, alles bis ins kleinste Detail zu planen. Nicht nur das: manchmal kann dies sogar schaden. In diesem Zusammenhang ist sicherlich jeder Pilotenanwärter schonmal über die folgende Theorieprüfungsfrage gestolpert oder hat diese vielleicht sogar schon am eigenen Leib erfahren:
 
-> "Although the anticipation of possible events is a good attitude for pilots to acquire, it can sometimes lead to hazardous situations. With this statement in mind, select the response below which could lead to such a hazard:
+> „Although the anticipation of possible events is a good attitude for pilots to acquire, it can sometimes lead to hazardous situations. With this statement in mind, select the response below which could lead to such a hazard:
 > 
 > A) Anticipating that the flight will take longer than planned.
 > 
@@ -41,7 +41,7 @@ Im selben Atemzug muss ich jedoch wieder zurückrudern und dir sagen, dass es ni
 > 
 > C) Anticipating the sequence of items on a check list.
 > 
-> D) Mishearing the contents of a reply from an air traffic controller when a non-standard procedure was given but a standard procedure was anticipated."
+> D) Mishearing the contents of a reply from an air traffic controller when a non-standard procedure was given but a standard procedure was anticipated.“
 
 Die Auflösung gibt’s am Ende des Beitrags. Fest steht, dass eine allumfassende Planung schier unmöglich ist, in Perfektionismus enden kann und im schlimmsten Fall dafür sorgt, sich in falscher Sicherheit zu wiegen.
 
