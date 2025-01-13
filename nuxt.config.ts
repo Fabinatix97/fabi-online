@@ -31,7 +31,9 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
-      baseURL: process.env.BASE_URL || ''
+      baseURL: process.env.BASE_URL || '',
+      posthogPublicKey: 'phc_YlzA1GDgNE5Z18DwWWwKj7833bAd60eGKbMa5HcGxqz',
+      posthogHost: 'https://eu.i.posthog.com'
     }
   },
   vite: {

@@ -64,14 +64,10 @@ Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger
 
 Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.
 
-<!-- Akutell keine Analyse-Tools im Einsatz
-
 #### Analyse-Tools und Tools von Dritt­anbietern
 Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor allem mit sogenannten Analyseprogrammen.
 
-Detaillierte Informationen zu diesen Analyseprogrammen finden Sie im Abschnitt 5 dieser Datenschutzerklärung.
-
---------------------->
+Detaillierte Informationen zu diesen Analyseprogrammen finden Sie im [Abschnitt 4](/impressum#_4-datenerfassung-auf-dieser-website) dieser Datenschutzerklärung.
 
 ### 2. Hosting und Content Delivery Networks (CDN)
 #### Externes Hosting
@@ -147,12 +143,6 @@ Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen
 - Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.
 
 ### 4. Datenerfassung auf dieser Website
-#### Cookies
-Cookies sind kleine Textdateien und richten auf Ihrem Endgerät keinen Schaden an. Sie werden entweder vorübergehend für die Dauer einer Sitzung (Session-Cookies) oder dauerhaft (permanente Cookies) auf Ihrem Endgerät gespeichert. Session-Cookies werden nach Ende Ihres Besuchs automatisch gelöscht. Permanente Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese selbst löschen oder eine automatische Löschung durch Ihren Webbrowser erfolgt.
-
-Cookies haben verschiedene Funktionen. Zahlreiche Cookies sind technisch notwendig, da bestimmte Websitefunktionen ohne diese nicht funktionieren würden (z.B. die Warenkorbfunktion oder die Anzeige von Videos). Andere Cookies dienen dazu, das Nutzerverhalten auszuwerten oder Werbung anzuzeigen.
-
-Wir verwenden auf dieser Internetseite lediglich technisch notwendige Cookies, welche nach EU-Richtlinie 2009/136/EG auch ohne vorherige Zustimmung durch den Nutzer gesetzt werden dürfen.
 
 #### Server-Log-Dateien
 Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:
@@ -167,38 +157,17 @@ Der Provider der Seiten erhebt und speichert automatisch Informationen in so gen
 
 Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der technisch fehlerfreien Darstellung und der Optimierung seiner Website – hierzu müssen die Server-Log-Files erfasst werden.
 
-<!-- Akutell keine Kommentarfunktion vorhanden
+#### Cookies und lokale Speicherung
 
-#### Kommentar­funktion auf dieser Website
-Für die Kommentarfunktion auf dieser Seite werden neben Ihrem Kommentar auch Angaben zum Zeitpunkt der Erstellung des Kommentars, Ihre E-Mail-Adresse und, wenn Sie nicht anonym posten, der von Ihnen gewählte Nutzername gespeichert.
+Unsere Internetseiten verwenden sogenannte „Cookies“. Cookies sind kleine Datenpakete und richten auf Ihrem Endgerät keinen Schaden an. Sie werden entweder vorübergehend für die Dauer einer Sitzung (Session-Cookies) oder dauerhaft (permanente Cookies) auf Ihrem Endgerät gespeichert. Session-Cookies werden nach Ende Ihres Besuchs automatisch gelöscht. Permanente Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese selbst löschen oder eine automatische Löschung durch Ihren Webbrowser erfolgt.
 
-##### Speicherung der IP-Adresse
-Unsere Kommentarfunktion speichert die IP-Adressen der Nutzer, die Kommentare verfassen. Da wir Kommentare auf dieser Website nicht vor der Freischaltung prüfen, benötigen wir diese Daten, um im Falle von Rechtsverletzungen wie Beleidigungen oder Propaganda gegen den Verfasser vorgehen zu können.
+**Verwendung von Cookies und lokaler Speicherung:**
 
-##### Speicherdauer der Kommentare
-Die Kommentare und die damit verbundenen Daten werden gespeichert und verbleiben auf dieser Website, bis der kommentierte Inhalt vollständig gelöscht wurde oder die Kommentare aus rechtlichen Gründen gelöscht werden müssen (z. B. beleidigende Kommentare).
+Wir verwenden auf dieser Website Cookies und die lokale Speicherung für folgende Zwecke:
 
-##### Rechtsgrundlage
-Die Speicherung der Kommentare erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie können eine von Ihnen erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Die Rechtmäßigkeit der bereits erfolgten Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt.
+*   **Analyse des Nutzerverhaltens (mit PostHog):** Wir verwenden den Analysedienst PostHog, um das Nutzerverhalten auf unserer Website zu analysieren und zu verstehen, wie Besucher mit der Website interagieren. Dadurch können wir die Website verbessern und an die Bedürfnisse der Nutzer anpassen. PostHog verwendet hierfür in der Regel einen einzigen Analyse-Cookie, um Informationen über Ihre Nutzung der Website zu sammeln, wie z. B. besuchte Seiten, Verweildauer und Interaktionen. Diese Informationen werden auf Servern von PostHog (PostHog Cloud EU) gespeichert. Die Verwendung dieses Analyse-Cookies erfolgt nur mit Ihrer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO.
+*   **Lokale Speicherung (Local Storage):** Wir verwenden die lokale Speicherung im Browser, um bestimmte Einstellungen zu speichern, wie z. B. Ihre Theme-Präferenzen (Dark Mode/Light Mode) oder Informationen über die Anzeige des Cookie-Banners. Diese Daten sind für die Funktionalität der Website oder für Ihre Nutzererfahrung relevant und werden auf Ihrem Gerät gespeichert. Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse).
 
---------------------->
+#### Cookie-Einstellungen
 
-<!-- Akutell keine Analyse-Tools im Einsatz
-
-### 5. Analyse-Tools
-#### Matomo (ehemals Piwik)
-Diese Website benutzt den Open Source Webanalysedienst Matomo. Matomo verwendet Technologien, die die seitenübergreifende Wiedererkennung des Nutzers zur Analyse des Nutzerverhaltens ermöglichen. Die durch Matomo erfassten Informationen über die Benutzung dieser Website werden auf unserem Server gespeichert. Die IP-Adresse wird vor der Speicherung anonymisiert.
-
-Beim Einsatz von Matomo werden die über das Analyse-Tool erfassten Daten nicht an den Diensteanbieter übertragen, sondern verbleiben vielmehr auf unserem Server. Zudem werden in der von uns genutzten Variante keine Cookies eingesetzt. Vielmehr werden wiederkehrende Nutzer mit Hilfe eines so genannten „digitalen Fingerabdrucks“ erkannt. Dieser wird anonymisiert gespeichert und alle 24 Stunden geändert. Rückschlüsse auf die Identität einzelner Nutzer sind nicht möglich.
-
-##### Hosting
-Wir hosten Matomo bei folgendem Drittanbieter:
-
-```
-goneo Internet GmbH
-Dresdener Straße 18
-32423 Minden
-Deutschland
-```
-
---------------------->
+Sie können Ihre Cookie-Einstellungen jederzeit ändern und der Nutzung des Analyse-Cookies zustimmen oder diese ablehnen. Nutzen Sie hierfür die nachfolgenden Schaltflächen.

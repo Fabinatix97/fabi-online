@@ -3,6 +3,7 @@
     <NuxtLayout>
         <NuxtPage />
     </NuxtLayout>
+    <CookieBanner />
     <ScrollToTop />
 </template>
 

@@ -1,5 +1,6 @@
 <template>
     <ContentDoc class="impressum"/>
+    <CookieSettings />
 </template>
 
 <script setup>
