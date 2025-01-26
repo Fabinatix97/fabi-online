@@ -25,6 +25,17 @@
                         </li>
                         <li>
                             <a
+                                href="https://medium.com/@fabinatix"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                title="Folge mir auf Medium"
+                                aria-label="Folge mir auf Medium (öffnet in neuem Tab)"
+                            >
+                                <Icon name="mingcute:medium-fill" size="1.4em" />
+                            </a>
+                        </li>
+                        <li>
+                            <a
                                 href="https://de.linkedin.com/in/fabian-weiss"
                                 rel="noopener noreferrer"
                                 target="_blank"

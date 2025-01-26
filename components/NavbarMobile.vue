@@ -57,6 +57,11 @@
                         </a>
                     </div>
                     <div class="mr-4">
+                        <a href="https://medium.com/@fabinatix" class="transition-all duration-300 hover:text-primaryhover" title="Folge mir auf Medium" target="_blank" rel="noopener noreferrer">
+                            <Icon name="mingcute:medium-fill" size="2em" />
+                        </a>
+                    </div>
+                    <div class="mr-4">
                         <a href="https://de.linkedin.com/in/fabian-weiss" class="transition-all duration-300 hover:text-primaryhover" title="Folge mir auf LinkedIn" target="_blank" rel="noopener noreferrer">
                             <Icon name="mdi:linkedin" size="2em" />
                         </a>
