@@ -14,8 +14,10 @@
     <div class="gallery">
         <figure v-for="post in filteredPosts" :key="post.slug" :aria-labelledby="'post-' + post.slug">
             <NuxtLink :to="post._path">
-                <img
+                <NuxtImg
                     :src="`${post.coverImage}`"
+                    width="1000"
+                    format="webp"
                     alt="Blog Post Titelbild"
                 />
                 <figcaption>

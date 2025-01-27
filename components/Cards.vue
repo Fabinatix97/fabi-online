@@ -22,6 +22,8 @@
                 <div>
                     <img
                         :src="`${post.coverImage}`"
+						width="500"
+						format="webp"
                         alt="Blog Post Cover Image"
                         class="w-full h-48 object-cover rounded-t-2xl hover:opacity-80 relative"
                     />
