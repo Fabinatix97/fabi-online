@@ -16,8 +16,8 @@
             <NuxtLink :to="post._path">
                 <NuxtImg
                     :src="`${post.coverImage}`"
-                    width="1000"
-                    format="webp"
+                    width="1000px"
+					format="webp"
                     alt="Blog Post Titelbild"
                 />
                 <figcaption>
