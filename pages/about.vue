@@ -354,7 +354,7 @@ useSeoMeta({
         color: var(--heading);
         padding: 4px 12px;
         border: 1px solid var(--border);
-        border-radius: 2rem;
+        border-radius: 1rem;
         background-color: var(--main);
     }
     .date-button:hover {
