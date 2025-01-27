@@ -41,13 +41,15 @@
                 class="my-8 w-[calc(100%_+_60px)] relative left-[-30px] max-w-none rounded-2xl"
             />
             <ContentRenderer :value="data" class="blog-content mb-8" />
-            <NuxtLink v-for="tag in data.tags" :key="tag" :href="`/blog/tags/${tag}`"
-                class="text-sm font-semibold inline-block py-2 px-4 rounded-2xl text-main bg-primary uppercase last:mr-0 my-2 mr-4">
-                <div class="flex">
-                    <Icon name="mdi:tag" size="1.2rem" class="text-main mr-2" />
-                    {{ tag }}
-                </div>
-            </NuxtLink>
+            <div class="flex flex-wrap gap-4">
+                <NuxtLink v-for="tag in data.tags" :key="tag" :href="`/blog/tags/${tag}`"
+                    class="py-2 px-4 border-2 border-primary text-sm text-primary font-semibold rounded-xl uppercase hover:bg-primary hover:text-body">
+                    <div class="flex gap-2">
+                        <Icon name="mdi:tag" size="1.2rem" />
+                        {{ tag }}
+                    </div>
+                </NuxtLink>
+            </div>
         </main>
         <div class="flex-none w-[calc(50%-400px)] hidden xl:block">
             <div class="h-screen"></div>
