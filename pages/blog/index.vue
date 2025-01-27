@@ -17,8 +17,8 @@
             <p class="mb-0">Hier teile ich meine Gedanken und Erfahrungen zu allem, was mich gerade beschäftigt.</p>
         </div>
     </div>
-    <Gallery v-if="!isMobileDevice" :posts="posts" />
-    <Cards v-else :posts="posts" />
+    <Cards v-if="isMobileDevice" :posts="posts" />
+    <Gallery v-else :posts="posts" />
 </template>
 
 <script setup>
