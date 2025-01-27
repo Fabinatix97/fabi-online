@@ -20,10 +20,12 @@
         >
             <div class="card-content bg-main flex flex-col h-full">
                 <div>
-                    <img
+                    <NuxtImg
                         :src="`${post.coverImage}`"
+						width="500px"
+						format="webp"
                         alt="Blog Post Cover Image"
-                        class="w-full h-48 object-cover rounded-t-2xl hover:opacity-80 relative"
+                        class="w-full h-48 object-cover rounded-t-2xl relative"
                     />
                 </div>
                 <div class="p-6 flex-grow">
@@ -106,56 +108,16 @@ onMounted(() => {
 .cards {
 	justify-content: center;
 	align-items: center;
-	&:hover {
-		.card {
-			background: radial-gradient(
-				100rem circle at var(--xPos) var(--yPos),
-				rgba(var(--spotlight), 0.4),
-				transparent 15%
-			);
-		}
-	}
 	.card {
         width: 100%;
 		height: 100%;
-		background: radial-gradient(
-			150rem circle at 0 0,
-			rgba(var(--spotlight), 0),
-			transparent 0%
-		);
 		border-radius: 1rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		position: relative;
-		transition: all 0.15s;
-		&:hover {
-			transform: scale(0.97);
-			&::before {
-				opacity: 1;
-			}
-		}
-		&::before {
-			content: "";
-			height: 100%;
-			width: 100%;
-			position: absolute;
-			top: 0;
-			left: 0;
-			border-radius: inherit;
-			background: radial-gradient(
-				60rem circle at var(--xPos) var(--yPos),
-				rgba(var(--spotlight), 0.1),
-				transparent 35%
-			);
-			opacity: 0;
-			transition: all 0.15s ease-in-out;
-		}
 		.card-content {
 			border-radius: inherit;
-			transition: all 0.25s;
-			height: calc(100% - 0.2rem);
-			width: calc(100% - 0.2rem);
 		}
 	}
 }
