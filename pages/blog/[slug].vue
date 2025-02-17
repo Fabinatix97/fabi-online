@@ -199,6 +199,7 @@ onMounted(() => {
         width: 100%;
         border-collapse: collapse;
         font-size: 0.8rem;
+        background-color: var(--main);
     }
     th, td {
         padding: 8px 12px;
@@ -220,11 +221,12 @@ onMounted(() => {
         margin-bottom: 40px;
     }
     blockquote {
-        background-color: var(--codebg);
+        background-color: var(--main);
         border-left: 5px solid var(--primary);
         padding: 10px 15px;
         margin: 20px 0;
         color: var(--text);
+        font-style: italic;
     }
     hr {
         margin-top: 20px;

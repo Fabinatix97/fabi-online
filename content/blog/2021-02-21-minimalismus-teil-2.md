@@ -45,7 +45,7 @@ Mediales Internet: tägliche Nutzungsdauer [^1]
 
 Doch wieso halten wir uns eigentlich so gerne im Internet bzw. vor Smartphone und Computer auf? Einen maßgeblichen Faktor hierfür stellt sicherlich das Belohnungssystem des Menschen dar. Bei genauerem Hinblick sind viele Dinge des Internets, sei es Online-Shopping, Social Media oder Computerspiele, darauf ausgerichtet, jenes Belohnungssystem gezielt anzusprechen. Da wäre zum Beispiel die berüchtigte Währung der hochgestreckten Daumen und Herzen, aus der viele junge Menschen ihr Selbstwertgefühl und ihre Anerkennung ziehen. In den Worten von Adam Alter, eines Professors an der New York University [^2]:
 
-> Wenn jemandem ein Instagram-Post oder irgendein Inhalt, den Sie teilen, gefällt, ist das ein bisschen wie die Einnahme einer Droge \[...\]. Der Grund dafür ist, dass es nicht garantiert ist, dass Sie Likes für Ihre Beiträge erhalten. Und es ist die Unvorhersehbarkeit dieses Prozesses, die es so süchtig macht. Wenn Sie wüssten, dass Sie jedes Mal, wenn Sie etwas posten, 100 Likes bekommen würden, würde es sehr schnell langweilig werden.
+> „Wenn jemandem ein Instagram-Post oder irgendein Inhalt, den Sie teilen, gefällt, ist das ein bisschen wie die Einnahme einer Droge \[...\]. Der Grund dafür ist, dass es nicht garantiert ist, dass Sie Likes für Ihre Beiträge erhalten. Und es ist die Unvorhersehbarkeit dieses Prozesses, die es so süchtig macht. Wenn Sie wüssten, dass Sie jedes Mal, wenn Sie etwas posten, 100 Likes bekommen würden, würde es sehr schnell langweilig werden.“
 
 Ähnlich verhält es sich mit dem pull-to-refresh (dt. "Ziehen zum Aktualisieren") Design vieler Apps, Schatztruhen in Computerspielen oder der Tatsache, dass man nach einer Online-Bestellung auf das Produkt warten muss. Überall befeuert die Ungewissheit die Ausschüttung des Glückshormons Dopamin - wobei es viel eher als "Ungewissheitshormon" oder "Antriebshormon" betitelt werden sollte.
 
@@ -55,7 +55,7 @@ Wird man sich diesen Zusammenhängen bewusst, kann Minimalismus insofern für Ab
 
 Bevor ich mich wieder konkreten Tipps widme, möchte ich nochmal das Zitat von Leo Babauta aus seinem Buch "The Power of Less" hervorkramen, da ich es im Zusammenhang mit digitalem Minimalismus als essenziell und wegweisend erachte:
 
-> Vereinfachung soll dein Leben nicht leer machen, sondern Raum für das schaffen, was du wirklich tun möchtest. Finde zuerst heraus, was du vereinfachen willst, bevor du damit beginnst.
+>"Vereinfachung soll dein Leben nicht leer machen, sondern Raum für das schaffen, was du wirklich tun möchtest. Finde zuerst heraus, was du vereinfachen willst, bevor du damit beginnst.""
 
 Dementsprechend geht es - wie schon im ersten Teil - zunächst einmal darum, sich einen Überblick zu verschaffen. Ohne klarer Übersicht, lässt sich das eigene Nutzungsverhalten nur schwer ändern. Anschließend ist Aufräumen angesagt. Idealerweise beschränkt man sich hierbei auf das Wichtigste und entledigt sich des sonstigen Ballasts. Der letzte Schritt wäre dann noch, ein System zu entwickeln, mit welchem man die Kontrolle über seine Mediennutzung zurückerlangt oder aber - falls man diese nicht verloren zu glauben meint - die Nutzung einfach ein wenig reduziert.
 

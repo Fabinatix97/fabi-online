@@ -31,7 +31,7 @@ Doch Moment. Minimalismus und Geld: wie passt das zusammen? Versteht man unter e
 
 Zunächst ist es sinnvoll, sich einen Überblick über alles zu verschaffen, was irgendwie mit Geld zu tun hat. Der Fokus sollte natürlich auf deinen Ausgaben liegen. Die beiden Minimalismus-Gurus Joshua Fields Millburn & Ryan Nicodemus haben dabei folgendes erkannt:
 
-> Die meisten von uns haben keine Ahnung, wohin unser Geld fließt. Wir denken, wir wissen es, aber wir wissen es nicht wirklich. [^1]
+> „Die meisten von uns haben keine Ahnung, wohin unser Geld fließt. Wir denken, wir wissen es, aber wir wissen es nicht wirklich.“ [^1]
 
 Es empfiehlt sich daher, eine Art Haushaltsbuch mit unterschiedlichen Kategorien (Miete, Versicherungen, Auto, etc.) anzulegen und dieses dann mit deinen monatlichen Ausgaben zu füllen. Ob du diese Liste auf Papier oder am PC bzw. Smartphone führst ist vollkommen dir überlassen. Letztere Methode ist natürlich um einiges komfortabler, wenn du deine Ausgaben über einen längeren Zeitraum hinweg festhalten und im Nachhinein noch Kategorien hinzufügen möchtest - von den sonstigen Vorzügen eines Tabellenkalkulationsprogramms ganz zu schweigen. So konnte ich beispielsweise einige Abonnements ausfindig machen, die ich nie wirklich nutzte, für die ich jedoch monatlich kleine Geldbeträge ausgab.
 
@@ -55,7 +55,7 @@ Verschuldung der privaten Haushalte, gemessen in Prozent des verfügbaren Nettoe
 
 Wie man diese Zahlen nun interpretiert, ist jedem selbst überlassen. Fakt ist: Schulden sind immer schlecht und sollten schnellstmöglich abbezahlt werden - egal ob es sich um Autozahlungen, Kreditkartenzahlungen oder - wie in meinem Fall - Zahlungen für einen Pilotenausbildungskredit handelt. In diesem Zusammenhang noch eine passende Botschaft von dem bereits zitierten Joshua Fields Millburn:
 
-> Im Gegensatz zu dem, was Ihnen einige Akademiker erzählen mögen, gibt es so etwas wie "gute Schulden" nicht. Lassen Sie uns das noch einmal sagen (lesen Sie es laut vor): ES GIBT KEINE "GUTEN SCHULDEN". Es stimmt, manche Schulden sind schlimmer als andere, aber sie sind nie "gut". Die Wahrheit ist: Du wirst dich nicht frei fühlen, bis du schuldenfrei bist. [^3]
+> „Im Gegensatz zu dem, was Ihnen einige Akademiker erzählen mögen, gibt es so etwas wie "gute Schulden" nicht. Lassen Sie uns das noch einmal sagen (lesen Sie es laut vor): ES GIBT KEINE "GUTEN SCHULDEN". Es stimmt, manche Schulden sind schlimmer als andere, aber sie sind nie "gut". Die Wahrheit ist: Du wirst dich nicht frei fühlen, bis du schuldenfrei bist.“ [^3]
 
 ## 3. Auf das Wichtige / Sinnstiftende beschränken
 
@@ -63,7 +63,7 @@ Wie man diese Zahlen nun interpretiert, ist jedem selbst überlassen. Fakt ist: 
 
 Für einen minimalistischen Umgang mit Geld ist es elementar, sich auf das Wichtige bzw. Sinnstiftende im Leben zu beschränken und Impulsivkäufe wenn möglich zu vermeiden - ganz gleich ob schuldenfrei oder nicht. Hierzu wirfst du am besten einen Blick in dein unter Schritt 1 erstelltes Haushaltsbuch und prüfst deine Ausgaben auf das Kriterium "Sinnhaftigkeit". Allein diese "Bewertung" deiner finanziellen Vergangenheit, kann deinen zukünftigen Umgang mit Geld maßgeblich beeinflussen. Joshua Fields Millburn bringt es wie folgt auf den Punkt:
 
-> Sie müssen weniger ausgeben als Sie einnehmen. Solange Sie diesen Teil der Gleichung nicht in Ordnung bringen, spielt der Rest keine Rolle. Zuerst müssen Sie erkennen, wie viel Geld Sie wirklich zum Überleben brauchen, und dann erkennen, dass alles darüber hinaus nur ein Wunsch ist, oft ein überflüssiger Wunsch. \[...\] Ein Prinzip, nach dem ich lebe, ist das Hinterfragen aller meiner Einkäufe. Es braucht Zeit, um Geld zu verdienen, und meine Zeit ist meine Freiheit. Wenn ich also mein Geld aufgebe, gebe ich auch kleine Teile meiner Freiheit auf. Bevor ich einen Kauf tätige (selbst für eine Tasse Kaffee), sage ich mir: "Ist diese Tasse Kaffee 2 Dollar meiner Freiheit wert?" Das hat meine Denkweise deutlich verändert. [^3]
+> „Sie müssen weniger ausgeben als Sie einnehmen. Solange Sie diesen Teil der Gleichung nicht in Ordnung bringen, spielt der Rest keine Rolle. Zuerst müssen Sie erkennen, wie viel Geld Sie wirklich zum Überleben brauchen, und dann erkennen, dass alles darüber hinaus nur ein Wunsch ist, oft ein überflüssiger Wunsch. \[...\] Ein Prinzip, nach dem ich lebe, ist das Hinterfragen aller meiner Einkäufe. Es braucht Zeit, um Geld zu verdienen, und meine Zeit ist meine Freiheit. Wenn ich also mein Geld aufgebe, gebe ich auch kleine Teile meiner Freiheit auf. Bevor ich einen Kauf tätige (selbst für eine Tasse Kaffee), sage ich mir: "Ist diese Tasse Kaffee 2 Dollar meiner Freiheit wert?" Das hat meine Denkweise deutlich verändert.“ [^3]
 
 ## 4. System für langfristigen Erfolg
 
@@ -115,7 +115,7 @@ Letztlich muss jeder für sich selbst entscheiden, wie er mit seinem Geld umgehe
 
 Abschließen möchte ich diesen Beitrag mit einer Erkenntnis, welche im Umgang mit Geld gerne mal vergessen wird, aber nicht sollte:
 
-> Der kürzeste Weg zur Freiheit ist: zu schätzen, was man schon hat. [^1]
+> „Der kürzeste Weg zur Freiheit ist: zu schätzen, was man schon hat.“ [^1]
 
 Im [nächsten und letzten Teil](/blog/2021-03-21-minimalismus-teil-4) der Minimalismus-Reihe möchte ich mit dir über die Schattenseiten des Minimalismus diskutieren.
 

@@ -39,7 +39,7 @@ Auch dieses Argument leidet in meinen Augen an unzureichender Differenzierung. A
 
 Einem Argument in diesem Zusammenhang muss ich jedoch zustimmen:
 
-> Es ist leicht, sich als Minimalist zu fühlen, wenn man mit einem einzigen Ziegelstein aus Stahl und Silikon Essen bestellen, ein Auto herbeirufen oder ein Zimmer mieten kann. Aber in Wirklichkeit ist es genau das Gegenteil. Wir nutzen die Vorteile eines maximalistischen Gesamtkonstrukts. Nur weil etwas einfach aussieht, heißt das nicht, dass es das auch ist; die Ästhetik der Einfachheit tarnt den Kunstgriff oder sogar den unhaltbaren Exzess. [^1]
+> „Es ist leicht, sich als Minimalist zu fühlen, wenn man mit einem einzigen Ziegelstein aus Stahl und Silikon Essen bestellen, ein Auto herbeirufen oder ein Zimmer mieten kann. Aber in Wirklichkeit ist es genau das Gegenteil. Wir nutzen die Vorteile eines maximalistischen Gesamtkonstrukts. Nur weil etwas einfach aussieht, heißt das nicht, dass es das auch ist; die Ästhetik der Einfachheit tarnt den Kunstgriff oder sogar den unhaltbaren Exzess.“ [^1]
 
 Gesagt sei hierbei jedoch, dass vermutlich niemand in der heutigen Zeit auf das Internet der Dinge verzichten kann und will. Wieso also die Minimalisten in ein schlechtes Licht rücken?
 
@@ -49,7 +49,7 @@ Gesagt sei hierbei jedoch, dass vermutlich niemand in der heutigen Zeit auf das 
 
 Dieses Argument entspringt folgendem Zitat:
 
-> Eine reduzierte Ernährungsweise aus Rohkost und zuckerfreien Bonbons hat nichts mit dem Neunstundenbüroalltag eines gewöhnlichen Pendlers zu tun, schon gar nicht mit den Schichten eines körperlich aktiven Arbeiters. [^2]
+> „Eine reduzierte Ernährungsweise aus Rohkost und zuckerfreien Bonbons hat nichts mit dem Neunstundenbüroalltag eines gewöhnlichen Pendlers zu tun, schon gar nicht mit den Schichten eines körperlich aktiven Arbeiters.“ [^2]
 
 Diese leicht hyperbolisch angehauchte Aussage verfehlt ihr Ziel gleich in zweierlei Hinsicht. Erstens pauschalisiert sie - aus rhetorischer Sicht womöglich so gewollt. Zweitens hat sie nichts mit dem Minimalismus per se zu tun. Der Minimalismus deckt idealerweise alle Bereiche des täglichen Lebens ab, so auch die Ernährung. In meinen Augen ist das aber kein Muss. So ist beispielsweise ein bewussterer, ja [minimalistischerer Umgang mit dem Smartphone](/blog/2021-02-21-minimalismus-teil-2) schon sehr viel wert.
 
@@ -63,7 +63,7 @@ Worauf die Autorin vermutlich abzielen möchte, ist die schlechte Alltagstauglic
 
 An diesem Argument ist tatsächlich etwas Wahres dran. In meinen Beiträgen zum Thema Minimalismus habe ich fast immer folgendes Zitat eingebracht:
 
-> Vereinfachung soll dein Leben nicht leer machen, sondern Raum für das schaffen, was du wirklich tun möchtest. Finde zuerst heraus, was du vereinfachen willst, bevor du damit beginnst. [^3]
+> „Vereinfachung soll dein Leben nicht leer machen, sondern Raum für das schaffen, was du wirklich tun möchtest. Finde zuerst heraus, was du vereinfachen willst, bevor du damit beginnst.“ [^3]
 
 Dass darin gleich dreimal das Wörtchen „du“ und einmal „dein“ enthalten ist, zeugt davon, dass Minimalismus manchmal auch in einer Form von Individualismus ausarten kann. Im schlimmsten Fall setzt man sich selbst an erster Stelle, indem man überlegt, ob eine Person, ein Ort oder eine Sache wirklich zum eigenen Weltbild passen oder diese eher gemieden werden sollten. Umso wichtiger ist es sich dessen bewusst zu werden, um am Ende kein Egoist zu werden.
 
@@ -77,7 +77,7 @@ Einige Kritiker sind davon überzeugt, dass Minimalismus einer Art Dogma folge, 
 
 Haben Minimalismus-Gegner also Recht mit ihren Behauptungen? Ganz klar: nein. So wie ich es sehe, kommt hier bei aller Sachlichkeit sehr viel Undifferenziertheit und Schubladen-Denken zum Vorschein. Das hat vermutlich damit zu tun, dass Minimalismus in der Öffentlichkeit häufig als heiliger Gral dargestellt wird, wenn es darum geht, Abstand vom heutigen ausufernden Konsumverhalten zu nehmen. Folgendes Zitat bringt es vortrefflich auf den Punkt:
 
-> Die Unzufriedenheit mit dem Materialismus und den üblichen Belohnungen der Gesellschaft ist nicht neu, aber der Minimalismus ist keine Idee mit einer geradlinigen chronologischen Geschichte. Es ist eher ein Gefühl, das sich zu verschiedenen Zeiten und an verschiedenen Orten der Welt wiederholt. Es wird durch das Gefühl definiert, dass die umgebende Zivilisation exzessiv ist und damit eine Art von ursprünglicher Authentizität verloren hat, die wiedergewonnen werden muss. Die materielle Welt hat in diesen Momenten weniger Bedeutung, und so verliert das Anhäufen von mehr Zeug seinen Reiz. \[...\] Die Sehnsucht nach weniger ist weder eine Krankheit noch ein Heilmittel. Minimalismus ist nur eine Art, darüber nachzudenken, was ein gutes Leben ausmacht. [^1]
+> „Die Unzufriedenheit mit dem Materialismus und den üblichen Belohnungen der Gesellschaft ist nicht neu, aber der Minimalismus ist keine Idee mit einer geradlinigen chronologischen Geschichte. Es ist eher ein Gefühl, das sich zu verschiedenen Zeiten und an verschiedenen Orten der Welt wiederholt. Es wird durch das Gefühl definiert, dass die umgebende Zivilisation exzessiv ist und damit eine Art von ursprünglicher Authentizität verloren hat, die wiedergewonnen werden muss. Die materielle Welt hat in diesen Momenten weniger Bedeutung, und so verliert das Anhäufen von mehr Zeug seinen Reiz. \[...\] Die Sehnsucht nach weniger ist weder eine Krankheit noch ein Heilmittel. Minimalismus ist nur eine Art, darüber nachzudenken, was ein gutes Leben ausmacht.“ [^1]
 
 Ich bin davon überzeugt, dass sich jeder Mensch ein eigenes Bild vom Minimalismus machen sollte, bevor er voreilige Schlüsse zieht. Am eindringlichsten gelingt dies natürlich, wenn man Minimalismus selbst ausprobiert - in meinen Augen die beste Methode, um Vorurteile abzubauen.
 

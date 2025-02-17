@@ -19,7 +19,7 @@ Oft fokussiert man sich nur auf das Sammeln von Informationen und nicht auf das 
 
 Das muss natürlich nicht immer und auch nicht sofort gemacht werden. Um den Lesefluss aufrechtzuerhalten, sind schlichte Markierungen vollkommen legitim. Wichtig ist nur, die Markierungen zeitnah in aussagekräftige Notizen umzuwandeln, da sich die Gründe für das Markieren erfahrungsgemäß schnell verflüchtigen.
 
-::callout{icon="tabler:bulb-filled" title="Learning"}
+::callout{icon="tabler:bulb-filled" title="Learning #1"}
 Achte auf eine Balance zwischen Sammeln und Verarbeiten von Informationen. Plane beispielsweise feste Zeiten ein, in denen du deine Notizen überarbeitest, Verknüpfungen herstellst und Erkenntnisse gewinnst.
 ::
 
@@ -41,7 +41,7 @@ Auch ich habe bereits eine lange Reise durch verschiedene Tools hinter mir – v
 
 Doch statt nach Perfektion zu streben (und dabei vermeintlich produktiv zu sein), sollte der Fokus darauf liegen, ein Werkzeug zu finden, das die eigenen Anforderungen erfüllt und die persönliche Arbeitsweise unterstützt – unabhängig davon, ob es analog oder digital ist.
 
-::callout{icon="tabler:bulb-filled" title="Learning"}
+::callout{icon="tabler:bulb-filled" title="Learning #2"}
 Statt nach Perfektion zu streben, fokussiere dich auf Tools, die einfach und zuverlässig deine Arbeitsweise unterstützen, und gib dir die Freiheit, dein System im Laufe der Zeit anzupassen.
 ::
 
@@ -51,7 +51,7 @@ In Büchern, Videos und Blogposts werden eine Vielzahl von PKM-Frameworks und Be
 
 Aber auch eigene Frameworks, die man sich in einer Phase überschäumender Produktivität und Ehrgeiz überlegt hat und im Moment des Erstellens vollkommen sinnvoll und durchdacht erscheinen mögen, können sich mit der Zeit als aufwändig und einschränkend herausstellen.
 
-::callout{icon="tabler:bulb-filled" title="Learning"}
+::callout{icon="tabler:bulb-filled" title="Learning #3"}
 Plane dein PKM-System nicht bis ins kleinste Detail. Starte mit dem absoluten Minimum und lass es sich von selbst weiterentwickeln.
 ::
 
@@ -73,7 +73,7 @@ Professor Zei aus der Serie „Avatar – Der Herr der Elemente“ bleibt freiwi
 
 </figure>
 
-::callout{icon="tabler:bulb-filled" title="Learning"}
+::callout{icon="tabler:bulb-filled" title="Learning #4"}
 Ein PKM-System sollte nicht nur Wissen ansammeln, sondern aktiv genutzt werden, um Inhalte zu schaffen, Projekte voranzutreiben und Entscheidungen zu treffen. Nur so entfaltet es seinen wahren Wert.
 ::
 
