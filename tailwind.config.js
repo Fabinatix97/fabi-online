@@ -30,8 +30,5 @@ export default {
         text: "var(--text)",
       },
     },
-  },
-  plugins: [
-    require('@tailwindcss/typography')
-  ],
+  }
 }
