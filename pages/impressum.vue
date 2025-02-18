@@ -1,9 +1,14 @@
 <template>
-    <ContentDoc class="impressum"/>
+    <ContentRenderer :value="impressum" class="impressum"/>
     <CookieSettings />
 </template>
 
 <script setup>
+const route = useRoute();
+const { data: impressum } = await useAsyncData(route.path, () => {
+    return queryCollection('blog').path(route.path).first();
+});
+
 useSeoMeta({
     title: 'Impressum',
     description: 'Impressum und Datenschutzerklärung von Fabian Weiß',

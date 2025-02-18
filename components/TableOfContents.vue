@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue';
 
-const { path } = useRoute();
+const route = useRoute();
 const activeId = ref<string | null>(null);
 
 interface TocItem {
@@ -38,9 +38,12 @@ function createObserver() {
 
 onMounted(async () => {
     try {
-        const content = await queryContent().where({ _path: path }).findOne();
-        if (content?.body?.toc) {
-            let links = content.body.toc.links;
+        const { data } = await useAsyncData(route.path, () => {
+            return queryCollection('blog').path(route.path).first();
+        });
+        
+        if (data.value?.body?.toc) {
+            let links = data.value.body.toc.links;
             if (links.length > 0 && links[links.length - 1].text === "Footnotes") {
                 links = links.slice(0, -1);
             }

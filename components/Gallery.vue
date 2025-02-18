@@ -12,20 +12,20 @@
         <p>Keine Artikel gefunden</p>
     </div>
     <div class="gallery">
-        <figure v-for="post in filteredPosts" :key="post.slug" :aria-labelledby="'post-' + post.slug">
-            <NuxtLink :to="post._path">
+        <figure v-for="post in filteredPosts" :key="post.id" :aria-labelledby="'post-' + post.id">
+            <NuxtLink :to="post.path">
                 <NuxtImg
-                    :src="`${post.coverImage}`"
+                    :src="`${post.meta.coverImage}`"
                     width="1000px"
 					format="webp"
                     alt="Blog Post Titelbild"
                 />
                 <figcaption>
                     <div class="justify-self-start py-1 px-3 border-2 border-primary text-primary text-sm rounded-2xl">
-                        {{ formatDate(post.date) }}
+                        {{ formatDate(post.meta.date) }}
                     </div>
-                    <h4 id="'post-' + post.slug">{{ post.title }}</h4>
-                    <p>{{ extractContent(post.body, 30) }}...</p>
+                    <h4 id="'post-' + post.id">{{ post.title }}</h4>
+                    <p>{{ extractContent(post.body, 25) }}</p>
                 </figcaption>
             </NuxtLink>
         </figure>
@@ -43,7 +43,7 @@ const props = defineProps({
 const filteredPosts = computed(() => {
   const searchTerm = input.value.toLowerCase();
   return props.posts
-    .filter(post => post.status === "published")
+    .filter(post => post.meta.status === "published")
     .filter(post => {
         const bodyText = extractContent(post.body).toLowerCase();
         return (
@@ -51,7 +51,7 @@ const filteredPosts = computed(() => {
             bodyText.includes(searchTerm)
         );
     })
-    .sort((a, b) => new Date(b.date) - new Date(a.date));
+    .sort((a, b) => new Date(b.meta.date) - new Date(a.meta.date));
 });
 
 function updateSearchQuery(query) {
@@ -67,20 +67,26 @@ function formatDate(dateString) {
 }
 
 function extractContent(body, wordLimit) {
-    const collectValues = (node) => {
-        const values = [];
-        if (node.value) {
-            values.push(node.value);
+    if (!body || !Array.isArray(body.value)) {
+        return "";
+    }
+
+    let words = [];
+
+    const extractText = (node) => {
+        if (Array.isArray(node)) {
+            node.forEach((child, index) => {
+                if (index === 0 && typeof child === "string") return;
+                extractText(child);
+            });
+        } else if (typeof node === "string") {
+            words.push(...node.split(/\s+/));
         }
-        if (node.children) {
-            for (const child of node.children) {
-                values.push(...collectValues(child));
-            }
-        }
-        return values;
     };
-    const words = collectValues(body).join(" ").trim().split(/\s+/);
-    return words.slice(0, wordLimit).join(" ");
+
+    body.value.forEach(block => extractText(block));
+
+    return words.slice(0, wordLimit).join(" ") + (words.length > wordLimit ? "..." : "");
 }
 </script>
 

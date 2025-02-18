@@ -36,9 +36,7 @@ onMounted(() => {
     isMobileDevice.value = hasTouch && isSmallScreen;
 });
 
-const { data: posts } = await useAsyncData('posts', () =>
-    queryContent('/blog').find()
-);
+const { data: posts } = await useAsyncData(() => queryCollection('blog').all());
 
 definePageMeta({
     layout: 'widelayout'

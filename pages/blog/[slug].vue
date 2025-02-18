@@ -26,7 +26,7 @@
                 </NuxtLink>
             </div>
             <div class="text-primary text-xl font-bold">
-                {{ formatDate(data.date) }}
+                {{ formatDate(data.meta.date) }}
             </div>
             <h1 class="mt-4">{{ data.title }}</h1>
             <div class="flex items-center gap-2 text-info">
@@ -36,13 +36,13 @@
                 <p class="m-0 p-0 flex">Lesezeit: {{ calculateReadingTime(getPostContent(data.body)) }}</p>
             </div>
             <img
-                :src="`${data.coverImage}`"
+                :src="`${data.meta.coverImage}`"
                 alt="Blog Post Cover Image"
                 class="my-8 w-[calc(100%_+_60px)] relative left-[-30px] max-w-none rounded-2xl"
             />
             <ContentRenderer :value="data" class="blog-content mb-8" />
             <div class="flex flex-wrap gap-4">
-                <NuxtLink v-for="tag in data.tags" :key="tag" :href="`/blog/tags/${tag}`"
+                <NuxtLink v-for="tag in data.meta.tags" :key="tag" :href="`/blog/tags/${tag}`"
                     class="py-2 px-4 border-2 border-primary text-sm text-primary font-semibold rounded-xl uppercase hover:bg-primary hover:text-body">
                     <div class="flex gap-2">
                         <Icon name="mdi:tag" size="1.2rem" />
@@ -65,12 +65,10 @@ import { useNuxtApp } from '#app';
 const { $theme } = useNuxtApp();
 const theme = $theme;
 
-const { path } = useRoute();
+const route = useRoute();
 
-const { data } = await useAsyncData(`content-${path}`, () => {
-    return queryContent()
-        .where({ _path: path })
-        .findOne()
+const { data } = await useAsyncData(route.path, () => {
+    return queryCollection('blog').path(route.path).first()
 });
 
 function formatDate(dateString) {
