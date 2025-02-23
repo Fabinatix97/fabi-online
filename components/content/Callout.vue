@@ -14,7 +14,7 @@ defineSlots<{
             <p class="my-0 font-bold">{{title}}</p>
         </div>
         <div>
-            <ContentSlot :use="$slots.default" />
+            <slot />
         </div>
     </div>
 </template>

@@ -15,14 +15,14 @@
         <figure v-for="post in filteredPosts" :key="post.id" :aria-labelledby="'post-' + post.id">
             <NuxtLink :to="post.path">
                 <NuxtImg
-                    :src="`${post.meta.coverImage}`"
+                    :src="`${post.coverImage}`"
                     width="1000px"
 					format="webp"
                     alt="Blog Post Titelbild"
                 />
                 <figcaption>
                     <div class="justify-self-start py-1 px-3 border-2 border-primary text-primary text-sm rounded-2xl">
-                        {{ formatDate(post.meta.date) }}
+                        {{ formatDate(post.date) }}
                     </div>
                     <h4 id="'post-' + post.id">{{ post.title }}</h4>
                     <p>{{ extractContent(post.body, 25) }}</p>
@@ -41,17 +41,14 @@ const props = defineProps({
 });
 
 const filteredPosts = computed(() => {
-  const searchTerm = input.value.toLowerCase();
-  return props.posts
-    .filter(post => post.meta.status === "published")
-    .filter(post => {
+    const searchTerm = input.value.toLowerCase();
+    return props.posts.filter(post => {
         const bodyText = extractContent(post.body).toLowerCase();
         return (
             post.title.toLowerCase().includes(searchTerm) ||
             bodyText.includes(searchTerm)
         );
-    })
-    .sort((a, b) => new Date(b.meta.date) - new Date(a.meta.date));
+    });
 });
 
 function updateSearchQuery(query) {

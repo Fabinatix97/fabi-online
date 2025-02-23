@@ -48,9 +48,12 @@ onMounted(() => {
 const route = useRoute();
 const tag = route.params.tag;
 
-const { data: posts } = await useAsyncData('posts', () =>
-    queryContent('/blog').where({ tags: { $contains: tag } }).find()
-);
+const { data: posts } = await useAsyncData('posts', async () => {
+    const allPosts = await queryCollection('blog')
+        .order('date', 'DESC')
+        .all();
+    return allPosts.filter(post => post.tags && post.tags.includes(tag));
+});
 
 definePageMeta({
     layout: 'widelayout'

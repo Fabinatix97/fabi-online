@@ -13,9 +13,9 @@
     </div>
     <div class="cards grid grid-cols-1 sm:grid-cols-2 gap-4">
         <NuxtLink
-            :to="post._path"
+            :to="post.path"
             v-for="post in filteredPosts"
-            :key="post.slug"
+            :key="post.id"
             class="card"
         >
             <div class="card-content bg-main flex flex-col h-full">
@@ -33,7 +33,7 @@
 						{{ formatDate(post.date) }}
 					</div>
 					<h2 class="text-xl font-bold mb-2">{{ post.title }}</h2>
-                    <p class="text-base mb-4">{{ extractContent(post.body, 40) }}...</p>
+                    <p class="text-base mb-4">{{ extractContent(post.body, 40) }}</p>
                 </div>
             </div>
         </NuxtLink>
@@ -41,7 +41,7 @@
 </template>
 
 <script setup lang="js">
-import { ref, computed, onMounted } from "vue";
+import { ref, computed } from "vue";
 
 const input = ref("");
 const props = defineProps({
@@ -49,17 +49,14 @@ const props = defineProps({
 });
 
 const filteredPosts = computed(() => {
-  const searchTerm = input.value.toLowerCase();
-  return props.posts
-    .filter(post => post.status === "published")
-    .filter(post => {
+    const searchTerm = input.value.toLowerCase();
+    return props.posts.filter(post => {
         const bodyText = extractContent(post.body).toLowerCase();
         return (
             post.title.toLowerCase().includes(searchTerm) ||
             bodyText.includes(searchTerm)
         );
-    })
-    .sort((a, b) => new Date(b.date) - new Date(a.date));
+    });
 });
 
 function updateSearchQuery(query) {
@@ -75,33 +72,27 @@ function formatDate(dateString) {
 }
 
 function extractContent(body, wordLimit) {
-    const collectValues = (node) => {
-        const values = [];
-        if (node.value) {
-            values.push(node.value);
-        }
-        if (node.children) {
-            for (const child of node.children) {
-                values.push(...collectValues(child));
-            }
-        }
-        return values;
-    };
-    const words = collectValues(body).join(" ").trim().split(/\s+/);
-    return words.slice(0, wordLimit).join(" ");
-}
+    if (!body || !Array.isArray(body.value)) {
+        return "";
+    }
 
-onMounted(() => {
-	const cards = document.querySelectorAll(".card");
-	const wrapper = document.querySelector(".cards");
-	wrapper.addEventListener("mousemove", (event) => {
-		cards.forEach((card) => {
-		const rect = card.getBoundingClientRect();
-		card.style.setProperty("--xPos", `${event.clientX - rect.left}px`);
-		card.style.setProperty("--yPos", `${event.clientY - rect.top}px`);
-		});
-	});
-});
+    let words = [];
+
+    const extractText = (node) => {
+        if (Array.isArray(node)) {
+            node.forEach((child, index) => {
+                if (index === 0 && typeof child === "string") return;
+                extractText(child);
+            });
+        } else if (typeof node === "string") {
+            words.push(...node.split(/\s+/));
+        }
+    };
+
+    body.value.forEach(block => extractText(block));
+
+    return words.slice(0, wordLimit).join(" ") + (words.length > wordLimit ? "..." : "");
+}
 </script>
 
 <style lang="scss" scoped>
