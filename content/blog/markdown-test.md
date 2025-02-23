@@ -3,7 +3,7 @@ title: _Markdown-Test
 status: hidden
 description: Demonstration of markdown functionality
 date: 2024-10-29
-coverImage: coding.jpg
+coverImage: "/img/blog/coding.jpg"
 tags:
   - markdown
   - test
