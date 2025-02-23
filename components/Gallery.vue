@@ -21,7 +21,7 @@
                     alt="Blog Post Titelbild"
                 />
                 <figcaption>
-                    <div class="justify-self-start py-1 px-3 border-2 border-primary text-primary text-sm rounded-2xl">
+                    <div class="justify-self-start py-1 px-3 border-2 border-[var(--primary)] text-[var(--primary)] text-sm rounded-2xl">
                         {{ formatDate(post.date) }}
                     </div>
                     <h4 id="'post-' + post.id">{{ post.title }}</h4>

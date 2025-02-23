@@ -1,8 +1,8 @@
 <template>
     <p>Aktueller Zustand: <strong>{{ displayConsentStatus }}</strong></p>
     <div class="flex gap-4">
-        <button @click="setConsent('yes')" class="px-4 py-2 rounded-2xl bg-primary text-body hover:bg-primaryhover">Zustimmen</button>
-        <button @click="setConsent('no')" class="px-4 py-2 rounded-2xl bg-primary text-body hover:bg-primaryhover">Ablehnen</button>
+        <button @click="setConsent('yes')" class="px-4 py-2 rounded-2xl bg-[var(--primary)] text-[var(--body)] hover:bg-[var(--primary)]">Zustimmen</button>
+        <button @click="setConsent('no')" class="px-4 py-2 rounded-2xl bg-[var(--primary)] text-[var(--body)] hover:bg-[var(--primary)]">Ablehnen</button>
     </div>
 </template>
 

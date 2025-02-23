@@ -60,7 +60,7 @@
                             <button
                                 @click="$toggleTheme()"
                                 :aria-label="theme === 'dark' ? 'In den Light Mode wechseln' : 'In den Dark Mode wechseln'"
-                                class="hover:text-primaryhover transition-colors duration-300"
+                                class="hover:text-[var(--primaryhover)] transition-colors duration-300"
                             >
                                 <ClientOnly>
                                     <Icon 
@@ -94,7 +94,7 @@ const themeIconName = computed(() => {
 });
 
 const themeClass = computed(() => {
-    return theme.value === 'light' ? 'border-solid border-[1px] border-border' : 'border-none';
+    return theme.value === 'light' ? 'border-solid border-[1px] border-[var(--border)]' : 'border-none';
 });
 
 </script>

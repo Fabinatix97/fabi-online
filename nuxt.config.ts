@@ -1,4 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineNuxtConfig({
   app: {
     head: {
@@ -18,15 +21,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxt/content',
-    '@nuxtjs/tailwindcss',
     '@nuxt/icon',
     '@vueuse/nuxt',
     '@nuxt/fonts',
     '@nuxt/image',
   ],
-  css: [
-    '@/assets/global.scss'
-  ],
+  css: ['~/assets/main.css'],
   plugins: [
     { src: '~/plugins/theme.js', mode: 'client' }
   ],
@@ -38,6 +38,9 @@ export default defineNuxtConfig({
     }
   },
   vite: {
+    plugins: [
+      tailwindcss(),
+    ],
     css: {
       preprocessorOptions: {
         scss: {

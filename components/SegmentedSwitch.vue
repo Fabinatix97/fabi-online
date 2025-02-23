@@ -1,6 +1,6 @@
 <template>
     <div class="flex">
-        <div class="flex items-center h-10 bg-main border-[1px] border-border rounded-full">
+        <div class="flex items-center h-10 bg-[var(--main)] border-[1px] border-[var(--border)] rounded-full">
             <div class="flex items-center">
                 <div 
                     v-for="(segment, index) in segments" 

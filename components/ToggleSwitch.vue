@@ -6,14 +6,14 @@
         :aria-checked="isDevOps" 
         :aria-labelledby="isDevOps ? 'devops-label' : 'pilot-label'"
     >
-        <span :class="{ 'active-text': !isDevOps }" class="text-info" id="pilot-label">Pilot</span>
+        <span :class="{ 'active-text': !isDevOps }" class="text-[var(--info)]" id="pilot-label">Pilot</span>
         <div class="toggle-switch" :class="{ 'active': isDevOps }">
             <div class="toggle-circle">
-                <Icon v-if="isDevOps" name="mdi:code" class="text-primary absolute left-[5px] top-[4px]" size="1.4em"/>
-                <Icon v-else name="ri:plane-fill" class="text-primary absolute left-[4px] top-[4px]" size="1.4em"/>
+                <Icon v-if="isDevOps" name="mdi:code" class="text-[var(--primary)] absolute left-[5px] top-[4px]" size="1.4em"/>
+                <Icon v-else name="ri:plane-fill" class="text-[var(--primary)] absolute left-[4px] top-[4px]" size="1.4em"/>
             </div>
         </div>
-        <span :class="{ 'active-text': isDevOps }" class="text-info" id="devops-label">DevOps</span>
+        <span :class="{ 'active-text': isDevOps }" class="text-[var(--info)]" id="devops-label">DevOps</span>
     </div>
 </template>
 

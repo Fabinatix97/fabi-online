@@ -1,9 +1,9 @@
 <template>
-    <Disclosure as="nav" class="navbar border-b-[1px] border-border hyphens-none" v-slot="{ open, close }">
+    <Disclosure as="nav" class="navbar border-b-[1px] border-[var(--border)] hyphens-none" v-slot="{ open, close }">
         <div class="flex items-start">
             <DisclosureButton
                 :aria-label="open ? 'Hauptmenü schließen' : 'Hauptmenü öffnen'"
-                class="rounded-2xl p-2 text-heading hover:bg-body hover:text-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                class="rounded-2xl p-2 text-[var(--heading)] hover:bg-[var(--body)] hover:text-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
             >
                 <template v-if="!open">
                     <!-- Open Main Menu -->
@@ -44,7 +44,7 @@
                         :key="item.name" 
                         as="a" 
                         :to="item.href"
-                        :class="[isActiveRoute(item.href) ? 'bg-primary text-body hover:text-heading' : 'hover:bg-main hover:text-primary', 'block rounded-2xl px-3 py-2 text-base font-medium']"
+                        :class="[isActiveRoute(item.href) ? 'bg-[var(--primary)] text-[var(--body)] hover:text-[var(--heading)]' : 'hover:bg-[var(--main)] hover:text-[var(--primary)]', 'block rounded-2xl px-3 py-2 text-base font-medium']"
                         :aria-current="item.current ? 'page' : undefined"
                         @click="close">
                         {{ item.name }}
@@ -52,22 +52,22 @@
                 </div>
                 <div class="flex px-2">
                     <div class="mr-4">
-                        <a href="https://www.fabi-online.de/rss" class="transition-all duration-300 hover:text-primaryhover" title="RSS-Feed abonnieren" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.fabi-online.de/rss" class="transition-all duration-300 hover:text-[var(--primaryhover)]" title="RSS-Feed abonnieren" target="_blank" rel="noopener noreferrer">
                             <Icon name="mdi:rss" size="2em" />
                         </a>
                     </div>
                     <div class="mr-4">
-                        <a href="https://medium.com/@fabinatix" class="transition-all duration-300 hover:text-primaryhover" title="Folge mir auf Medium" target="_blank" rel="noopener noreferrer">
+                        <a href="https://medium.com/@fabinatix" class="transition-all duration-300 hover:text-[var(--primaryhover)]" title="Folge mir auf Medium" target="_blank" rel="noopener noreferrer">
                             <Icon name="mingcute:medium-fill" size="2em" />
                         </a>
                     </div>
                     <div class="mr-4">
-                        <a href="https://de.linkedin.com/in/fabian-weiss" class="transition-all duration-300 hover:text-primaryhover" title="Folge mir auf LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <a href="https://de.linkedin.com/in/fabian-weiss" class="transition-all duration-300 hover:text-[var(--primaryhover)]" title="Folge mir auf LinkedIn" target="_blank" rel="noopener noreferrer">
                             <Icon name="mdi:linkedin" size="2em" />
                         </a>
                     </div>
                     <div>
-                        <a href="https://github.com/Fabinatix97" class="transition-all duration-300 hover:text-primaryhover" title="Folge mir auf GitHub" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Fabinatix97" class="transition-all duration-300 hover:text-[var(--primaryhover)]" title="Folge mir auf GitHub" target="_blank" rel="noopener noreferrer">
                             <Icon name="mdi:github" size="2em" />
                         </a>
                     </div>
@@ -77,7 +77,7 @@
                 <button
                     @click="$toggleTheme()"
                     :aria-label="theme === 'dark' ? 'Tagmodus aktivieren' : 'Nachtmodus aktivieren'"
-                    class="hover:text-primaryhover transition-colors duration-300"
+                    class="hover:text-[var(--primaryhover)] transition-colors duration-300"
                 >
                     <ClientOnly>
                         <Icon 

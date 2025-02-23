@@ -18,7 +18,7 @@
             :key="post.id"
             class="card"
         >
-            <div class="card-content bg-main flex flex-col h-full">
+            <div class="card-content bg-[var(--main)] flex flex-col h-full">
                 <div>
                     <NuxtImg
                         :src="`${post.coverImage}`"
@@ -29,7 +29,7 @@
                     />
                 </div>
                 <div class="p-6 flex-grow">
-					<div class="justify-self-start py-1 px-3 border-2 border-primary text-primary text-sm rounded-2xl">
+					<div class="justify-self-start py-1 px-3 border-2 border-[var(--primary)] text-[var(--primary)] text-sm rounded-2xl">
 						{{ formatDate(post.date) }}
 					</div>
 					<h2 class="text-xl font-bold mb-2">{{ post.title }}</h2>

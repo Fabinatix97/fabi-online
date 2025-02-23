@@ -13,9 +13,9 @@
                     <circle cx="2" cy="2" r="5" fill="var(--primary)" />
                 </svg>
             </client-only>
-            <div class="flex text-info mb-8">
+            <div class="flex text-[var(--info)] mb-8">
                 <NuxtLink to="/blog">
-                    <div class="backbutton flex bg-main pl-4 pr-6 pt-1 gap-2 border-border border-[1px] rounded-full hover:text-primary">
+                    <div class="backbutton flex bg-[var(--main)] pl-4 pr-6 pt-1 gap-2 border-[var(--border)] border-[1px] rounded-full hover:text-[var(--primary)]">
                         <div class="icon-container">
                             <Icon name="mdi:arrow-back" size="1.4em" />
                         </div>

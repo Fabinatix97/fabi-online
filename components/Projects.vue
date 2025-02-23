@@ -1,6 +1,6 @@
 <template>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div v-for="project in projects" class="flex flex-col justify-between bg-main border-[1px] border-border rounded-2xl">
+        <div v-for="project in projects" class="flex flex-col justify-between bg-[var(--main)] border-[1px] border-[var(--border)] rounded-2xl">
             <div>
                 <NuxtLink :to="project.link">
                     <img
@@ -11,10 +11,10 @@
                 </NuxtLink>
                 <div class="flex flex-col px-6">
                     <NuxtLink :to="project.link" class="flex">
-                        <h4 class="flex hover:text-primaryhover">{{ project.name }}</h4>
+                        <h4 class="flex hover:text-[var(--primaryhover)]">{{ project.name }}</h4>
                     </NuxtLink>
                     <div class="flex flex-wrap justify-start gap-1">
-                        <div v-for="tech in project.technologies" class="py-1 px-3 bg-body text-sm rounded-2xl border-[1px] border-border">
+                        <div v-for="tech in project.technologies" class="py-1 px-3 bg-[var(--body)] text-sm rounded-2xl border-[1px] border-[var(--border)]">
                                 {{ tech }}
                         </div>
                     </div>
@@ -23,7 +23,7 @@
             </div>
             <div class="flex justify-end pr-6 pb-4">
                 <NuxtLink :to="project.link" class="flex" aria-label="Projekt auf GitHub ansehen">
-                        <Icon name="mdi:github" size="1.5em" class="hover:text-primaryhover" />
+                        <Icon name="mdi:github" size="1.5em" class="hover:text-[var(--primaryhover)]" />
                 </NuxtLink>
             </div>
         </div>

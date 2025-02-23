@@ -6,7 +6,7 @@
         <img src="/public/img/about/profile.png" class="justify-self-center mt-4 w-4/6 sm:w-5/6" alt="Profilfoto des Autors" />
         <p class="sm:col-span-2">Gerade als ich meine Pilotenausbildung im Frühjahr 2020 erfolgreich abgeschlossen habe, verwehrte mir die COVID-19-Pandemie den Weg ins Airliner-Cockpit. Und was jetzt? Als Pilot habe ich gelernt, mit schwierigen Situationen umzugehen und fundierte Entscheidungen zu treffen. Däumchen drehen und hoffen, dass sich die Luftfahrt-Branche schnell wieder erholt? Das erschien mir nicht richtig – Piloten warten schließlich auch nicht und hoffen, dass schon alles gut geht. Ich wollte das Ruder selbst in die Hand nehmen und aktiv werden.</p>
     </div>
-    <p>Neben der Fliegerei habe ich mich schon immer für alles interessiert, was mit IT im Zusammenhang steht – sei es digitale Bildbearbeitung, Website-Gestaltung oder Tabellenkalkulation (Danke, <NuxtLink to="https://www.tabellenexperte.de/" class="underline hover:text-primaryhover" target="_blank">Papa</NuxtLink>). Ein Einstieg in diese zukunftsweisende IT-Branche klang sehr vielversprechend.</p>
+    <p>Neben der Fliegerei habe ich mich schon immer für alles interessiert, was mit IT im Zusammenhang steht – sei es digitale Bildbearbeitung, Website-Gestaltung oder Tabellenkalkulation (Danke, <NuxtLink to="https://www.tabellenexperte.de/" class="underline hover:text-[var(--primaryhover)]" target="_blank">Papa</NuxtLink>). Ein Einstieg in diese zukunftsweisende IT-Branche klang sehr vielversprechend.</p>
     <p>Bis heute bereue ich weder die Entscheidung Pilot zu werden noch die Entscheidung, mich beruflich weiterzubilden. Vielmehr begreife ich es als Chance und bin dankbar, so viele Erfahrungen in den beiden spannendsten Umfeldern zu sammeln, die ich kenne: Luftfahrt & IT.</p>
     <p>Derzeit arbeite ich als DevOps Engineer im IT-Referat der Stadt München. Meine fliegerischen Lizenzen erhalte ich mir nebenbei aufrecht.</p>
     
@@ -26,14 +26,14 @@
             </div>
             <div class="w-3/4">
                 <h3>{{ experiences[date].title }}</h3>
-                <h4 class="text-info mt-0 font-semibold text-xl">{{ experiences[date].company }}</h4>
+                <h4 class="text-[var(--info)] mt-0 font-semibold text-xl">{{ experiences[date].company }}</h4>
                 <p>{{ experiences[date].description }}</p>
             </div>
         </div>
 
         <h2 class="mt-24">Tech Stack</h2>
         
-        <h3 class="mt-0 text-info">Programmiersprachen</h3>
+        <h3 class="mt-0 text-[var(--info)]">Programmiersprachen</h3>
         <SegmentedSwitch v-model="activeSkillSegment" :segments="segmentOptions.skills" />
         <div class="mt-8 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-7 gap-4">
             <div v-for="skill in skills"
@@ -65,7 +65,7 @@
             </div>
         </div>
 
-        <h3 class="text-info">Werkzeuge</h3>
+        <h3 class="text-[var(--info)]">Werkzeuge</h3>
         <SegmentedSwitch v-model="activeToolSegment" :segments="segmentOptions.tools" />
         <div class="mt-8 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-7 gap-4">
             <div v-for="tool in tools"
@@ -119,7 +119,7 @@
                 </div>
                 <div class="w-3/4">
                     <h3>{{ experiences[date].title }}</h3>
-                    <h4 class="text-info mt-0 font-semibold text-xl">{{ experiences[date].company }}</h4>
+                    <h4 class="text-[var(--info)] mt-0 font-semibold text-xl">{{ experiences[date].company }}</h4>
                     <img :src="experiences[date].image" class="rounded-2xl" />
                     <p>{{ experiences[date].description }}</p>
                 </div>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="w-3/4">
                     <h3>Aviation Management (B.Sc.)</h3>
-                    <p class="text-info">Hochschule Worms</p>
+                    <p class="text-[var(--info)]">Hochschule Worms</p>
                     <ul class="list-disc">
                         <li>Fachbereich: Touristik / Verkehrswesen</li>
                         <li>Parallel: Verkehrspilotenausbildung (ATPL)</li>

@@ -15,9 +15,9 @@
                     <circle cx="2" cy="2" r="5" fill="var(--primary)" />
                 </svg>
             </client-only>
-            <div class="flex text-info mb-8">
+            <div class="flex text-[var(--info)] mb-8">
                 <NuxtLink to="/blog">
-                    <div class="backbutton flex bg-main pl-4 pr-6 pt-1 gap-2 border-border border-[1px] rounded-full hover:text-primary">
+                    <div class="backbutton flex bg-[var(--main)] pl-4 pr-6 pt-1 gap-2 border-[var(--border)] border-[1px] rounded-full hover:text-[var(--primary)]">
                         <div class="icon-container">
                             <Icon name="mdi:arrow-back" size="1.4em" />
                         </div>
@@ -25,11 +25,11 @@
                     </div>
                 </NuxtLink>
             </div>
-            <div class="text-primary text-xl font-bold">
+            <div class="text-[var(--primary)] text-xl font-bold">
                 {{ formatDate(data.date) }}
             </div>
             <h1 class="mt-4">{{ data.title }}</h1>
-            <div class="flex items-center gap-2 text-info">
+            <div class="flex items-center gap-2 text-[var(--info)]">
                 <div class="flex">
                     <Icon name="mdi:clock-outline" size="1.2em"/>
                 </div>
@@ -43,7 +43,7 @@
             <ContentRenderer :value="data" class="blog-content mb-8" />
             <div class="flex flex-wrap gap-4">
                 <NuxtLink v-for="tag in data.tags" :key="tag" :href="`/blog/tags/${tag}`"
-                    class="py-2 px-4 border-2 border-primary text-sm text-primary font-semibold rounded-xl uppercase hover:bg-primary hover:text-body">
+                    class="py-2 px-4 border-2 border-[var(--primary)] text-sm text-[var(--primary)] font-semibold rounded-xl uppercase hover:bg-[var(--primary)] hover:text-[var(--body)]">
                     <div class="flex gap-2">
                         <Icon name="mdi:tag" size="1.2rem" />
                         {{ tag }}

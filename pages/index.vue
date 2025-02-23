@@ -14,7 +14,7 @@
                 </svg>
             </client-only>
             <h1>Hey! 👋🏻</h1>
-            <h1>Ich bin <span class="typing text-primary">{{ currentText }}</span></h1>
+            <h1>Ich bin <span class="typing text-[var(--primary)]">{{ currentText }}</span></h1>
         </div>
         <div class="flex">
             <p class="text-xl">Auf dieser Seite erwarten dich Book-Reviews, Tutorials, aber vor allem Essays. Ja, richtig gelesen: Essays – inspiriert durch persönliche Erfahrungen, Bücher oder aktuelle Ereignisse. Dies soll ein Ort sein, an dem ich meine Gedanken zu verschiedensten Themen mit dir teilen möchte.</p>
@@ -22,13 +22,13 @@
         <div class="flex flex-wrap gap-2">
             <router-link
                 to="/about"
-                class="btn text-main bg-primary border-[1px] border-primary hover:bg-primaryhover hover:border-primaryhover"
+                class="btn text-[var(--main)] bg-[var(--primary)] border-[1px] border-[var(--primary)] hover:bg-[var(--primaryhover)] hover:border-[var(--primaryhover)]"
             >
                 Über mich
             </router-link>
             <router-link
                 to="/blog"
-                class="btn text-heading bg-main border-[1px] border-border hover:text-primary"
+                class="btn text-[var(--heading)] bg-[var(--main)] border-[1px] border-[var(--border)] hover:text-[var(--primary)]"
             >
                 Mein Blog
             </router-link>

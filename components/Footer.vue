@@ -20,7 +20,7 @@
                 href="https://github.com/Fabinatix97/fabi-online"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-primary hover:text-primaryhover flex items-center"
+                class="text-[var(--primary)] hover:text-[var(--primaryhover)] flex items-center"
                 aria-label="Code auf GitHub ansehen (öffnet in neuem Tab)"
             >
                 <Icon name="line-md:github-loop" size="1.4em" />
