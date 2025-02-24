@@ -1,20 +1,20 @@
 ---
-title: "Minimalismus, Teil 3: Finanzen"
-date: "2021-03-07"
-status: "published"
-category: "Essay"
-tags: 
-  - "aktien"
-  - "bewusster-leben"
-  - "budget"
-  - "finanzen"
-  - "finanzielle-freiheit"
-  - "geld"
-  - "investition"
-  - "minimalismus"
-  - "schulden"
-  - "sparen"
-coverImage: "/img/blog/minimalism-3.jpg"
+title: 'Minimalismus, Teil 3: Finanzen'
+date: '2021-03-07'
+status: 'published'
+category: 'Essay'
+tags:
+  - 'aktien'
+  - 'bewusster-leben'
+  - 'budget'
+  - 'finanzen'
+  - 'finanzielle-freiheit'
+  - 'geld'
+  - 'investition'
+  - 'minimalismus'
+  - 'schulden'
+  - 'sparen'
+coverImage: '/img/blog/minimalism-3.jpg'
 ---
 
 Im [zweiten Teil](/blog/2021-02-21-minimalismus-teil-2) dieser Beitragsreihe haben wir uns damit beschäftigt, wie sich ein minimalistisch**_er_**er bzw. bewussterer Umgang mit Computer oder Smartphone erzielen lässt. Hierbei ging es vor allem darum, Ablenkungen zu minimieren und wieder mehr Kontrolle über die mediale Nutzung zu erlangen. Kontrolle bzw. dessen Zurückerlangung ist auch in diesem Beitrag ein wichtiges Stichwort. Es soll nämlich darum gehen, wie du deine Finanzen auf eine minimalistische Weise besser in den Griff bekommen kannst.
@@ -119,7 +119,7 @@ Abschließen möchte ich diesen Beitrag mit einer Erkenntnis, welche im Umgang m
 
 Im [nächsten und letzten Teil](/blog/2021-03-21-minimalismus-teil-4) der Minimalismus-Reihe möchte ich mit dir über die Schattenseiten des Minimalismus diskutieren.
 
-* * *
+---
 
 ## Weiterführende Links
 
@@ -129,9 +129,15 @@ Im [nächsten und letzten Teil](/blog/2021-03-21-minimalismus-teil-4) der Minima
 ## Quellen
 
 [^1]: Millburn, J. und Nicodemus, R. (2020), ["Financial Freedom: 5 Difficult Steps to Get Out of Debt, Create a Simple Budget, Plan for the Future, and Regain Control of Your Finances"](https://www.theminimalists.com/freedom/)
+
 [^2]: OECD STD Financial Statistics (o. D.), ["Financial Indicators – Stocks"](http://stats.oecd.org/Index.aspx?DataSetCode=FIN_IND_FBS.)
+
 [^3]: Millburn, J. (o. D.), ["Minimalist Finances and Budgeting"](https://www.theminimalists.com/finances/)
+
 [^4]: Statista Research Department (2020), ["Sparquote der privaten Haushalte in Europa im Jahr 2019 nach Ländern"](https://de.statista.com/statistik/daten/studie/916056/umfrage/sparquote-der-privaten-haushalte-in-europa-nach-laendern/)
+
 [^5]: Comdirect (2019), ["Inflation und Niedrigzins: Deutsche Sparer erleiden 2018 Rekordverlust von fast 40 Milliarden Euro"](https://www.comdirect.de/cms/ueberuns/de/presse/realzins-radar-2018.html)
+
 [^6]: Stocker, F. (2019), ["So wohlhabend sind die Deutschen wirklich"](https://www.welt.de/finanzen/article200530536/Vermoegen-So-wohlhabend-sind-die-Deutschen-wirklich.html), WELT
+
 [^7]: Demary, M. (2017), ["Investing In The Stock Market. The Long-Term View Matters"](https://www.iwkoeln.de/studien/iw-kurzberichte/beitrag/markus-demary-investing-in-the-stock-market-the-long-term-view-matters-347386.html), Institut der deutschen Wirtschaft Köln e.V.

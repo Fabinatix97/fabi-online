@@ -1,17 +1,17 @@
 ---
-title: "Warum PKM oft scheitert - und wie du es besser machen kannst"
-date: "2024-12-30"
-status: "published"
-category: "Essay"
-tags: 
-  - "pkm"
-  - "anti-patterns"
-  - "bottom-up"
-  - "produktivitaet"
-coverImage: "/img/blog/knowledge-seeker.jpg"
+title: 'Warum PKM oft scheitert - und wie du es besser machen kannst'
+date: '2024-12-30'
+status: 'published'
+category: 'Essay'
+tags:
+  - 'pkm'
+  - 'anti-patterns'
+  - 'bottom-up'
+  - 'produktivitaet'
+coverImage: '/img/blog/knowledge-seeker.jpg'
 ---
 
-Kennst du das Gefühl, Unmengen an Informationen zu sammeln, aber am Ende trotzdem nicht schlauer zu sein? Volle Notizbücher, unzählige Lesezeichen, viele Kenntnisse aber keine wirklichen ***Er***kenntnisse? Da bist du nicht allein. In diesem Artikel decke ich die vier häufigsten Fehler im Umgang mit Wissen auf, die ich selbst gemacht habe, und zeige, wie du dein PKM von einem passiven Archiv in ein aktives Werkzeug verwandelst.
+Kennst du das Gefühl, Unmengen an Informationen zu sammeln, aber am Ende trotzdem nicht schlauer zu sein? Volle Notizbücher, unzählige Lesezeichen, viele Kenntnisse aber keine wirklichen **_Er_**kenntnisse? Da bist du nicht allein. In diesem Artikel decke ich die vier häufigsten Fehler im Umgang mit Wissen auf, die ich selbst gemacht habe, und zeige, wie du dein PKM von einem passiven Archiv in ein aktives Werkzeug verwandelst.
 
 ## Sammeln statt Verarbeiten
 

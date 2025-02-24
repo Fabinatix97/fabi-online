@@ -1,9 +1,9 @@
 ---
-title: "Warum ich Formel 1 schaue"
-date: "2022-11-05"
-status: "published"
-category: "Essay"
-coverImage: "/img/blog/f1-torro-rosso-vs-ferrari.jpg"
+title: 'Warum ich Formel 1 schaue'
+date: '2022-11-05'
+status: 'published'
+category: 'Essay'
+coverImage: '/img/blog/f1-torro-rosso-vs-ferrari.jpg'
 ---
 
 Falls du zufällig schon mal einen Blick auf meine [About-Seite](/about) geworfen hast, ist dir vielleicht aufgefallen, dass eine meiner Interessen Formel 1 ist. All diejenigen, die mehr darüber erfahren möchten, wieso ich gerne Formel 1 schaue bzw. was mich an diesem Rennsport so fasziniert, sind hier genau richtig. Und wer weiß, vielleicht kann ich ja auch dich für die Königsklasse des Motorsports begeistern, falls du noch kein Fan sein solltest.
@@ -108,7 +108,7 @@ Auch die TV-Produktion ist ein überaus spannendes Thema. So wird jedes Rennen v
 
 Zu guter Letzt wäre da noch die Netflix-Dokumentarserie “Formula 1: Drive to Survive”. Auch wenn ich bei dessen Ersterscheinung bereits seit einiger Zeit die Formel 1 verfolgt habe, so gewann ich durch die Serie eine nie dagewesene Perspektive auf Fahrer und Teams. Auch wenn manche Geschehnisse ein wenig überdramatisiert werden, glänzt die Serie durch Behind-the-Scenes-Footage und Einblicke in die Persönlichkeiten und Privatleben der Fahrer.
 
-* * *
+---
 
 ## Weiterführende Links
 

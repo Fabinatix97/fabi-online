@@ -1,14 +1,14 @@
 ---
-title: "Dinge, die ich durch meine Pilotenausbildung fürs Leben gelernt habe"
-date: "2021-04-04"
-status: "published"
-category: "Essay"
-tags: 
-  - "luftfahrt"
-  - "pilotenausbildung"
-  - "review"
-  - "things-i-learned"
-coverImage: "/img/blog/tecnam-landing.jpg"
+title: 'Dinge, die ich durch meine Pilotenausbildung fürs Leben gelernt habe'
+date: '2021-04-04'
+status: 'published'
+category: 'Essay'
+tags:
+  - 'luftfahrt'
+  - 'pilotenausbildung'
+  - 'review'
+  - 'things-i-learned'
+coverImage: '/img/blog/tecnam-landing.jpg'
 ---
 
 Es ist nun schon mehr als ein Jahr her, seitdem ich meine Berufspilotenausbildung erfolgreich abgeschlossen habe. Auch wenn ich meinen einstigen Traumberuf zurzeit leider nicht weiterverfolgen kann, habe ich doch während meiner Ausbildungszeit vieles gelernt. Da wäre zum Beispiel die sehr umfangreiche Flugtheorie. Vor allem das Büffeln der ATPL-Theorie – ein wichtiger Schritt auf dem Weg zum Berufspiloten – ist mir und meinen Kommilitonen manchmal so vorgekommen, als würden wir neben der Pilotentätigkeit auch noch den Beruf des Meteorologen, Flugzeugmechanikers oder Fliegerarztes erlernen. Neben fachspezifischen Dingen habe ich jedoch auch einige Dinge fürs Leben gelernt. Je länger ich über die vergangene Zeit nachgedacht habe, desto mehr „Lektionen“ sind mir eingefallen. Am Ende dieses Denk-Prozesses bin ich auf insgesamt fünf Punkte gekommen, die ich gerne im Folgenden mit dir teilen möchte.
@@ -34,13 +34,13 @@ Im professionellen Airline-Cockpit werden grundsätzlich alle Abschnitte des Flu
 Im selben Atemzug muss ich jedoch wieder zurückrudern und dir sagen, dass es nicht wichtig ist, alles bis ins kleinste Detail zu planen. Nicht nur das: manchmal kann dies sogar schaden. In diesem Zusammenhang ist sicherlich jeder Pilotenanwärter schonmal über die folgende Theorieprüfungsfrage gestolpert oder hat diese vielleicht sogar schon am eigenen Leib erfahren:
 
 > „Although the anticipation of possible events is a good attitude for pilots to acquire, it can sometimes lead to hazardous situations. With this statement in mind, select the response below which could lead to such a hazard:
-> 
+>
 > A) Anticipating that the flight will take longer than planned.
-> 
+>
 > B) Anticipating that the weather may deteriorate.
-> 
+>
 > C) Anticipating the sequence of items on a check list.
-> 
+>
 > D) Mishearing the contents of a reply from an air traffic controller when a non-standard procedure was given but a standard procedure was anticipated.“
 
 Die Auflösung gibt’s am Ende des Beitrags. Fest steht, dass eine allumfassende Planung schier unmöglich ist, in Perfektionismus enden kann und im schlimmsten Fall dafür sorgt, sich in falscher Sicherheit zu wiegen.

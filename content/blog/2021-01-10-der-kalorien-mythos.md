@@ -1,17 +1,17 @@
 ---
-title: "Der Kalorien-Mythos"
-date: "2021-01-10"
-status: "published"
-category: "Essay"
-tags: 
-  - "ernaehrungstipps"
-  - "fitness"
-  - "gesunde-ernaehrung"
-  - "kalorien"
-  - "kalorienbedarf"
-  - "mythos"
-  - "neujahrsvorsatz"
-coverImage: "/img/blog/kalorien-mythos.jpg"
+title: 'Der Kalorien-Mythos'
+date: '2021-01-10'
+status: 'published'
+category: 'Essay'
+tags:
+  - 'ernaehrungstipps'
+  - 'fitness'
+  - 'gesunde-ernaehrung'
+  - 'kalorien'
+  - 'kalorienbedarf'
+  - 'mythos'
+  - 'neujahrsvorsatz'
+coverImage: '/img/blog/kalorien-mythos.jpg'
 ---
 
 Der Beginn eines Neuen Jahres steht bei vielen Menschen meist im Zeichen einer besseren Lebensweise. Hierbei reichen die Vorsätze von "Mehr Sport treiben" über "Mehr Zeit mit der Familie / Freunden verbringen" bis hin zu "Weniger Zeit in sozialen Medien verbringen". Eine im November letzten Jahres durchgeführte Umfrage zeigt jedoch, dass das beliebteste Vorhaben - wie anzunehmen - "Gesünder ernähren" darstellt [^1]. Anlässlich dieser Tatsache möchte ich mich in diesem Beitrag mit einem Thema beschäftigen, dass maßgeblich zum Erfolg jenes Neujahrsvorsatzes (Gesunde Ernährung) beitragen könnte.
@@ -34,13 +34,13 @@ Im Netz finden sich unzählige Seiten, auf denen man seinen individuellen Kalori
 
 <figure>
 
-| **Anbieter**         | **Grundumsatz (kcal)** | **Quelle**                                                  |
-|----------------------|------------------------|-------------------------------------------------------------|
-| Apotheken-Umschau    | 1755                   | [Link](https://www.apotheken-umschau.de/kalorienrechner)    |
-| BMI-Rechner          | 1790                   | [Link](https://www.bmi-rechner.net/grundumsatz.htm)         |
-| Calculator.net       | 1730                   | [Link](https://www.calculator.net/bmr-calculator.html)      |
-| Men's Health         | 1790                   | [Link](https://www.menshealth.de/abnehmen/kalorienrechner/) |
-| MyFitnessPal         | 1730                   | [Link](https://www.myfitnesspal.com/tools/bmr-calculator)   |
+| **Anbieter**      | **Grundumsatz (kcal)** | **Quelle**                                                  |
+| ----------------- | ---------------------- | ----------------------------------------------------------- |
+| Apotheken-Umschau | 1755                   | [Link](https://www.apotheken-umschau.de/kalorienrechner)    |
+| BMI-Rechner       | 1790                   | [Link](https://www.bmi-rechner.net/grundumsatz.htm)         |
+| Calculator.net    | 1730                   | [Link](https://www.calculator.net/bmr-calculator.html)      |
+| Men's Health      | 1790                   | [Link](https://www.menshealth.de/abnehmen/kalorienrechner/) |
+| MyFitnessPal      | 1730                   | [Link](https://www.myfitnesspal.com/tools/bmr-calculator)   |
 
 <figcaption>
 
@@ -78,15 +78,15 @@ Wie wir gesehen haben ist Ernährung eine hochkomplexe Angelegenheit. Auch wenn 
 
 1. **Ernähre Dich abwechslungsreich!** Und damit meine ich selbstverständlich nicht: Heute Pizza, morgen Burger. Wie wir gesehen haben, sind Kalorien nicht das ausschlaggebende Kriterium. Sich mehrere Wochen nur von Schokolade zu ernähren, auch wenn man das persönliche Kalorienlimit nicht überschreitet, kann zu erheblichen Mangelerscheinungen und gesundheitlichen Problemen führen. Vielmehr geht es darum Obst, Gemüse, Vollkorn- und Milchprodukte gleichermaßen in deinen Speiseplan einzubauen, um eine einseitige Ernährung zu vermeiden. Gegen gelegentliche Cheat-Days ist dabei absolut nichts einzuwenden.
 
-3. **Sei offen für Neues und probiere Dinge aus!** Egal ob es darum geht, wie viele Mahlzeiten du pro Tag zu dir nimmst, welche Ernährungsform die Richtige für Dich ist oder einfach nur darum, neue Lebensmittel auszuprobieren. Lasse dir nichts vorschreiben, sondern experimentiere und schau' was am besten für Dich passt.
+2. **Sei offen für Neues und probiere Dinge aus!** Egal ob es darum geht, wie viele Mahlzeiten du pro Tag zu dir nimmst, welche Ernährungsform die Richtige für Dich ist oder einfach nur darum, neue Lebensmittel auszuprobieren. Lasse dir nichts vorschreiben, sondern experimentiere und schau' was am besten für Dich passt.
 
-5. **Mache keine radikalen Diäten.** Diät kommt vom altgriechischen díaita und bedeutet so viel wie "Lebensweise". Und das ist genau der Punkt: Ziel sollte es immer sein, langfristig eine gesunde und ausgewogene Ernährung anzustreben. Diäten können durchaus für den nötigen Motivationsschub sorgen, bieten aber auch reichlich Frustrationspotenzial an, vor allem, wenn die gewünschten Ergebnisse nicht rasch eintreten.
+3. **Mache keine radikalen Diäten.** Diät kommt vom altgriechischen díaita und bedeutet so viel wie "Lebensweise". Und das ist genau der Punkt: Ziel sollte es immer sein, langfristig eine gesunde und ausgewogene Ernährung anzustreben. Diäten können durchaus für den nötigen Motivationsschub sorgen, bieten aber auch reichlich Frustrationspotenzial an, vor allem, wenn die gewünschten Ergebnisse nicht rasch eintreten.
 
-7. **Führe Buch über deine Nahrungsaufnahme.** Internet und Apps machen es dir dabei so leicht wie nie zuvor. Ich denke die Wenigsten wissen, was sie täglich an Kalorien zu sich nehmen. Und auch wenn dieser Tipp gegen die Schlussfolgerung dieses Beitrags spricht, so kann es dennoch sehr lehrreich sein, einfach mal ein Gespür für die eigene Ernährung zu bekommen. Eine Woche Tracking reicht hierbei vollkommen. Wichtig: beim Aufzeichnen immer ehrlich zu sich selbst sein.
+4. **Führe Buch über deine Nahrungsaufnahme.** Internet und Apps machen es dir dabei so leicht wie nie zuvor. Ich denke die Wenigsten wissen, was sie täglich an Kalorien zu sich nehmen. Und auch wenn dieser Tipp gegen die Schlussfolgerung dieses Beitrags spricht, so kann es dennoch sehr lehrreich sein, einfach mal ein Gespür für die eigene Ernährung zu bekommen. Eine Woche Tracking reicht hierbei vollkommen. Wichtig: beim Aufzeichnen immer ehrlich zu sich selbst sein.
 
-9. **Achte bei deinem nächsten Besuch im Supermarkt einfach mal auf dein Kaufverhalten.** Oft kann es helfen, die Süßigkeiten-Abteilung oder sonstige Orte der Versuchung zu meiden. Mir persönlich hat dieser Tipp sehr geholfen, da ich mich selbst immer wieder ertappt habe, Süßigkeiten und Kekse zu essen, einfach nur, weil sie "da" waren. Sobald ich jene Sachen gemieden hatte, hat sich mein Verlangen danach gelegt bzw. auf gesundere Snacks verlagert, die ich stattdessen gekauft habe.
+5. **Achte bei deinem nächsten Besuch im Supermarkt einfach mal auf dein Kaufverhalten.** Oft kann es helfen, die Süßigkeiten-Abteilung oder sonstige Orte der Versuchung zu meiden. Mir persönlich hat dieser Tipp sehr geholfen, da ich mich selbst immer wieder ertappt habe, Süßigkeiten und Kekse zu essen, einfach nur, weil sie "da" waren. Sobald ich jene Sachen gemieden hatte, hat sich mein Verlangen danach gelegt bzw. auf gesundere Snacks verlagert, die ich stattdessen gekauft habe.
 
-11. **Miss deine Ergebnisse regelmäßig.** Das bedeutet beispielsweise, Dich jeden Tag zu wiegen (idealerweise unbekleidet und stets am Morgen noch vor dem Frühstück). Viele Menschen - meist die mit den ambitioniertesten Vorsätzen - neigen dazu, sich nur sporadisch zu wiegen oder nur dann, wenn am Vortag gesund oder wenig gegessen wurde. Falle nicht auf diesen Bestätigungsfehler herein, sondern ermittle vielmehr den Durchschnittswert einer Woche oder eines Monats. Diese Methode ermöglicht es nicht nur, verlässlichere Ergebnisse zum Vorschein zu bringen, sie nimmt zudem die Angst bzw. den Frust, wenn die Waage ab und zu doch mal einen höheren Wert ausspuckt.
+6. **Miss deine Ergebnisse regelmäßig.** Das bedeutet beispielsweise, Dich jeden Tag zu wiegen (idealerweise unbekleidet und stets am Morgen noch vor dem Frühstück). Viele Menschen - meist die mit den ambitioniertesten Vorsätzen - neigen dazu, sich nur sporadisch zu wiegen oder nur dann, wenn am Vortag gesund oder wenig gegessen wurde. Falle nicht auf diesen Bestätigungsfehler herein, sondern ermittle vielmehr den Durchschnittswert einer Woche oder eines Monats. Diese Methode ermöglicht es nicht nur, verlässlichere Ergebnisse zum Vorschein zu bringen, sie nimmt zudem die Angst bzw. den Frust, wenn die Waage ab und zu doch mal einen höheren Wert ausspuckt.
 
 ## Weiterführende Links
 
@@ -96,8 +96,13 @@ Wie wir gesehen haben ist Ernährung eine hochkomplexe Angelegenheit. Auch wenn 
 ## Quellen
 
 [^1]: Statista Research Department (2020), ["Welche Vorsätze haben Sie für 2021?"](https://de.statista.com/statistik/daten/studie/952182/umfrage/umfrage-in-deutschland-zu-den-beliebtesten-neujahrsvorsaetzen/)
+
 [^2]: Taleb, N. (2015), "Der Schwarze Schwan: Die Macht höchst unwahrscheinlicher Ereignisse", Pantheon Verlag, München
+
 [^3]: Amtsblatt der Europäischen Union (2011), ["Verordnung (EU) Nr. 1169/2011 des Europäischen Parlaments und des Rates"](https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A32011R1169)
+
 [^4]: Merrill A., et al. (1973), "Energy value of foods: basis and derivation", _Agriculture Handbook No. 74_, ARS United States Department of Agriculture, Washington DC
+
 [^5]: Linde, K. (2007), ["Measuring Calories in Food: the Bomb Calorimeter"](https://fscimage.fishersci.com/cmsassets/downloads/segment/Scientific/pdf/foodtrack_spring_07.pdf), _Food Track_, Fisher Scientific Company L.L.C.
+
 [^6]: Rajan, E. (2019), ["Digestion: How long does it take?"](https://www.mayoclinic.org/digestive-system/expert-answers/faq-20058340), Mayo Foundation for Medical Education and Research

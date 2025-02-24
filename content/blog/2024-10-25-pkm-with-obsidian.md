@@ -1,16 +1,16 @@
 ---
-title: "The Power of Simplicity: Ein minimalistischer Ansatz für digitale Notizen"
-date: "2024-10-25"
-status: "published"
-category: "Essay"
-tags: 
-  - "bottom-up"
-  - "markdown"
-  - "minimalismus"
-  - "notiz-app"
-  - "obsidian"
-  - "pkm"
-coverImage: "/img/blog/desk-setup-comparison.jpg"
+title: 'The Power of Simplicity: Ein minimalistischer Ansatz für digitale Notizen'
+date: '2024-10-25'
+status: 'published'
+category: 'Essay'
+tags:
+  - 'bottom-up'
+  - 'markdown'
+  - 'minimalismus'
+  - 'notiz-app'
+  - 'obsidian'
+  - 'pkm'
+coverImage: '/img/blog/desk-setup-comparison.jpg'
 ---
 
 Schreibst du dir regelmäßig Sachen auf? Gedanken, Ideen oder vielleicht etwas Gelerntes, das du nicht vergessen möchtest? Falls ja, kennst du sicher das folgende Problem: Notizen verschwinden in endlosen Verzeichnissen, sind schwer wiederzufinden oder verlieren durch unübersichtliche Strukturen an Wert. Damit bist du nicht alleine: Untersuchungen von Microsoft zeigen, dass der durchschnittliche Angestellte 76 Stunden pro Jahr mit der Suche nach verschollenen Notizen oder Dateien verbringt.[^1] Im Privatleben ergeht es den meisten von uns ähnlich. Nicht verwunderlich also, dass das Thema _Personal Knowledge Management_ - kurz PKM - immer größere Bekanntheit erlangt. Mittlerweile gibt es unzählige Werkzeuge zum Schreiben und Organisieren von Notizen. Keines davon hat meine Art des Notierens jedoch so nachhaltig geprägt wie Obsidian.
@@ -99,9 +99,9 @@ Dies ist ein einfacher Absatz, der erklärt, was Markdown ist.
 <h2>Vorteile von Markdown</h2>
 
 <ul>
-    <li>einfach zu lesen</li>
-    <li>leicht zu schreiben</li>
-    <li>in HTML umwandelbar</li>
+  <li>einfach zu lesen</li>
+  <li>leicht zu schreiben</li>
+  <li>in HTML umwandelbar</li>
 </ul>
 
 <a href="https://www.example.com">Mehr erfahren</a>
@@ -208,17 +208,26 @@ Neugierig geworden? Auch wenn es in diesem Artikel natürlich um allgemeine PKM-
 </button>
 </div>
 
-* * *
+---
 
 ## Fußnoten
 
 [^1]: Microsoft (2017). [The Innovator’s Guide to Modern Note Taking: How businesses can harness the digital revolution](https://info.microsoft.com/rs/157-GQE-382/images/EN-US%2017034_MSFT_WWSurfaceModernNoteTaking_ebookRefresh_R2.pdf)
-[^2]: Der Begriff des _zweiten Gehirns_ wurde vor allem durch [Tiago Forte](https://fortelabs.com/) in seinem Buch [Building a Second Brain](https://www.buildingasecondbrain.com/) geprägt.
+
+[^2]: Der Begriff des *zweiten Gehirns* wurde vor allem durch [Tiago Forte](https://fortelabs.com/) in seinem Buch [Building a Second Brain](https://www.buildingasecondbrain.com/) geprägt.
+
 [^3]: Unter anderem von OpenAI-Mitgründer [Andrej Karpathy](https://x.com/karpathy/status/1761467904737067456).
+
 [^4]: Obsidian (2024). [Manifesto](https://obsidian.md/about)
+
 [^5]: Die ursprüngliche Markdown-Spezifikation befindet sich [hier](https://daringfireball.net/projects/markdown/syntax). Mittlerweile gibt es eine Reihe von Erweiterungen zum ursprünglichen Markdown, im Englischen auch Flavors genannt. Obsidian unterstützt [CommonMark](https://commonmark.org/) sowie [GitHub Flavored Markdown](https://github.github.com/gfm/).
+
 [^6]: Der Flow, ein Konzept des Psychologen Mihály Csíkszentmihályi, beschreibt einen Zustand völliger Vertiefung in eine Aufgabe, bei dem man sich so fokussiert und motiviert fühlt, dass man das Zeitgefühl verliert und die Arbeit mühelos voranschreitet.
+
 [^7]: WYSIWYG = What You See Is What You Get. Bezieht sich auf Software, die es ermöglicht, Inhalte in einer Form zu bearbeiten, die dem Erscheinungsbild eines gedruckten oder angezeigten Endprodukts ähnelt.
+
 [^8]: Zwar bieten auch andere Tools die Möglichkeit, Notizen miteinander zu verknüpfen, aber keiner mir bekannten App gelingt dies so gut wie Obsidian. Dort werden Verlinkungen nämlich direkt im Markdown-Text erstellt, indem man zwei [[[eckige Klammern](https://help.obsidian.md/Linking+notes+and+files/Internal+links)]] setzt. Außerdem können Links zu Notizen erstellt werden, die noch gar nicht existieren (bottom-up-Gedanke). In der Graph-Ansicht, dem wahrscheinlich auffälligsten Alleinstellungsmerkmal von Obsidian, kann man dann Zusammenhänge erkennen, die in klassischen Tools wie OneNote & Co. nur schwer nachvollziehbar wären.
+
 [^9]: Tools wie Evernote, Notion oder Roam Research unterstützen zwar mittlerweile die Markdown-Syntax, in den seltensten Fällen ist es jedoch möglich, die Notizen in native Markdown-Dateien zu exportieren.
+
 [^10]: [Dieser Spruch](https://obsidian.md/blog/new-obsidian-icon/#:~:text=If%20you%20want%20your%20writing%20to%20still%20be%20readable%20on%20a%20computer%20from%20the%202060s%20or%202160s%2C%20we%20think%20it%E2%80%99s%20important%20that%20your%20Obsidian%20notes%20can%20be%20read%20on%20a%20computer%20from%20the%C2%A01960s.) stammt nicht von mir selbst, sondern von Steph Ango, dem CEO von Obsidian.

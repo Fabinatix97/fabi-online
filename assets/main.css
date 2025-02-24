@@ -1,97 +1,112 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-    --body: var(--theme-color-body);
-    --border: var(--theme-color-border);
-    --codebg: var(--theme-color-codebg);
-    --codetext: var(--theme-color-codetext);
-    --info: var(--theme-color-info);
-    --heading: var(--theme-color-heading);
-    --main: var(--theme-color-main);
-    --mainrgb: var(--theme-color-mainrgb);
-    --navbar: var(--theme-color-navbar);
-    --primary: var(--theme-color-primary);
-    --primaryhover: var(--theme-color-primaryhover);
-    --secondary: var(--theme-color-secondary);
-    --secondarybg: var(--theme-color-secondarybg);
-    --tableborder: var(--theme-color-tableborder);
-    --tablehead: var(--theme-color-tablehead);
-    --tablerow: var(--theme-color-tablerow);
-    --text: var(--theme-color-text);
+  --body: var(--theme-color-body);
+  --border: var(--theme-color-border);
+  --codebg: var(--theme-color-codebg);
+  --codetext: var(--theme-color-codetext);
+  --info: var(--theme-color-info);
+  --heading: var(--theme-color-heading);
+  --main: var(--theme-color-main);
+  --mainrgb: var(--theme-color-mainrgb);
+  --navbar: var(--theme-color-navbar);
+  --primary: var(--theme-color-primary);
+  --primaryhover: var(--theme-color-primaryhover);
+  --secondary: var(--theme-color-secondary);
+  --secondarybg: var(--theme-color-secondarybg);
+  --tableborder: var(--theme-color-tableborder);
+  --tablehead: var(--theme-color-tablehead);
+  --tablerow: var(--theme-color-tablerow);
+  --text: var(--theme-color-text);
 }
 
 @layer base {
-    [data-theme="light"] {
-        --theme-color-body: theme('colors.gray.100');
-        --theme-color-border: theme('colors.slate.300');
-        --theme-color-codebg: theme('colors.slate.900');
-        --theme-color-codetext: white;
-        --theme-color-info: theme('colors.slate.500');
-        --theme-color-heading: theme('colors.slate.900');
-        --theme-color-main: white;
-        --theme-color-mainrgb: rgb(255, 255, 255);
-        --theme-color-navbar: rgba(255, 255, 255, 0.7);
-        --theme-color-primary: theme('colors.sky.800');
-        --theme-color-primaryhover: theme('colors.sky.900');
-        --theme-color-secondary: theme('colors.sky.900');
-        --theme-color-secondarybg: theme('colors.sky.100');
-        --theme-color-tableborder: theme('colors.gray.200');
-        --theme-color-tablehead: theme('colors.gray.200');
-        --theme-color-tablerow: theme('colors.gray.100');
-        --theme-color-text: theme('colors.slate.700');
-    }
-    
-    [data-theme="dark"] {
-        --theme-color-body: theme('colors.gray.950');
-        --theme-color-border: theme('colors.slate.900');
-        --theme-color-codebg: theme('colors.slate.900');
-        --theme-color-codetext: white;
-        --theme-color-info: theme('colors.slate.400');
-        --theme-color-heading: white;
-        --theme-color-main: theme('colors.slate.900');
-        --theme-color-mainrgb: rgb(15, 23, 42);
-        --theme-color-navbar: rgba(17, 24, 39, 0.8);
-        --theme-color-primary: theme('colors.sky.400');
-        --theme-color-primaryhover: theme('colors.sky.500');
-        --theme-color-secondary: theme('colors.sky.300');
-        --theme-color-secondarybg: theme('colors.sky.950');
-        --theme-color-tableborder: theme('colors.gray.950');
-        --theme-color-tablehead: theme('colors.gray.950');
-        --theme-color-tablerow: theme('colors.gray.800');
-        --theme-color-text: theme('colors.slate.300');
-    }
+  [data-theme='light'] {
+    --theme-color-body: theme('colors.gray.100');
+    --theme-color-border: theme('colors.slate.300');
+    --theme-color-codebg: theme('colors.slate.900');
+    --theme-color-codetext: white;
+    --theme-color-info: theme('colors.slate.500');
+    --theme-color-heading: theme('colors.slate.900');
+    --theme-color-main: white;
+    --theme-color-mainrgb: rgb(255, 255, 255);
+    --theme-color-navbar: rgba(255, 255, 255, 0.7);
+    --theme-color-primary: theme('colors.sky.800');
+    --theme-color-primaryhover: theme('colors.sky.900');
+    --theme-color-secondary: theme('colors.sky.900');
+    --theme-color-secondarybg: theme('colors.sky.100');
+    --theme-color-tableborder: theme('colors.gray.200');
+    --theme-color-tablehead: theme('colors.gray.200');
+    --theme-color-tablerow: theme('colors.gray.100');
+    --theme-color-text: theme('colors.slate.700');
+  }
 
-    body {
-        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        background-color: var(--body);
-        margin: 0;
-        padding: 0;
-        color: var(--text);
-        transition: all 0.3s;
-        hyphens: auto;
-    }
-    
-    h1, h2, h3, h4, h5, h6 {
-        @apply font-bold mt-8 mb-4;
-        color: var(--heading);
-    }
+  [data-theme='dark'] {
+    --theme-color-body: theme('colors.gray.950');
+    --theme-color-border: theme('colors.slate.900');
+    --theme-color-codebg: theme('colors.slate.900');
+    --theme-color-codetext: white;
+    --theme-color-info: theme('colors.slate.400');
+    --theme-color-heading: white;
+    --theme-color-main: theme('colors.slate.900');
+    --theme-color-mainrgb: rgb(15, 23, 42);
+    --theme-color-navbar: rgba(17, 24, 39, 0.8);
+    --theme-color-primary: theme('colors.sky.400');
+    --theme-color-primaryhover: theme('colors.sky.500');
+    --theme-color-secondary: theme('colors.sky.300');
+    --theme-color-secondarybg: theme('colors.sky.950');
+    --theme-color-tableborder: theme('colors.gray.950');
+    --theme-color-tablehead: theme('colors.gray.950');
+    --theme-color-tablerow: theme('colors.gray.800');
+    --theme-color-text: theme('colors.slate.300');
+  }
 
-    h1 {
-        @apply text-5xl;
-    }
+  body {
+    font-family:
+      Inter,
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      Helvetica,
+      Arial,
+      sans-serif,
+      'Apple Color Emoji',
+      'Segoe UI Emoji',
+      'Segoe UI Symbol';
+    background-color: var(--body);
+    margin: 0;
+    padding: 0;
+    color: var(--text);
+    transition: all 0.3s;
+    hyphens: auto;
+  }
 
-    h2 {
-        @apply text-4xl;
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply mt-8 mb-4 font-bold;
+    color: var(--heading);
+  }
 
-    h3 {
-        @apply text-3xl;
-    }
-    h4 {
-        @apply text-2xl;
-    }
+  h1 {
+    @apply text-5xl;
+  }
 
-    p {
-        @apply my-4 text-lg;
-    }
+  h2 {
+    @apply text-4xl;
+  }
+
+  h3 {
+    @apply text-3xl;
+  }
+  h4 {
+    @apply text-2xl;
+  }
+
+  p {
+    @apply my-4 text-lg;
+  }
 }

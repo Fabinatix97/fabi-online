@@ -1,16 +1,16 @@
 ---
-title: "Wie ich Notion nutze"
-date: "2021-05-30"
-status: "published"
-category: "Tutorial"
-tags: 
-  - "notion"
-  - "notiz-app"
-  - "personal-use"
-  - "produktivitaet"
-  - "showcase"
-  - "tipps-tricks"
-coverImage: "/img/blog/notion-agenda.jpg"
+title: 'Wie ich Notion nutze'
+date: '2021-05-30'
+status: 'published'
+category: 'Tutorial'
+tags:
+  - 'notion'
+  - 'notiz-app'
+  - 'personal-use'
+  - 'produktivitaet'
+  - 'showcase'
+  - 'tipps-tricks'
+coverImage: '/img/blog/notion-agenda.jpg'
 ---
 
 Notion ist ein Paradies für User, die sich kreativ ausleben und nicht durch allzu limitierte Programme eingeschränkt werden möchten. Dies wird auch durch die Vielzahl an Templates untermauert, die es auf der offiziellen Notion-Website zum Downloaden gibt. Egal ob für private (Journal, Travel Planner oder Habit Tracker) oder berufliche Zwecke (Road Map, Wiki, Sales CRM): bei den Templates sollte für jeden etwas dabei sein. Auch wenn es natürlich viel mehr Spaß macht, die Notizbücher von Grund auf selbst zu basteln und an seine Bedürfnisse anzupassen, bieten diese Vorlagen reichlich Inspiration. Als zusätzliche Inspirationsquelle möchte ich dir in diesem Beitrag aufzeigen, wie ich selbst Notion nutze bzw. wofür ich Notion ganz bewusst nicht nutze.
@@ -37,11 +37,11 @@ Ich liebe es, neue Dinge auszuprobieren. Doch vor lauter Enthusiasmus kann man s
 
 1. Hoher Fokus dadurch, dass ich auf einen Blick sehe, welche Projekte gerade „in progress“ sind.
 
-3. Zukünftige Projekt-Ideen gehen nicht verloren, da ich sie mit dem Status „not started“ versehen kann.
+2. Zukünftige Projekt-Ideen gehen nicht verloren, da ich sie mit dem Status „not started“ versehen kann.
 
-5. Am Ende des Jahres sehe ich schwarz auf weiß, welche Projekte ich abschließen konnte und welche nicht.
+3. Am Ende des Jahres sehe ich schwarz auf weiß, welche Projekte ich abschließen konnte und welche nicht.
 
-7. Auch wenn man es im Folgenden Screenshot nicht gleich sieht: die Project-Datenbank ist mit der ToDo-Datenbank verknüpft. Dies ermöglicht mir, Projekte in Teilaufgaben zu untergliedern und diese dann sofort in meiner Aufgabenplanung zu sehen.
+4. Auch wenn man es im Folgenden Screenshot nicht gleich sieht: die Project-Datenbank ist mit der ToDo-Datenbank verknüpft. Dies ermöglicht mir, Projekte in Teilaufgaben zu untergliedern und diese dann sofort in meiner Aufgabenplanung zu sehen.
 
 ![](/img/blog/notion-projects.png)
 

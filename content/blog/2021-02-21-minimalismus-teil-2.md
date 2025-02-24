@@ -1,21 +1,21 @@
 ---
-title: "Minimalismus, Teil 2: Smartphone & Computer"
-date: "2021-02-21"
-status: "published"
-category: "Essay"
-tags: 
-  - "ablenkung"
-  - "aussortieren"
-  - "bewusster-leben"
-  - "dopamin"
-  - "internetnutzung"
-  - "lifestyle"
-  - "minimalismus"
-  - "social-media"
-coverImage: "/img/blog/minimalism-2.jpg"
+title: 'Minimalismus, Teil 2: Smartphone & Computer'
+date: '2021-02-21'
+status: 'published'
+category: 'Essay'
+tags:
+  - 'ablenkung'
+  - 'aussortieren'
+  - 'bewusster-leben'
+  - 'dopamin'
+  - 'internetnutzung'
+  - 'lifestyle'
+  - 'minimalismus'
+  - 'social-media'
+coverImage: '/img/blog/minimalism-2.jpg'
 ---
 
-Im [ersten Teil](/blog/2021-02-07-minimalismus-teil-1) dieser Beitragsreihe haben wir uns damit beschäftigt, wie man einen minimalistisch_**er**_en Lebensstil in den eigenen vier Wänden verwirklichen kann. Hierbei habe ich dir vor allem Tipps für das Verschlanken deines Kleiderschranks, deines Schreibtischs oder sonstiger Möbel auf den Weg gegeben. In diesem Beitrag soll es nun um das Entrümpeln der wahrscheinlich wichtigsten persönlichen Besitztümer des 21. Jahrhunderts gehen: Smartphone und Computer.
+Im [ersten Teil](/blog/2021-02-07-minimalismus-teil-1) dieser Beitragsreihe haben wir uns damit beschäftigt, wie man einen minimalistisch\_**er**\_en Lebensstil in den eigenen vier Wänden verwirklichen kann. Hierbei habe ich dir vor allem Tipps für das Verschlanken deines Kleiderschranks, deines Schreibtischs oder sonstiger Möbel auf den Weg gegeben. In diesem Beitrag soll es nun um das Entrümpeln der wahrscheinlich wichtigsten persönlichen Besitztümer des 21. Jahrhunderts gehen: Smartphone und Computer.
 
 <!--more-->
 
@@ -23,15 +23,15 @@ Nie haben Menschen so viel Zeit vor digitalen Bildschirmen verbracht wie heute. 
 
 <figure>
 
-| **Gruppe**        | **2018**         | **2019**         | **2020**         |
-|-------------------|------------------|------------------|------------------|
-| Gesamt            | 1 Std. 40 Min.   | 1 Std. 39 Min.   | 2 Std.           |
-| Frauen            | 1 Std. 26 Min.   | 1 Std. 35 Min.   | 1 Std. 51 Min.   |
-| Männer            | 1 Std. 54 Min.   | 1 Std. 44 Min.   | 2 Std. 8 Min.    |
-| 14 - 29 Jahre     | 3 Std. 30 Min.   | 3 Std. 27 Min.   | 4 Std. 17 Min.   |
-| 30 - 49 Jahre     | 1 Std. 59 Min.   | 1 Std. 47 Min.   | 2 Std. 18 Min.   |
-| 50 - 69 Jahre     | 52 Min.          | 1 Std.           | 1 Std. 8 Min.    |
-| ab 70 Jahren      | 20 Min.          | 29 Min.          | 23 Min.          |
+| **Gruppe**    | **2018**       | **2019**       | **2020**       |
+| ------------- | -------------- | -------------- | -------------- |
+| Gesamt        | 1 Std. 40 Min. | 1 Std. 39 Min. | 2 Std.         |
+| Frauen        | 1 Std. 26 Min. | 1 Std. 35 Min. | 1 Std. 51 Min. |
+| Männer        | 1 Std. 54 Min. | 1 Std. 44 Min. | 2 Std. 8 Min.  |
+| 14 - 29 Jahre | 3 Std. 30 Min. | 3 Std. 27 Min. | 4 Std. 17 Min. |
+| 30 - 49 Jahre | 1 Std. 59 Min. | 1 Std. 47 Min. | 2 Std. 18 Min. |
+| 50 - 69 Jahre | 52 Min.        | 1 Std.         | 1 Std. 8 Min.  |
+| ab 70 Jahren  | 20 Min.        | 29 Min.        | 23 Min.        |
 
 <figcaption>
 
@@ -55,7 +55,7 @@ Wird man sich diesen Zusammenhängen bewusst, kann Minimalismus insofern für Ab
 
 Bevor ich mich wieder konkreten Tipps widme, möchte ich nochmal das Zitat von Leo Babauta aus seinem Buch "The Power of Less" hervorkramen, da ich es im Zusammenhang mit digitalem Minimalismus als essenziell und wegweisend erachte:
 
->"Vereinfachung soll dein Leben nicht leer machen, sondern Raum für das schaffen, was du wirklich tun möchtest. Finde zuerst heraus, was du vereinfachen willst, bevor du damit beginnst.""
+> "Vereinfachung soll dein Leben nicht leer machen, sondern Raum für das schaffen, was du wirklich tun möchtest. Finde zuerst heraus, was du vereinfachen willst, bevor du damit beginnst.""
 
 Dementsprechend geht es - wie schon im ersten Teil - zunächst einmal darum, sich einen Überblick zu verschaffen. Ohne klarer Übersicht, lässt sich das eigene Nutzungsverhalten nur schwer ändern. Anschließend ist Aufräumen angesagt. Idealerweise beschränkt man sich hierbei auf das Wichtigste und entledigt sich des sonstigen Ballasts. Der letzte Schritt wäre dann noch, ein System zu entwickeln, mit welchem man die Kontrolle über seine Mediennutzung zurückerlangt oder aber - falls man diese nicht verloren zu glauben meint - die Nutzung einfach ein wenig reduziert.
 
@@ -95,10 +95,12 @@ Ich hoffe ich konnte dir mit diesen Tipps & Tricks dabei helfen oder dich vielle
 
 Im [nächsten Teil](/blog/2021-03-07-minimalismus-teil-3) der Minimalismus-Reihe möchte ich mit dir über ein Thema diskutieren, dass uns alle etwas angeht: Geld.
 
-* * *
+---
 
 ## Quellen
 
 [^1]: Beisch, N. und Schäfer, C. (2020), ["Ergebnisse der ARD/ZDF-Onlinestudie 2020. Internetnutzung mit großer Dynamik: Medien, Kommunikation, Social Media"](https://www.ard-zdf-onlinestudie.de/files/2020/0920_Beisch_Schaefer.pdf), _Media Perspektiven 9/2020_
+
 [^2]: Yates, E. (2017), ["What happens to your brain when you get a like on Instagram"](https://www.businessinsider.com/what-happens-to-your-brain-like-instagram-dopamine-2017-3?r=DE&IR=T) \[Übersetzung des Verfassers\], Insider Inc.
+
 [^3]: D'Avella, M. (2019), ["6 Ways to Reduce Screen Time"](https://www.youtube.com/watch?v=XQQUo2gmUs4), YouTube

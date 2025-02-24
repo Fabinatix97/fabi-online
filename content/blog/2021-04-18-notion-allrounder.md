@@ -1,18 +1,18 @@
 ---
-title: "Notion - Der Alleskönner unter den Notiz-Apps?"
-date: "2021-04-18"
-status: "published"
-category: "Tutorial"
-tags: 
-  - "evernote"
-  - "notebook"
-  - "notion"
-  - "notiz-app"
-  - "onenote"
-  - "pkm"
-  - "produktivitaet"
-  - "pros-cons"
-coverImage: "/img/blog/notion-allrounder.jpg"
+title: 'Notion - Der Alleskönner unter den Notiz-Apps?'
+date: '2021-04-18'
+status: 'published'
+category: 'Tutorial'
+tags:
+  - 'evernote'
+  - 'notebook'
+  - 'notion'
+  - 'notiz-app'
+  - 'onenote'
+  - 'pkm'
+  - 'produktivitaet'
+  - 'pros-cons'
+coverImage: '/img/blog/notion-allrounder.jpg'
 ---
 
 Ein altes chinesisches Sprichwort besagt: „Die schwächste Tinte ist besser als das beste Gedächtnis.“ Regelmäßig Notizen machen ist demnach unerlässlich, um Gedanken und Ideen für immer festzuhalten. Die Art und Weise wie diese „Verewigung“ aussieht, spielt dabei eine untergeordnete Rolle. Und doch möchte ich dir in diesem Beitrag ein Notizbuch vorstellen, dass deine Gedanken nicht nur festhält, sondern viel eher als eine Art zweites Gehirn dienen soll. Die Rede ist von Notion. Eine der mächtigsten und vielfältigsten Notiz-Apps überhaupt. Wie komme ich zu dieser gewagten These? Anlässlich dieser Frage möchte ich eine kleine Beitragsreihe rund um das Thema Notion starten.

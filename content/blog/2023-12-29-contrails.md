@@ -1,14 +1,14 @@
 ---
-title: "Das Problem mit den Kondensstreifen"
-date: "2023-12-29"
-status: "published"
-category: "Aviation Knowledge"
-tags: 
-  - "forschung"
-  - "luftfahrt"
-  - "technologie"
-  - "umwelt"
-coverImage: "/img/blog/contrails.jpg"
+title: 'Das Problem mit den Kondensstreifen'
+date: '2023-12-29'
+status: 'published'
+category: 'Aviation Knowledge'
+tags:
+  - 'forschung'
+  - 'luftfahrt'
+  - 'technologie'
+  - 'umwelt'
+coverImage: '/img/blog/contrails.jpg'
 ---
 
 Sie schweben hoch oben am Himmel. Man sieht sie mal mehr, mal weniger. So mancher stört sich an ihnen, während andere die verwobenen Wolkenmuster als ästhetisches Himmelskunstwerk betrachten. Den meisten Menschen dürften Kondensstreifen jedoch herzlich wurscht sein. Ich möchte das ändern. Wieso? Weil diese harmlos anmutenden Wolkenstreifen eine bedeutende Rolle bei der globalen Erwärmung spielen - noch weitaus bedeutender als die wohlbekannten CO2\-Emissionen.
@@ -113,7 +113,7 @@ Ich hoffe, dieser Einblick in die Rolle von Kondensstreifen bei der globalen Erw
 
 Besonders spannend wird zu sehen sein, welche Erkenntnisse das Projekt Blue Condor bezüglich der Klimaverträglichkeit von Wasserstofftriebwerken bringt, gelten diese doch als Zukunftsträger der Luftfahrt. Die Fortschritte in dieser Richtung könnten einen signifikanten Beitrag zur Reduzierung der Umweltauswirkungen der Luftfahrt leisten. Es bleibt also abzuwarten, welche neuen Horizonte sich durch diese Forschungen auftun.
 
-* * *
+---
 
 ## Weiterführende Links
 
@@ -123,13 +123,23 @@ Besonders spannend wird zu sehen sein, welche Erkenntnisse das Projekt Blue Cond
 ## Quellen
 
 [^1]: DLR, [„Kondensstreifen“](https://www.dlr.de/pa/desktopdefault.aspx/tabid-2554/3836_read-5746/)
+
 [^2]: World Meteorological Organization, [„Homogenitus“](https://cloudatlas.wmo.int/en/homogenitus.html), International Cloud Atlas
+
 [^3]: World Meteorological Organization, [„Homomutatus“](https://cloudatlas.wmo.int/en/homomutatus.html), International Cloud Atlas
+
 [^4]: DLR (2021), [„Verhinderung von Kondensstreifen mit der richtigen Flughöhe“](https://www.dlr.de/de/aktuelles/nachrichten/2021/04/20211103_verhinderung-von-kondensstreifen-mit-der-richtigen-flughoehe)
+
 [^5]: Lee, D.S. et al (2021), [„The contribution of global aviation to anthropogenic climate forcing for 2000 to 2018“](https://www.sciencedirect.com/science/article/pii/S1352231020305689)
+
 [^6]: IATA (2023), [„](https://www.iata.org/en/programs/environment/sustainable-aviation-fuels/)[Net zero 2050: sustainable aviation fuels“](https://www.iata.org/en/iata-repository/pressroom/fact-sheets/fact-sheet---alternative-fuels/), Fact Sheet
+
 [^7]: Isabel Henrich (2022), [Kurz erklärt: So funktioniert das WET-Konzept“](https://aeroreport.de/de/good-to-know/kurz-erklaert-so-funktioniert-das-wet-konzept), MTU Aero Engines
+
 [^8]: Airbus (2023), [„Contrail-chasing Blue Condor makes Airbus’ first full hydrogen-powered flight“](https://www.airbus.com/en/newsroom/stories/2023-11-contrail-chasing-blue-condor-makes-airbus-first-full-hydrogen-powered)
+
 [^9]: Lassak, Frank (2023), FLY GREEN – Nachhaltige Luftfahrt (1. Aufl.), Motorbuch Verlag, Stuttgart
+
 [^10]: Airbus (2023), [„Contrail-chasing Blue Condor makes Airbus’ first full hydrogen-powered flight“](https://www.airbus.com/en/newsroom/stories/2023-11-contrail-chasing-blue-condor-makes-airbus-first-full-hydrogen-powered)
+
 [^11]: Sausen, Robert et al (2023), [„Can we successfully avoid persistent contrails by small altitude adjustments of flights in the real world?“](https://elib.dlr.de/200025/1/Sausen%202023%20metz__Can_we_successfully_avoid_persistent_contrails_by_small_altitude_adjustments_of_flights_in_the_real_world_102979.pdf)

@@ -1,14 +1,14 @@
 ---
-title: "Notion-Template für Piloten"
-date: "2023-11-12"
-status: "published"
-category: "Showcase"
-tags: 
-  - "luftfahrt"
-  - "notion"
-  - "produktivitaet"
-  - "showcase"
-coverImage: "/img/blog/notion-logbook-template.jpg"
+title: 'Notion-Template für Piloten'
+date: '2023-11-12'
+status: 'published'
+category: 'Showcase'
+tags:
+  - 'luftfahrt'
+  - 'notion'
+  - 'produktivitaet'
+  - 'showcase'
+coverImage: '/img/blog/notion-logbook-template.jpg'
 ---
 
 Ich habe vor kurzem ein Notion-Template speziell für Piloten entwickelt. Die Vorlage ermöglicht es dir, all deine Flüge aufzuzeichnen und automatisiert auszuwerten. In diesem Artikel möchte ich näher auf die Funktionen eingehen.

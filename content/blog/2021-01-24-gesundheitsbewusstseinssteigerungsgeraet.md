@@ -1,20 +1,20 @@
 ---
-title: "Gesundheitsbewusstseinssteigerungsgerät"
-date: "2021-01-24"
-status: "published"
-category: "Essay"
-tags: 
-  - "erfahrungsbericht"
-  - "erster-eindruck"
-  - "fitness"
-  - "fitness-tracker"
-  - "garmin"
-  - "gesundheitsbewusstsein"
-  - "quantified-self"
-  - "review"
-  - "vivosmart-4"
-  - "wearables"
-coverImage: "/img/blog/fitness-tracker.jpg"
+title: 'Gesundheitsbewusstseinssteigerungsgerät'
+date: '2021-01-24'
+status: 'published'
+category: 'Essay'
+tags:
+  - 'erfahrungsbericht'
+  - 'erster-eindruck'
+  - 'fitness'
+  - 'fitness-tracker'
+  - 'garmin'
+  - 'gesundheitsbewusstsein'
+  - 'quantified-self'
+  - 'review'
+  - 'vivosmart-4'
+  - 'wearables'
+coverImage: '/img/blog/fitness-tracker.jpg'
 ---
 
 Fitness Tracker erfreuen sich - sofern man die Absatzentwicklung als Kriterium hierfür ansieht - immer größerer Beliebtheit. Allein 2019 wurden weltweit knapp 337 Millionen Wearables verkauft. Auch wenn es derzeit schwierig ist, an aktuelle Zahlen heranzukommen, so dürfte der Absatz im letzten Jahr durchaus noch einmal zugelegt haben. Auch ich habe mir vor ziemlich genau einem Jahr einen solchen Fitness Tracker gekauft. Meine Erfahrungen hiermit möchte ich in diesem Beitrag mit dir teilen.

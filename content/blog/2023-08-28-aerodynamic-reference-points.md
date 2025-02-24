@@ -1,11 +1,11 @@
 ---
-title: "Center of Pressure, Aerodynamic Center & Co: Schlüsselkonzepte der Aerodynamik"
-date: "2023-08-28"
-status: "published"
-category: "Aviation Knowledge"
-tags: 
-  - "aerodynamik"
-coverImage: "/img/blog/flow-over-aerofoils.png"
+title: 'Center of Pressure, Aerodynamic Center & Co: Schlüsselkonzepte der Aerodynamik'
+date: '2023-08-28'
+status: 'published'
+category: 'Aviation Knowledge'
+tags:
+  - 'aerodynamik'
+coverImage: '/img/blog/flow-over-aerofoils.png'
 ---
 
 In der faszinierenden Welt der Aerodynamik spielen Begriffe wie Druckpunkt, Aerodynamisches Zentrum & Co. eine entscheidende Rolle. Diese Konzepte sind von zentraler Bedeutung, wenn es darum geht, wie sich Flugzeuge und andere Objekte in der Luft bewegen. Da auch ich mich manchmal schwer damit tue, diese Begriffe auseinanderzuhalten, möchte ich diese nun so gut es geht erläutern.
@@ -54,11 +54,11 @@ Egal wo der Druckpunkt (CoP) liegt (dieser wird ja vom Anstellwinkel beeinflusst
 
 Mithilfe des aerodynamischen Zentrums, welches typischerweise bei 25 % der Profilsehne liegt, ist es nun also leichter möglich, Aussagen über die Längsstabilität eines Flugzeugs zu treffen. Hierzu muss man noch wissen, dass das Höhenleitwerk eines Flugzeugs (meist) Abtrieb und somit ein hecklastiges Moment erzeugt. Kopflastige Momente sind also zu begrüßen. In Bezug auf den Schwerpunkt (engl. _Center of Gravity_ – CoG) gilt:
 
-|                          | **Effekt einer Auftriebszunahme**  | **Stabilität**  |
-|--------------------------|------------------------------------|-----------------|
-| CoG vor AC               | kopflastiges Moment                | stabil          |
-| CoG gleich AC            | kein Moment                        | neutral         |
-| CoG hinter AC            | hecklastiges Moment                | instabil        |
+|               | **Effekt einer Auftriebszunahme** | **Stabilität** |
+| ------------- | --------------------------------- | -------------- |
+| CoG vor AC    | kopflastiges Moment               | stabil         |
+| CoG gleich AC | kein Moment                       | neutral        |
+| CoG hinter AC | hecklastiges Moment               | instabil       |
 
 **3\. Neutralpunkt (engl. _Neutral Point_):** Der Neutralpunkt ist im Grunde genommen nur ein Synonym für das aerodynamische Zentrum. In der Fachliteratur wird der Begriff jedoch häufig verwendet, um zwischen Tragfläche und gesamtem Flugzeug zu differenzieren. Während sich das aerodynamische Zentrum lediglich auf die Tragfläche bezieht, berücksichtigt der Neutralpunkt das gesamte Flugzeug.
 

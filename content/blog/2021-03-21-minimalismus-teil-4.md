@@ -1,14 +1,14 @@
 ---
-title: "Minimalismus, Teil 4: Schattenseiten"
-date: "2021-03-21"
-status: "published"
-category: "Essay"
-tags: 
-  - "bewusster-leben"
-  - "gegner"
-  - "minimalismus"
-  - "schattenseiten"
-coverImage: "/img/blog/minimalism-4.jpg"
+title: 'Minimalismus, Teil 4: Schattenseiten'
+date: '2021-03-21'
+status: 'published'
+category: 'Essay'
+tags:
+  - 'bewusster-leben'
+  - 'gegner'
+  - 'minimalismus'
+  - 'schattenseiten'
+coverImage: '/img/blog/minimalism-4.jpg'
 ---
 
 In den vorangegangenen Teilen meiner kleinen Betragsreihe zum Thema Minimalismus habe ich dir gezeigt, wie du deinen Alltag bewusster bzw. minimalistisch**_er_** leben kannst. Mein Fokus lag hierbei eher darauf, dir konkrete Tipps an die Hand zu geben, als sich mit den Vorzügen des Minimalismus zu beschäftigen. Für mich waren diese nämlich stets offensichtlich: weniger Stress, mehr Zeit für das Wesentliche, womöglich mehr Geld und insgesamt ein gesünderes Leben. Allerdings bin ich während meiner Recherchen zu diesem Thema immer mal wieder über Websites und Essays gestolpert, die einer minimalistischen Lebensweise absolut nichts abgewinnen können oder diese sogar kritisieren.
@@ -83,10 +83,12 @@ Ich bin davon überzeugt, dass sich jeder Mensch ein eigenes Bild vom Minimalism
 
 So, mit diesen Satz und insgesamt knapp sechzig Wiederholung des Wortes „Minimalismus“ - oder einer Abwandlung davon - möchte ich diese Beitragsreihe vorerst beenden. Ich hoffe, ich konnte dich ein wenig für diese Art des bewussten Lebens begeistern. In jedem Fall würde mich deine Meinung oder gar Erfahrung zu diesem Thema würde sehr interessieren. Zögere also nicht und schreibe ein Kommentar unter diesen Beitrag.
 
-* * *
+---
 
 ## Quellen
 
 [^1]: Chayka, K. (2020), [„The empty promises of Marie Kondo and the craze for minimalism“](https://www.theguardian.com/lifeandstyle/2020/jan/03/empty-promises-marie-kondo-craze-for-minimalism), The Guardian
+
 [^2]: Rosales, C. (2020), [„Verzicht muss man sich leisten können“](https://www.zeit.de/zeit-magazin/leben/2020-01/minimalismus-marie-kondo-aesthetik-selbstinszenierung-snobismus/komplettansicht), ZEITmagazin
+
 [^3]: Babauta, L. (2009), „Weniger bringt mehr: Die Kunst, sich auf das Wesentliche zu beschränken“, Riemann Verlag

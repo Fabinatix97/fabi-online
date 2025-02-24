@@ -1,7 +1,7 @@
-import eslintConfigPrettier from "eslint-config-prettier";
-import eslintPluginPrettier from "eslint-plugin-prettier";
-import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
-import withNuxt from "./.nuxt/eslint.config.mjs";
+import eslintConfigPrettier from 'eslint-config-prettier'
+import eslintPluginPrettier from 'eslint-plugin-prettier'
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
+import withNuxt from './.nuxt/eslint.config.mjs'
 
 export default withNuxt([
   {
@@ -11,6 +11,7 @@ export default withNuxt([
     rules: {
       ...eslintConfigPrettier.rules,
       ...eslintPluginPrettierRecommended.rules,
+      'vue/multi-word-component-names': 'off',
     },
   },
-]);
+])

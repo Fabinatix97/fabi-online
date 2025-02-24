@@ -1,13 +1,13 @@
 ---
-title: "Das Aktivitäts-Paradoxon: warum dich dein Fitnesstracker belügt"
-date: "2024-07-16"
-status: "published"
-category: "Essay"
-tags: 
-  - "ernaehrung"
-  - "fitness"
-  - "kalorien"
-coverImage: "/img/blog/fitness-tracker-burned-calories.jpg"
+title: 'Das Aktivitäts-Paradoxon: warum dich dein Fitnesstracker belügt'
+date: '2024-07-16'
+status: 'published'
+category: 'Essay'
+tags:
+  - 'ernaehrung'
+  - 'fitness'
+  - 'kalorien'
+coverImage: '/img/blog/fitness-tracker-burned-calories.jpg'
 ---
 
 Hast du schon einmal stundenlang im Fitnessstudio geschwitzt, nur um dann enttäuscht festzustellen, dass sich auf der Waage kaum etwas verändert hat? Oder dich gefragt, warum manche Menschen scheinbar mühelos ihr Gewicht halten, während andere trotz intensiver sportlicher Aktivitäten kaum Fortschritte machen? Ein wegweisendes Modell von Herman Pontzer und seinem Team könnte die Erklärung liefern: das „Constrained Total Energy Expenditure“ Modell. Bereits 2016 vorgestellt, bietet es eine bahnbrechende Perspektive auf den Zusammenhang zwischen körperlicher Aktivität und Energieverbrauch. Dennoch hat dieses Modell bisher nicht die Aufmerksamkeit erhalten, die es verdient - das möchte ich in diesem Artikel ändern.
@@ -100,12 +100,16 @@ Und hier noch meine Buchempfehlung für alle, die noch mehr über dieses Thema e
 
 [Burn: New Research Blows the Lid Off How We Really Burn Calories, Lose Weight, and Stay Healthy](https://www.goodreads.com/book/show/54734969-burn)
 
-* * *
+---
 
 ## Quellen
 
-[^1]: Pontzer, H., Durazo-Arvizu, R., Dugas, L. R., Plange-Rhule, J., Bovet, P., Forrester, T. E., Lambert, E. V., Cooper, R. S., Schoeller, D. A., & Luke, A. (2016). Constrained Total Energy Expenditure and Metabolic Adaptation to Physical Activity in Adult Humans. _Current biology : CB_, _26_(3), 410–417. [https://doi.org/10.1016/j.cub.2015.12.046](https://doi.org/10.1016/j.cub.2015.12.046)
-[^2]: Pontzer, H., Wood, B. M., and Raichlen, D. A. (2018). Hunter-gatherers as models in public health. _Obesity Reviews_, 19: 24–35. [https://doi.org/10.1111/obr.12785](https://doi.org/10.1111/obr.12785).
+[^1]: Pontzer, H., Durazo-Arvizu, R., Dugas, L. R., Plange-Rhule, J., Bovet, P., Forrester, T. E., Lambert, E. V., Cooper, R. S., Schoeller, D. A., & Luke, A. (2016). Constrained Total Energy Expenditure and Metabolic Adaptation to Physical Activity in Adult Humans. *Current biology : CB*, *26*(3), 410–417. [https://doi.org/10.1016/j.cub.2015.12.046](https://doi.org/10.1016/j.cub.2015.12.046)
+
+[^2]: Pontzer, H., Wood, B. M., and Raichlen, D. A. (2018). Hunter-gatherers as models in public health. *Obesity Reviews*, 19: 24–35. [https://doi.org/10.1111/obr.12785](https://doi.org/10.1111/obr.12785).
+
 [^3]: WHO (2020). [WHO guidelines on physical activity and sedentary behaviour: at a glance](https://www.who.int/europe/publications/i/item/9789240014886).
-[^4]: Krumbiegel, P. (2010). Assessment of body composition and total energy expenditure in humans using stable isotope techniques; IAEA Human Health Series No. 3. _Isotopes in Environmental and Health Studies_, _46_(4), 508–509. [https://doi.org/10.1080/10256016.2010.521823](https://doi.org/10.1080/10256016.2010.521823)
-[^5]: O’Neal, T. J., Friend, D. M., Guo, J., Hall, K. D., & Kravitz, A. V. (2017). Increases in Physical Activity Result in Diminishing Increments in Daily Energy Expenditure in Mice. _Current biology : CB_, _27_(3), 423–430. [https://doi.org/10.1016/j.cub.2016.12.009](https://doi.org/10.1016/j.cub.2016.12.009)
+
+[^4]: Krumbiegel, P. (2010). Assessment of body composition and total energy expenditure in humans using stable isotope techniques; IAEA Human Health Series No. 3. *Isotopes in Environmental and Health Studies*, *46*(4), 508–509. [https://doi.org/10.1080/10256016.2010.521823](https://doi.org/10.1080/10256016.2010.521823)
+
+[^5]: O’Neal, T. J., Friend, D. M., Guo, J., Hall, K. D., & Kravitz, A. V. (2017). Increases in Physical Activity Result in Diminishing Increments in Daily Energy Expenditure in Mice. *Current biology : CB*, *27*(3), 423–430. [https://doi.org/10.1016/j.cub.2016.12.009](https://doi.org/10.1016/j.cub.2016.12.009)

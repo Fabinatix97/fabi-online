@@ -3,7 +3,7 @@ title: _Markdown-Test
 status: hidden
 description: Demonstration of markdown functionality
 date: 2024-10-29
-coverImage: "/img/blog/coding.jpg"
+coverImage: '/img/blog/coding.jpg'
 tags:
   - markdown
   - test
@@ -14,10 +14,15 @@ Im folgenden weitere Tests zum Prüfen der Markdown-Formatierungen. Im folgenden
 ## 1. Überschriften
 
 # H1
+
 ## H2
+
 ### H3
+
 #### H4
+
 ##### H5
+
 ###### H6
 
 ---
@@ -25,7 +30,7 @@ Im folgenden weitere Tests zum Prüfen der Markdown-Formatierungen. Im folgenden
 ## 2. Textformatierungen
 
 **Fett**  
-*Kursiv*  
+_Kursiv_  
 ~~Durchgestrichen~~  
 **_Fett und Kursiv_**
 
@@ -34,7 +39,7 @@ Im folgenden weitere Tests zum Prüfen der Markdown-Formatierungen. Im folgenden
 ## 3. Zitate
 
 > Dies ist ein einfaches Zitat.
-> 
+>
 > > Dies ist ein verschachteltes Zitat.
 
 ---
@@ -42,12 +47,14 @@ Im folgenden weitere Tests zum Prüfen der Markdown-Formatierungen. Im folgenden
 ## 4. Listen
 
 ### Ungeordnete Liste
+
 - Eintrag 1
   - Untereintrag 1.1
   - Untereintrag 1.2
 - Eintrag 2
 
 ### Geordnete Liste
+
 1. Erster Eintrag
 2. Zweiter Eintrag
    1. Untereintrag 2.1
@@ -64,7 +71,7 @@ Im folgenden weitere Tests zum Prüfen der Markdown-Formatierungen. Im folgenden
 
 ## 6. Links und Bilder
 
-[OpenAI Webseite](https://openai.com)  
+[OpenAI Webseite](https://openai.com)
 
 ![Bildbeschreibung](https://placekitten.com/200/300)
 
@@ -73,14 +80,17 @@ Im folgenden weitere Tests zum Prüfen der Markdown-Formatierungen. Im folgenden
 ## 7. Code und Syntax-Hervorhebung
 
 ### Inline-Code
+
 Dies ist ein Beispiel für `Inline-Code`.
 
 ### Codeblock
+
 ```
 def beispiel(): print("Hallo Welt!")
 ```
 
 ### Code mit Syntax-Hervorhebung (Python)
+
 ```python
 def beispiel():
     print("Hallo Welt!")
@@ -89,7 +99,7 @@ def beispiel():
 ## 8. Tabellen
 
 | Spalte 1 | Spalte 2 | Spalte 3 |
-|----------|----------|----------|
+| -------- | -------- | -------- |
 | Zeile 1  | Inhalt   | Inhalt   |
 | Zeile 2  | Inhalt   | Inhalt   |
 

@@ -1,55 +1,57 @@
 <template>
-    <div class="flex justify-center mt-32 mx-5 mb-10">
-        <div class="w-[800px]">
-            <client-only>
-                <svg
-                    v-if="theme === 'dark'"
-                    width="400"
-                    height="300"
-                    viewBox="0 0 10 11"
-                    class="absolute -z-10 blur-[120px]"
-                    aria-hidden="true"
-                >
-                    <circle cx="2" cy="2" r="5" fill="var(--primary)" />
-                </svg>
-            </client-only>
-            <h1>Blog</h1>
-            <p class="mb-0">Hier teile ich meine Gedanken und Erfahrungen zu allem, was mich gerade beschäftigt.</p>
-        </div>
+  <div>
+    <div class="mx-5 mt-32 mb-10 flex justify-center">
+      <div class="w-[800px]">
+        <client-only>
+          <svg
+            v-if="theme === 'dark'"
+            width="400"
+            height="300"
+            viewBox="0 0 10 11"
+            class="absolute -z-10 blur-[120px]"
+            aria-hidden="true"
+          >
+            <circle cx="2" cy="2" r="5" fill="var(--primary)" />
+          </svg>
+        </client-only>
+        <h1>Blog</h1>
+        <p class="mb-0">
+          Hier teile ich meine Gedanken und Erfahrungen zu allem, was mich gerade beschäftigt.
+        </p>
+      </div>
     </div>
     <Cards v-if="isMobileDevice" :posts="posts" />
     <Gallery v-else :posts="posts" />
+  </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
-import { useNuxtApp } from '#app';
+import { ref, onMounted } from 'vue'
+import { useNuxtApp } from '#app'
 
-const { $theme } = useNuxtApp();
-const theme = $theme;
+const { $theme } = useNuxtApp()
+const theme = $theme
 
-const isMobileDevice = ref(false);
+const isMobileDevice = ref(false)
 
 onMounted(() => {
-    const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-    const isSmallScreen = window.innerWidth < 1500;
-    isMobileDevice.value = hasTouch && isSmallScreen;
-});
+  const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0
+  const isSmallScreen = window.innerWidth < 1500
+  isMobileDevice.value = hasTouch && isSmallScreen
+})
 
 const { data: posts } = await useAsyncData(() =>
-    queryCollection('blog')
-        .where('status', '=', 'published')
-        .order('date', 'DESC')
-        .all()
-);
+  queryCollection('blog').where('status', '=', 'published').order('date', 'DESC').all()
+)
 
 definePageMeta({
-    layout: 'widelayout'
-});
+  layout: 'widelayout',
+})
 
 useSeoMeta({
-    title: 'Blog',
-    description: 'Hier teile ich meine Gedanken und Erfahrungen zu allem, was mich gerade beschäftigt.',
-    ogImage: '/img/about/fabionline.png',
-});
+  title: 'Blog',
+  description:
+    'Hier teile ich meine Gedanken und Erfahrungen zu allem, was mich gerade beschäftigt.',
+  ogImage: '/img/about/fabionline.png',
+})
 </script>
