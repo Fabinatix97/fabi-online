@@ -1,22 +1,21 @@
 import { defineNuxtPlugin } from '#app'
 import posthog from 'posthog-js'
+import type { PostHog } from 'posthog-js'
 
 export default defineNuxtPlugin((nuxtApp) => {
   const runtimeConfig = useRuntimeConfig()
 
-  const cookieConsentGiven = () => {
-    if (!localStorage.getItem('cookie_consent')) {
-      return 'undecided'
-    }
-    return localStorage.getItem('cookie_consent')
+  const cookieConsentGiven = (): 'yes' | 'no' | 'undecided' => {
+    const consent = localStorage.getItem('cookie_consent')
+    return consent === 'yes' || consent === 'no' ? consent : 'undecided'
   }
 
-  const posthogClient = posthog.init(runtimeConfig.public.posthogPublicKey, {
+  const posthogClient: PostHog = posthog.init(runtimeConfig.public.posthogPublicKey, {
     api_host: runtimeConfig.public.posthogHost,
     persistence: cookieConsentGiven() === 'yes' ? 'localStorage+cookie' : 'memory',
     capture_pageview: false,
-    loaded: (posthog) => {
-      if (import.meta.env.MODE === 'development') posthog.debug()
+    loaded: (ph) => {
+      if (import.meta.env.MODE === 'development') ph.debug()
     },
   })
 

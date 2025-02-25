@@ -1,3 +1,4 @@
+import type { Linter } from 'eslint'
 import eslintConfigPrettier from 'eslint-config-prettier'
 import eslintPluginPrettier from 'eslint-plugin-prettier'
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
@@ -14,4 +15,4 @@ export default withNuxt([
       'vue/multi-word-component-names': 'off',
     },
   },
-])
+] satisfies Linter.Config[])

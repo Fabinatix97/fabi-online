@@ -35,7 +35,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
   ],
   css: ['~/assets/main.css'],
-  plugins: [{ src: '~/plugins/theme.js', mode: 'client' }],
+  plugins: [{ src: '~/plugins/theme.ts', mode: 'client' }],
   runtimeConfig: {
     public: {
       baseURL: process.env.BASE_URL || '',
