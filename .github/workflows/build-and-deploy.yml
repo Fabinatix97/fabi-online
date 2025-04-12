@@ -106,8 +106,8 @@ jobs:
         with:
           output_file: "repo-diagram.svg"
           artifact_name: "repo-diagram"
-      - name: Get artifact
-        uses: actions/download-artifact@v2
+      - name: Download artifact
+        uses: actions/download-artifact@main
         with:
           name: "repo-diagram"
           path: "downloads"
