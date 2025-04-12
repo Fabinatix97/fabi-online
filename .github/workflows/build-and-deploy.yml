@@ -100,6 +100,8 @@ jobs:
     name: Create Diagram ✏️
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
       - name: Update diagram
         id: make_diagram
         uses: githubocto/repo-visualizer@0.7.1
