@@ -57,7 +57,7 @@ Der große Vorteil dieser Art von Tagebuch-Schreiben ist, dass - wie hier beim M
 
 Bist du auch so ein Bücherwurm wie ich? Dann könnte ein Bücher-Tracker genau das Richtige für dich sein. In meiner Ressources-Datenbank behalte ich neben Filmen und Serien vor allem meinen Lesefortschritt im Auge. Fehlt mir mal die Motivation zum Lesen, so werfe ich einfach einen Blick auf diesen - wie ich finde - visuell ansprechenden Buch-Tracker und schon bin ich motiviert, der Datenbank ein neues Buch hinzuzufügen.
 
-![](/img/blog/notion-library.png)
+![](/img/blog/notion-library.jpg)
 
 ## 5. Wissenssammlung
 

@@ -31,7 +31,7 @@ Kondensstreifen entstehen bei der Verbrennung von Treibstoff, wenn die umgebende
 
 <figure>
 
-![](/img/blog/google-contrails-diagram.png)
+![](/img/blog/google-contrails-diagram.jpg)
 
 <figcaption>
 
@@ -49,7 +49,7 @@ Kondensstreifen haben ähnliche Auswirkungen auf die Strahlungsbilanz der Erde w
 
 <figure>
 
-![](/img/blog/google-pie-chart.png)
+![](/img/blog/google-pie-chart.jpg)
 
 <figcaption>
 
@@ -93,7 +93,7 @@ Bei der **Flugplanung** geht es darum, schon vor dem Flug herauszufinden, wo sic
 
 <figure>
 
-![](/img/blog/satavia.png)
+![](/img/blog/satavia.jpg)
 
 <figcaption>
 
