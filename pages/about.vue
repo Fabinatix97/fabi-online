@@ -176,7 +176,11 @@
             <h4 class="mt-0 text-xl font-semibold text-[var(--info)]">
               {{ experiences[date].company }}
             </h4>
-            <img :src="experiences[date].image" class="rounded-2xl" />
+            <img
+              :src="experiences[date].image"
+              :alt="experiences[date].title"
+              class="rounded-2xl"
+            />
             <p>{{ experiences[date].description }}</p>
           </div>
         </div>
@@ -201,7 +205,11 @@
               class="flex h-24 flex-col items-center justify-center overflow-hidden rounded-2xl"
             >
               <div class="w-32 justify-items-center">
-                <img src="/public/img/about/hs-worms-light.png" class="w-16" />
+                <img
+                  src="/public/img/about/hs-worms-light.png"
+                  class="w-16"
+                  alt="Logo der Hochschule Worms"
+                />
               </div>
             </div>
           </div>

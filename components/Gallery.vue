@@ -139,6 +139,7 @@ function extractContent(body, wordLimit) {
     opacity 0.3s ease,
     visibility 0.3s ease;
 }
+
 .gallery figure:hover figcaption {
   opacity: 1;
   visibility: visible;
@@ -148,10 +149,6 @@ function extractContent(body, wordLimit) {
   .gallery figure:nth-child(1) {
     grid-area: span 2 / span 2;
   }
-
-  /*.gallery figure:nth-child(4n + 1) {
-        grid-row: span 2;
-    }*/
 
   .gallery figure:nth-child(4n + 2) {
     grid-column: span 2;

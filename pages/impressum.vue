@@ -29,7 +29,7 @@ useSeoMeta({
     color: var(--codetext);
     border-radius: 1rem;
     padding: 20px;
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', monospace;
   }
 }
 </style>

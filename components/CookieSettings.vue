@@ -34,8 +34,13 @@ export default {
   mounted() {
     if (import.meta.client) {
       const storedConsent = localStorage.getItem('cookie_consent')
-      this.consentStatus =
-        storedConsent === 'yes' ? 'Zugestimmt' : storedConsent === 'no' ? 'Abgelehnt' : 'Unbekannt'
+      if (storedConsent === 'yes') {
+        this.consentStatus = 'Zugestimmt'
+      } else if (storedConsent === 'no') {
+        this.consentStatus = 'Abgelehnt'
+      } else {
+        this.consentStatus = 'Unbekannt'
+      }
     }
   },
   methods: {
