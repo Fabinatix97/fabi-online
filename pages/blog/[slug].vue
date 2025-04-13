@@ -2,19 +2,7 @@
   <div>
     <div class="flex w-full justify-center">
       <div class="hidden w-[calc(50%-400px)] flex-none xl:block"></div>
-      <main class="max-w-[800px] min-w-0 px-4 pt-40">
-        <client-only>
-          <svg
-            v-if="theme === 'dark'"
-            width="400"
-            height="300"
-            viewBox="0 0 10 11"
-            class="absolute -z-10 blur-[120px]"
-            aria-hidden="true"
-          >
-            <circle cx="2" cy="2" r="5" fill="var(--primary)" />
-          </svg>
-        </client-only>
+      <main class="max-w-[800px] min-w-0 px-4">
         <div class="mb-8 flex text-[var(--info)]">
           <NuxtLink to="/blog">
             <div
@@ -41,7 +29,7 @@
         </div>
         <img
           :src="`${data.coverImage}`"
-          alt="Blog Post Cover Image"
+          alt="Blog Post Cover"
           class="relative left-[-30px] my-8 w-[calc(100%_+_60px)] max-w-none rounded-2xl"
         />
         <ContentRenderer :value="data" class="blog-content mb-8" />
@@ -64,16 +52,10 @@
         <TableOfContents />
       </div>
     </div>
-    <Footer class="mb-10" />
   </div>
 </template>
 
 <script setup>
-import { useNuxtApp } from '#app'
-
-const { $theme } = useNuxtApp()
-const theme = $theme
-
 const route = useRoute()
 
 const { data } = await useAsyncData(route.path, () => {
@@ -121,7 +103,7 @@ function calculateReadingTime(content) {
 }
 
 definePageMeta({
-  layout: false,
+  layout: 'default',
 })
 
 onMounted(() => {
@@ -173,7 +155,7 @@ onMounted(() => {
     color: var(--codetext);
     border-radius: 1rem;
     padding: 20px;
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', monospace;
   }
   a {
     text-decoration: underline;

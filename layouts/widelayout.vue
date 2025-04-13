@@ -1,8 +1,11 @@
 <template>
-  <div class="wide" role="main">
+  <main class="wide">
+    <div class="ml-80">
+      <SpotlightEffect />
+    </div>
     <nuxt-page />
     <Footer />
-  </div>
+  </main>
 </template>
 
 <style lang="scss" scoped>
