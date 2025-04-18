@@ -33,6 +33,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/image',
     '@nuxt/eslint',
+    '@nuxt/test-utils/module',
   ],
   css: ['~/assets/main.css'],
   plugins: [{ src: '~/plugins/theme.ts', mode: 'client' }],
@@ -57,5 +58,8 @@ export default defineNuxtConfig({
     prerender: {
       routes: ['/rss'],
     },
+  },
+  icon: {
+    componentName: 'NuxtIcon',
   },
 })
