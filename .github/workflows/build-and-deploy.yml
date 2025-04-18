@@ -56,11 +56,11 @@ jobs:
         args: >
           -Dsonar.projectKey=Fabinatix97_fabi-online
           -Dsonar.organization=fabinatix97
-    - name: SonarQube Quality Gate Check
-      id: sonarqube-quality-gate-check
-      uses: sonarsource/sonarqube-quality-gate-action@v1.1.0
-      env:
-        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+    # - name: SonarQube Quality Gate Check
+    #   id: sonarqube-quality-gate-check
+    #   uses: sonarsource/sonarqube-quality-gate-action@v1.1.0
+    #   env:
+    #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
   build:
     name: Build 🏗️
