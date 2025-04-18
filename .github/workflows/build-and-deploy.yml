@@ -37,12 +37,8 @@ jobs:
           node-version: '20'
       - name: Install dependencies
         run: npm install
-      - name: Prepare Nuxt and Generate Types
-        run: npx nuxi prepare
-      - name: List .nuxt directory
-        run: ls -alh .nuxt
-      - name: Run TypeScript check
-        run: npx tsc --noEmit --project tsconfig.json
+      - name: Run Nuxt typecheck
+        run: npx nuxi typecheck
 
   sonarqube:
     name: SonarQube 🐬
