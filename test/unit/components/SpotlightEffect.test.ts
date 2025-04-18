@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import { shallowMount } from '@vue/test-utils'
-import SpotlightEffect from '@@/components/SpotlightEffect.vue'
+import SpotlightEffect from '@/components/SpotlightEffect.vue'
 
 vi.mock('#components', () => ({
   useNuxtApp: () => ({
