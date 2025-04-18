@@ -154,7 +154,7 @@
 <script setup>
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { computed } from 'vue'
-import { useNuxtApp, useRoute } from '#app'
+import { useNuxtApp, useRoute } from '#imports'
 
 const { $theme, $toggleTheme } = useNuxtApp()
 const theme = $theme

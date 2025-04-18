@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import { useNuxtApp } from '#app'
+import { useNuxtApp } from '#imports'
 
 const { $theme } = useNuxtApp()
 const theme = $theme

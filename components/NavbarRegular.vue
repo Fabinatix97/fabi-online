@@ -86,7 +86,7 @@
 
 <script setup>
 import { computed } from 'vue'
-import { useNuxtApp, useRoute } from '#app'
+import { useNuxtApp, useRoute } from '#imports'
 
 const { $theme, $toggleTheme } = useNuxtApp()
 const theme = $theme

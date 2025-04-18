@@ -233,7 +233,7 @@
 
 <script setup>
 import { ref, computed, reactive } from 'vue'
-import { useNuxtApp } from '#app'
+import { useNuxtApp } from '#imports'
 
 const isDevOpsActive = ref(true)
 
