@@ -59,7 +59,4 @@ export default defineNuxtConfig({
       routes: ['/rss'],
     },
   },
-  icon: {
-    componentName: 'NuxtIcon',
-  },
 })

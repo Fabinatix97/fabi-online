@@ -1,24 +1,31 @@
-import { describe, it, expect, vi } from 'vitest'
-import { shallowMount } from '@vue/test-utils'
+import { describe, it, expect } from 'vitest'
+import { mount } from '@vue/test-utils'
 import SpotlightEffect from '@/components/SpotlightEffect.vue'
-
-vi.mock('#components', () => ({
-  useNuxtApp: () => ({
-    $theme: 'dark',
-  }),
-}))
 
 describe('SpotlightEffect.vue', () => {
   it('renders the SVG when theme is dark', () => {
-    const wrapper = shallowMount(SpotlightEffect, {
+    const wrapper = mount(SpotlightEffect, {
+      props: { theme: 'dark' },
       global: {
         stubs: {
-          'client-only': {
-            template: '<div><slot /></div>',
-          },
+          'client-only': { template: '<div><slot /></div>' },
         },
       },
     })
-    expect(wrapper.html()).toContain('<svg')
+
+    expect(wrapper.find('svg').exists()).toBe(true)
+  })
+
+  it('does not render the SVG when theme is light', () => {
+    const wrapper = mount(SpotlightEffect, {
+      props: { theme: 'light' },
+      global: {
+        stubs: {
+          'client-only': { template: '<div><slot /></div>' },
+        },
+      },
+    })
+
+    expect(wrapper.find('svg').exists()).toBe(false)
   })
 })
