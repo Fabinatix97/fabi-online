@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 import SpotlightEffect from '@/components/SpotlightEffect.vue'
 
-describe('SpotlightEffect.vue', () => {
+describe('SpotlightEffect', () => {
   it('renders the SVG when theme is dark', () => {
     const wrapper = mount(SpotlightEffect, {
       props: { theme: 'dark' },

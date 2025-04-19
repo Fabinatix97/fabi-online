@@ -1,6 +1,6 @@
+import { beforeEach, describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 import ScrollToTop from '@/components/ScrollToTop.vue'
-import { beforeEach, describe, it, expect } from 'vitest'
 
 describe('ScrollToTop', () => {
   beforeEach(() => {

@@ -1,3 +1,16 @@
+<template>
+  <div class="toc">
+    <h4>Inhalt</h4>
+    <ul>
+      <li v-for="(item, index) in toc" :key="index" :class="{ active: item.id === activeId }">
+        <a href="javascript:void(0)" @click="scrollToSection(item.id)">
+          {{ item.text }}
+        </a>
+      </li>
+    </ul>
+  </div>
+</template>
+
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 
@@ -74,19 +87,6 @@ function scrollToSection(id: string, offset = 120) {
   }
 }
 </script>
-
-<template>
-  <div class="toc">
-    <h4>Inhalt</h4>
-    <ul>
-      <li v-for="(item, index) in toc" :key="index" :class="{ active: item.id === activeId }">
-        <a href="javascript:void(0)" @click="scrollToSection(item.id)">
-          {{ item.text }}
-        </a>
-      </li>
-    </ul>
-  </div>
-</template>
 
 <style lang="scss" scoped>
 .toc {
