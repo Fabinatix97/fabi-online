@@ -164,7 +164,7 @@ const navigation = [
   { name: 'Home', href: '/', current: route.name == 'index' },
   { name: 'About', href: '/about', current: route.name.includes('about') },
   { name: 'Blog', href: '/blog', current: route.name == 'blog' },
-  { name: 'Impressum', href: '/impressum', current: route.name == 'uses' },
+  { name: 'Uses', href: '/uses', current: route.name == 'uses' },
 ]
 
 const isActiveRoute = (path) => {

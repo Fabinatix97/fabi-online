@@ -13,8 +13,8 @@
             <li :class="{ 'active-link': isActiveRoute('/blog') }">
               <NuxtLink to="/blog">Blog</NuxtLink>
             </li>
-            <li :class="{ 'active-link': isActiveRoute('/impressum') }">
-              <NuxtLink to="/impressum">Impressum</NuxtLink>
+            <li :class="{ 'active-link': isActiveRoute('/uses') }">
+              <NuxtLink to="/uses">Uses</NuxtLink>
             </li>
           </ul>
         </div>
