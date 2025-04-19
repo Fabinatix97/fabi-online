@@ -1,6 +1,16 @@
 <template>
   <footer class="relative z-20 flex h-40 items-end justify-center">
     <div class="flex flex-col items-center text-sm">
+      <span class="mb-3 flex items-center">
+        <NuxtLink
+          to="/impressum"
+          class="flex items-center gap-1 hover:text-[var(--primaryhover)]"
+          aria-label="Impressum"
+        >
+          <Icon name="mdi:legal" size="1.4em" />
+          Impressum
+        </NuxtLink>
+      </span>
       <span class="flex items-center gap-1">
         Powered by
         <a
