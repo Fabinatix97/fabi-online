@@ -9,24 +9,24 @@ on:
   workflow_dispatch:
 
 jobs:
-  create-diagram:
-    name: Create Diagram ✏️
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-      - name: Generate repository diagram
-        uses: githubocto/repo-visualizer@0.9.1
-        with:
-          output_file: repo-diagram.svg
-          should_push: true
-      - name: Upload repo diagram as artifact (optional)
-        uses: actions/upload-artifact@v4
-        with:
-          name: repo-diagram
-          path: repo-diagram.svg
+  # create-diagram:
+  #   name: Create Diagram ✏️
+  #   runs-on: ubuntu-latest
+  #   permissions:
+  #     contents: write
+  #   steps:
+  #     - name: Checkout repository
+  #       uses: actions/checkout@v4
+  #     - name: Generate repository diagram
+  #       uses: githubocto/repo-visualizer@0.9.1
+  #       with:
+  #         output_file: repo-diagram.svg
+  #         should_push: true
+  #     - name: Upload repo diagram as artifact (optional)
+  #       uses: actions/upload-artifact@v4
+  #       with:
+  #         name: repo-diagram
+  #         path: repo-diagram.svg
 
   lint:
     name: Lint 🔍
