@@ -10,43 +10,36 @@
           :class="['segment', { active: index === currentSegment }]"
           @click="setSegment(index)"
         >
-          <template v-if="typeof segment === 'string'">
+          <Icon
+            v-if="typeof segment === 'object' && segment.icon"
+            :name="segment.icon"
+            class="text-lg"
+          />
+          <span v-else>
             {{ segment }}
-          </template>
-          <template v-else>
-            <template v-if="segment.icon">
-              <Icon :name="segment.icon" class="text-lg" />
-            </template>
-            <template v-if="segment.name">
-              {{ segment.name }}
-            </template>
-          </template>
+          </span>
         </div>
       </div>
     </div>
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 
-const { segments } = defineProps({
-  segments: {
-    type: Array,
-    required: true,
-    validator: (value) =>
-      value.every(
-        (segment) =>
-          typeof segment === 'string' ||
-          (typeof segment === 'object' && (segment.name || segment.icon))
-      ),
-  },
-})
+type Segment = string | { name?: string; icon?: string }
 
-const emit = defineEmits(['update:modelValue'])
+defineProps<{
+  segments: Segment[]
+}>()
+
+const emit = defineEmits<{
+  (e: 'update:modelValue', value: number): void
+}>()
+
 const currentSegment = ref(0)
 
-const setSegment = (nr) => {
+const setSegment = (nr: number) => {
   currentSegment.value = nr
   emit('update:modelValue', nr)
 }
