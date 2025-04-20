@@ -7,7 +7,6 @@ describe('SegmentedSwitch', () => {
   it('renders string segments', () => {
     const segments = ['One', 'Two', 'Three']
     const wrapper = mount(SegmentedSwitch, { props: { segments } })
-    console.log(wrapper.html())
     segments.forEach((seg) => {
       expect(wrapper.text()).toContain(seg)
     })
