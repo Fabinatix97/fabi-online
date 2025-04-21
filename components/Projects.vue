@@ -42,5 +42,5 @@
 </template>
 
 <script setup lang="ts">
-import { projects } from '~/data/projects'
+import { projects } from '@/data/projects'
 </script>
