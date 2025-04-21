@@ -4,6 +4,7 @@
       v-for="project in projects"
       :key="project.name"
       class="flex flex-col justify-between rounded-2xl border-[1px] border-[var(--border)] bg-[var(--main)]"
+      data-test="project-card"
     >
       <div>
         <NuxtLink :to="project.link">
@@ -40,22 +41,6 @@
   </div>
 </template>
 
-<script setup lang="js">
-const projects = [
-  {
-    name: 'VueDoList',
-    image: '/img/about/vuedo.png',
-    link: 'https://github.com/Fabinatix97/vuedolist',
-    technologies: ['Vue.js', 'Javascript'],
-    description: 'Schlanke und minimalistische Todo-Liste mit Fokus auf dem Wesentlichen.',
-  },
-  {
-    name: 'fabi-online',
-    image: '/img/about/fabionline.png',
-    link: 'https://github.com/Fabinatix97/fabi-online',
-    technologies: ['Nuxt', 'Javascript', 'Tailwindcss'],
-    description:
-      'Selbstentwickelte Website als Ablöse für Wordpress-Blog. Die Basis bietet Nuxt, ein Vue.js Framework, das Flexibilität und moderne Features liefert.',
-  },
-]
+<script setup lang="ts">
+import { projects } from '~/data/projects'
 </script>
