@@ -6,9 +6,9 @@
       <div class="flex items-center">
         <div
           v-for="(segment, index) in segments"
-          :key="index"
-          :class="['segment', { active: index === currentSegment }]"
-          @click="setSegment(index)"
+          :key="segmentKeys ? segmentKeys[index] : index"
+          :class="['segment', { active: isActive(segmentKeys?.[index] ?? index) }]"
+          @click="onClick(segmentKeys?.[index] ?? index)"
         >
           <Icon
             v-if="typeof segment === 'object' && segment.icon"
@@ -16,7 +16,7 @@
             class="text-lg"
           />
           <span v-else>
-            {{ segment }}
+            {{ typeof segment === 'object' ? segment.name : segment }}
           </span>
         </div>
       </div>
@@ -25,23 +25,22 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-
 type Segment = string | { name?: string; icon?: string }
 
-defineProps<{
+const props = defineProps<{
+  modelValue: string | number
   segments: Segment[]
+  segmentKeys?: (string | number)[]
 }>()
 
 const emit = defineEmits<{
-  (e: 'update:modelValue', value: number): void
+  (e: 'update:modelValue', value: string | number): void
 }>()
 
-const currentSegment = ref(0)
+const isActive = (key: string | number) => key === props.modelValue
 
-const setSegment = (nr: number) => {
-  currentSegment.value = nr
-  emit('update:modelValue', nr)
+const onClick = (key: string | number) => {
+  if (!isActive(key)) emit('update:modelValue', key)
 }
 </script>
 
