@@ -60,7 +60,7 @@ const handleToggle = (value) => {
 
 useSeoMeta({
   title: 'About',
-  description: 'Erfahre mehr über mich, meine Erfahrungen und Fähgikeiten.',
+  description: 'Erfahre mehr über mich, meine Erfahrungen und Fähigkeiten.',
   ogImage: '/img/about/fabionline.png',
 })
 </script>
