@@ -34,7 +34,7 @@ export default defineEventHandler(async (event) => {
     language: 'de',
     image: 'https://www.fabi-online.de/favicon/favicon-32x32.png',
     favicon: 'https://www.fabi-online.de/favicon/favicon.ico',
-    copyright: 'All rights reserved 2024, Fabian Weiß',
+    copyright: 'All rights reserved 2025, Fabian Weiß',
     updated: new Date(),
     author: {
       name: 'Fabian Weiß',
