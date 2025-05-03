@@ -5,6 +5,11 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineNuxtConfig({
   app: {
     head: {
+      title: 'Fabian Weiß',
+      titleTemplate: '%s | Fabian Weiß',
+      htmlAttrs: {
+        lang: 'de',
+      },
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico' },
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon/favicon.svg' },
