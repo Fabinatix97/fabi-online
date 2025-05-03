@@ -73,6 +73,15 @@
   </div>
 </template>
 
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Uses',
+  description:
+    'Hier findest du meinen persönlichen Stack aus Hardware, Software, Gadgets und Alltags-Tools.',
+  ogImage: '/img/about/fabionline.png',
+})
+</script>
+
 <style lang="scss">
 .uses {
   ul {
