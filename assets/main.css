@@ -107,6 +107,6 @@
   }
 
   p {
-    @apply my-4 text-lg;
+    @apply my-4 text-lg/8;
   }
 }

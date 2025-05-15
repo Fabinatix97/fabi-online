@@ -143,10 +143,14 @@ onMounted(() => {
     border-radius: 1rem;
   }
   ol {
+    font-size: var(--text-lg);
+    line-height: 2rem;
     margin-left: 3rem;
     list-style-type: decimal;
   }
   ul {
+    font-size: var(--text-lg);
+    line-height: 2rem;
     margin-left: 3rem;
     list-style-type: disc;
   }
@@ -189,6 +193,18 @@ onMounted(() => {
     a {
       text-decoration: none;
     }
+  }
+  h2 {
+    margin-top: 3rem;
+    font-size: var(--text-2xl);
+  }
+  h3 {
+    margin-top: 2rem;
+    font-size: var(--text-xl);
+  }
+  h4 {
+    margin-top: 1.5rem;
+    font-size: var(--text-lg);
   }
   table {
     width: 100%;

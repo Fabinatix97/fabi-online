@@ -8,14 +8,14 @@
       </h1>
     </div>
     <div class="flex">
-      <p class="text-xl">
+      <p class="text-xl/9">
         Auf dieser Seite erwarten dich Book-Reviews, Tutorials, aber vor allem Essays. Ja, richtig
         gelesen: Essays – inspiriert durch persönliche Erfahrungen, Bücher oder aktuelle Ereignisse.
         Dies soll ein Ort sein, an dem ich meine Gedanken zu verschiedensten Themen mit dir teilen
         möchte.
       </p>
     </div>
-    <div class="flex flex-wrap gap-2">
+    <div class="flex flex-wrap gap-2 mt-8">
       <router-link
         to="/about"
         class="btn border-[1px] border-[var(--primary)] bg-[var(--primary)] text-[var(--main)] hover:border-[var(--primaryhover)] hover:bg-[var(--primaryhover)]"

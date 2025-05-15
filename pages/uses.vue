@@ -87,7 +87,8 @@ useSeoMeta({
   ul {
     margin-left: 3rem;
     list-style-type: disc;
-    font-size: 1.125rem;
+    font-size: var(--text-lg);
+    line-height: 2rem;
   }
 
   a {
