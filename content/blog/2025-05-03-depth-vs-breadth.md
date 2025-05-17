@@ -10,23 +10,37 @@ tags:
 coverImage: '/img/blog/chessboard-ide.jpg'
 ---
 
-Wenn du als Entwickler unterwegs bist, kennst du es vermutlich: der ständige Drang, überall mitreden zu können. Neue Frameworks, neue Tools, neue Best Practices – alles will gelernt, ausprobiert und idealerweise auch gleich beherrscht werden. Ich kenne das nur zu gut. In meiner Anfangszeit als Entwickler war ich stolz darauf, möglichst viele Technologien „zumindest ein bisschen“ zu kennen. Doch je mehr ich wusste, desto mehr merkte ich: Ich konnte nichts wirklich gut.
+Wenn du in der IT-Branche unterwegs bist, kennst du es vermutlich: der ständige Drang, überall mitreden zu können. Neue Frameworks, neue Tools, neue Best Practices – alles will gelernt, ausprobiert und idealerweise auch gleich beherrscht werden. Lange Zeit ging es mir genauso. Ich war stolz darauf, möglichst viele Technologien „zumindest ein bisschen“ zu kennen.
 
-Heute arbeite ich anders. Ich habe mich bewusst dafür entschieden, mich zu fokussieren – angefangen mit einem Tool, das ich täglich benutze: Visual Studio Code (kurz VS Code). Und genau dieser Schritt hat meine Arbeitsweise nachhaltig verändert.
+Es fühlte sich fast wie ein Wettlauf an: Wer kennt das neueste JavaScript-Framework? Wer hat die besten Plugins installiert? Wer baut die schickste CI/CD-Pipeline? Mein Tech-Stack wurde breiter und breiter – aber nicht tiefer. Irgendwann begann ich zu spüren: Ich bin zwar vielseitig, aber nirgendwo wirklich gut. Dieses Gefühl, von allem ein bisschen, aber nichts _richtig_ zu können, wurde zum ständigen Begleiter.
 
-## Die Illusion der Breite
+Seit kurzem gehe ich einen anderen Weg. Ich habe begonnen, mich bewusst zu fokussieren – angefangen mit einem Tool, das ich täglich benutze: [Visual Studio Code](https://code.visualstudio.com/) (kurz VS Code). Noch stehe ich ziemlich am Anfang dieser Entscheidung, aber sie hat bereits jetzt meine Perspektive verändert.
 
-In der Tech-Branche ist man ständig damit beschäftigt, auf dem Laufenden zu bleiben. Es fühlt sich fast wie ein Wettlauf an: Wer kennt das neueste JavaScript-Framework? Wer hat die aktuellsten Plugins installiert? Wer kann die schickste CI/CD-Pipeline bauen?
+Und genau deshalb lohnt es sich, diesen Weg einmal genauer zu betrachten.
 
-Ich war mittendrin. Ich hatte mir ein beachtliches Arsenal an Tools und Technologien aufgebaut, aber irgendwann dämmerte mir: Ich bin zwar breit aufgestellt, aber nirgendwo wirklich tief drin. Dieses „Jack of all trades, master of none“-Gefühl wurde zum ständigen Begleiter.
+## Code-Editor vs. IDE
 
-Was mir fehlte, war Tiefe. Ein wirklich souveräner Umgang mit meinen Werkzeugen.
+In meinem Entwickler-Umfeld wurde immer wieder eine Empfehlung laut: _Warum nutzt du nicht IntelliJ? Das ist eine „echte“ IDE_. Gerade in der Java-Welt hat JetBrains' [IntelliJ IDEA](https://www.jetbrains.com/de-de/idea/) unbestrittene Stärken. Und ja – für umfangreiche und komplexe Enterprise-Anwendungen bietet es Funktionen, die VS Code (noch) nicht 
+vollständig abdeckt. Aber ich habe mich bewusst dagegen entschieden.
 
-## VS Code vs. IntelliJ: Ein Scheideweg
+Ich blieb bei VS Code. Nicht aus Bequemlichkeit, sondern weil es für mein aktuelles Erfahrungslevel und die Anforderugnen meiner Projekte schlichtweg das bessere Werkzeug ist. Hier einige meiner Gründe im Überblick:
 
-In meinem Umfeld wurde immer wieder eine Empfehlung laut: _Warum nutzt du nicht IntelliJ? Das ist eine „echte“ IDE_. Gerade in der Java-Welt hat IntelliJ unbestrittene Stärken. Und ja – für umfangreiche und komplexe Enterprise-Anwendungen bietet es Funktionen, die VS Code (noch) nicht vollständig abdeckt. Aber ich habe mich bewusst für einen anderen Weg entschieden.
+- **Leichtgewichtig, schlank, performant**  
+  VS Code startet in Sekunden, verbraucht vergleichsweise wenig RAM und bleibt auch bei großen Projekten flüssig. Kein unnötiger Overhead, wenn ich mal schnell eine Datei öffnen oder einen Schnipsel testen will.
+- **Kostenlos und Open Source**  
+  Keine Lizenzkosten, keine Abo-Modelle. Das Ganze lässt sich problemlos auf allen gängigen Plattformen einsetzen – egal ob Windows, macOS oder Linux.
+- **Flexibilität und Erweiterbarkeit**  
+  Dank der riesigen Extension-Bibliothek kann ich VS Code gezielt um genau die Funktionen ergänzen, die ich benötige: von Linter-Integrationen über Live-Share bis hin zu spezialisierten Snippet-Paketen. Natürlich besteht die Gefahr, sich in Endlosoptimierung und Konfigurations-Chaos zu verlieren, wenn man zu viele Extensions installiert. Aber genau diese Freiheit empfinde ich als Gewinn.
+- **Weitverbreitet in Tutorials und Videos**  
+  Viele Online-Kurse, Blog-Posts und YouTube-Videos setzen auf VS Code – gerade im amerikanischen Raum. Das macht den Einstieg und das direkte Umsetzen neuer Konzepte leichter.
+- **Am Puls der Zeit**  
+  Ich habe das Gefühl, dass VS Code immer am Puls der Zeit ist. Während andere Tools manchmal Monate oder Jahre brauchen, um neue Trends oder Paradigmen zu adaptieren, ist VS Code oft schon mittendrin. Auch wenn die Botschaft dieses Artikels eigentlich darin besteht, nicht jedem Trend hinterherzujagen, ist es beruhigend zu wissen, dass mein Werkzeug mit der Entwicklung Schritt hält – ohne dass ich es ständig austauschen muss.
+- **Synergieeffekte**  
+  Egal ob Frontend-Framework, Python-Skript oder Docker-Container: Mit VS Code bleibe ich in einer gewohnten Umgebung. Ich muss nicht für jede Sprache in eine andere, speziell optimierte IDE springen und verliere keine Zeit beim Setup.
+- **Große, aktive Community**  
+  Ob GitHub-Issues, Stack Overflow oder sonst wo: Immer gibt es jemanden, der weiterhelfen kann.
 
-Ich blieb bei VS Code. Nicht aus Bequemlichkeit, sondern weil es für mein aktuelles Erfahrungslevel und die Anforderugnen meiner Projekte schlichtweg das bessere Werkzeug ist. Es ist schlank, schnell, und vor allem extrem flexibel. Ich kann es Stück für Stück an meine Bedürfnisse anpassen, und genau das hat mich neugierig gemacht: Was, wenn ich einfach mal alles aus diesem Tool heraushole?
+All diese Punkte zusammengenommen haben mich überzeugt, VS Code nicht nur als Editor, sondern als zentrales Werkzeug zu meistern – und nicht ständig zwischen unterschiedlichen IDE-Welten hin- und herzuwechseln.
 
 ## Die Macht der Spezialisierung
 
@@ -34,27 +48,37 @@ Seit ich mich dazu entschieden habe, mich voll auf VS Code einzulassen, hat sich
 
 - **Mein Workflow ist schneller geworden.** Ich kenne meine Shortcuts, meine Extensions, meine Konfiguration.
 - **Ich arbeite konzentrierter.** Weniger Kontextwechsel, weniger Reibungsverluste.
-- **Ich bin produktiver.** Nicht, weil VS Code besser ist – sondern weil ich besser damit geworden bin.
+- **Ich bin produktiver.** Nicht, weil VS Code an sich überlegen ist, sondern weil ich im Umgang damit immer besser geworden bin.
 - **Ich fühle mich sicher.** Ich weiß, wie ich Probleme mit dem Tool löse, wie ich es erweitere, wie ich es optimiere.
 
-Natürlich stößt man auch mal an Grenzen – gerade bei komplexeren Java-Projekten. Aber diese sind für mich derzeit kein Hindernis, das den Fokus auf Tiefe rechtfertigen würde. Ganz im Gegenteil: Ich habe mehr gewonnen, als ich verloren habe.
+Natürlich stoße ich manchmal an Grenzen – etwa bei sehr komplexen Java-Projekten. Aber das ist für mich kein Grund, meinen Fokus von Tiefe auf Breite zu verlagern. Ganz im Gegenteil: Ich habe durch die Spezialisierung deutlich mehr gewonnen als verloren.
 
 ## Die eigentliche Lektion
 
-Mir ist es wichtig, folgende Botschaft herüber zu bringen: Dieser Artikel ist kein Plädoyer für VS Code - auch nicht für Code-Editoren im Allgemeinen.  Es geht nicht um den ultimativen Code Editor oder darum, welches Tool „besser“ ist.
-
-[comment]: <> (Vielleicht werde ich eines Tages auch ein IntelliJ- oder gar Vim-Verfechter)
+Mir ist es wichtig, folgende Botschaft zu vermitteln: Dieser Artikel ist weder ein Plädoyer für VS Code noch für Code-Editoren im Allgemeinen. Es geht nicht um den ultimativen Code Editor oder darum, welches Tool _besser_ ist. Vielleicht werde ich eines Tages selbst zum begeisterten JetBrains-Nutzer oder gar zum Vim-Verfechter – doch heute geht es darum, sich bewusst für ein Werkzeug zu entscheiden und es in seiner Tiefe zu beherrschen.
 
 Es geht um den Wert der Spezialisierung. Darum, ein Werkzeug nicht nur zu benutzen, sondern zu _meistern_. Die tägliche Arbeit wird leichter, kreativer und effizienter, wenn man sich nicht ständig durch halbgelerntes Terrain kämpfen muss.
 
-Fokus reduziert kognitive Last. Tiefe schafft Raum für Qualität. Und dieser Effekt lässt sich auf viele andere Bereiche übertragen – egal ob Frameworks, Programmiersprachen oder Arbeitsprozesse.
+Fokus reduziert kognitive Last. Tiefe schafft Raum für Qualität. Und dieser Effekt lässt sich auf viele andere Bereiche übertragen – egal ob im Sport, im Handwerk oder im persönlichen Wachstum.
 
 ## Tiefe beginnt mit einer Entscheidung
 
-Ich glaube, viele Entwickler stehen heute vor der Herausforderung, zwischen Breite und Tiefe zu balancieren. Mein Weg war es, bewusste Entscheidungen zu treffen. VS Code war dabei mein erster konkreter Ankerpunkt. Nicht, weil es perfekt ist – sondern weil ich mich entschieden habe, es zu meistern.
+Ich glaube, viele Entwickler stehen heute vor der Herausforderung, zwischen Breite und Tiefe die richtige Balance zu finden. Es ist verlockend, in der schieren Geschwindigkeit der technologischen Entwicklung mit allem irgendwie Schritt halten zu wollen. Doch die wahre Stärke liegt häufig darin, sich bewusst für einige wenige Bereiche oder Werkzeuge zu entscheiden und dort wirklich exzellent zu werden. Denn in der Regel zeigt sich: Wenn man eine Sache wirklich durchdrungen und "gemeistert" hat, werden die dahinterliegenden Konzepte viel klarer. Diese fundamentalen Prinzipien lassen sich dann wiederum erstaunlich leicht auf andere Technologien, Programmiersprachen oder Frameworks übertragen.
 
-Wenn du das Gefühl hast, ständig auf zehn Hochzeiten gleichzeitig zu tanzen, lade ich dich ein, innezuhalten und dich zu fragen: _Welches Werkzeug benutze ich jeden Tag – und wie gut kenne ich es wirklich?_
+Diese Entscheidung für die Tiefe ist nicht immer einfach. Sie bedeutet, dass man möglicherweise bei dem einen oder anderen neuen Trend nicht sofort mitreden kann. Sie erfordert Geduld und die Bereitschaft, sich intensiv mit Materien auseinanderzusetzen, anstatt nur an der Oberfläche zu kratzen. Aber die Belohnung ist immens: ein tieferes Verständnis, mehr Kontrolle und letztendlich eine höhere Zufriedenheit in der täglichen Arbeit.
 
-Wie ThePrimeagen es in einem [Gespräch mit Lex Fridman](https://youtu.be/PkbjvbjLAug?si=2SURaCFveqWr1EwJ&t=589) treffend formulierte: "Der Editor macht nicht den Programmierer, aber es sagt viel über deinen Charakter als Programmierer aus, wenn du deinen Editor nicht gut beherrschst." Es geht um die Haltung, die Bereitschaft, sich wirklich auf sein Handwerkszeug einzulassen.
+## Ein Blick in die Zukunft
 
-Denn am Ende machen Tools keine großartigen Entwickler. Aber der Wille, Meister der eigenen Tools zu werden, schon.
+Wie wird sich meine Reise mit VS Code weiterentwickeln? Ich bin gespannt darauf, noch tiefer in die Möglichkeiten einzutauchen, die dieser Editor bietet. Das bedeutet, noch mehr über fortgeschrittene Debugging-Techniken zu lernen, eigene Snippets und Extensions zu entwickeln und die Integration mit anderen Tools und Workflows zu perfektionieren. Vielleicht werde ich eines Tages feststellen, dass die Grenzen von VS Code für meine Anforderungen tatsächlich zu eng werden. Aber selbst dann wird die Zeit, die ich in die Vertiefung meiner Kenntnisse investiert habe, nicht verloren sein. Das Verständnis für die zugrunde liegenden Konzepte, die erlernten Workflows und die Fähigkeit zur effizienten Problemlösung werden mir auch in einer anderen Umgebung zugutekommen.
+
+Die Fokussierung auf ein Werkzeug wie VS Code ist für mich ein erster Schritt hin zu einer bewussteren und nachhaltigeren Herangehensweise an meine Entwicklung. Es geht darum, die Grundlagen wirklich zu verstehen, anstatt sich in einer endlosen Schleife neuer Oberflächen und Technologien zu verlieren.
+
+## Und nun zu dir...
+
+Vielleicht erkennst du dich in meiner Beschreibung wieder. Vielleicht hast auch du das Gefühl, von allem ein bisschen zu wissen, aber nichts wirklich zu beherrschen. Dann lade ich dich ein, über deine eigene Werkzeugkiste nachzudenken: _Welches Werkzeug benutzt du jeden Tag – und wie gut kennst du es wirklich?_
+
+Denn am Ende machen Tools keine großartigen Entwickler. Aber der Wille, Meister der eigenen Tools zu werden, schon. ThePrimeagen brachte es in einem Gespräch mit Lex Fridman treffend auf den Punkt:
+
+>„The editor obviously does not make the programmer, but I think it says a lot about your character as a programmer if you don't know how to use your editor well. There's something about a person who's willing to commit their life to programming and spend literally 50,000 hours doing an activity over the course of their lifetime and never take the time to learn their editor through and through. It just seems strange, right? You'd never see that in another world where people would be able to build something or do something and just completely forget how these things work, and only focus on one part of their craft. So to me, it's just like — it doesn't matter how you use it. I want to see the person that just knows how to use it, and they know how to use it well. When there's a problem, they can say why the problem exists, and they can go and fix the problem. To me, that's like — there you go, you've done it. You now know your tool. Go forth and conquer with said tool."
+>
+>~ _[ThePrimeagen (2025)](https://youtu.be/PkbjvbjLAug?si=m3fYFlFwri-y19L5&t=589)_
