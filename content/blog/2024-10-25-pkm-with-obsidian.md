@@ -210,8 +210,6 @@ Neugierig geworden? Auch wenn es in diesem Artikel natürlich um allgemeine PKM-
 
 ---
 
-## Fußnoten
-
 [^1]: Microsoft (2017). [The Innovator’s Guide to Modern Note Taking: How businesses can harness the digital revolution](https://info.microsoft.com/rs/157-GQE-382/images/EN-US%2017034_MSFT_WWSurfaceModernNoteTaking_ebookRefresh_R2.pdf)
 
 [^2]: Der Begriff des *zweiten Gehirns* wurde vor allem durch [Tiago Forte](https://fortelabs.com/) in seinem Buch [Building a Second Brain](https://www.buildingasecondbrain.com/) geprägt.

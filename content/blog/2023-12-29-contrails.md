@@ -120,8 +120,6 @@ Besonders spannend wird zu sehen sein, welche Erkenntnisse das Projekt Blue Cond
 - CANSO/Eurocontrol: [Sustainable Skies Conference: Contrails in Focus](https://www.eurocontrol.int/event/sustainable-skies-conference-contrails-focus)
 - Google Research: [Project Contrails](https://sites.research.google/contrails/)
 
-## Quellen
-
 [^1]: DLR, [„Kondensstreifen“](https://www.dlr.de/pa/desktopdefault.aspx/tabid-2554/3836_read-5746/)
 
 [^2]: World Meteorological Organization, [„Homogenitus“](https://cloudatlas.wmo.int/en/homogenitus.html), International Cloud Atlas

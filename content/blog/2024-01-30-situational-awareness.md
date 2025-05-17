@@ -167,8 +167,6 @@ Ich hoffe, du fandest diesen Beitrag hilfreich und konntest etwas für dich mitn
 - Flight Safety Foundation (2006), [Situational Awareness Quick Reference and Reminder](https://skybrary.aero/bookshelf/books/640.pdf)
 - Flight Safety Foundation (2017), [Rethinking the Briefing](https://flightsafety.org/asw-article/rethinking-the-briefing/)
 
-## Quellen
-
 [^1]: Endsley, M. R. (1988), [Design and Evaluation for Situation Awareness Enhancement](https://journals.sagepub.com/doi/abs/10.1177/154193128803200221), p. 97
 
 [^2]: Endsley, M. R. (1995), [Toward a Theory of Situation Awareness in Dynamic Systems](https://journals.sagepub.com/doi/abs/10.1518/001872095779049543), p. 35

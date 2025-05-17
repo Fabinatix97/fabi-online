@@ -115,6 +115,4 @@ Zu guter Letzt wäre da noch die Netflix-Dokumentarserie “Formula 1: Drive to 
 - FORMULA 1: [Building the greatest racing spectacle on the planet | DHL & F1](https://www.youtube.com/watch?v=MH6Loko0BOA)
 - Tommy DeWitt: [How Formula 1 is Filmed (It's a Technical Masterpiece)](https://www.youtube.com/watch?v=78wxrEbuHFA)
 
-## Quellen
-
 [^1]: Beck, H. (2018), “Irren ist nützlich: Warum die Schwächen des Gehirns unsere Stärken sind”, Wilhelm Goldmann Verlag, München

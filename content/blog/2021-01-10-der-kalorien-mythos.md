@@ -93,8 +93,6 @@ Wie wir gesehen haben ist Ernährung eine hochkomplexe Angelegenheit. Auch wenn 
 - Bundesministerium für Gesundheit: [Wie sieht eine gesunde Ernährung aus?](https://gesund.bund.de/gesunde-ernaehrung)
 - Huel GmbH: [Ernährungs­leitfaden für Einsteiger](https://de.huel.com/pages/ernaehrungsleitfaden)
 
-## Quellen
-
 [^1]: Statista Research Department (2020), ["Welche Vorsätze haben Sie für 2021?"](https://de.statista.com/statistik/daten/studie/952182/umfrage/umfrage-in-deutschland-zu-den-beliebtesten-neujahrsvorsaetzen/)
 
 [^2]: Taleb, N. (2015), "Der Schwarze Schwan: Die Macht höchst unwahrscheinlicher Ereignisse", Pantheon Verlag, München

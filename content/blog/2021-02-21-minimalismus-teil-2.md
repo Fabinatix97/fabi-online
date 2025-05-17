@@ -97,8 +97,6 @@ Im [nächsten Teil](/blog/2021-03-07-minimalismus-teil-3) der Minimalismus-Reihe
 
 ---
 
-## Quellen
-
 [^1]: Beisch, N. und Schäfer, C. (2020), ["Ergebnisse der ARD/ZDF-Onlinestudie 2020. Internetnutzung mit großer Dynamik: Medien, Kommunikation, Social Media"](https://www.ard-zdf-onlinestudie.de/files/2020/0920_Beisch_Schaefer.pdf), _Media Perspektiven 9/2020_
 
 [^2]: Yates, E. (2017), ["What happens to your brain when you get a like on Instagram"](https://www.businessinsider.com/what-happens-to-your-brain-like-instagram-dopamine-2017-3?r=DE&IR=T) \[Übersetzung des Verfassers\], Insider Inc.

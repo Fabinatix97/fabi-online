@@ -126,8 +126,6 @@ Im [nächsten und letzten Teil](/blog/2021-03-21-minimalismus-teil-4) der Minima
 - Margarethe Honisch: [Easy Money: Wie du deine Finanzen regelst, endlich vorsorgst und trotzdem gut lebst](https://books.google.de/books/about/Easy_Money.html?id=Vd-VDwAAQBAJ)
 - Christian Thiel: [Schatz, ich habe den Index geschlagen! Wie ich auszog, die besten Aktien der Welt zu kaufen . So macht Geldanlage Spaß](https://books.google.de/books?id=jjqBDQAAQBAJ)
 
-## Quellen
-
 [^1]: Millburn, J. und Nicodemus, R. (2020), ["Financial Freedom: 5 Difficult Steps to Get Out of Debt, Create a Simple Budget, Plan for the Future, and Regain Control of Your Finances"](https://www.theminimalists.com/freedom/)
 
 [^2]: OECD STD Financial Statistics (o. D.), ["Financial Indicators – Stocks"](http://stats.oecd.org/Index.aspx?DataSetCode=FIN_IND_FBS.)

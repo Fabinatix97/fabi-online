@@ -85,8 +85,6 @@ So, mit diesen Satz und insgesamt knapp sechzig Wiederholung des Wortes „Minim
 
 ---
 
-## Quellen
-
 [^1]: Chayka, K. (2020), [„The empty promises of Marie Kondo and the craze for minimalism“](https://www.theguardian.com/lifeandstyle/2020/jan/03/empty-promises-marie-kondo-craze-for-minimalism), The Guardian
 
 [^2]: Rosales, C. (2020), [„Verzicht muss man sich leisten können“](https://www.zeit.de/zeit-magazin/leben/2020-01/minimalismus-marie-kondo-aesthetik-selbstinszenierung-snobismus/komplettansicht), ZEITmagazin
