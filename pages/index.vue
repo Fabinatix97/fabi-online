@@ -15,7 +15,7 @@
         möchte.
       </p>
     </div>
-    <div class="flex flex-wrap gap-2 mt-8">
+    <div class="mt-8 flex flex-wrap gap-2">
       <router-link
         to="/about"
         class="btn border-[1px] border-[var(--primary)] bg-[var(--primary)] text-[var(--main)] hover:border-[var(--primaryhover)] hover:bg-[var(--primaryhover)]"
