@@ -1,5 +1,5 @@
 ---
-title: 'Tiefe statt Breite: Warum ich mich entschieden habe, VSCode zu meistern'
+title: 'Tiefe statt Breite: Warum ich mich entschieden habe, VS Code zu meistern'
 date: '2025-05-15'
 status: 'unpublished'
 category: 'Essay'
@@ -10,9 +10,9 @@ tags:
 coverImage: '/img/blog/chessboard-ide.jpg'
 ---
 
-Wenn du als Entwickler unterwegs bist, kennst du es vermutlich: der ständige Drang, überall mitreden zu können. Neue Frameworks, neue Tools, neue Best Practices – alles will gelernt, ausprobiert und idealerweise auch gleich beherrscht werden. Ich kenne das nur zu gut. In meiner Anfangszeit als Full-Stack-Entwickler war ich stolz darauf, möglichst viele Technologien „zumindest ein bisschen“ zu kennen. Doch je mehr ich wusste, desto mehr merkte ich: Ich konnte nichts wirklich gut.
+Wenn du als Entwickler unterwegs bist, kennst du es vermutlich: der ständige Drang, überall mitreden zu können. Neue Frameworks, neue Tools, neue Best Practices – alles will gelernt, ausprobiert und idealerweise auch gleich beherrscht werden. Ich kenne das nur zu gut. In meiner Anfangszeit als Entwickler war ich stolz darauf, möglichst viele Technologien „zumindest ein bisschen“ zu kennen. Doch je mehr ich wusste, desto mehr merkte ich: Ich konnte nichts wirklich gut.
 
-Heute arbeite ich anders. Ich habe mich bewusst dafür entschieden, mich zu fokussieren – angefangen mit einem Tool, das ich täglich benutze: Visual Studio Code. Und genau dieser Schritt hat meine Arbeitsweise nachhaltig verändert.
+Heute arbeite ich anders. Ich habe mich bewusst dafür entschieden, mich zu fokussieren – angefangen mit einem Tool, das ich täglich benutze: Visual Studio Code (kurz VS Code). Und genau dieser Schritt hat meine Arbeitsweise nachhaltig verändert.
 
 ## Die Illusion der Breite
 
@@ -22,26 +22,26 @@ Ich war mittendrin. Ich hatte mir ein beachtliches Arsenal an Tools und Technolo
 
 Was mir fehlte, war Tiefe. Ein wirklich souveräner Umgang mit meinen Werkzeugen.
 
-## VSCode vs. IntelliJ: Ein Scheideweg
+## VS Code vs. IntelliJ: Ein Scheideweg
 
-In meinem Umfeld wurde immer wieder eine Empfehlung laut: _Warum nutzt du nicht IntelliJ? Das ist eine „echte“ IDE_. Gerade in der Java-Welt hat IntelliJ unbestrittene Stärken. Und ja – für umfangreiche und komplexe Enterprise-Anwendungen bietet es Funktionen, die VSCode (noch) nicht vollständig abdeckt. Aber ich habe mich bewusst für einen anderen Weg entschieden.
+In meinem Umfeld wurde immer wieder eine Empfehlung laut: _Warum nutzt du nicht IntelliJ? Das ist eine „echte“ IDE_. Gerade in der Java-Welt hat IntelliJ unbestrittene Stärken. Und ja – für umfangreiche und komplexe Enterprise-Anwendungen bietet es Funktionen, die VS Code (noch) nicht vollständig abdeckt. Aber ich habe mich bewusst für einen anderen Weg entschieden.
 
-Ich blieb bei VSCode. Nicht aus Bequemlichkeit, sondern weil es für mein aktuelles Erfahrungslevel und die Anforderugnen meiner Projekte schlichtweg das bessere Werkzeug ist. Es ist schlank, schnell, und vor allem extrem flexibel. Ich kann es Stück für Stück an meine Bedürfnisse anpassen, und genau das hat mich neugierig gemacht: Was, wenn ich einfach mal alles aus diesem Tool heraushole?
+Ich blieb bei VS Code. Nicht aus Bequemlichkeit, sondern weil es für mein aktuelles Erfahrungslevel und die Anforderugnen meiner Projekte schlichtweg das bessere Werkzeug ist. Es ist schlank, schnell, und vor allem extrem flexibel. Ich kann es Stück für Stück an meine Bedürfnisse anpassen, und genau das hat mich neugierig gemacht: Was, wenn ich einfach mal alles aus diesem Tool heraushole?
 
 ## Die Macht der Spezialisierung
 
-Seit ich mich dazu entschieden habe, mich voll auf VSCode einzulassen, hat sich einiges verändert:
+Seit ich mich dazu entschieden habe, mich voll auf VS Code einzulassen, hat sich einiges verändert:
 
 - **Mein Workflow ist schneller geworden.** Ich kenne meine Shortcuts, meine Extensions, meine Konfiguration.
 - **Ich arbeite konzentrierter.** Weniger Kontextwechsel, weniger Reibungsverluste.
-- **Ich bin produktiver.** Nicht, weil VSCode besser ist – sondern weil ich besser damit geworden bin.
+- **Ich bin produktiver.** Nicht, weil VS Code besser ist – sondern weil ich besser damit geworden bin.
 - **Ich fühle mich sicher.** Ich weiß, wie ich Probleme mit dem Tool löse, wie ich es erweitere, wie ich es optimiere.
 
 Natürlich stößt man auch mal an Grenzen – gerade bei komplexeren Java-Projekten. Aber diese sind für mich derzeit kein Hindernis, das den Fokus auf Tiefe rechtfertigen würde. Ganz im Gegenteil: Ich habe mehr gewonnen, als ich verloren habe.
 
 ## Die eigentliche Lektion
 
-Mir ist es wichtig folgende Botschaft herüber zu bringen: Dieser Artikel ist kein Plädoyer für VSCode - auch nicht für Code-Editoren im Allgemeinen.  Es geht nicht um den ultimativen Code Editor oder darum, welches Tool „besser“ ist.
+Mir ist es wichtig, folgende Botschaft herüber zu bringen: Dieser Artikel ist kein Plädoyer für VS Code - auch nicht für Code-Editoren im Allgemeinen.  Es geht nicht um den ultimativen Code Editor oder darum, welches Tool „besser“ ist.
 
 [comment]: <> (Vielleicht werde ich eines Tages auch ein IntelliJ- oder gar Vim-Verfechter)
 
@@ -51,7 +51,7 @@ Fokus reduziert kognitive Last. Tiefe schafft Raum für Qualität. Und dieser Ef
 
 ## Tiefe beginnt mit einer Entscheidung
 
-Ich glaube, viele Entwickler stehen heute vor der Herausforderung, zwischen Breite und Tiefe zu balancieren. Mein Weg war es, bewusste Entscheidungen zu treffen. VSCode war dabei mein erster konkreter Ankerpunkt. Nicht, weil es perfekt ist – sondern weil ich mich entschieden habe, es zu meistern.
+Ich glaube, viele Entwickler stehen heute vor der Herausforderung, zwischen Breite und Tiefe zu balancieren. Mein Weg war es, bewusste Entscheidungen zu treffen. VS Code war dabei mein erster konkreter Ankerpunkt. Nicht, weil es perfekt ist – sondern weil ich mich entschieden habe, es zu meistern.
 
 Wenn du das Gefühl hast, ständig auf zehn Hochzeiten gleichzeitig zu tanzen, lade ich dich ein, innezuhalten und dich zu fragen: _Welches Werkzeug benutze ich jeden Tag – und wie gut kenne ich es wirklich?_
 
