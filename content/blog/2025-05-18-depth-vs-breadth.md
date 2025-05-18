@@ -1,6 +1,6 @@
 ---
 title: 'Tiefe statt Breite: Warum ich mich entschieden habe, VS Code zu meistern'
-date: '2025-05-15'
+date: '2025-05-18'
 status: 'published'
 category: 'Essay'
 tags:
