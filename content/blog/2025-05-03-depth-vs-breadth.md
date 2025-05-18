@@ -1,11 +1,15 @@
 ---
 title: 'Tiefe statt Breite: Warum ich mich entschieden habe, VS Code zu meistern'
 date: '2025-05-15'
-status: 'unpublished'
+status: 'published'
 category: 'Essay'
 tags:
+  - 'vscode'
+  - 'spezialisierung'
   - 'mastery'
+  - 'software'
   - 'development'
+  - 'tools'
   - 'produktivitaet'
 coverImage: '/img/blog/chessboard-ide.jpg'
 ---
@@ -20,10 +24,9 @@ Und genau deshalb lohnt es sich, diesen Weg einmal genauer zu betrachten.
 
 ## Code-Editor vs. IDE
 
-In meinem Entwickler-Umfeld wurde immer wieder eine Empfehlung laut: _Warum nutzt du nicht IntelliJ? Das ist eine „echte“ IDE_. Gerade in der Java-Welt hat JetBrains' [IntelliJ IDEA](https://www.jetbrains.com/de-de/idea/) unbestrittene Stärken. Und ja – für umfangreiche und komplexe Enterprise-Anwendungen bietet es Funktionen, die VS Code (noch) nicht 
-vollständig abdeckt. Aber ich habe mich bewusst dagegen entschieden.
+In meinem Entwickler-Umfeld wurde immer wieder eine Empfehlung laut: _Warum nutzt du nicht IntelliJ? Das ist eine „echte“ IDE_. Gerade in der Java-Welt hat JetBrains' [IntelliJ IDEA](https://www.jetbrains.com/de-de/idea/) unbestrittene Stärken. Und ja – für umfangreiche und komplexe Enterprise-Anwendungen bietet es Funktionen, die VS Code (noch) nicht vollständig abdeckt. Aber ich habe mich bewusst dagegen entschieden.
 
-Ich blieb bei VS Code. Nicht aus Bequemlichkeit, sondern weil es für mein aktuelles Erfahrungslevel und die Anforderugnen meiner Projekte schlichtweg das bessere Werkzeug ist. Hier einige meiner Gründe im Überblick:
+Ich blieb bei VS Code. Nicht aus Bequemlichkeit, sondern weil es für mein aktuelles Erfahrungslevel und die Anforderungen meiner Projekte schlichtweg das bessere Werkzeug ist. Hier einige meiner Gründe im Überblick:
 
 - **Leichtgewichtig, schlank, performant**  
   VS Code startet in Sekunden, verbraucht vergleichsweise wenig RAM und bleibt auch bei großen Projekten flüssig. Kein unnötiger Overhead, wenn ich mal schnell eine Datei öffnen oder einen Schnipsel testen will.
@@ -34,7 +37,7 @@ Ich blieb bei VS Code. Nicht aus Bequemlichkeit, sondern weil es für mein aktue
 - **Weitverbreitet in Tutorials und Videos**  
   Viele Online-Kurse, Blog-Posts und YouTube-Videos setzen auf VS Code – gerade im amerikanischen Raum. Das macht den Einstieg und das direkte Umsetzen neuer Konzepte leichter.
 - **Am Puls der Zeit**  
-  Ich habe das Gefühl, dass VS Code immer am Puls der Zeit ist. Während andere Tools manchmal Monate oder Jahre brauchen, um neue Trends oder Paradigmen zu adaptieren, ist VS Code oft schon mittendrin. Auch wenn die Botschaft dieses Artikels eigentlich darin besteht, nicht jedem Trend hinterherzujagen, ist es beruhigend zu wissen, dass mein Werkzeug mit der Entwicklung Schritt hält – ohne dass ich es ständig austauschen muss.
+  Ich habe das Gefühl, dass VS Code immer am Puls der Zeit ist. Während andere Tools manchmal Monate oder Jahre brauchen, um neue Trends oder Paradigmen zu adaptieren, ist VS Code oft schon mittendrin. Auch wenn die Botschaft dieses Artikels eigentlich darin besteht, nicht jedem Trend hinterherzujagen, ist es beruhigend zu wissen, dass mein Werkzeug mit der Entwicklung Schritt hält – ohne, dass ich es ständig austauschen muss.
 - **Synergieeffekte**  
   Egal ob Frontend-Framework, Python-Skript oder Docker-Container: Mit VS Code bleibe ich in einer gewohnten Umgebung. Ich muss nicht für jede Sprache in eine andere, speziell optimierte IDE springen und verliere keine Zeit beim Setup.
 - **Große, aktive Community**  
@@ -79,6 +82,6 @@ Vielleicht erkennst du dich in meiner Beschreibung wieder. Vielleicht hast auch 
 
 Denn am Ende machen Tools keine großartigen Entwickler. Aber der Wille, Meister der eigenen Tools zu werden, schon. ThePrimeagen brachte es in einem Gespräch mit Lex Fridman treffend auf den Punkt:
 
->„The editor obviously does not make the programmer, but I think it says a lot about your character as a programmer if you don't know how to use your editor well. There's something about a person who's willing to commit their life to programming and spend literally 50,000 hours doing an activity over the course of their lifetime and never take the time to learn their editor through and through. It just seems strange, right? You'd never see that in another world where people would be able to build something or do something and just completely forget how these things work, and only focus on one part of their craft. So to me, it's just like — it doesn't matter how you use it. I want to see the person that just knows how to use it, and they know how to use it well. When there's a problem, they can say why the problem exists, and they can go and fix the problem. To me, that's like — there you go, you've done it. You now know your tool. Go forth and conquer with said tool."
+>„The editor obviously does not make the programmer, but I think it says a lot about your character as a programmer if you don't know how to use your editor well. There's something about a person who's willing to commit their life to programming and spend literally 50,000 hours doing an activity over the course of their lifetime and never take the time to learn their editor through and through. It just seems strange, right? You'd never see that in another world where people would be able to build something or do something and just completely forget how these things work and only focus on one part of their craft. [...] I want to see the person that just knows how to use it, and they know how to use it well. When there's a problem, they can say why the problem exists, and they can go and fix the problem. To me, that's like: there you go, you've done it. You now know your tool. Go forth and conquer with said tool."
 >
->~ _[ThePrimeagen (2025)](https://youtu.be/PkbjvbjLAug?si=m3fYFlFwri-y19L5&t=589)_
+>~ _[Michael Paulson, aka ThePrimeagen (2025)](https://youtu.be/PkbjvbjLAug?si=m3fYFlFwri-y19L5&t=589)_
