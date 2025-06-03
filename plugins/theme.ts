@@ -2,7 +2,7 @@ import { ref, watch } from 'vue'
 
 enum ThemeMode {
   Light = 'light',
-  Dark = 'dark'
+  Dark = 'dark',
 }
 
 export default defineNuxtPlugin(() => {
@@ -17,7 +17,7 @@ export default defineNuxtPlugin(() => {
 
   function applyTheme(): void {
     document.documentElement.setAttribute('data-theme', theme.value)
-    
+
     // Add or remove the 'dark' class that Nuxt Content uses for theme detection
     if (theme.value === ThemeMode.Dark) {
       document.documentElement.classList.add('dark')

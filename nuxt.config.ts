@@ -36,10 +36,10 @@ export default defineNuxtConfig({
           theme: {
             default: 'github-light',
             dark: 'github-dark',
-          }
-        }
-      }
-    }
+          },
+        },
+      },
+    },
   },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },

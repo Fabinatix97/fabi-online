@@ -1,26 +1,21 @@
 <template>
   <div
     v-if="$props.filename"
-    class="text-sm border-t-[1px] border-r-[1px] border-l-[1px]
-           border-[var(--codeborder)] py-2 px-3 rounded-t-md"
+    class="rounded-t-md border-t-[1px] border-r-[1px] border-l-[1px] border-[var(--codeborder)] px-3 py-2 text-sm"
   >
     {{ $props.filename }}
   </div>
   <div class="relative">
     <pre
+      ref="preEl"
       :class="[
         $props.class,
         $props.filename ? 'rounded-bottom' : 'rounded-all',
         'custom-code-block',
-        $props.filename && 'mt-0'
+        $props.filename && 'mt-0',
       ]"
-      ref="preEl"
     ><slot /></pre>
-    <button
-      class="copy-btn"
-      @click="copyCode"
-      :aria-label="copied ? 'Copied!' : 'Copy code'"
-    >
+    <button class="copy-btn" :aria-label="copied ? 'Copied!' : 'Copy code'" @click="copyCode">
       <Icon v-if="!copied" name="mdi:content-copy" size="1em" />
       <Icon v-else name="mdi:check" size="1em" />
     </button>
@@ -28,19 +23,19 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref } from 'vue'
 
-const copied = ref(false);
-const preEl = ref<HTMLElement | null>(null);
+const copied = ref(false)
+const preEl = ref<HTMLElement | null>(null)
 
 function copyCode() {
-  if (!preEl.value) return;
+  if (!preEl.value) return
   // Get the text content of the <pre> element
-  const code = preEl.value.innerText;
+  const code = preEl.value.innerText
   navigator.clipboard.writeText(code).then(() => {
-    copied.value = true;
-    setTimeout(() => (copied.value = false), 1200);
-  });
+    copied.value = true
+    setTimeout(() => (copied.value = false), 1200)
+  })
 }
 
 defineProps({
@@ -68,7 +63,7 @@ defineProps({
     type: String,
     default: null,
   },
-});
+})
 </script>
 
 <style>
