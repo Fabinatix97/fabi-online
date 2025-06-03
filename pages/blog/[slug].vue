@@ -154,16 +154,8 @@ onMounted(() => {
     margin-left: 3rem;
     list-style-type: disc;
   }
-  pre {
-    background-color: var(--codebg);
-    color: var(--codetext);
-    border-radius: 1rem;
-    padding: 20px;
-    font-family: 'Roboto Mono', monospace;
-  }
   a {
     text-decoration: underline;
-
     &:hover {
       text-decoration-thickness: 2px;
       color: var(--primaryhover);
@@ -173,12 +165,10 @@ onMounted(() => {
     background-color: var(--primary);
     text-decoration: none;
     color: white;
-
     a {
       color: white;
       text-decoration: none;
     }
-
     &:hover {
       background-color: var(--primaryhover);
       color: white;

@@ -29,6 +29,18 @@ export default defineNuxtConfig({
       meta: [{ name: 'apple-mobile-web-app-title', content: 'Fabian Weiß' }],
     },
   },
+  content: {
+    build: {
+      markdown: {
+        highlight: {
+          theme: {
+            default: 'github-light',
+            dark: 'github-dark',
+          }
+        }
+      }
+    }
+  },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   modules: [

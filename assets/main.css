@@ -4,6 +4,7 @@
   --body: var(--theme-color-body);
   --border: var(--theme-color-border);
   --codebg: var(--theme-color-codebg);
+  --codeborder: var(--theme-color-codeborder);
   --codetext: var(--theme-color-codetext);
   --info: var(--theme-color-info);
   --heading: var(--theme-color-heading);
@@ -24,7 +25,8 @@
   [data-theme='light'] {
     --theme-color-body: theme('colors.gray.100');
     --theme-color-border: theme('colors.slate.300');
-    --theme-color-codebg: theme('colors.slate.900');
+    --theme-color-codebg: theme('colors.slate.200');
+    --theme-color-codeborder: theme('colors.slate.400');
     --theme-color-codetext: white;
     --theme-color-info: theme('colors.slate.500');
     --theme-color-heading: theme('colors.slate.900');
@@ -45,6 +47,7 @@
     --theme-color-body: theme('colors.gray.950');
     --theme-color-border: theme('colors.slate.900');
     --theme-color-codebg: theme('colors.slate.900');
+    --theme-color-codeborder: theme('colors.slate.700');
     --theme-color-codetext: white;
     --theme-color-info: theme('colors.slate.400');
     --theme-color-heading: white;
