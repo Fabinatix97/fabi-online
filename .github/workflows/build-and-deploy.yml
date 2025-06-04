@@ -163,3 +163,5 @@ jobs:
           local-dir: dist/
           server-dir: /htdocs/fabi-online/
           security: loose
+          exclude: |
+            __nuxt_content/blog/sql_dump
