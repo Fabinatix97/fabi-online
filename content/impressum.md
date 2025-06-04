@@ -6,22 +6,20 @@ title: Impressum
 
 ### Angaben gemäß § 5 TMG
 
-```
+```md
 Fabian Weiß
 Hermann-Gröber-Str. 8
 85456 Wartenberg
+fabian@fabi-online.de
 ```
-
-### Kontakt
-
-![](/img/contact.png)
 
 ### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
-```
+```md
 Fabian Weiß
 Hermann-Gröber-Str. 8
 85456 Wartenberg
+fabian@fabi-online.de
 ```
 
 ### Haftung für Inhalte
