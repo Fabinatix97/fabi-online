@@ -38,7 +38,9 @@ const tag = route.params.tag
 
 const { data: posts } = await useAsyncData('posts', async () => {
   const allPosts = await queryCollection('blog').order('date', 'DESC').all()
-  return allPosts.filter((post) => post.tags && post.tags.includes(tag))
+  return allPosts.filter(
+    (post) => post.status === 'published' && post.tags && post.tags.includes(tag)
+  )
 })
 
 definePageMeta({
