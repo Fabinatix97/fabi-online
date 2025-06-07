@@ -7,6 +7,15 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      MANUAL_COMMIT_REF:
+        description: "The SHA of the commit to get the diff for"
+        required: true
+        default: ""
+      MANUAL_BASE_REF:
+        description: "Optional base commit SHA to compare against"
+        required: false
+        default: ""
 
 jobs:
   # create-diagram:
