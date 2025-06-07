@@ -123,6 +123,7 @@ const filteredExperiences = computed(() => experiences.filter((exp) => exp.type 
 const activeExperience = computed(() => filteredExperiences.value[activeIndex.value])
 
 // TODO: Add a separate TechGrid.vue component to reduce redundant code
+// Issue URL: https://github.com/Fabinatix97/fabi-online/issues/7
 
 const activeSkillKey = ref(skillCategories[0].key)
 const activeToolKey = ref(toolCategories[0].key)
