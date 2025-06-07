@@ -4,13 +4,13 @@
 defineProps({
   icon: {
     type: String,
-    required: true
+    required: true,
   },
   level: {
     type: [String, Number],
     default: 2,
-    validator: v => [1,2,3,4,5,6].includes(+v)
-  }
+    validator: (v) => [1, 2, 3, 4, 5, 6].includes(+v),
+  },
 })
 </script>
 
