@@ -122,7 +122,7 @@ const filteredExperiences = computed(() => experiences.filter((exp) => exp.type 
 
 const activeExperience = computed(() => filteredExperiences.value[activeIndex.value])
 
-// TODO: Add a separate TechGrid.vue component to reduce duplicate code
+// TODO: Add a separate TechGrid.vue component to reduce redundant code
 
 const activeSkillKey = ref(skillCategories[0].key)
 const activeToolKey = ref(toolCategories[0].key)
