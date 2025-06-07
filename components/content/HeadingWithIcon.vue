@@ -1,5 +1,6 @@
 <script setup>
 // TODO: Update TOC logic to support HeadingWithIcon components
+// Issue URL: https://github.com/Fabinatix97/fabi-online/issues/6
 defineProps({
   icon: {
     type: String,
