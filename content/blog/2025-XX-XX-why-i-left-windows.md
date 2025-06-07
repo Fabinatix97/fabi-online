@@ -1,6 +1,6 @@
 ---
 title: 'Why i left Windows, switched to Linux, and then back to Windows again'
-date: '2025-06-01'
+date: '2025-XX-XX'
 status: 'unpublished'
 category: 'Essay'
 tags:
