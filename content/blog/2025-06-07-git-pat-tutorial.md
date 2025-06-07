@@ -1,16 +1,17 @@
 ---
 title: 'Sichere Authentifizierung mit Git Access Tokens: Ein Praxisguide'
-date: '2025-05-29'
-status: 'unpublished'
-category: 'Essay'
+date: '2025-06-07'
+status: 'published'
+category: 'Tutorial'
 tags:
-  - 'vscode'
-  - 'spezialisierung'
-  - 'mastery'
-  - 'software'
+  - 'git'
+  - 'credentials'
+  - 'access-token'
+  - 'authentifizierung'
+  - 'sicherheit'
+  - 'security'
   - 'development'
-  - 'tools'
-  - 'produktivitaet'
+  - 'best-practice'
 coverImage: '/img/blog/git-credential-manager.jpg'
 ---
 
@@ -34,7 +35,7 @@ GitLab
 4. Neben **Token name**, **Token description** und **Expiration date** ist hier vor allem das Auswählen der **Scopes** wichtig (mehr dazu [hier](https://docs.gitlab.com/user/profile/personal_access_tokens/#personal-access-token-scopes)). Wähle hier nur das aus, was du wirklich benötigst - für die meisten dürfte `write_repository` ausreichen.
 5. Klicke abschließend auf **Create personal access token** und speichere den Token an einem sicheren Ort (z. B. in einem Passwort-Manager).
 
-Für detailliertere Informationen empfehle ich [diese Seite](https://docs.gitlab.com/user/profile/personal_access_tokens/).
+Für detailliertere Informationen empfehle ich dir [diese Seite](https://docs.gitlab.com/user/profile/personal_access_tokens/).
 
 ::HeadingWithIcon{icon="mdi:github" level="3"}
 GitHub
@@ -44,11 +45,11 @@ GitHub
 2. Klicke in der linken Seitenleiste auf **Developer settings**.
 3. Klicke in der linken Seitenleiste auf **Personal access tokens**. Du hast die Wahl zwischen einem **Fine-grained token** und einem **Classic token**. GitHub empfiehlt, wann immer möglich, **Fine-grained token** zu verwenden, daher konzentrieren wir uns in diesem Guide auf diese Option.
 4. **Token name**, **Description**, **Resource owner** und **Expiration** sollte selbsterklärend sein. Unter **Repository access** kann eingestellt werden, auf welche Repositories der Token zugreifen kann. Wähle hier nur das aus, was du wirklich benötigst. Ich habe beispielsweise für jedes Repository einen eigenen Token angelegt - das entspräche der Option **Only select repositories**.
-5. Unter **Permissions** können schließlich die *eigentlichen* Zugriffsrechte konfiguriert werden. Auch hier gilt das Least-Privilege-Prinzip. Für den Wald-und-Wiesen-Entwickler genügen folgende Einstellungen:
+5. Unter **Permissions** können schließlich die *eigentlichen* Zugriffsrechte konfiguriert werden. Auch hier gilt das [Least-Privilege-Prinzip](https://en.wikipedia.org/wiki/Principle_of_least_privilege). Für den Wald-und-Wiesen-Entwickler genügen folgende Einstellungen:
     - Repository permissions: Contents → Read and write
     - Repository permissions: Metadata → Read-only
 
-Für detailliertere Informationen empfehle ich [diese Seite](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
+Für detailliertere Informationen empfehle ich dir [diese Seite](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
 
 ## Wie es *nicht* gemacht werden sollte
 
@@ -66,9 +67,7 @@ Oder, falls das Repo schon mittels Username und Passwort geklont wurde und nacht
 git remote set-url origin https://<username>:<personal_token>@github.com/USERNAME/REPO.git
 ```
 
-Beide Methoden haben bei genauerer Betrachtung jedoch einen entscheidenden Nachteil: der Token wird jeweils im Klartext (!) in der lokalen Git-Konfigurationsdatei `.git/config` gespeichert - und taucht damit möglicherweise auch in Shell-Historys oder Skripten auf, wo er leicht ausgelesen werden kann. Falls du deine anderen Passwörter sonst auch in einer einfachen `.txt`-Datei speichern solltest, ist das vielleicht genau die richtige Methode für dich – allen anderen sei dringend davon abgeraten.
-
-Beide Methoden haben bei genauerer Betrachtung jedoch einen entscheidenden Nachteil: der Token wird jeweils im Klartext (!) in der lokalen Git-Konfigurationsdatei `.git/config` gespeichert - und taucht damit möglicherweise auch in Shell-Historys oder Skripten auf, wo er leicht ausgelesen werden kann. Falls du deine anderen Passwörter sonst auch in einer einfachen `.txt`-Datei speichern solltest, ist das vielleicht genau die richtige Methode für dich – allen anderen sei dringend davon abgeraten.
+Beide Methoden haben bei genauerer Betrachtung jedoch einen entscheidenden Nachteil: der Token wird jeweils im Klartext (!) in der lokalen Git-Konfigurationsdatei `.git/config` gespeichert - und taucht damit möglicherweise auch in Shell-Histories oder Skripten auf, wo er leicht ausgelesen werden kann. Falls du deine anderen Passwörter sonst auch in einer einfachen `.txt`-Datei speichern solltest, ist das vielleicht genau die richtige Methode für dich – allen anderen sei dringend davon abgeraten.
 
 Besser wäre es, den Token verschlüsselt zu speichern. Wie gut, dass Git eine eingebaute Möglichkeit bietet, um sogenannte [Credential Helper](https://git-scm.com/doc/credential-helpers) zu nutzen. Diese Helfer speichern Zugangsdaten – darunter auch PATs – sicher im jeweiligen System-Store. Ein weit verbreiteter und empfehlenswerter Credential Helper ist der [Git Credential Manager (GCM)](https://github.com/git-ecosystem/git-credential-manager), der unter Windows bereits mit **Git for Windows** mitgeliefert wird, aber auch auf anderen Betriebssystemen nachinstalliert werden kann. Der GCM speichert Zugangsdaten sicher...
 
@@ -122,4 +121,18 @@ git config --global credential.useHttpPath true
 
 Das ist alles. Ab sofort erscheint beim ersten Zugriff auf ein Remote-Repository (z. B. bei `git push` oder `git pull`) ein passendes Anmeldefenster, in dem du deinen Personal Access Token eingeben kannst. Dieser wird anschließend sicher gespeichert und bei zukünftigen Zugriffen automatisch verwendet.
 
+<figure>
+
 ![](/img/blog/pat-dialogs.png)
+
+<figcaption>
+
+Bei der ersten Aktion, die eine Authentifizierung verlangt, öffnet der Git Credential Manager automatisch ein zum Remote-Repository passendes Login-Dialogfenster, über welches neben Benutzername und Passwort auch ein Access Token eingegeben werden kann.
+
+</figcaption>
+
+</figure>
+
+## Fazit
+
+Wie du siehst, ist der sichere Umgang mit Git Access Tokens alles andere als kompliziert. Durch die Nutzung des Git Credential Managers kannst du deine Tokens sicher speichern und verwalten, ohne dass sie im Klartext in Konfigurationsdateien oder der Shell-History auftauchen. Das spart nicht nur Zeit, sondern erhöht auch maßgeblich die Sicherheit deiner Entwicklungsumgebung.
