@@ -11,7 +11,7 @@
     <ul>
       <li>
         VSCode mit
-        <NuxtLink to="https://gist.github.com/Fabinatix97/1cfffcad192780aa2cfa87010e95df44"
+        <NuxtLink to="https://gist.github.com/Fabinatix97/f52c41a20eea701a82829bb8ce005223"
           >minimalen Einstellungen</NuxtLink
         >
       </li>
