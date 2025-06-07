@@ -233,5 +233,12 @@ onMounted(() => {
   hr {
     margin-top: 20px;
   }
+  p code {
+    background-color: var(--codebg);
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: var(--text-sm);
+  }
 }
 </style>
