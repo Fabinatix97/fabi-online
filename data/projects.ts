@@ -1,5 +1,12 @@
 export const projects = [
   {
+    name: 'VueDoAPI',
+    image: '/img/about/vuedo.png',
+    link: 'https://github.com/Fabinatix97/vuedoapi',
+    technologies: ['Spring Boot', 'Maven', 'PostgreSQL', 'Docker'],
+    description: 'Backend-Service für die VueDoList-Anwendung. Gebaut mit Spring Boot und PostgreSQL, bietet es eine saubere RESTful API für die Verwaltung von ToDo-Listen und ToDos',
+  },
+  {
     name: 'VueDoList',
     image: '/img/about/vuedo.png',
     link: 'https://github.com/Fabinatix97/vuedolist',
