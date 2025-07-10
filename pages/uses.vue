@@ -15,9 +15,7 @@
           >minimalen Einstellungen</NuxtLink
         >
       </li>
-      <li>
-        Font: <NuxtLink to="https://www.jetbrains.com/de-de/lp/mono/">JetBrains Mono</NuxtLink>
-      </li>
+      <li>Font: <NuxtLink to="https://philpl.gumroad.com/l/dank-mono">Dank Mono</NuxtLink></li>
       <li>
         Color Theme:
         <NuxtLink
@@ -42,16 +40,11 @@
 
     <h3>Terminal</h3>
     <ul>
-      <li>Prompt theme engine: <NuxtLink to="https://ohmyposh.dev/">oh-my-posh</NuxtLink></li>
+      <li>Prompt: <NuxtLink to="https://starship.rs/">starship</NuxtLink></li>
+      <li>Preset: <NuxtLink to="https://starship.rs/presets/tokyo-night">tokyo-night</NuxtLink></li>
       <li>
-        Theme:
-        <NuxtLink
-          to="https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/multiverse-neon.omp.json"
-          >multiverse-neon</NuxtLink
-        >
-      </li>
-      <li>
-        Font: <NuxtLink to="https://www.nerdfonts.com/font-downloads">MesloLG Nerd Font</NuxtLink>
+        Font:
+        <NuxtLink to="https://www.nerdfonts.com/font-downloads">CaskaydiaCove Nerd Font</NuxtLink>
       </li>
     </ul>
 
@@ -60,7 +53,7 @@
       <li>Unterwegs: Surface Book 3</li>
       <li>Zuhause: Acer, Intel i5-4670K @3.4 GHz, 32 GB RAM, Nvidia GTX 1060</li>
       <li>Monitor: LG UltraWide 21:9 Curved (34WR50QC-B)</li>
-      <li>Tastatur: Keychron K2 Max</li>
+      <li>Tastatur: Keychron K2 Max, CHERRY MX Silent Red Switches</li>
     </ul>
 
     <h3>Apps</h3>
