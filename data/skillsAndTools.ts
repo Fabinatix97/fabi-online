@@ -149,7 +149,7 @@ export const toolCategories: TechCategory[] = [
         name: 'GitLab',
         color: [226, 67, 41],
         textColor: 'white',
-        icon: 'logos:gitlab',
+        icon: 'logos:gitlab-icon',
         hover: false,
       },
       {
