@@ -13,7 +13,8 @@
     "postinstall": "nuxt prepare",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "prepare": "husky"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.23",
@@ -47,6 +48,7 @@
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.3",
     "happy-dom": "^17.4.4",
+    "husky": "^9.1.7",
     "jiti": "^2.4.2",
     "jsdom": "^26.1.0",
     "playwright-core": "^1.51.1",
