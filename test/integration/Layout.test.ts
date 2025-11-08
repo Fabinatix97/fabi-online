@@ -37,4 +37,3 @@ describe('Layouts', () => {
     expect(layout).toBe('default')
   })
 })
-
