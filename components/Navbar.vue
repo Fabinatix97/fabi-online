@@ -5,37 +5,8 @@
   </nav>
 </template>
 
-<script>
-import NavbarRegular from './NavbarRegular.vue'
-import NavbarMobile from './NavbarMobile.vue'
+<script setup>
+import { useMediaQuery } from '#imports'
 
-export default {
-  components: {
-    NavbarRegular,
-    NavbarMobile,
-  },
-  data() {
-    return {
-      isDesktop: false,
-    }
-  },
-  mounted() {
-    if (typeof window !== 'undefined') {
-      this.isDesktop = window.innerWidth >= 640
-      window.addEventListener('resize', this.handleResize)
-    }
-  },
-  beforeUnmount() {
-    if (typeof window !== 'undefined') {
-      window.removeEventListener('resize', this.handleResize)
-    }
-  },
-  methods: {
-    handleResize() {
-      if (typeof window !== 'undefined') {
-        this.isDesktop = window.innerWidth >= 640
-      }
-    },
-  },
-}
+const isDesktop = useMediaQuery('(min-width: 860px)')
 </script>
