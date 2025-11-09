@@ -13,7 +13,7 @@ describe('SpotlightEffect', () => {
       },
     })
 
-    expect(wrapper.find('svg').exists()).toBe(true)
+    expect(wrapper.find('.spotlight-glow').exists()).toBe(true)
   })
 
   it('does not render the SVG when theme is light', () => {
@@ -26,6 +26,6 @@ describe('SpotlightEffect', () => {
       },
     })
 
-    expect(wrapper.find('svg').exists()).toBe(false)
+    expect(wrapper.find('.spotlight-glow').exists()).toBe(false)
   })
 })

@@ -1,14 +1,7 @@
 <template>
   <client-only>
     <div class="spotlight-container">
-      <svg
-        v-if="currentTheme === 'dark'"
-        viewBox="0 0 10 11"
-        class="spotlight-svg"
-        aria-hidden="true"
-      >
-        <circle cx="2" cy="2" r="5" fill="var(--primary)" />
-      </svg>
+      <div v-if="currentTheme === 'dark'" class="spotlight-glow" aria-hidden="true" />
     </div>
   </client-only>
 </template>
@@ -28,7 +21,7 @@ const { $theme } = useNuxtApp()
 const currentTheme = computed(() => props.theme ?? $theme?.value)
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .spotlight-container {
   position: absolute;
   top: 0;
@@ -40,13 +33,20 @@ const currentTheme = computed(() => props.theme ?? $theme?.value)
   z-index: -10;
 }
 
-.spotlight-svg {
+.spotlight-glow {
   position: absolute;
   top: 10%;
-  left: 40%;
+  left: 30%;
   transform: translate(-45%, 0%);
   width: min(400px, 80vw);
   height: min(300px, 60vh);
   filter: blur(120px);
+  background: radial-gradient(ellipse at center, var(--primary) 0%, transparent 70%);
+}
+
+@media (min-width: 2000px) {
+  .spotlight-glow {
+    left: 40%;
+  }
 }
 </style>

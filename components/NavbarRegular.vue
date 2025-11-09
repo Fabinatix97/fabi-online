@@ -120,6 +120,7 @@ const themeClass = computed(() => {
 }
 
 .navbar {
+  position: relative;
   font-size: 1.25rem;
   color: var(--heading);
   width: 800px;
@@ -127,7 +128,11 @@ const themeClass = computed(() => {
   font-weight: 500;
   background-color: var(--navbar);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-radius: 1rem;
+  overflow: hidden;
+  background-clip: padding-box;
+  isolation: isolate;
 }
 
 .nav-links {

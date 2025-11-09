@@ -178,6 +178,7 @@ const themeIconName = computed(() => {
 
 <style lang="scss" scoped>
 .navbar {
+  position: relative;
   display: flex;
   position: fixed;
   top: 0;
@@ -188,6 +189,9 @@ const themeIconName = computed(() => {
   color: var(--heading);
   background-color: var(--navbar);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   z-index: 1000;
+  overflow: hidden;
+  isolation: isolate;
 }
 </style>
