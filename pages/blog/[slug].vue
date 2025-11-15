@@ -15,9 +15,9 @@
             </div>
           </NuxtLink>
         </div>
-        <div class="text-xl font-bold text-[var(--primary)]">
+        <time :datetime="data.date" class="text-xl font-bold text-[var(--primary)]">
           {{ formatDate(data.date) }}
-        </div>
+        </time>
         <h1 class="mt-4">{{ data.title }}</h1>
         <div class="flex items-center gap-2 text-[var(--info)]">
           <div class="flex">
