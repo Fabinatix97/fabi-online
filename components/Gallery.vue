@@ -21,11 +21,12 @@
           alt="Blog Post Titelbild"
         />
         <figcaption>
-          <div
-            class="justify-self-start rounded-2xl border-2 border-[var(--primary)] px-3 py-1 text-sm text-[var(--primary)]"
+          <time
+            :datetime="post.date"
+            class="inline-flex rounded-2xl border-2 border-[var(--primary)] px-3 py-1 text-sm text-[var(--primary)]"
           >
             {{ formatDate(post.date) }}
-          </div>
+          </time>
           <h4 id="'post-' + post.id">{{ post.title }}</h4>
           <p>{{ extractContent(post.body, 25) }}</p>
         </figcaption>
@@ -100,12 +101,7 @@ function extractContent(body, wordLimit) {
 
 .gallery figure {
   border-radius: 1rem;
-  container: figure / inline-size;
   overflow: hidden;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  grid-template-rows: minmax(0, 1fr);
-  background-color: var(--main);
   position: relative;
 }
 
@@ -130,7 +126,6 @@ function extractContent(body, wordLimit) {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
   padding: 3em 1em 1em;
   background: linear-gradient(transparent 25%, var(--mainrgb));
   opacity: 0;
