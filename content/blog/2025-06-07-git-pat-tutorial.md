@@ -103,7 +103,7 @@ git config --global credential.useHttpPath true
 
 ## Linux
 
-Lade zunächst den [aktuellsten Tarball des Git Credential Managers](https://github.com/git-ecosystem/git-credential-manager/releases/latest) aus dem offiziellen GitHub-Repository herunter (z. B. `gcm_linux_amd64.<version>.tar.gz` für 64-Bit-Linux). Öffne anschließend ein Terminal deiner Wahl und führe folgende Befehle nacheinander aus:
+Lade zunächst den [aktuellsten Tarball des Git Credential Managers](https://github.com/git-ecosystem/git-credential-manager/releases/latest) aus dem offiziellen GitHub-Repository herunter (z. B. `gcm-linux_amd64.<version>.tar.gz` für 64-Bit-Linux). Öffne anschließend ein Terminal deiner Wahl und führe folgende Befehle nacheinander aus:
 
 ```bash
 tar -xvf <path-to-tarball> -C /usr/local/bin
