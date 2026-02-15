@@ -140,9 +140,9 @@ export const toolCategories: TechCategory[] = [
       },
       {
         name: 'GitHub',
-        color: [0, 0, 0],
+        color: [133, 52, 243],
         textColor: 'white',
-        icon: 'logos:github-icon',
+        icon: 'mdi:github',
         hover: false,
       },
       {
@@ -216,9 +216,9 @@ export const toolCategories: TechCategory[] = [
       },
       {
         name: 'Ansible',
-        color: [0, 0, 0],
+        color: [81, 164, 170],
         textColor: 'white',
-        icon: 'logos:ansible',
+        icon: 'mdi:ansible',
         hover: false,
       },
       {
