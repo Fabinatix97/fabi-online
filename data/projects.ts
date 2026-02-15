@@ -13,7 +13,7 @@ export const projects = [
     link: 'https://github.com/it-at-m/evasys-eai',
     technologies: ['Java', 'Spring Boot', 'SOAP', 'Apache CXF', 'MapStruct'],
     description:
-      'Enterprise Application Integration (EAI) als Schnittstelle zwischen SAP-PO und EvaSys. Realisiert mit Spring Boot, Apache CXF für SOAP-Endpunkte und MapStruct zur Transformation von Kurs- und Trainerdaten zwischen den Systemen.',
+      'Enterprise Application Integration (EAI) als Schnittstelle zwischen SAP-PO und evasys. Realisiert mit Spring Boot, Apache CXF für SOAP-Endpunkte und MapStruct zur Transformation von Kurs- und Trainerdaten zwischen den Systemen.',
   },
   {
     name: 'VueDoList',
