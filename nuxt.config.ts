@@ -62,12 +62,13 @@ export default defineNuxtConfig({
     },
   },
   vite: {
-    plugins: [tailwindcss()],
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Vite plugin type mismatch between @tailwindcss/vite and Nuxt
+    plugins: [tailwindcss()] as any,
     css: {
       preprocessorOptions: {
         scss: {
           api: 'modern-compiler',
-        },
+        } as Record<string, string>,
       },
     },
   },
