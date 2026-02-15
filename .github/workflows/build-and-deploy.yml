@@ -138,7 +138,7 @@ jobs:
           name: coverage-report
           path: coverage
       - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v6.0.0
+        uses: SonarSource/sonarqube-scan-action@a31c9398be7ace6bbfaf30c0bd5d415f843d45e9
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
@@ -197,7 +197,7 @@ jobs:
       - name: List directory contents
         run: ls -alh
       - name: Synch files to hosting
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        uses: SamKirkland/FTP-Deploy-Action@a51268f67f6605236975928ae28b0f7e9971d50a
         with:
           server: fabi-online.de
           username: ${{ secrets.FTP_USERNAME }}
