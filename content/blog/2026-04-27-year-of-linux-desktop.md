@@ -142,7 +142,8 @@ Perfektion, aber zu stetiger Verbesserung.
 
 > Windows can be a piece of shit sometimes and it's constantly getting worse.
 > And Linux can be a piece of shit sometimes and it's constantly getting better.
-> ~ The WAN Show March 20, 2026 - 1:06:03
+>
+> ~ [The WAN Show March 20, 2026 - 1:06:03](https://www.youtube.com/live/4PKfzGPZ2_A?si=TbButkA_EenGmvj7&t=3963)
 
 Etwas zugespitzt, klar. Aber die Tendenz ist schwer zu übersehen.
 
