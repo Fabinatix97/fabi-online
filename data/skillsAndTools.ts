@@ -71,36 +71,16 @@ export const skillCategories: TechCategory[] = [
     ],
   },
   {
-    key: 'middelware',
-    label: 'Middleware',
-    items: [
-      {
-        name: 'Camel',
-        color: [233, 120, 38],
-        textColor: 'white',
-        icon: 'logos:apache-camel',
-        hover: false,
-      },
-      {
-        name: 'Node.js',
-        color: [83, 158, 67],
-        textColor: 'white',
-        icon: 'logos:nodejs-icon',
-        hover: false,
-      },
-      {
-        name: 'Python',
-        color: [56, 126, 184],
-        textColor: 'white',
-        icon: 'logos:python',
-        hover: false,
-      },
-    ],
-  },
-  {
     key: 'backend',
     label: 'Backend',
     items: [
+      {
+        name: 'PHP',
+        color: [97, 129, 182],
+        textColor: 'white',
+        icon: 'logos:php',
+        hover: false,
+      },
       {
         name: 'Java',
         color: [83, 130, 161],
@@ -116,10 +96,37 @@ export const skillCategories: TechCategory[] = [
         hover: false,
       },
       {
-        name: 'PHP',
-        color: [97, 129, 182],
+        name: 'Camel',
+        color: [233, 120, 38],
         textColor: 'white',
-        icon: 'logos:php',
+        icon: 'logos:apache-camel',
+        hover: false,
+      },
+      {
+        name: 'Python',
+        color: [56, 126, 184],
+        textColor: 'white',
+        icon: 'logos:python',
+        hover: false,
+      },
+    ],
+  },
+  {
+    key: 'data',
+    label: 'Data',
+    items: [
+      {
+        name: 'MariaDB',
+        color: [135, 149, 255],
+        textColor: 'white',
+        icon: 'logos:mariadb-icon',
+        hover: false,
+      },
+      {
+        name: 'PostgreSQL',
+        color: [51, 103, 145],
+        textColor: 'white',
+        icon: 'devicon:postgresql',
         hover: false,
       },
     ],
@@ -131,6 +138,13 @@ export const toolCategories: TechCategory[] = [
     key: 'dev',
     label: 'Dev',
     items: [
+      {
+        name: 'Neovim',
+        color: [79, 153, 70],
+        textColor: 'white',
+        icon: 'devicon:neovim',
+        hover: false,
+      },
       {
         name: 'VS Code',
         color: [0, 122, 204],
@@ -160,6 +174,20 @@ export const toolCategories: TechCategory[] = [
         hover: false,
       },
       {
+        name: 'Podman',
+        color: [189, 88, 221],
+        textColor: 'white',
+        icon: 'devicon:podman',
+        hover: false,
+      },
+      {
+        name: 'Dev Container',
+        color: [145, 215, 227],
+        textColor: 'black',
+        icon: 'catppuccin:devcontainer',
+        hover: false,
+      },
+      {
         name: 'Maven',
         color: [102, 46, 141],
         textColor: 'white',
@@ -174,10 +202,17 @@ export const toolCategories: TechCategory[] = [
         hover: false,
       },
       {
-        name: 'Postman',
+        name: 'Bruno',
         color: [255, 108, 55],
         textColor: 'white',
-        icon: 'logos:postman-icon',
+        icon: 'devicon:bruno',
+        hover: false,
+      },
+      {
+        name: 'Swagger',
+        color: [133, 234, 45],
+        textColor: 'black',
+        icon: 'logos:swagger',
         hover: false,
       },
     ],
@@ -295,13 +330,6 @@ export const toolCategories: TechCategory[] = [
         color: [253, 54, 110],
         textColor: 'white',
         icon: 'vscode-icons:file-type-mermaid',
-        hover: false,
-      },
-      {
-        name: 'Swagger',
-        color: [133, 234, 45],
-        textColor: 'black',
-        icon: 'logos:swagger',
         hover: false,
       },
     ],
