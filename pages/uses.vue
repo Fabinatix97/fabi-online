@@ -7,44 +7,39 @@
       Sponsoring, nur Zeug, das sich für mich bewährt hat.
     </p>
 
-    <h3>IDE</h3>
+    <h3>Software</h3>
     <ul>
       <li>
-        VSCode mit
+        OS: <NuxtLink to="https://fedoraproject.org/">Fedora Linux</NuxtLink> +
+        <NuxtLink to="https://hypr.land/">Hyprland</NuxtLink> = 🤌
+      </li>
+      <li>
+        IDE (seit kurzem): Neovim mit
+        <NuxtLink to="https://github.com/Fabinatix97/dotfiles/tree/main/nvim/.config/nvim"
+          >diesen Einstellungen</NuxtLink
+        >
+      </li>
+      <li>
+        IDE (hin und wieder): VSCode mit
         <NuxtLink to="https://gist.github.com/Fabinatix97/f52c41a20eea701a82829bb8ce005223"
           >minimalen Einstellungen</NuxtLink
         >
       </li>
-      <li>Font: <NuxtLink to="https://philpl.gumroad.com/l/dank-mono">Dank Mono</NuxtLink></li>
       <li>
-        Color Theme:
-        <NuxtLink
-          to="https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme"
-          >Palenight Operator</NuxtLink
-        >
+        Terminal-Emulator: <NuxtLink to="https://github.com/kovidgoyal/kitty">kitty</NuxtLink> mit
+        der default Bash
       </li>
       <li>
-        File Icon Theme:
-        <NuxtLink
-          to="https://marketplace.visualstudio.com/items?itemName=Yummygum.city-lights-icon-vsc"
-          >City Lights</NuxtLink
-        >
+        Terminal-Prompt: <NuxtLink to="https://starship.rs/">starship</NuxtLink> mit
+        <NuxtLink to="https://starship.rs/presets/tokyo-night">tokyo-night</NuxtLink> preset
       </li>
       <li>
-        Product Icon Theme:
-        <NuxtLink to="https://marketplace.visualstudio.com/items?itemName=antfu.icons-carbon"
-          >Carbon Product Icons</NuxtLink
-        >
-      </li>
-    </ul>
-
-    <h3>Terminal</h3>
-    <ul>
-      <li>Prompt: <NuxtLink to="https://starship.rs/">starship</NuxtLink></li>
-      <li>Preset: <NuxtLink to="https://starship.rs/presets/tokyo-night">tokyo-night</NuxtLink></li>
-      <li>
-        Font:
+        Terminal-Font:
         <NuxtLink to="https://www.nerdfonts.com/font-downloads">CaskaydiaCove Nerd Font</NuxtLink>
+      </li>
+      <li>
+        Alles weitere ist in meinem
+        <NuxtLink to="https://github.com/Fabinatix97/dotfiles">Dotfiles-Repo</NuxtLink> zu finden
       </li>
     </ul>
 
@@ -61,6 +56,10 @@
       <li>Für umfangreiche Notizen: <NuxtLink to="https://obsidian.md/">Obsidian</NuxtLink></li>
       <li>
         Für schnelle Notizen: <NuxtLink to="https://keep.google.com/">Google Notizen</NuxtLink>
+      </li>
+      <li>
+        Um meinen Obsidian-Vault synchron zu halten, wenn ich am Handy bin:
+        <NuxtLink to="https://github.com/ViscousPot/GitSync">GitSync</NuxtLink>
       </li>
     </ul>
   </div>
