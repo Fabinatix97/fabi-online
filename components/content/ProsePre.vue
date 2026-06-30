@@ -1,25 +1,28 @@
 <template>
-  <div
-    v-if="$props.filename"
-    class="rounded-t-md border-t-[1px] border-r-[1px] border-l-[1px] border-[var(--codeborder)] px-3 py-2 text-sm"
-  >
-    {{ $props.filename }}
-  </div>
-  <div class="relative">
-    <pre
-      ref="preEl"
-      :class="[
-        $props.class,
-        $props.filename ? 'rounded-bottom' : 'rounded-all',
-        'custom-code-block',
-        $props.filename && 'mt-0',
-      ]"
-    ><slot /></pre>
-    <button class="copy-btn" :aria-label="copied ? 'Copied!' : 'Copy code'" @click="copyCode">
-      <Icon v-if="!copied" name="mdi:content-copy" size="1em" />
-      <Icon v-else name="mdi:check" size="1em" />
-    </button>
-  </div>
+  <Mermaid v-if="language === 'mermaid'" :code="code" />
+  <template v-else>
+    <div
+      v-if="$props.filename"
+      class="rounded-t-md border-t-[1px] border-r-[1px] border-l-[1px] border-[var(--codeborder)] px-3 py-2 text-sm"
+    >
+      {{ $props.filename }}
+    </div>
+    <div class="relative">
+      <pre
+        ref="preEl"
+        :class="[
+          $props.class,
+          $props.filename ? 'rounded-bottom' : 'rounded-all',
+          'custom-code-block',
+          $props.filename && 'mt-0',
+        ]"
+      ><slot /></pre>
+      <button class="copy-btn" :aria-label="copied ? 'Copied!' : 'Copy code'" @click="copyCode">
+        <Icon v-if="!copied" name="mdi:content-copy" size="1em" />
+        <Icon v-else name="mdi:check" size="1em" />
+      </button>
+    </div>
+  </template>
 </template>
 
 <script setup lang="ts">
