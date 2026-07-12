@@ -48,7 +48,7 @@
       <li>Unterwegs: Surface Book 3</li>
       <li>Zuhause: Acer, Intel i5-4670K @3.4 GHz, 32 GB RAM, Nvidia GTX 1060</li>
       <li>Monitor: LG UltraWide 21:9 Curved (34WR50QC-B)</li>
-      <li>Tastatur: Keychron K2 Max, CHERRY MX Silent Red Switches</li>
+      <li>Tastatur: NuPhy Air75 V3, Gateron Blush Nano Switches</li>
     </ul>
 
     <h3>Apps</h3>
