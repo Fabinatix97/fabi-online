@@ -11,7 +11,7 @@ tags:
   - 'ownership'
   - 'decentralization'
   - 'privacy'
-coverImage: '/img/blog/solid-pod.jpg'
+coverImage: '/img/blog/internet-cafe.jpg'
 ---
 
 Ich habe gerade _This Is for Everyone_ von Tim Berners-Lee beendet – das Buch,
