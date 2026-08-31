@@ -143,12 +143,10 @@ const tools = computed<TechItem[]>(() => {
   return cat ? cat.items : []
 })
 
-const skillsWithHover = computed(() =>
-  skills.value.map((item) => reactive({ ...item, hover: false }))
-)
-const toolsWithHover = computed(() =>
-  tools.value.map((item) => reactive({ ...item, hover: false }))
-)
+const withHover = (items: TechItem[]) => items.map((item) => reactive({ ...item, hover: false }))
+
+const skillsWithHover = computed(() => withHover(skills.value))
+const toolsWithHover = computed(() => withHover(tools.value))
 </script>
 
 <style lang="scss" scoped>
