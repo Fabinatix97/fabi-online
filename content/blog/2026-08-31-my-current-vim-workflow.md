@@ -37,11 +37,18 @@ unsinnig finden. Genau deshalb möchte ich sie aufschreiben.
 
 Beginnen wir mit der Navigation zwischen Dateien. Aktuell arbeite ich noch
 recht häufig mit einem klassischen File Tree. Dafür nutze ich
-[netrw](https://neovim.io/doc/user/pi_netrw.html){:target="_blank"}, den
-eingebauten Dateiexplorer von Vim und Neovim. Mit der Taste `-` öffne ich das
-Verzeichnis der aktuellen Datei und kann mich von dort durch das Projekt
-bewegen. `-` fühlt sich für mich am intuitivsten an, weil die Standard-Taste,
-mit der man in netrw eine Ebene nach oben springt, ebenfalls `-` ist.
+[netrw](https://vimdoc.sourceforge.net/htmldoc/pi_netrw.html){:target="_blank"},
+den eingebauten, vielleicht etwas angestaubten Dateiexplorer von Vim. Mit der
+Taste `-` öffne ich das Verzeichnis der aktuellen Datei und kann mich von dort
+durch das Projekt bewegen. `-` fühlt sich für mich am intuitivsten an, weil die
+Standard-Taste, mit der man in netrw eine Ebene nach oben springt, ebenfalls
+`-` ist.
+
+<figure>
+
+![netrw in Action](/img/blog/neovim-netrw.jpg 'netrw in Action')
+
+</figure>
 
 Für meinen Bedarf ist netrw vollkommen ausreichend. Natürlich gibt es
 interessante Alternativen wie
@@ -51,8 +58,7 @@ sich dann ähnlich verschieben, umbenennen oder löschen wie gewöhnlicher Text.
 Das finde ich durchaus spannend. Trotzdem versuche ich bei grundlegenden
 Funktionen möglichst nah am Standard zu bleiben. In meinem Arbeitsalltag
 hantiere ich regelmäßig auf Servern, auf denen nur Vim oder teilweise sogar
-nur vi installiert ist. Dort hilft mir ein aufwendig konfigurierter
-Dateiexplorer wenig.
+nur vi installiert ist. Dort stehen mir keinerlei Plugins zur Verfügung.
 
 Gleichzeitig versuche ich, den File Tree immer seltener zu verwenden. In einem
 bekannten Projekt weiß ich meist schon ungefähr, welche Datei ich suche. Dann
@@ -130,8 +136,8 @@ noch die Hände von ihrer normalen Position auf der Tastatur wegbewegen.
 
 Eine Funktion, die ich erst kürzlich gelernt habe, ist `gq`. Damit lässt sich
 Text neu formatieren und entsprechend der eingestellten Textbreite umbrechen.
-Bei Markdown-Dateien verwende ich beispielsweise `vipgq`: Absatz auswählen
-und anschließend formatieren.
+Bei Markdown-Dateien verwende ich beispielsweise `gqap`: _gq around paragraph_,
+sprich den aktuellen Absatz formatieren.
 
 ## Der unterschätzte Punkt
 
@@ -163,12 +169,12 @@ mich hauptsächlich der Ort für `:w`, `:q` und gelegentlich `:split`. Inzwische
 verstehe ich deutlich besser, wie Bereiche, Befehle und reguläre Ausdrücke
 dort zusammenspielen.
 
-Besonders häufig nutze ich Suchen und Ersetzen. Mit
-`:%s/search/replace/gc` gehe ich durch alle Treffer einer Datei und bestätige
-jede Ersetzung einzeln. Das `c` am Ende ist für mich wichtig, weil ich so nicht
-blind jede Fundstelle verändere. Gleichzeitig hat mich die Verwendung von
-`:s` endlich dazu gezwungen, reguläre Ausdrücke vernünftig zu lernen, anstatt
-deren Syntax jedes Mal neu nachzuschlagen.
+Besonders häufig nutze ich Suchen und Ersetzen. Mit `:%s/search/replace/gc`
+gehe ich durch alle Treffer einer Datei und bestätige jede Ersetzung einzeln.
+Das `c` am Ende ist für mich wichtig, weil ich so nicht blind jede Fundstelle
+verändere. Gleichzeitig hat mich die Verwendung von `:s` endlich dazu
+gezwungen, reguläre Ausdrücke vernünftig zu lernen, anstatt deren Syntax jedes
+Mal neu nachzuschlagen.
 
 Noch interessanter finde ich die Verbindung zur Linux-Kommandozeile. Mit `:!`
 kann Vim praktisch jedes verfügbare Kommando ausführen. Ein markierter Bereich
