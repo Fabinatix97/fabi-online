@@ -6,6 +6,5 @@ describe('TableOfContents', () => {
   it('should mount the component', () => {
     const wrapper = mount(TableOfContents)
     expect(wrapper.exists()).toBe(true)
-    console.log(wrapper.html())
   })
 })

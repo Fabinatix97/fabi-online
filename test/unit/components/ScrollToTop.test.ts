@@ -4,7 +4,7 @@ import ScrollToTop from '@/components/ScrollToTop.vue'
 
 describe('ScrollToTop', () => {
   beforeEach(() => {
-    window.scrollY = 0
+    window.scrollTo(0, 0)
   })
 
   it('should hide the button initially', () => {
@@ -15,7 +15,7 @@ describe('ScrollToTop', () => {
   it('should show the button after scrolling past 500px', async () => {
     const wrapper = mount(ScrollToTop)
 
-    window.scrollY = 600
+    window.scrollTo(0, 600)
     window.dispatchEvent(new Event('scroll'))
     await wrapper.vm.$nextTick()
 
