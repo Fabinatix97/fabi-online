@@ -10,7 +10,7 @@
     <h3>Software</h3>
     <ul>
       <li>
-        OS: <NuxtLink to="https://fedoraproject.org/">Fedora Linux</NuxtLink> +
+        OS: <NuxtLink to="https://archlinux.org/">Arch</NuxtLink> +
         <NuxtLink to="https://hypr.land/">Hyprland</NuxtLink> = 🤌
       </li>
       <li>
