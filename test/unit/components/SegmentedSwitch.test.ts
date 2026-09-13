@@ -33,8 +33,6 @@ describe('SegmentedSwitch', () => {
     const wrapper = mount(SegmentedSwitch, { props: { segments, modelValue: 0 } })
     const segmentDivs = wrapper.findAll('.segment')
 
-    console.log('segmentDivs[2] BEFORE:', segmentDivs[2].classes())
-
     // Check initial active segment
     expect(segmentDivs[0].classes()).toContain('active')
     expect(segmentDivs[1].classes()).not.toContain('active')
@@ -43,8 +41,6 @@ describe('SegmentedSwitch', () => {
     // Click on the third segment
     await segmentDivs[2].trigger('click')
     await wrapper.setProps({ modelValue: 2 })
-
-    console.log('segmentDivs[2] AFTER:', segmentDivs[2].classes())
 
     // Check if the third segment is now active
     expect(segmentDivs[2].classes()).toContain('active')
