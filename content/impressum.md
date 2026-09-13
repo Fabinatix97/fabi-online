@@ -10,7 +10,7 @@ title: Impressum
 Fabian Weiß
 Hermann-Gröber-Str. 8
 85456 Wartenberg
-fabian@fabi-online.de
+fabian [at] fabi-online (punkt) de
 ```
 
 ### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
@@ -19,7 +19,7 @@ fabian@fabi-online.de
 Fabian Weiß
 Hermann-Gröber-Str. 8
 85456 Wartenberg
-fabian@fabi-online.de
+fabian [at] fabi-online (punkt) de
 ```
 
 ### Haftung für Inhalte
