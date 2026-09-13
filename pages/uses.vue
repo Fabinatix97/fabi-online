@@ -14,7 +14,7 @@
         <NuxtLink to="https://hypr.land/">Hyprland</NuxtLink> = 🤌
       </li>
       <li>
-        IDE (seit kurzem): Neovim mit
+        IDE: Neovim mit
         <NuxtLink to="https://github.com/Fabinatix97/dotfiles/tree/main/nvim/.config/nvim"
           >diesen Einstellungen</NuxtLink
         >
