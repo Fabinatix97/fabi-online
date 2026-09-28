@@ -33,9 +33,9 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: TODO to Issue
-        uses: alstr/todo-to-issue-action@64aca8fda7023259aada83ba44ad988c4c443657
+        uses: alstr/todo-to-issue-action@37bb7b56e58569ef273b60678048030a7f0c261a
         with:
           AUTO_ASSIGN: true
           CLOSE_ISSUES: true
@@ -59,9 +59,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
       - name: Use Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: '24'
       - name: Install dependencies
@@ -74,9 +74,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
       - name: Use Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: '24'
       - name: Install dependencies
@@ -90,9 +90,9 @@ jobs:
     needs: [lint, type-check] 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
       - name: Use Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: '24'
       - name: Install dependencies
@@ -100,7 +100,7 @@ jobs:
       - name: Run unit tests with Vitest and generate coverage
         run: npx vitest run --coverage.enabled true --coverage.reporter lcov
       - name: Upload coverage report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: coverage-report
           path: coverage/lcov.info
@@ -112,9 +112,9 @@ jobs:
     needs: unit-tests
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
       - name: Use Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: '24'
       - name: Cache node modules
@@ -143,16 +143,16 @@ jobs:
     needs: build
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
       - name: Download artifact
-        uses: actions/download-artifact@main
+        uses: actions/download-artifact@v8
         with:
           name: dist
           path: dist
       - name: List directory contents
         run: ls -alh
       - name: Synch files to hosting
-        uses: SamKirkland/FTP-Deploy-Action@a51268f67f6605236975928ae28b0f7e9971d50a
+        uses: SamKirkland/FTP-Deploy-Action@110f9186c050f71550953127052e77650219c287
         with:
           server: fabi-online.de
           username: ${{ secrets.FTP_USERNAME }}
