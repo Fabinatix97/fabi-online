@@ -27,7 +27,7 @@ jobs:
   todo-to-issue:
     name: Run TODO to Issue
     if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
       issues: write
@@ -56,7 +56,7 @@ jobs:
 
   lint:
     name: Lint
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
@@ -71,7 +71,7 @@ jobs:
 
   type-check:
     name: TypeScript Check
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
@@ -86,7 +86,7 @@ jobs:
 
   unit-tests:
     name: Run Unit Tests
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: [lint, type-check] 
     steps:
       - name: Checkout repository
@@ -108,7 +108,7 @@ jobs:
   build:
     name: Build
     if: github.event_name != 'pull_request'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: unit-tests
     steps:
       - name: Checkout repository
@@ -139,7 +139,7 @@ jobs:
   deploy:
     name: Deploy
     if: github.event_name != 'pull_request'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: build
     steps:
       - name: Checkout repository
