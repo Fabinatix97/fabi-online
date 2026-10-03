@@ -9,4 +9,17 @@
   "lockFileMaintenance": {
     "enabled": true,
   },
+  "automergeSchedule": ["* * * * *"],
+  "vulnerabilityAlerts": {
+    "automerge": false,
+  },
+  "packageRules": [
+    {
+      "description": "Automerge non-major updates via GitHub when required checks pass",
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true,
+      "automergeType": "pr",
+      "platformAutomerge": true,
+    },
+  ],
 }
