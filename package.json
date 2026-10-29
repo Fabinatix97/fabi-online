@@ -37,7 +37,7 @@
         "@nuxt/test-utils": "^4.3.2",
         "@tailwindcss/vite": "^4.1.17",
         "@types/eslint-config-prettier": "^6.11.3",
-        "@types/node": "^24.0.0",
+        "@types/node": "^26.0.0",
         "@types/rss": "^0.0.32",
         "@vitejs/plugin-vue": "^6.0.0",
         "@vitest/coverage-v8": "^5.0.0",
