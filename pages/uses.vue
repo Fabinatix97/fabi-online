@@ -53,6 +53,10 @@
 
     <h3>Apps</h3>
     <ul>
+      <li>
+        Für Dateiaustausch zwischen verschiedenen Geräten:
+        <NuxtLink to="https://localsend.org/">LocalSend</NuxtLink>
+      </li>
       <li>Für umfangreiche Notizen: <NuxtLink to="https://obsidian.md/">Obsidian</NuxtLink></li>
       <li>
         Für schnelle Notizen: <NuxtLink to="https://keep.google.com/">Google Notizen</NuxtLink>
