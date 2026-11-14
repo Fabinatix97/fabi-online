@@ -48,7 +48,6 @@ selbst erzeugt habe, auf meinem eigenen Gerät. Das finde ich skandalös – und
 ist symptomatisch für ein System, in dem der Nutzer nicht Eigentümer, sondern
 Mieter seiner eigenen Informationen ist.
 
-
 ## Die Idee: Pods
 
 Solid – kurz für _Social Linked Data_ – ist Berners-Lees Antwort auf dieses

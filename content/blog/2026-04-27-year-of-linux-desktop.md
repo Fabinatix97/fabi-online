@@ -69,28 +69,30 @@ Windows bootete. Falls ich doch mal eine Excel-Datei bearbeiten musste, so
 nutzte ich einfach die Online-Version im Browser (das geht mittlerweile sogar
 ganz ohne Microsoft 365 Abo). Generell wurde mir bewusst, dass sich heutzutage
 ohnehin fast alles im Browser abspielt. Gefühlt jede Software ist mittlerweile
-eine Webapplikation - selbst Programme, die wie herkömmliche Desktop-Anwendungen
-anmuten. So gesehen, tritt das Betriebssystem und etwaige Inkompatibilitäten
-immer mehr in den Hintergrund. Solange ich einen halbwegs aktuellen Browser
-habe, kann ich den Großteil meines Alltags ungeachtet des Betriebssystems
-bewältigen. Darüber hinaus, haben [Flatpak](https://flatpak.org/) & Co. das alte Problem der
-"Dependency Hell" elegant gelöst. Da die Anwendungen in einer Art Sandbox
-laufen, bringen sie ihre eigenen Bibliotheken einfach mit. Kein Konflikt mehr
-mit dem restlichen System, kein Bangen bei Updates – es läuft einfach. Auch
-Gaming ist dank Projekten wie Proton und Steam Deck schon lange kein Argument
-mehr gegen Linux. Ist das _Jahr des Linux-Desktops_ - der seit Jahrzehnten
-bestehende Running Gag in der Tech-Community - also nun endlich doch da?
+eine Webapplikation - selbst Programme, die wie herkömmliche
+Desktop-Anwendungen anmuten. So gesehen, tritt das Betriebssystem und etwaige
+Inkompatibilitäten immer mehr in den Hintergrund. Solange ich einen halbwegs
+aktuellen Browser habe, kann ich den Großteil meines Alltags ungeachtet des
+Betriebssystems bewältigen. Darüber hinaus, haben
+[Flatpak](https://flatpak.org/) & Co. das alte Problem der "Dependency Hell"
+elegant gelöst. Da die Anwendungen in einer Art Sandbox laufen, bringen sie
+ihre eigenen Bibliotheken einfach mit. Kein Konflikt mehr mit dem restlichen
+System, kein Bangen bei Updates – es läuft einfach. Auch Gaming ist dank
+Projekten wie Proton und Steam Deck schon lange kein Argument mehr gegen Linux.
+Ist das _Jahr des Linux-Desktops_ - der seit Jahrzehnten bestehende Running Gag
+in der Tech-Community - also nun endlich doch da?
 
 Für mich persönlich: ja! Ich habe Windows auf meinem Privatgerät mittlerweile
 komplett gelöscht und den Schritt bisher keine Sekunde bereut. Auch Ubuntu
-gehört der Vergangenheit an. Es musste Platz machen für [Fedora](https://fedoraproject.org/), das für mich
-als Entwickler einfach viel mehr Sinn macht (Fedora ist Upstream von Red Hat
-Enterprise Linux, also genau die Grundlage, die auf Millionen von
-Unternehmensservern läuft – wie cool ist das denn?). In Kombination mit dem
-Tiling Window Manager [Hyprland](https://hypr.land/) ist mein Setup sowohl funktional als auch
-hübsch anzuschauen. Selbst die GNOME Desktop-Umgebung, mit der Fedora
-out-of-the-box kommt, muss sich in meinen Augen keineswegs hinter macOS & Co.
-verstecken. Alles wirkt ruhig, aufgeräumt und intuitiv.
+gehört der Vergangenheit an. Es musste Platz machen für
+[Fedora](https://fedoraproject.org/), das für mich als Entwickler einfach viel
+mehr Sinn macht (Fedora ist Upstream von Red Hat Enterprise Linux, also genau
+die Grundlage, die auf Millionen von Unternehmensservern läuft – wie cool ist
+das denn?). In Kombination mit dem Tiling Window Manager
+[Hyprland](https://hypr.land/) ist mein Setup sowohl funktional als auch hübsch
+anzuschauen. Selbst die GNOME Desktop-Umgebung, mit der Fedora out-of-the-box
+kommt, muss sich in meinen Augen keineswegs hinter macOS & Co. verstecken.
+Alles wirkt ruhig, aufgeräumt und intuitiv.
 
 <figure>
 

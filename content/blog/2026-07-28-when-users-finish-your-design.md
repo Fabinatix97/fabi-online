@@ -22,7 +22,7 @@ Korrekturen der Realität.
 
 <figure>
 
-![](/img/blog/makeshift-signs.png)
+![Provisorische Hinweise am Lichtschalter und an einer Tür](/img/blog/makeshift-signs.png)
 
 <figcaption>
 
@@ -71,7 +71,7 @@ Hier mal meine persönlichen Highlights:
 
 <figure>
 
-![](/img/blog/sign-example-1.jpg)
+![Hinweis am Kiosk-Terminal: Nur einmal drücken und warten, bis die Nummer ausgedruckt wird](/img/blog/sign-example-1.jpg)
 
 <figcaption>
 
@@ -95,7 +95,7 @@ Oder wie wäre es hiermit?
 
 <figure>
 
-![](/img/blog/sign-example-2.jpg)
+![Zweisprachiger Hinweis zu Sterbeurkunden am Ticketautomaten](/img/blog/sign-example-2.jpg)
 
 <figcaption>
 
@@ -118,7 +118,7 @@ Hier ein weiteres Beispiel, das fast schon einer Benutzeranleitung gleicht:
 
 <figure>
 
-![](/img/blog/sign-example-3.jpg)
+![Hinweis am Ticketautomaten: Bei bestehendem Termin keine weitere Nummer ziehen](/img/blog/sign-example-3.jpg)
 
 <figcaption>
 
@@ -144,7 +144,7 @@ hat, aber ganz gut verdeutlicht, dass das Aufhängen von Schildern in
 
 <figure>
 
-![](/img/blog/sign-example-4.jpg)
+![Mehrere ausgedruckte Hinweise an einem Schalter der Zulassungsstelle](/img/blog/sign-example-4.jpg)
 
 </figure>
 
