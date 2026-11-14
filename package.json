@@ -36,7 +36,7 @@
     },
     "devDependencies": {
         "@nuxt/test-utils": "^4.3.2",
-        "@tailwindcss/vite": "^4.1.17",
+        "@tailwindcss/vite": "^4.3.5",
         "@types/eslint-config-prettier": "^6.11.3",
         "@types/node": "^26.6.6",
         "@types/rss": "^0.0.32",
@@ -56,7 +56,7 @@
         "prettier": "^3.5.2",
         "prettier-plugin-tailwindcss": "^0.8.0",
         "sass": "^1.83.1",
-        "tailwindcss": "^4.0.8",
+        "tailwindcss": "^4.3.5",
         "typescript": "5.9.3",
         "typescript-next": "npm:typescript@7.0.2",
         "vitest": "^5.0.0",
