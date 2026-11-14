@@ -34,18 +34,18 @@ describe('SegmentedSwitch', () => {
     const segmentDivs = wrapper.findAll('.segment')
 
     // Check initial active segment
-    expect(segmentDivs[0].classes()).toContain('active')
-    expect(segmentDivs[1].classes()).not.toContain('active')
-    expect(segmentDivs[2].classes()).not.toContain('active')
+    expect(segmentDivs[0]!.classes()).toContain('active')
+    expect(segmentDivs[1]!.classes()).not.toContain('active')
+    expect(segmentDivs[2]!.classes()).not.toContain('active')
 
     // Click on the third segment
-    await segmentDivs[2].trigger('click')
+    await segmentDivs[2]!.trigger('click')
     await wrapper.setProps({ modelValue: 2 })
 
     // Check if the third segment is now active
-    expect(segmentDivs[2].classes()).toContain('active')
-    expect(segmentDivs[0].classes()).not.toContain('active')
-    expect(segmentDivs[1].classes()).not.toContain('active')
+    expect(segmentDivs[2]!.classes()).toContain('active')
+    expect(segmentDivs[0]!.classes()).not.toContain('active')
+    expect(segmentDivs[1]!.classes()).not.toContain('active')
 
     // Verify emitted event
     expect(wrapper.emitted('update:modelValue')).toBeTruthy()
