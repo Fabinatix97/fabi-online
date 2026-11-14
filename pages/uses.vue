@@ -61,10 +61,6 @@
       <li>
         Für schnelle Notizen: <NuxtLink to="https://keep.google.com/">Google Notizen</NuxtLink>
       </li>
-      <li>
-        Um meinen Obsidian-Vault synchron zu halten, wenn ich am Handy bin:
-        <NuxtLink to="https://github.com/ViscousPot/GitSync">GitSync</NuxtLink>
-      </li>
     </ul>
   </div>
 </template>
