@@ -15,6 +15,11 @@
   },
   "packageRules": [
     {
+      "description": "Keep the TypeScript API package on 5.x: vue-tsc and typescript-eslint still require the JS compiler API, which TypeScript 7.0 does not ship. TypeScript 7 is updated separately via the typescript-next alias.",
+      "matchDepNames": ["typescript"],
+      "allowedVersions": "<6.0.0",
+    },
+    {
       "description": "Automerge non-major updates via GitHub when required checks pass",
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
