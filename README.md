@@ -20,6 +20,11 @@ npm run build
 npx nuxi generate
 ```
 
+Für die Typprüfung `npm run typecheck` ausführen. Die Vue-Komponenten werden mit
+`vue-tsc` und TypeScript 5 geprüft; Nuxt-Konfiguration und Server-Code zusätzlich
+mit TypeScript 7. `vue-tsc` und die ESLint-TypeScript-Tools unterstützen TypeScript 7
+noch nicht als einzigen Compiler.
+
 ## Allgemeines
 
 - [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction)
